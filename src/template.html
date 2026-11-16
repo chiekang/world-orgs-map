@@ -696,7 +696,9 @@ function meetState(m){
   const now = new Date(), t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
   const s = pd(m.date_start), e = pd(m.date_end || m.date_start, true);
   const days = Math.round((s - t0)/864e5);
-  return {days, state: days > 0 ? "future" : (e >= t0 ? "now" : "past"), start:s};
+  let state = days > 0 ? "future" : (e >= t0 ? "now" : "past");
+  if (state === "now" && !precise(m)) state = "future";   // only month/year known: don't claim it is happening now
+  return {days, state, start:s};
 }
 function fmtDate(m){
   const p = m.date_precision || (m.date_start.length===10 ? "day" : m.date_start.length===7 ? "month" : "year");
