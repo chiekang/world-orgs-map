@@ -1,0 +1,1054 @@
+{
+  "id": "un",
+  "abbr": "UN",
+  "name": {
+    "en": "United Nations",
+    "zh": "聯合國"
+  },
+  "category": "political_security",
+  "founded": "1945",
+  "headquarters": {
+    "en": "New York City, United States",
+    "zh": "美國紐約"
+  },
+  "nature": {
+    "en": "Universal intergovernmental organization",
+    "zh": "全球性政府間國際組織"
+  },
+  "purpose": {
+    "en": "The UN brings almost every country together to maintain international peace and security, develop friendly relations among nations, and cooperate on problems such as development, human rights and climate change.",
+    "zh": "聯合國匯集幾乎全世界的國家，目標是維護國際和平與安全、促進各國友好關係，並在發展、人權、氣候變遷等全球問題上合作。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "AFG",
+      "status": "member",
+      "joined": "1946"
+    },
+    {
+      "iso3": "ALB",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "DZA",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "AND",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "AGO",
+      "status": "member",
+      "joined": "1976"
+    },
+    {
+      "iso3": "ATG",
+      "status": "member",
+      "joined": "1981"
+    },
+    {
+      "iso3": "ARG",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "ARM",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "AUS",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "AUT",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "AZE",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "BHS",
+      "status": "member",
+      "joined": "1973"
+    },
+    {
+      "iso3": "BHR",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "BGD",
+      "status": "member",
+      "joined": "1974"
+    },
+    {
+      "iso3": "BRB",
+      "status": "member",
+      "joined": "1966"
+    },
+    {
+      "iso3": "BLR",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "BEL",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "BLZ",
+      "status": "member",
+      "joined": "1981"
+    },
+    {
+      "iso3": "BEN",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "BTN",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "BOL",
+      "status": "member",
+      "joined": "1945",
+      "official_name": "Bolivia (Plurinational State of)"
+    },
+    {
+      "iso3": "BIH",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "BWA",
+      "status": "member",
+      "joined": "1966"
+    },
+    {
+      "iso3": "BRA",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "BRN",
+      "status": "member",
+      "joined": "1984"
+    },
+    {
+      "iso3": "BGR",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "BFA",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "BDI",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "CPV",
+      "status": "member",
+      "joined": "1975",
+      "official_name": "Cabo Verde"
+    },
+    {
+      "iso3": "KHM",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "CMR",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "CAF",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "TCD",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "CHL",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "CHN",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "COL",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "COM",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "COG",
+      "status": "member",
+      "joined": "1960",
+      "official_name": "Congo"
+    },
+    {
+      "iso3": "CRI",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "CIV",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "HRV",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "CUB",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "CYP",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "CZE",
+      "status": "member",
+      "joined": "1993",
+      "official_name": "Czechia"
+    },
+    {
+      "iso3": "PRK",
+      "status": "member",
+      "joined": "1991",
+      "official_name": "Democratic People's Republic of Korea"
+    },
+    {
+      "iso3": "COD",
+      "status": "member",
+      "joined": "1960",
+      "official_name": "Democratic Republic of the Congo"
+    },
+    {
+      "iso3": "DNK",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "DJI",
+      "status": "member",
+      "joined": "1977"
+    },
+    {
+      "iso3": "DMA",
+      "status": "member",
+      "joined": "1978"
+    },
+    {
+      "iso3": "DOM",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "ECU",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "EGY",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "SLV",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "GNQ",
+      "status": "member",
+      "joined": "1968"
+    },
+    {
+      "iso3": "ERI",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "EST",
+      "status": "member",
+      "joined": "1991"
+    },
+    {
+      "iso3": "SWZ",
+      "status": "member",
+      "joined": "1968"
+    },
+    {
+      "iso3": "ETH",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "FJI",
+      "status": "member",
+      "joined": "1970"
+    },
+    {
+      "iso3": "FIN",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "FRA",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "GAB",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "GMB",
+      "status": "member",
+      "joined": "1965"
+    },
+    {
+      "iso3": "GEO",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "DEU",
+      "status": "member",
+      "joined": "1973"
+    },
+    {
+      "iso3": "GHA",
+      "status": "member",
+      "joined": "1957"
+    },
+    {
+      "iso3": "GRC",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "GRD",
+      "status": "member",
+      "joined": "1974"
+    },
+    {
+      "iso3": "GTM",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "GIN",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "GNB",
+      "status": "member",
+      "joined": "1974"
+    },
+    {
+      "iso3": "GUY",
+      "status": "member",
+      "joined": "1966"
+    },
+    {
+      "iso3": "HTI",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "HND",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "HUN",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "ISL",
+      "status": "member",
+      "joined": "1946"
+    },
+    {
+      "iso3": "IND",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "IDN",
+      "status": "member",
+      "joined": "1950"
+    },
+    {
+      "iso3": "IRN",
+      "status": "member",
+      "joined": "1945",
+      "official_name": "Iran (Islamic Republic of)"
+    },
+    {
+      "iso3": "IRQ",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "IRL",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "ISR",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "ITA",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "JAM",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "JPN",
+      "status": "member",
+      "joined": "1956"
+    },
+    {
+      "iso3": "JOR",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "KAZ",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "KEN",
+      "status": "member",
+      "joined": "1963"
+    },
+    {
+      "iso3": "KIR",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "KWT",
+      "status": "member",
+      "joined": "1963"
+    },
+    {
+      "iso3": "KGZ",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "LAO",
+      "status": "member",
+      "joined": "1955",
+      "official_name": "Lao People's Democratic Republic"
+    },
+    {
+      "iso3": "LVA",
+      "status": "member",
+      "joined": "1991"
+    },
+    {
+      "iso3": "LBN",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "LSO",
+      "status": "member",
+      "joined": "1966"
+    },
+    {
+      "iso3": "LBR",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "LBY",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "LIE",
+      "status": "member",
+      "joined": "1990"
+    },
+    {
+      "iso3": "LTU",
+      "status": "member",
+      "joined": "1991"
+    },
+    {
+      "iso3": "LUX",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "MDG",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "MWI",
+      "status": "member",
+      "joined": "1964"
+    },
+    {
+      "iso3": "MYS",
+      "status": "member",
+      "joined": "1957"
+    },
+    {
+      "iso3": "MDV",
+      "status": "member",
+      "joined": "1965"
+    },
+    {
+      "iso3": "MLI",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "MLT",
+      "status": "member",
+      "joined": "1964"
+    },
+    {
+      "iso3": "MHL",
+      "status": "member",
+      "joined": "1991"
+    },
+    {
+      "iso3": "MRT",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "MUS",
+      "status": "member",
+      "joined": "1968"
+    },
+    {
+      "iso3": "MEX",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "FSM",
+      "status": "member",
+      "joined": "1991",
+      "official_name": "Micronesia (Federated States of)"
+    },
+    {
+      "iso3": "MCO",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "MNG",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "MNE",
+      "status": "member",
+      "joined": "2006"
+    },
+    {
+      "iso3": "MAR",
+      "status": "member",
+      "joined": "1956"
+    },
+    {
+      "iso3": "MOZ",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "MMR",
+      "status": "member",
+      "joined": "1948"
+    },
+    {
+      "iso3": "NAM",
+      "status": "member",
+      "joined": "1990"
+    },
+    {
+      "iso3": "NRU",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "NPL",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "NLD",
+      "status": "member",
+      "joined": "1945",
+      "official_name": "Netherlands (Kingdom of the)"
+    },
+    {
+      "iso3": "NZL",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "NIC",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "NER",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "NGA",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "MKD",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "NOR",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "OMN",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "PAK",
+      "status": "member",
+      "joined": "1947"
+    },
+    {
+      "iso3": "PLW",
+      "status": "member",
+      "joined": "1994"
+    },
+    {
+      "iso3": "PAN",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "PNG",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "PRY",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "PER",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "PHL",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "POL",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "PRT",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "QAT",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "KOR",
+      "status": "member",
+      "joined": "1991",
+      "official_name": "Republic of Korea"
+    },
+    {
+      "iso3": "MDA",
+      "status": "member",
+      "joined": "1992",
+      "official_name": "Republic of Moldova"
+    },
+    {
+      "iso3": "ROU",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "RUS",
+      "status": "member",
+      "joined": "1945",
+      "official_name": "Russian Federation"
+    },
+    {
+      "iso3": "RWA",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "KNA",
+      "status": "member",
+      "joined": "1983"
+    },
+    {
+      "iso3": "LCA",
+      "status": "member",
+      "joined": "1979"
+    },
+    {
+      "iso3": "VCT",
+      "status": "member",
+      "joined": "1980"
+    },
+    {
+      "iso3": "WSM",
+      "status": "member",
+      "joined": "1976"
+    },
+    {
+      "iso3": "SMR",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "STP",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "SAU",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "SEN",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "SRB",
+      "status": "member",
+      "joined": "2000"
+    },
+    {
+      "iso3": "SYC",
+      "status": "member",
+      "joined": "1976"
+    },
+    {
+      "iso3": "SLE",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "SGP",
+      "status": "member",
+      "joined": "1965"
+    },
+    {
+      "iso3": "SVK",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "SVN",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "SLB",
+      "status": "member",
+      "joined": "1978"
+    },
+    {
+      "iso3": "SOM",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "ZAF",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "SSD",
+      "status": "member",
+      "joined": "2011"
+    },
+    {
+      "iso3": "ESP",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "LKA",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "SDN",
+      "status": "member",
+      "joined": "1956"
+    },
+    {
+      "iso3": "SUR",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "SWE",
+      "status": "member",
+      "joined": "1946"
+    },
+    {
+      "iso3": "CHE",
+      "status": "member",
+      "joined": "2002"
+    },
+    {
+      "iso3": "SYR",
+      "status": "member",
+      "joined": "1945",
+      "official_name": "Syrian Arab Republic"
+    },
+    {
+      "iso3": "TJK",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "THA",
+      "status": "member",
+      "joined": "1946"
+    },
+    {
+      "iso3": "TLS",
+      "status": "member",
+      "joined": "2002"
+    },
+    {
+      "iso3": "TGO",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "TON",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "TTO",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "TUN",
+      "status": "member",
+      "joined": "1956"
+    },
+    {
+      "iso3": "TUR",
+      "status": "member",
+      "joined": "1945",
+      "official_name": "Türkiye"
+    },
+    {
+      "iso3": "TKM",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "TUV",
+      "status": "member",
+      "joined": "2000"
+    },
+    {
+      "iso3": "UGA",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "UKR",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "ARE",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "GBR",
+      "status": "member",
+      "joined": "1945",
+      "official_name": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    {
+      "iso3": "TZA",
+      "status": "member",
+      "joined": "1961",
+      "official_name": "United Republic of Tanzania"
+    },
+    {
+      "iso3": "USA",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "URY",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "UZB",
+      "status": "member",
+      "joined": "1992"
+    },
+    {
+      "iso3": "VUT",
+      "status": "member",
+      "joined": "1981"
+    },
+    {
+      "iso3": "VEN",
+      "status": "member",
+      "joined": "1945",
+      "official_name": "Venezuela (Bolivarian Republic of)"
+    },
+    {
+      "iso3": "VNM",
+      "status": "member",
+      "joined": "1977",
+      "official_name": "Viet Nam"
+    },
+    {
+      "iso3": "YEM",
+      "status": "member",
+      "joined": "1947"
+    },
+    {
+      "iso3": "ZMB",
+      "status": "member",
+      "joined": "1964"
+    },
+    {
+      "iso3": "ZWE",
+      "status": "member",
+      "joined": "1980"
+    },
+    {
+      "iso3": "VAT",
+      "status": "observer",
+      "official_name": "Holy See",
+      "joined": "1964",
+      "note": "Non-member observer State (since 1964)."
+    },
+    {
+      "iso3": "PSE",
+      "status": "observer",
+      "official_name": "State of Palestine",
+      "joined": "2012",
+      "note": "Non-member observer State since 29 Nov 2012 (GA res. 67/19); additional rights and privileges granted by GA res. ES-10/23 (10 May 2024). Full membership blocked by US Security Council veto (18 Apr 2024)."
+    }
+  ],
+  "non_state_members": [
+    {
+      "name": {
+        "en": "European Union",
+        "zh": "歐盟"
+      },
+      "status": "observer",
+      "note": "Observer in the General Assembly since 1974; enhanced participation rights under GA res. 65/276 (2011). Not a member."
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member State",
+      "zh": "會員國"
+    },
+    "observer": {
+      "en": "Non-member Observer State",
+      "zh": "非會員觀察員國"
+    }
+  },
+  "sources": [
+    "https://www.un.org/en/about-us/member-states",
+    "https://www.un.org/en/about-us/about-permanent-observers",
+    "https://press.un.org/en/2024/ga12599.doc.htm"
+  ],
+  "notes": [
+    "193 member states verified against un.org member-states page on 2026-11-16 (latest admission: South Sudan, 2011).",
+    "official_name shows the UN's own designation where it differs from the common English name.",
+    "Taiwan (Republic of China) has not been represented at the UN since GA res. 2758 (1971); Kosovo is not a UN member.",
+    "'joined' = year of admission to UN membership (or observer status)."
+  ]
+}

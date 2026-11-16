@@ -1,0 +1,115 @@
+{
+  "id": "arab_league",
+  "next_meeting": {
+    "name": {
+      "en": "Regular Arab League Summit 2027",
+      "zh": "2027年阿拉伯聯盟例行峰會"
+    },
+    "date_start": "2027",
+    "date_end": null,
+    "date_precision": "year",
+    "city": {
+      "en": "Host to be announced",
+      "zh": "主辦國待公布"
+    },
+    "country_iso3": null,
+    "lat": null,
+    "lon": null,
+    "level": "leaders",
+    "confirmed": false,
+    "source": "https://www.thenationalnews.com/tags/arab-league/",
+    "note": "Host and date of the next regular summit not announced; whether a 2026 regular (35th) summit was held could not be verified."
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Nabil Fahmy becomes Arab League Secretary-General",
+        "zh": "納比勒．法赫米出任阿盟秘書長"
+      },
+      "summary": {
+        "en": "In June 2026 Arab League members unanimously approved former Egyptian foreign minister Nabil Fahmy as Secretary-General, succeeding Ahmed Aboul Gheit.",
+        "zh": "2026年6月，阿拉伯聯盟成員一致通過由埃及前外長納比勒．法赫米出任秘書長，接替阿布蓋特。"
+      },
+      "question": {
+        "en": "How much can a secretary-general shape an organization that decides by consensus?",
+        "zh": "在採共識決的組織裡，秘書長能發揮多大影響力？"
+      },
+      "date": "2026-06",
+      "url": "https://www.thenationalnews.com/news/mena/2026/06/23/nabil-fahmy-appointed-arab-league-chief-amid-regional-distrust/"
+    },
+    {
+      "title": {
+        "en": "Iranian strikes hit Qatar gas hub",
+        "zh": "伊朗飛彈攻擊卡達天然氣樞紐"
+      },
+      "summary": {
+        "en": "In March 2026 Iranian missiles damaged Qatar's Ras Laffan gas facilities; Qatar ordered Iran's embassy military and security attachés to leave within 24 hours.",
+        "zh": "2026年3月，伊朗飛彈攻擊造成卡達拉斯拉凡天然氣設施受損；卡達下令伊朗使館武官與安全官員24小時內離境。"
+      },
+      "question": {
+        "en": "How do security shocks in the Gulf spread to oil and LNG prices worldwide?",
+        "zh": "海灣地區的安全衝擊如何傳導到全球石油與液化天然氣價格？"
+      },
+      "date": "2026-03",
+      "url": "https://www.aljazeera.com/news/2026/3/18/qatar-says-iran-missile-attack-sparks-fire-causes-damage-at-gas-facility"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1945",
+      "text": {
+        "en": "Arab League founded in Cairo by seven states",
+        "zh": "七國在開羅創立阿拉伯聯盟"
+      }
+    },
+    {
+      "year": "1950",
+      "text": {
+        "en": "Joint Defence and Economic Cooperation Treaty signed",
+        "zh": "簽署《聯合防禦與經濟合作條約》"
+      }
+    },
+    {
+      "year": "1979",
+      "text": {
+        "en": "Egypt suspended; HQ moves to Tunis after Camp David",
+        "zh": "大衛營協議後埃及遭停權，總部遷往突尼斯"
+      }
+    },
+    {
+      "year": "1989",
+      "text": {
+        "en": "Egypt readmitted; HQ returns to Cairo (1990)",
+        "zh": "埃及恢復會籍，總部於1990年遷回開羅"
+      }
+    },
+    {
+      "year": "1997",
+      "text": {
+        "en": "Greater Arab Free Trade Area (GAFTA) agreed",
+        "zh": "同意成立大阿拉伯自由貿易區（GAFTA）"
+      }
+    },
+    {
+      "year": "2002",
+      "text": {
+        "en": "Arab Peace Initiative adopted at Beirut summit",
+        "zh": "貝魯特峰會通過《阿拉伯和平倡議》"
+      }
+    },
+    {
+      "year": "2011",
+      "text": {
+        "en": "Syria suspended during civil war",
+        "zh": "敘利亞內戰期間遭停權"
+      }
+    },
+    {
+      "year": "2023",
+      "text": {
+        "en": "Syria readmitted",
+        "zh": "敘利亞恢復會籍"
+      }
+    }
+  ]
+}

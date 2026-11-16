@@ -1,0 +1,131 @@
+{
+  "id": "sco",
+  "next_meeting": {
+    "name": {
+      "en": "SCO Heads of State Council Summit 2027",
+      "zh": "2027年上海合作組織元首理事會峰會"
+    },
+    "date_start": "2027-09",
+    "date_end": "2027-09",
+    "date_precision": "month",
+    "city": {
+      "en": "Islamabad",
+      "zh": "巴基斯坦伊斯蘭堡"
+    },
+    "country_iso3": "PAK",
+    "lat": 33.68,
+    "lon": 73.05,
+    "level": "leaders",
+    "confirmed": false,
+    "source": "https://www.thefridaytimes.com/26-Aug-2026/pakistan-stays-centre-stage-peacemaker-2026-sco-leader-2027",
+    "note": "2026 summit already held in Bishkek (31 Aug-1 Sep 2026). Pakistan chairs 2026-27; Islamabad/Sept 2027 per press reports, not officially dated."
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Bishkek summit adopts declaration",
+        "zh": "比斯凱克峰會通過宣言"
+      },
+      "summary": {
+        "en": "The 26th SCO summit in Bishkek on 1 September 2026 adopted the Bishkek Declaration and 28 documents, covering security, AI, energy and transport.",
+        "zh": "2026年9月1日於比斯凱克舉行的第26屆上合峰會通過《比斯凱克宣言》等28份文件，涵蓋安全、人工智慧、能源與交通。"
+      },
+      "question": {
+        "en": "Is the SCO mainly a security club or an economic bloc?",
+        "zh": "上合組織主要是安全組織，還是經濟集團？"
+      },
+      "date": "2026-09",
+      "url": "https://www.specialeurasia.com/2026/09/02/sco-bishkek-summit-2026/"
+    },
+    {
+      "title": {
+        "en": "Plans for an SCO Development Bank",
+        "zh": "上合開發銀行構想"
+      },
+      "summary": {
+        "en": "Russia proposed an SCO Development Bank, backed by several members, and Kazakhstan offered Astana as its headquarters; the bank's location is not settled.",
+        "zh": "俄羅斯提議成立上合開發銀行，獲數個成員支持，哈薩克提議總部設於阿斯塔納；地點尚未定案。"
+      },
+      "question": {
+        "en": "Why might countries want development banks outside the World Bank and IMF system?",
+        "zh": "為什麼有些國家想在世界銀行與IMF體系之外另設開發銀行？"
+      },
+      "date": "2026-09",
+      "url": "https://www.specialeurasia.com/2026/09/02/sco-bishkek-summit-2026/"
+    },
+    {
+      "title": {
+        "en": "Pakistan takes the SCO chair",
+        "zh": "巴基斯坦接任上合主席國"
+      },
+      "summary": {
+        "en": "Pakistan took over the one-year SCO presidency after Bishkek, its first time, and plans to host the 2027 summit in Islamabad.",
+        "zh": "巴基斯坦在比斯凱克峰會後首次接任為期一年的上合主席國，計劃於伊斯蘭堡主辦2027年峰會。"
+      },
+      "question": {
+        "en": "How might India-Pakistan tensions affect an organization where both are members?",
+        "zh": "印巴緊張關係會如何影響兩國同為成員的組織？"
+      },
+      "date": "2026-08",
+      "url": "https://www.thefridaytimes.com/26-Aug-2026/pakistan-stays-centre-stage-peacemaker-2026-sco-leader-2027"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1996",
+      "text": {
+        "en": "'Shanghai Five' formed by China, Russia and three Central Asian states",
+        "zh": "中、俄與中亞三國組成「上海五國」"
+      }
+    },
+    {
+      "year": "2001",
+      "text": {
+        "en": "SCO founded in Shanghai; Uzbekistan joins",
+        "zh": "上合組織於上海成立，烏茲別克加入"
+      }
+    },
+    {
+      "year": "2002",
+      "text": {
+        "en": "SCO Charter signed",
+        "zh": "簽署《上海合作組織憲章》"
+      }
+    },
+    {
+      "year": "2004",
+      "text": {
+        "en": "Secretariat opens in Beijing; anti-terror centre in Tashkent",
+        "zh": "北京秘書處與塔什干反恐機構啟用"
+      }
+    },
+    {
+      "year": "2017",
+      "text": {
+        "en": "India and Pakistan become full members",
+        "zh": "印度與巴基斯坦成為正式成員"
+      }
+    },
+    {
+      "year": "2023",
+      "text": {
+        "en": "Iran becomes a member",
+        "zh": "伊朗成為成員國"
+      }
+    },
+    {
+      "year": "2024",
+      "text": {
+        "en": "Belarus becomes 10th member",
+        "zh": "白俄羅斯成為第10個成員國"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "en": "Tianjin summit decides single 'SCO Partner' status",
+        "zh": "天津峰會決定設立單一「上合夥伴」地位"
+      }
+    }
+  ]
+}

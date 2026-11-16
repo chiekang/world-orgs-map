@@ -1,0 +1,289 @@
+{
+  "id": "au",
+  "abbr": "AU",
+  "name": {
+    "en": "African Union",
+    "zh": "非洲聯盟（非盟）"
+  },
+  "category": "regional",
+  "founded": "2002",
+  "headquarters": {
+    "en": "Addis Ababa, Ethiopia",
+    "zh": "衣索比亞阿迪斯阿貝巴"
+  },
+  "nature": {
+    "en": "Continental intergovernmental union",
+    "zh": "洲際性政府間聯盟"
+  },
+  "purpose": {
+    "en": "Brings together all 55 African states to promote unity, peace and security, democracy and economic integration across the continent (successor to the 1963 Organisation of African Unity).",
+    "zh": "集結非洲全部55國，推動非洲團結、和平與安全、民主治理及經濟整合（前身為1963年成立的非洲團結組織）。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "DZA",
+      "status": "member"
+    },
+    {
+      "iso3": "AGO",
+      "status": "member"
+    },
+    {
+      "iso3": "BEN",
+      "status": "member"
+    },
+    {
+      "iso3": "BWA",
+      "status": "member"
+    },
+    {
+      "iso3": "BFA",
+      "status": "suspended",
+      "note": "Suspended 31 Jan 2022 after the January 2022 coup."
+    },
+    {
+      "iso3": "BDI",
+      "status": "member"
+    },
+    {
+      "iso3": "CPV",
+      "status": "member"
+    },
+    {
+      "iso3": "CMR",
+      "status": "member"
+    },
+    {
+      "iso3": "CAF",
+      "status": "member"
+    },
+    {
+      "iso3": "TCD",
+      "status": "member"
+    },
+    {
+      "iso3": "COM",
+      "status": "member"
+    },
+    {
+      "iso3": "COG",
+      "status": "member"
+    },
+    {
+      "iso3": "COD",
+      "status": "member"
+    },
+    {
+      "iso3": "CIV",
+      "status": "member",
+      "official_name": "Côte d'Ivoire"
+    },
+    {
+      "iso3": "DJI",
+      "status": "member"
+    },
+    {
+      "iso3": "EGY",
+      "status": "member"
+    },
+    {
+      "iso3": "GNQ",
+      "status": "member"
+    },
+    {
+      "iso3": "ERI",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "SWZ",
+      "status": "member",
+      "official_name": "Kingdom of Eswatini"
+    },
+    {
+      "iso3": "ETH",
+      "status": "member"
+    },
+    {
+      "iso3": "GAB",
+      "status": "member",
+      "note": "Suspended Aug 2023 after coup; reinstated 30 Apr 2025."
+    },
+    {
+      "iso3": "GMB",
+      "status": "member"
+    },
+    {
+      "iso3": "GHA",
+      "status": "member"
+    },
+    {
+      "iso3": "GIN",
+      "status": "member",
+      "note": "Suspended Sept 2021 after coup; reinstated by the PSC on 22 Jan 2026 after presidential election."
+    },
+    {
+      "iso3": "GNB",
+      "status": "suspended",
+      "note": "Suspended 28 Nov 2025 after the 26 Nov 2025 military takeover."
+    },
+    {
+      "iso3": "KEN",
+      "status": "member"
+    },
+    {
+      "iso3": "LSO",
+      "status": "member"
+    },
+    {
+      "iso3": "LBR",
+      "status": "member"
+    },
+    {
+      "iso3": "LBY",
+      "status": "member"
+    },
+    {
+      "iso3": "MDG",
+      "status": "suspended",
+      "note": "Suspended 15 Oct 2025 after the military took power on 14 Oct 2025."
+    },
+    {
+      "iso3": "MWI",
+      "status": "member"
+    },
+    {
+      "iso3": "MLI",
+      "status": "suspended",
+      "note": "Suspended 1 June 2021 after the May 2021 coup (earlier suspension Oct 2020)."
+    },
+    {
+      "iso3": "MRT",
+      "status": "member"
+    },
+    {
+      "iso3": "MUS",
+      "status": "member"
+    },
+    {
+      "iso3": "MAR",
+      "status": "member",
+      "joined": "2017"
+    },
+    {
+      "iso3": "MOZ",
+      "status": "member"
+    },
+    {
+      "iso3": "NAM",
+      "status": "member",
+      "joined": "1990"
+    },
+    {
+      "iso3": "NER",
+      "status": "suspended",
+      "note": "Suspended 22 Aug 2023 after the July 2023 coup."
+    },
+    {
+      "iso3": "NGA",
+      "status": "member"
+    },
+    {
+      "iso3": "RWA",
+      "status": "member"
+    },
+    {
+      "iso3": "ESH",
+      "status": "member",
+      "joined": "1982",
+      "official_name": "Sahrawi Arab Democratic Republic",
+      "note": "Admitted to the OAU in 1982 (Morocco left the OAU in 1984 in protest; Morocco rejoined the AU in 2017)."
+    },
+    {
+      "iso3": "STP",
+      "status": "member"
+    },
+    {
+      "iso3": "SEN",
+      "status": "member"
+    },
+    {
+      "iso3": "SYC",
+      "status": "member"
+    },
+    {
+      "iso3": "SLE",
+      "status": "member"
+    },
+    {
+      "iso3": "SOM",
+      "status": "member"
+    },
+    {
+      "iso3": "ZAF",
+      "status": "member",
+      "joined": "1994"
+    },
+    {
+      "iso3": "SSD",
+      "status": "member",
+      "joined": "2011"
+    },
+    {
+      "iso3": "SDN",
+      "status": "suspended",
+      "note": "Suspended 26 Oct 2021 after the 25 Oct 2021 military takeover; PSC reaffirmed suspension in 2026."
+    },
+    {
+      "iso3": "TZA",
+      "status": "member"
+    },
+    {
+      "iso3": "TGO",
+      "status": "member"
+    },
+    {
+      "iso3": "TUN",
+      "status": "member"
+    },
+    {
+      "iso3": "UGA",
+      "status": "member"
+    },
+    {
+      "iso3": "ZMB",
+      "status": "member"
+    },
+    {
+      "iso3": "ZWE",
+      "status": "member",
+      "joined": "1980"
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member state",
+      "zh": "會員國"
+    },
+    "suspended": {
+      "en": "Suspended member",
+      "zh": "遭停權會員國"
+    }
+  },
+  "sources": [
+    "https://au.int/en/member_states/countryprofiles2",
+    "https://www.africanews.com/2026/01/23/guinea-african-union-lifts-sanctions/",
+    "https://www.jurist.org/news/2026/02/african-union-condemns-ongoing-violence-and-maintains-sudan-membership-suspension/",
+    "https://www.africanews.com/amp/2025/10/16/african-union-suspends-madagascar-from-the-bloc-following-military-coup/",
+    "https://www.pbs.org/newshour/amp/world/african-union-suspends-guinea-bissau-after-military-coup",
+    "https://learnorbis.com/world/alliances/african-union"
+  ],
+  "notes": [
+    "55 member states, including the Sahrawi Arab Democratic Republic (ESH), whose claimed territory (Western Sahara) is largely controlled and claimed by Morocco.",
+    "6 members suspended from AU activities (unconstitutional changes of government) as of 2026-11-16: Mali, Sudan, Burkina Faso, Niger, Madagascar, Guinea-Bissau. Status in AU terms remains 'member' with participation suspended.",
+    "Reinstated: Gabon (30 Apr 2025), Guinea (22 Jan 2026).",
+    "Mali, Burkina Faso and Niger left ECOWAS (Jan 2025) to form the Alliance of Sahel States but remain (suspended) AU members.",
+    "Madagascar and Guinea-Bissau: no lifting of suspension found as of Nov 2026 (AU in March 2026 urged Madagascar to respect its 24-month transition). Verify before major use; PSC decisions can change quickly."
+  ]
+}

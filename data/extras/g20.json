@@ -1,0 +1,123 @@
+{
+  "id": "g20",
+  "next_meeting": {
+    "name": {
+      "en": "G20 Leaders' Summit 2026",
+      "zh": "2026 年 G20 領袖峰會"
+    },
+    "date_start": "2026-12-14",
+    "date_end": "2026-12-15",
+    "date_precision": "day",
+    "city": {
+      "en": "Doral (Miami), Florida",
+      "zh": "美國佛羅里達州多拉爾（邁阿密）"
+    },
+    "country_iso3": "USA",
+    "lat": 25.82,
+    "lon": -80.35,
+    "level": "leaders",
+    "confirmed": true,
+    "source": "https://www.everycrsreport.com/files/2026-11-04_R40977_5b77624b091e5f2cbe2d28c9dc42fcc4e78a395d.html"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "South Africa excluded from the Miami G20",
+        "zh": "南非被排除在邁阿密G20峰會之外"
+      },
+      "summary": {
+        "en": "The US presidency did not invite South Africa, a founding G20 member, to its 2026 meetings, sparking debate about who decides G20 membership.",
+        "zh": "美國主席國未邀請G20創始成員南非參加2026年會議，引發「誰能決定G20成員資格」的爭論。"
+      },
+      "question": {
+        "en": "Should a host country be able to exclude a member of an informal group like the G20?",
+        "zh": "主辦國是否應有權排除G20這類非正式組織的成員？"
+      },
+      "date": "2026-09",
+      "url": "https://moderndiplomacy.eu/2026/09/29/debates-dominate-over-south-africas-exclusion-from-g20-summit/"
+    },
+    {
+      "title": {
+        "en": "US narrows G20 agenda to growth, energy, AI",
+        "zh": "美國將G20議程聚焦於成長、能源與AI"
+      },
+      "summary": {
+        "en": "The US presidency wants the G20 to focus on three themes: cutting regulation, affordable energy supply chains, and AI and new technologies.",
+        "zh": "美國主席國希望G20聚焦三大主題：減少法規負擔、確保可負擔的能源供應鏈，以及人工智慧與新興科技。"
+      },
+      "question": {
+        "en": "Which global problems might get less attention if the G20 agenda becomes narrower?",
+        "zh": "若G20議程變窄，哪些全球問題可能被忽略？"
+      },
+      "date": "2026-11",
+      "url": "https://www.everycrsreport.com/files/2026-11-04_R40977_5b77624b091e5f2cbe2d28c9dc42fcc4e78a395d.html"
+    },
+    {
+      "title": {
+        "en": "Experts warn of a divided Miami summit",
+        "zh": "專家警告邁阿密峰會恐出現分歧"
+      },
+      "summary": {
+        "en": "Economists at PIIE warned that differences over the agenda could lead to a summit without a shared leaders' declaration.",
+        "zh": "彼得森國際經濟研究所的學者警告，議程分歧可能使峰會無法達成共同的領袖宣言。"
+      },
+      "question": {
+        "en": "Does the G20 still matter if its members cannot agree on a joint statement?",
+        "zh": "如果成員無法發表共同聲明，G20還有存在意義嗎？"
+      },
+      "date": "2026-03",
+      "url": "https://www.piie.com/blogs/realtime-economics/2026/miami-g20-summit-headed-train-wreck"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1999",
+      "text": {
+        "en": "Founded as finance ministers' forum after Asian financial crisis",
+        "zh": "亞洲金融風暴後成立財長論壇"
+      }
+    },
+    {
+      "year": "2008",
+      "text": {
+        "en": "First leaders' summit in Washington amid global financial crisis",
+        "zh": "全球金融海嘯中於華盛頓舉行首次領袖峰會"
+      }
+    },
+    {
+      "year": "2009",
+      "text": {
+        "en": "Pittsburgh summit names G20 the premier economic forum",
+        "zh": "匹茲堡峰會確立G20為國際經濟合作主要論壇"
+      }
+    },
+    {
+      "year": "2021",
+      "text": {
+        "en": "Backs global minimum corporate tax deal",
+        "zh": "支持全球企業最低稅負協議"
+      }
+    },
+    {
+      "year": "2023",
+      "text": {
+        "en": "African Union becomes permanent member at New Delhi",
+        "zh": "新德里峰會接納非洲聯盟為永久成員"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "en": "First G20 summit in Africa, Johannesburg",
+        "zh": "首次於非洲（約翰尼斯堡）舉行峰會"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "US hosts summit at Doral; South Africa not invited",
+        "zh": "美國於多拉爾主辦峰會，未邀請南非"
+      }
+    }
+  ]
+}

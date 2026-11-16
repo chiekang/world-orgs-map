@@ -1,0 +1,131 @@
+{
+  "id": "opec",
+  "next_meeting": {
+    "name": {
+      "en": "42nd OPEC and non-OPEC Ministerial Meeting (OPEC+)",
+      "zh": "第42屆OPEC與非OPEC部長級會議（OPEC+）"
+    },
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "date_precision": "day",
+    "city": {
+      "en": "Vienna (OPEC HQ; may be held by video)",
+      "zh": "維也納（OPEC總部；可能以視訊舉行）"
+    },
+    "country_iso3": "AUT",
+    "lat": 48.21,
+    "lon": 16.37,
+    "level": "ministers",
+    "confirmed": true,
+    "source": "https://opec.org/pr-detail/605-7-june-2026.html",
+    "note": "Date set by the 41st ONOMM (7 Jun 2026). Format/venue not stated; recent OPEC+ meetings were virtual. Seven-country group also meets 29 Nov."
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "UAE leaves OPEC and OPEC+",
+        "zh": "阿聯退出OPEC與OPEC+"
+      },
+      "summary": {
+        "en": "The UAE announced in April 2026 that it would leave OPEC and OPEC+ from 1 May 2026, saying it wanted freedom to produce more oil.",
+        "zh": "阿聯於2026年4月宣布自5月1日起退出OPEC與OPEC+，表示希望能自由增產石油。"
+      },
+      "question": {
+        "en": "Does a cartel get weaker when a big low-cost producer leaves?",
+        "zh": "當一個低成本的大產油國退出，卡特爾會因此變弱嗎？"
+      },
+      "date": "2026-04",
+      "url": "https://gulfnews.com/business/energy/5-reasons-why-uaes-exit-from-opec-opec-is-big-for-world-markets-oil-prices-1.500522136"
+    },
+    {
+      "title": {
+        "en": "OPEC+ holds output steady amid Gulf disruption",
+        "zh": "海灣供應受擾，OPEC+維持產量"
+      },
+      "summary": {
+        "en": "On 1 November 2026 seven OPEC+ countries kept December output targets unchanged while conflict in the Middle East continues to curb supply.",
+        "zh": "2026年11月1日，七個OPEC+國家維持12月產量目標不變，中東衝突持續限制供應。"
+      },
+      "question": {
+        "en": "Why might producers keep quotas unchanged when prices are pushed up by supply disruptions?",
+        "zh": "當供應中斷推高油價時，產油國為何仍可能維持配額不變？"
+      },
+      "date": "2026-11",
+      "url": "https://worldoil.com/news/2026/11/1/opec-subgroup-keeps-oil-production-quotas-unchanged-for-december/"
+    },
+    {
+      "title": {
+        "en": "Capacity audit to set 2027 baselines",
+        "zh": "產能評估將決定2027年基準"
+      },
+      "summary": {
+        "en": "OPEC+ ministers want assessments of each country's maximum sustainable capacity completed to serve as production baselines for 2027, a key issue for the 29 November meeting.",
+        "zh": "OPEC+部長要求完成各國最大可持續產能評估，作為2027年產量基準，這是11月29日會議的關鍵議題。"
+      },
+      "question": {
+        "en": "Why do countries argue so much about how their 'capacity' is measured?",
+        "zh": "為什麼各國對「產能」如何衡量爭議這麼大？"
+      },
+      "date": "2026-06",
+      "url": "https://opec.org/pr-detail/605-7-june-2026.html"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1960",
+      "text": {
+        "en": "OPEC founded in Baghdad by five countries",
+        "zh": "五國於巴格達成立OPEC"
+      }
+    },
+    {
+      "year": "1965",
+      "text": {
+        "en": "Headquarters moves to Vienna",
+        "zh": "總部遷至維也納"
+      }
+    },
+    {
+      "year": "1973",
+      "text": {
+        "en": "Oil embargo; prices quadruple",
+        "zh": "石油禁運，油價翻四倍"
+      }
+    },
+    {
+      "year": "2016",
+      "text": {
+        "en": "Declaration of Cooperation creates OPEC+ with Russia and others",
+        "zh": "合作宣言成立OPEC+（含俄羅斯等）"
+      }
+    },
+    {
+      "year": "2019",
+      "text": {
+        "en": "Qatar leaves OPEC",
+        "zh": "卡達退出OPEC"
+      }
+    },
+    {
+      "year": "2020",
+      "text": {
+        "en": "Record OPEC+ output cuts during COVID-19",
+        "zh": "新冠疫情期間OPEC+創紀錄減產"
+      }
+    },
+    {
+      "year": "2024",
+      "text": {
+        "en": "Angola leaves OPEC",
+        "zh": "安哥拉退出OPEC"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "UAE leaves OPEC and OPEC+ (1 May)",
+        "zh": "阿聯退出OPEC與OPEC+（5月1日）"
+      }
+    }
+  ]
+}

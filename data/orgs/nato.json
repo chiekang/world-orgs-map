@@ -1,0 +1,220 @@
+{
+  "id": "nato",
+  "abbr": "NATO",
+  "name": {
+    "en": "North Atlantic Treaty Organization",
+    "zh": "北大西洋公約組織"
+  },
+  "category": "political_security",
+  "founded": "1949",
+  "headquarters": {
+    "en": "Brussels, Belgium",
+    "zh": "比利時布魯塞爾"
+  },
+  "nature": {
+    "en": "Intergovernmental military-political alliance (collective defence)",
+    "zh": "政府間軍事政治同盟（集體防衛）"
+  },
+  "purpose": {
+    "en": "A defence alliance of European and North American countries; under Article 5, an armed attack on one member is treated as an attack on all.",
+    "zh": "由歐洲與北美國家組成的防衛同盟；依第五條，任一成員國遭受武力攻擊即視為對全體成員的攻擊。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "BEL",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "DNK",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "FRA",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "ISL",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "ITA",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "LUX",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "NLD",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "NOR",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "PRT",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "GBR",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "USA",
+      "status": "member",
+      "joined": "1949"
+    },
+    {
+      "iso3": "GRC",
+      "status": "member",
+      "joined": "1952"
+    },
+    {
+      "iso3": "TUR",
+      "status": "member",
+      "joined": "1952",
+      "official_name": "Türkiye"
+    },
+    {
+      "iso3": "DEU",
+      "status": "member",
+      "joined": "1955"
+    },
+    {
+      "iso3": "ESP",
+      "status": "member",
+      "joined": "1982"
+    },
+    {
+      "iso3": "CZE",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "HUN",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "POL",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "BGR",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "EST",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "LVA",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "LTU",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "ROU",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "SVK",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "SVN",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "ALB",
+      "status": "member",
+      "joined": "2009"
+    },
+    {
+      "iso3": "HRV",
+      "status": "member",
+      "joined": "2009"
+    },
+    {
+      "iso3": "MNE",
+      "status": "member",
+      "joined": "2017"
+    },
+    {
+      "iso3": "MKD",
+      "status": "member",
+      "joined": "2020"
+    },
+    {
+      "iso3": "FIN",
+      "status": "member",
+      "joined": "2023"
+    },
+    {
+      "iso3": "SWE",
+      "status": "member",
+      "joined": "2024"
+    },
+    {
+      "iso3": "BIH",
+      "status": "candidate",
+      "note": "NATO lists it as one of three partner countries that have declared membership aspirations ('aspirant country'); not a formal invitee. (Membership Action Plan invited 2010)"
+    },
+    {
+      "iso3": "GEO",
+      "status": "candidate",
+      "note": "NATO lists it as one of three partner countries that have declared membership aspirations ('aspirant country'); not a formal invitee. (Bucharest Summit 2008 declaration)"
+    },
+    {
+      "iso3": "UKR",
+      "status": "candidate",
+      "note": "NATO lists it as one of three partner countries that have declared membership aspirations ('aspirant country'); not a formal invitee. (Bucharest Summit 2008 declaration)"
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member (Ally)",
+      "zh": "正式成員（盟國）"
+    },
+    "candidate": {
+      "en": "Aspirant country",
+      "zh": "申請加入意願國"
+    }
+  },
+  "sources": [
+    "https://www.nato.int/cps/en/natohq/topics_52044.htm",
+    "https://www.nato.int/cps/en/natohq/topics_49212.htm"
+  ],
+  "notes": [
+    "32 members as of 2026-11-16; Sweden was the latest to join (7 March 2024). No accession or withdrawal found for 2025-2026.",
+    "NATO's enlargement page (nato.int topics_49212) states three partner countries aspire to join: Bosnia and Herzegovina, Georgia and Ukraine. They are shown with status 'candidate' labelled 'Aspirant country'; NATO has no formal 'candidate' status and none has been invited to join.",
+    "Ukraine: Allies have said Ukraine's future is in NATO (Washington Summit 2024 'irreversible path'), but no invitation has been issued."
+  ]
+}

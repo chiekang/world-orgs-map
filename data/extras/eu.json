@@ -1,0 +1,130 @@
+{
+  "id": "eu",
+  "next_meeting": {
+    "name": {
+      "en": "European Council (EU leaders' summit)",
+      "zh": "歐洲理事會（歐盟領袖峰會）"
+    },
+    "date_start": "2026-12-17",
+    "date_end": "2026-12-18",
+    "date_precision": "day",
+    "city": {
+      "en": "Brussels",
+      "zh": "比利時布魯塞爾"
+    },
+    "country_iso3": "BEL",
+    "lat": 50.85,
+    "lon": 4.35,
+    "level": "leaders",
+    "confirmed": true,
+    "source": "https://data.consilium.europa.eu/doc/document/ST-10983-2026-INIT/en/pdf"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Enlargement package sets roadmaps",
+        "zh": "擴大方案提出入盟路線圖"
+      },
+      "summary": {
+        "en": "On 4 November 2026 the Commission adopted its enlargement package, with roadmaps for Montenegro, Albania, Moldova and Ukraine; Montenegro could provisionally close its remaining chapters by end-2026.",
+        "zh": "歐盟執委會於2026年11月4日通過擴大方案，為蒙特內哥羅、阿爾巴尼亞、摩爾多瓦與烏克蘭提出路線圖；蒙特內哥羅可望於2026年底前暫時結束其餘談判章節。"
+      },
+      "question": {
+        "en": "What are the economic pros and cons of letting poorer countries join the EU single market?",
+        "zh": "讓較貧窮的國家加入歐盟單一市場，有哪些經濟上的利弊？"
+      },
+      "date": "2026-11",
+      "url": "https://europeanwesternbalkans.com/2026/11/04/european-commission-adopts-enlargement-package-with-roadmaps-for-the-most-advanced-candidates/"
+    },
+    {
+      "title": {
+        "en": "Energy prices and competitiveness",
+        "zh": "能源價格與競爭力"
+      },
+      "summary": {
+        "en": "At the 15-16 October 2026 summit, leaders discussed short-term measures against high energy prices and a long-term plan to cut fossil-fuel dependence.",
+        "zh": "2026年10月15至16日峰會上，領袖們討論因應高能源價格的短期措施，以及降低化石燃料依賴的長期計畫。"
+      },
+      "question": {
+        "en": "Should governments cap energy prices, or let markets adjust?",
+        "zh": "政府應該限制能源價格，還是讓市場自行調整？"
+      },
+      "date": "2026-10",
+      "url": "https://europeanwesternbalkans.com/2026/10/15/enlargement-on-the-agenda-of-the-european-council-meeting/"
+    },
+    {
+      "title": {
+        "en": "Negotiating the 2028-2034 EU budget",
+        "zh": "協商2028–2034年歐盟長期預算"
+      },
+      "summary": {
+        "en": "At the October 2026 summit, leaders discussed the next long-term EU budget (MFF 2028-2034).",
+        "zh": "2026年10月峰會上，各國領袖討論下一期歐盟長期預算（2028–2034年多年期財政框架）。"
+      },
+      "question": {
+        "en": "How should the EU balance spending on defence, farming and regional development?",
+        "zh": "歐盟應如何在國防、農業與區域發展支出之間取得平衡？"
+      },
+      "date": "2026-10",
+      "url": "https://europeanwesternbalkans.com/2026/10/15/enlargement-on-the-agenda-of-the-european-council-meeting/"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1951",
+      "text": {
+        "en": "Six countries create the European Coal and Steel Community",
+        "zh": "六國成立歐洲煤鋼共同體"
+      }
+    },
+    {
+      "year": "1957",
+      "text": {
+        "en": "Treaty of Rome creates the EEC",
+        "zh": "《羅馬條約》成立歐洲經濟共同體"
+      }
+    },
+    {
+      "year": "1973",
+      "text": {
+        "en": "UK, Ireland and Denmark join",
+        "zh": "英國、愛爾蘭、丹麥加入"
+      }
+    },
+    {
+      "year": "1993",
+      "text": {
+        "en": "Maastricht Treaty creates the EU and single market",
+        "zh": "《馬斯垂克條約》成立歐盟與單一市場"
+      }
+    },
+    {
+      "year": "1999",
+      "text": {
+        "en": "Euro launched",
+        "zh": "歐元啟用"
+      }
+    },
+    {
+      "year": "2004",
+      "text": {
+        "en": "Ten countries join in largest enlargement",
+        "zh": "十國加入，規模最大的擴大"
+      }
+    },
+    {
+      "year": "2009",
+      "text": {
+        "en": "Lisbon Treaty in force",
+        "zh": "《里斯本條約》生效"
+      }
+    },
+    {
+      "year": "2020",
+      "text": {
+        "en": "UK leaves the EU (Brexit)",
+        "zh": "英國脫離歐盟"
+      }
+    }
+  ]
+}

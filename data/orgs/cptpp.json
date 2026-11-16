@@ -1,0 +1,163 @@
+{
+  "id": "cptpp",
+  "abbr": "CPTPP",
+  "name": {
+    "en": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership",
+    "zh": "跨太平洋夥伴全面進步協定"
+  },
+  "category": "economic",
+  "founded": "2018",
+  "headquarters": {
+    "en": "No permanent secretariat (rotating Commission chair; Viet Nam chairs in 2026)",
+    "zh": "無常設秘書處（執委會主席輪值，2026年由越南擔任）"
+  },
+  "nature": {
+    "en": "High-standard plurilateral free trade agreement (treaty); signed 8 Mar 2018, in force 30 Dec 2018",
+    "zh": "高標準的複邊自由貿易協定（條約）；2018年3月8日簽署，同年12月30日生效"
+  },
+  "purpose": {
+    "en": "Removes most tariffs and sets high common rules on services, investment, digital trade, state-owned enterprises, labour and environment among Pacific Rim (and now European) economies.",
+    "zh": "在環太平洋（及英國等）經濟體之間取消大部分關稅，並在服務、投資、數位貿易、國營企業、勞工與環境等領域制定高標準共同規則。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "AUS",
+      "status": "member",
+      "joined": "2018"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "2018"
+    },
+    {
+      "iso3": "JPN",
+      "status": "member",
+      "joined": "2018"
+    },
+    {
+      "iso3": "MEX",
+      "status": "member",
+      "joined": "2018"
+    },
+    {
+      "iso3": "NZL",
+      "status": "member",
+      "joined": "2018"
+    },
+    {
+      "iso3": "SGP",
+      "status": "member",
+      "joined": "2018"
+    },
+    {
+      "iso3": "VNM",
+      "status": "member",
+      "joined": "2019",
+      "official_name": "Viet Nam"
+    },
+    {
+      "iso3": "PER",
+      "status": "member",
+      "joined": "2021"
+    },
+    {
+      "iso3": "MYS",
+      "status": "member",
+      "joined": "2022"
+    },
+    {
+      "iso3": "CHL",
+      "status": "member",
+      "joined": "2023"
+    },
+    {
+      "iso3": "BRN",
+      "status": "member",
+      "joined": "2023",
+      "official_name": "Brunei Darussalam"
+    },
+    {
+      "iso3": "GBR",
+      "status": "member",
+      "joined": "2024",
+      "note": "First new member via accession; in force 15 Dec 2024."
+    },
+    {
+      "iso3": "CRI",
+      "status": "acceding",
+      "note": "Applied Aug 2022; Accession Working Group launched Nov 2024; negotiations substantially concluded 6 May 2026; legal instrument of accession being finalised (not yet a party as of 2026-11-16)."
+    },
+    {
+      "iso3": "URY",
+      "status": "acceding",
+      "note": "Applied Dec 2022; accession process commenced at the 9th Commission (Melbourne, 21 Nov 2025); Accession Working Group active per Jun 2026 ministerial statement."
+    },
+    {
+      "iso3": "ARE",
+      "status": "candidate",
+      "note": "Applied 2024; selected Nov 2025 as in line with the Auckland Principles; 'preparatory discussions' agreed Jun 2026 (no Accession Working Group yet)."
+    },
+    {
+      "iso3": "IDN",
+      "status": "candidate",
+      "note": "Applied Sep 2024; same stage as UAE (preparatory discussions, Jun 2026)."
+    },
+    {
+      "iso3": "PHL",
+      "status": "candidate",
+      "note": "Applied Aug 2025; same stage as UAE (preparatory discussions, Jun 2026)."
+    },
+    {
+      "iso3": "CHN",
+      "status": "candidate",
+      "note": "Applied 16 Sep 2021; no accession process launched."
+    },
+    {
+      "iso3": "TWN",
+      "status": "candidate",
+      "official_name": "Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu",
+      "note": "Applied 22 Sep 2021 under this WTO-style name; no accession process launched."
+    },
+    {
+      "iso3": "ECU",
+      "status": "candidate",
+      "note": "Applied Dec 2021; no accession process launched."
+    },
+    {
+      "iso3": "UKR",
+      "status": "candidate",
+      "note": "Applied May 2023; no accession process launched."
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "Party (in force)",
+      "zh": "締約方（已生效）"
+    },
+    "acceding": {
+      "en": "Accession in progress (working group)",
+      "zh": "入會談判中（已成立入會工作小組）"
+    },
+    "candidate": {
+      "en": "Applicant (no working group yet)",
+      "zh": "已申請加入（尚未成立工作小組）"
+    }
+  },
+  "sources": [
+    "https://www.mfat.govt.nz/assets/Trade-agreements/CPTPP/Joint-Ministerial-Statement-on-Expansion-Implementation-and-Cooperation.pdf",
+    "https://www.dfat.gov.au/trade/agreements/in-force/cptpp/commission-meetings/comprehensive-and-progressive-agreement-trans-pacific-partnership-cptpp-joint-ministerial-statement-expansion-implementation-and-cooperation-26-june-2026",
+    "https://www.cas.go.jp/jp/tpp/tppinfo/2025/pdf/20251121_cptpp_seimei_en.pdf",
+    "https://www.gov.uk/government/publications/conclusion-of-costa-ricas-cptpp-accession-working-group",
+    "https://www.vinetur.com/amp/20260603102012/costa-rica-joins-pacific-trade-pact.html"
+  ],
+  "notes": [
+    "12 parties: original 11 + UK (in force 15 Dec 2024). 'joined' = year the agreement entered into force for that party.",
+    "'acceding' = formal Accession Working Group: Costa Rica (negotiations substantially concluded 6 May 2026, still not a party) and Uruguay (process launched 21 Nov 2025).",
+    "'candidate' is used here (judgement call) for all other formal applicants, to make pending applications visible on the map: UAE, Indonesia, Philippines (selected for 'preparatory discussions', Jun 2026 — which per ministers neither guarantee nor preclude an Accession Working Group); and China, Taiwan, Ecuador, Ukraine (applied 2021–2023, no process launched). Taiwan applied under the name 'Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu'.",
+    "Application months/years are from news and government reports and should be treated as approximate.",
+    "Did not find a Commission decision after the 26 Jun 2026 statement changing these statuses (searched 2026-11-16); the late-2026 Commission meeting under Viet Nam's chair could change Costa Rica's status."
+  ]
+}

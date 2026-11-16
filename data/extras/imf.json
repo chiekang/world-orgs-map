@@ -1,0 +1,114 @@
+{
+  "id": "imf",
+  "next_meeting": {
+    "name": {
+      "en": "2027 IMF–World Bank Spring Meetings",
+      "zh": "2027年IMF與世界銀行春季會議"
+    },
+    "date_start": "2027-04",
+    "date_end": null,
+    "date_precision": "month",
+    "city": {
+      "en": "Washington, D.C., United States",
+      "zh": "美國華盛頓特區"
+    },
+    "country_iso3": "USA",
+    "lat": 38.9,
+    "lon": -77.04,
+    "level": "ministers",
+    "confirmed": false,
+    "source": "https://www.worldbank.org/en/meetings/splash/spring"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Annual Meetings held in Bangkok",
+        "zh": "年會於曼谷舉行"
+      },
+      "summary": {
+        "en": "The IMF and World Bank held their 2026 Annual Meetings in Bangkok in October; Kristalina Georgieva cited AI and Asia's dynamism as reasons for optimism, and high debt, inflation and wars as worries.",
+        "zh": "IMF與世界銀行10月於曼谷舉行2026年年會；總裁喬治艾娃指出AI與亞洲活力令人樂觀，但高債務、通膨與戰爭令人擔憂。"
+      },
+      "question": {
+        "en": "Why do higher global interest rates hurt low-income countries the most?",
+        "zh": "為何全球利率上升對低所得國家傷害最大？"
+      },
+      "date": "2026-10",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/18/imf-chief-flags-039optimism039-039worry039-after-bangkok-annual-meetings"
+    },
+    {
+      "title": {
+        "en": "October 2026 World Economic Outlook",
+        "zh": "2026年10月《世界經濟展望》"
+      },
+      "summary": {
+        "en": "The IMF's October 2026 World Economic Outlook reviews how trade tensions, conflict-driven energy prices and AI investment are shaping global growth.",
+        "zh": "IMF 2026年10月《世界經濟展望》檢視貿易緊張、衝突推升的能源價格與AI投資如何影響全球成長。"
+      },
+      "question": {
+        "en": "Can AI investment offset the drag from trade barriers on world growth?",
+        "zh": "AI投資能抵銷貿易壁壘對全球成長的拖累嗎？"
+      },
+      "date": "2026-10",
+      "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/execsum.pdf"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1944",
+      "text": {
+        "en": "Bretton Woods conference creates the IMF",
+        "zh": "布列敦森林會議創立IMF"
+      }
+    },
+    {
+      "year": "1945",
+      "text": {
+        "en": "IMF Articles of Agreement enter into force",
+        "zh": "IMF協定生效"
+      }
+    },
+    {
+      "year": "1969",
+      "text": {
+        "en": "Special Drawing Right (SDR) created",
+        "zh": "創設特別提款權（SDR）"
+      }
+    },
+    {
+      "year": "1971",
+      "text": {
+        "en": "US ends dollar–gold convertibility; Bretton Woods system ends",
+        "zh": "美國停止美元兌換黃金，布列敦森林體系瓦解"
+      }
+    },
+    {
+      "year": "1980",
+      "text": {
+        "en": "PRC takes over China's seat from Taiwan",
+        "zh": "中華人民共和國取代台灣的中國席位"
+      }
+    },
+    {
+      "year": "1997",
+      "text": {
+        "en": "Asian financial crisis rescue programs",
+        "zh": "亞洲金融危機紓困計畫"
+      }
+    },
+    {
+      "year": "2016",
+      "text": {
+        "en": "Chinese renminbi added to SDR basket",
+        "zh": "人民幣納入SDR貨幣籃"
+      }
+    },
+    {
+      "year": "2020",
+      "text": {
+        "en": "Record emergency lending during COVID-19",
+        "zh": "新冠疫情期間創紀錄緊急貸款"
+      }
+    }
+  ]
+}

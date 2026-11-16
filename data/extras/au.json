@@ -1,0 +1,114 @@
+{
+  "id": "au",
+  "next_meeting": {
+    "name": {
+      "en": "40th Ordinary Session of the AU Assembly",
+      "zh": "非洲聯盟第40屆元首大會常會"
+    },
+    "date_start": "2027-02",
+    "date_end": null,
+    "date_precision": "month",
+    "city": {
+      "en": "Addis Ababa, Ethiopia",
+      "zh": "衣索比亞阿迪斯阿貝巴"
+    },
+    "country_iso3": "ETH",
+    "lat": 9.03,
+    "lon": 38.74,
+    "level": "leaders",
+    "confirmed": false,
+    "source": "https://africa.com/apo/39th-ordinary-session-of-the-assembly-of-the-african-union-concludes-in-addis-ababa"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Burundi takes AU chair; water security is 2026 theme",
+        "zh": "蒲隆地接任非盟主席，2026主題為水資源安全"
+      },
+      "summary": {
+        "en": "At the February 2026 summit, Burundi's President Évariste Ndayishimiye became AU chair, with Ghana's John Mahama as first vice-chair, and leaders put water security at the centre of the year's agenda.",
+        "zh": "在2026年2月峰會上，蒲隆地總統恩達伊施米耶接任非盟主席，迦納總統馬哈馬任第一副主席，領袖們將水資源安全列為年度重點。"
+      },
+      "question": {
+        "en": "How does water scarcity affect agriculture, energy and economic growth in Africa?",
+        "zh": "缺水如何影響非洲的農業、能源與經濟成長？"
+      },
+      "date": "2026-02",
+      "url": "https://www.graphic.com.gh/international/international-news/burundis-ndayishimiye-elected-au-chair-as-leaders-put-water-security-at-centre-stage.html"
+    },
+    {
+      "title": {
+        "en": "AfCFTA shifts focus to implementation",
+        "zh": "非洲大陸自由貿易區轉向落實執行"
+      },
+      "summary": {
+        "en": "The AfCFTA Council of Ministers met in Abuja in July 2026, Nigeria took over its chair, and the focus moved fully to putting the free-trade agreement into practice.",
+        "zh": "非洲大陸自由貿易區（AfCFTA）部長理事會2026年7月在阿布加開會，由奈及利亞接任主席，重點全面轉向落實協定。"
+      },
+      "question": {
+        "en": "Why can signing a free-trade agreement be easier than actually increasing trade?",
+        "zh": "為什麼簽署自由貿易協定，往往比真正增加貿易容易？"
+      },
+      "date": "2026-07",
+      "url": "https://au-afcfta.org/2026/07/afcfta-council-of-ministers-concludes-18th-meeting-in-abuja-nigeria-assumes-the-chairpersonship-as-focus-shifts-fully-to-implementation/"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1963",
+      "text": {
+        "en": "Organisation of African Unity (OAU) founded in Addis Ababa",
+        "zh": "非洲團結組織（OAU）於阿迪斯阿貝巴成立"
+      }
+    },
+    {
+      "year": "1984",
+      "text": {
+        "en": "Morocco leaves the OAU over Western Sahara",
+        "zh": "摩洛哥因西撒哈拉問題退出OAU"
+      }
+    },
+    {
+      "year": "1999",
+      "text": {
+        "en": "Sirte Declaration calls for an African Union",
+        "zh": "《蘇爾特宣言》呼籲成立非洲聯盟"
+      }
+    },
+    {
+      "year": "2002",
+      "text": {
+        "en": "African Union launched in Durban, replacing the OAU",
+        "zh": "非洲聯盟於德班成立，取代OAU"
+      }
+    },
+    {
+      "year": "2013",
+      "text": {
+        "en": "Agenda 2063 long-term development plan adopted",
+        "zh": "通過長期發展藍圖《2063議程》"
+      }
+    },
+    {
+      "year": "2017",
+      "text": {
+        "en": "Morocco rejoins; AU reaches 55 members",
+        "zh": "摩洛哥重返，非盟成員達55國"
+      }
+    },
+    {
+      "year": "2021",
+      "text": {
+        "en": "AfCFTA trading begins",
+        "zh": "非洲大陸自由貿易區開始運作"
+      }
+    },
+    {
+      "year": "2023",
+      "text": {
+        "en": "AU becomes a permanent member of the G20",
+        "zh": "非盟成為G20常任成員"
+      }
+    }
+  ]
+}

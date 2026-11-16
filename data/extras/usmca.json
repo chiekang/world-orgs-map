@@ -1,0 +1,117 @@
+{
+  "id": "usmca",
+  "next_meeting": {
+    "name": {
+      "en": "USMCA Annual Joint Review 2027",
+      "zh": "2027年美墨加協定年度聯合檢討"
+    },
+    "date_start": "2027-07",
+    "date_end": "2027-07",
+    "date_precision": "month",
+    "city": {
+      "en": "To be announced (trilateral Free Trade Commission)",
+      "zh": "待公布（三國自由貿易委員會）"
+    },
+    "country_iso3": null,
+    "lat": null,
+    "lon": null,
+    "level": "ministers",
+    "confirmed": false,
+    "source": "https://supplychaindive.com/news/ustr-initiates-next-stage-of-usmca-review/832285",
+    "note": "Next joint review due by 1 July 2027; USTR public comments due 12 Jan 2027. Venue not announced."
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "US declines to extend USMCA, annual reviews begin",
+        "zh": "美國未同意延長協定，啟動年度檢討"
+      },
+      "summary": {
+        "en": "At the July 2026 joint review the US did not confirm a 16-year extension, so the three countries must now review the deal every year; it stays in force meanwhile.",
+        "zh": "在2026年7月的聯合檢討中，美國未確認延長16年，三國須每年檢討；協定在此期間仍然有效。"
+      },
+      "question": {
+        "en": "How does uncertainty about a trade deal's future affect business investment decisions?",
+        "zh": "貿易協定前景不確定，會如何影響企業的投資決策？"
+      },
+      "date": "2026-07",
+      "url": "https://www.whitecase.com/insight-alert/usmca-2026-joint-review-united-states-declines-extend-agreement-triggering-annual"
+    },
+    {
+      "title": {
+        "en": "USTR opens comments for 2027 review",
+        "zh": "美國貿易代表署為2027年檢討徵求意見"
+      },
+      "summary": {
+        "en": "In October 2026 USTR opened a public comment period (due 12 January 2027) ahead of the next joint review due by 1 July 2027.",
+        "zh": "2026年10月，美國貿易代表署為下一次（2027年7月1日前）聯合檢討開放公眾意見徵詢，截止日為2027年1月12日。"
+      },
+      "question": {
+        "en": "Which industries would you expect to comment most, and why?",
+        "zh": "你認為哪些產業最會提出意見？為什麼？"
+      },
+      "date": "2026-10",
+      "url": "https://supplychaindive.com/news/ustr-initiates-next-stage-of-usmca-review/832285"
+    },
+    {
+      "title": {
+        "en": "US-Canada tariff dispute escalates",
+        "zh": "美加關稅爭端升級"
+      },
+      "summary": {
+        "en": "A 50% US tariff on about US$20 billion of Canadian imports took effect in August 2026; Canada retaliated in September and the US expanded its measures.",
+        "zh": "美國對約200億美元加拿大進口品課徵50%關稅於2026年8月生效；加拿大9月反制，美國隨後擴大措施。"
+      },
+      "question": {
+        "en": "Can a free trade agreement still work when members impose tariffs on each other under other laws?",
+        "zh": "當成員國依其他法律互相課稅時，自由貿易協定還能發揮作用嗎？"
+      },
+      "date": "2026-10",
+      "url": "https://supplychaindive.com/news/ustr-initiates-next-stage-of-usmca-review/832285"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1994",
+      "text": {
+        "en": "NAFTA enters into force",
+        "zh": "北美自由貿易協定（NAFTA）生效"
+      }
+    },
+    {
+      "year": "2017",
+      "text": {
+        "en": "Renegotiation of NAFTA begins",
+        "zh": "展開NAFTA重新談判"
+      }
+    },
+    {
+      "year": "2018",
+      "text": {
+        "en": "USMCA signed in Buenos Aires",
+        "zh": "美墨加協定於布宜諾斯艾利斯簽署"
+      }
+    },
+    {
+      "year": "2019",
+      "text": {
+        "en": "Protocol of amendment strengthens labour enforcement",
+        "zh": "修正議定書強化勞工執法"
+      }
+    },
+    {
+      "year": "2020",
+      "text": {
+        "en": "USMCA replaces NAFTA on 1 July",
+        "zh": "7月1日美墨加協定取代NAFTA"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "First joint review; US declines extension, annual reviews begin",
+        "zh": "首次聯合檢討；美國未同意延長，改為年度檢討"
+      }
+    }
+  ]
+}

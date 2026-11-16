@@ -1,0 +1,107 @@
+{
+  "id": "brics",
+  "next_meeting": {
+    "name": {
+      "en": "19th BRICS Summit (China chairship)",
+      "zh": "第19屆金磚國家峰會（中國擔任主席國）"
+    },
+    "date_start": "2027",
+    "date_end": "2027",
+    "date_precision": "year",
+    "city": {
+      "en": "China (host city not yet announced)",
+      "zh": "中國（主辦城市尚未公布）"
+    },
+    "country_iso3": "CHN",
+    "lat": 39.9,
+    "lon": 116.41,
+    "level": "leaders",
+    "confirmed": false,
+    "source": "https://www.devdiscourse.com/article/politics/3976332-china-to-host-19th-brics-summit-in-2027"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "New Delhi summit adopts New Delhi Declaration",
+        "zh": "新德里峰會通過《新德里宣言》"
+      },
+      "summary": {
+        "en": "At the 18th summit in New Delhi in September 2026, BRICS adopted the New Delhi Declaration by consensus and leaders discussed conflict in West Asia.",
+        "zh": "2026年9月第18屆新德里峰會以共識通過《新德里宣言》，領袖們也討論了西亞衝突。"
+      },
+      "question": {
+        "en": "Can a group with members as different as India, China and Iran agree on common positions?",
+        "zh": "像印度、中國、伊朗這樣差異大的成員，能形成共同立場嗎？"
+      },
+      "date": "2026-09",
+      "url": "https://openthemagazine.com/india/brics-must-play-peacemaker-in-west-asia-says-xi-as-bloc-adopts-delhi-declaration"
+    },
+    {
+      "title": {
+        "en": "China takes the 2027 chair with tech agenda",
+        "zh": "中國接任2027年主席國並主打科技議程"
+      },
+      "summary": {
+        "en": "India handed the chairship to China, which will host the 2027 summit and has proposed cooperation on AI and industry.",
+        "zh": "印度將主席國交棒給中國；中國將主辦2027年峰會，並提出人工智慧與產業合作構想。"
+      },
+      "question": {
+        "en": "Will China's chairship change how other countries see BRICS?",
+        "zh": "中國擔任主席國，會改變其他國家對金磚的看法嗎？"
+      },
+      "date": "2026-09",
+      "url": "https://www.outlookindia.com/national/xi-pitches-tech-driven-brics-agenda-experts-question-chinas-larger-vision"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2006",
+      "text": {
+        "en": "BRIC foreign ministers first meet at UN",
+        "zh": "金磚四國外長首次於聯合國會面"
+      }
+    },
+    {
+      "year": "2009",
+      "text": {
+        "en": "First BRIC summit in Yekaterinburg, Russia",
+        "zh": "於俄羅斯葉卡捷琳堡舉行首屆峰會"
+      }
+    },
+    {
+      "year": "2011",
+      "text": {
+        "en": "South Africa joins; BRIC becomes BRICS",
+        "zh": "南非加入，BRIC成為BRICS"
+      }
+    },
+    {
+      "year": "2015",
+      "text": {
+        "en": "New Development Bank opens in Shanghai",
+        "zh": "新開發銀行於上海開業"
+      }
+    },
+    {
+      "year": "2024",
+      "text": {
+        "en": "Egypt, Ethiopia, Iran, UAE join; partner category created",
+        "zh": "埃及、衣索比亞、伊朗、阿聯加入；設立夥伴國"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "en": "Indonesia becomes full member",
+        "zh": "印尼成為正式成員"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "India hosts 18th summit; chair passes to China",
+        "zh": "印度主辦第18屆峰會，主席國交棒中國"
+      }
+    }
+  ]
+}

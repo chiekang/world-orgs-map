@@ -1,0 +1,291 @@
+{
+  "id": "oecd",
+  "abbr": "OECD",
+  "name": {
+    "en": "Organisation for Economic Co-operation and Development",
+    "zh": "經濟合作暨發展組織"
+  },
+  "category": "economic",
+  "founded": "1961",
+  "headquarters": {
+    "en": "Paris, France",
+    "zh": "法國巴黎"
+  },
+  "nature": {
+    "en": "Intergovernmental organisation (treaty-based) of mostly high-income market economies",
+    "zh": "以條約為基礎的政府間國際組織，成員多為高所得市場經濟體"
+  },
+  "purpose": {
+    "en": "Member governments compare data and policies and set common standards (e.g. tax, anti-bribery, education via PISA) to promote economic growth and better public policy. Often called the 'rich countries' club'.",
+    "zh": "成員國政府透過比較數據與政策、制定共同標準（如稅務、反賄賂、PISA教育評量），促進經濟成長與良好公共政策，常被稱為「富國俱樂部」。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "AUS",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "AUT",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "BEL",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "CHL",
+      "status": "member",
+      "joined": "2010"
+    },
+    {
+      "iso3": "COL",
+      "status": "member",
+      "joined": "2020"
+    },
+    {
+      "iso3": "CRI",
+      "status": "member",
+      "joined": "2021"
+    },
+    {
+      "iso3": "CZE",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "DNK",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "EST",
+      "status": "member",
+      "joined": "2010"
+    },
+    {
+      "iso3": "FIN",
+      "status": "member",
+      "joined": "1969"
+    },
+    {
+      "iso3": "FRA",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "DEU",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "GRC",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "HUN",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "ISL",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "IRL",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "ISR",
+      "status": "member",
+      "joined": "2010"
+    },
+    {
+      "iso3": "ITA",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "JPN",
+      "status": "member",
+      "joined": "1964"
+    },
+    {
+      "iso3": "KOR",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "LVA",
+      "status": "member",
+      "joined": "2016"
+    },
+    {
+      "iso3": "LTU",
+      "status": "member",
+      "joined": "2018"
+    },
+    {
+      "iso3": "LUX",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "MEX",
+      "status": "member",
+      "joined": "1994"
+    },
+    {
+      "iso3": "NLD",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "NZL",
+      "status": "member",
+      "joined": "1973"
+    },
+    {
+      "iso3": "NOR",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "POL",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "PRT",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "SVK",
+      "status": "member",
+      "joined": "2000"
+    },
+    {
+      "iso3": "SVN",
+      "status": "member",
+      "joined": "2010"
+    },
+    {
+      "iso3": "ESP",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "SWE",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "CHE",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "TUR",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "GBR",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "USA",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "ARG",
+      "status": "acceding",
+      "note": "Accession discussions opened 2022."
+    },
+    {
+      "iso3": "BRA",
+      "status": "acceding",
+      "note": "Accession discussions opened 2022."
+    },
+    {
+      "iso3": "BGR",
+      "status": "acceding",
+      "note": "Accession discussions opened 2022."
+    },
+    {
+      "iso3": "HRV",
+      "status": "acceding",
+      "note": "Accession discussions opened 2022."
+    },
+    {
+      "iso3": "PER",
+      "status": "acceding",
+      "note": "Accession discussions opened 2022."
+    },
+    {
+      "iso3": "ROU",
+      "status": "acceding",
+      "note": "Accession discussions opened 2022. Most advanced candidate: technical reviews essentially complete (Oct 2026) but no formal Council membership invitation yet."
+    },
+    {
+      "iso3": "IDN",
+      "status": "acceding",
+      "note": "Accession discussions opened 2024. First ASEAN/G20 Asian candidate since Korea; roadmap adopted 2024."
+    },
+    {
+      "iso3": "THA",
+      "status": "acceding",
+      "note": "Accession discussions opened 2024."
+    }
+  ],
+  "non_state_members": [
+    {
+      "name": {
+        "en": "European Union",
+        "zh": "歐盟"
+      },
+      "status": "participant",
+      "note": "The European Commission takes part in OECD work under Supplementary Protocol No.1 of the OECD Convention but is not a member and has no vote."
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member",
+      "zh": "正式成員"
+    },
+    "acceding": {
+      "en": "Accession candidate",
+      "zh": "入會審查中"
+    },
+    "participant": {
+      "en": "Participant (non-member)",
+      "zh": "參與者（非會員）"
+    }
+  },
+  "sources": [
+    "https://www.oecd.org/en/about/members-partners.html",
+    "https://www.oecd.org/en/about/members-partners/oecd-and-enlargement.html",
+    "https://agerpres.ro/english/2026/10/10/pm-designate-niculescu-on-romania-s-accession-to-oecd-technically-speaking-we-are-ready-there-is-sti--1601751",
+    "https://agerpres.ro/data/202607/20260701143819_830886.pdf"
+  ],
+  "notes": [
+    "Official OECD enlargement page: '38 Members today'; accession discussions underway with eight countries (Argentina, Brazil, Bulgaria, Croatia, Indonesia, Peru, Romania, Thailand). Last accession: Costa Rica, 25 May 2021.",
+    "No new member joined in 2025-2026 as of 2026-11-16. Romania was expected to receive an invitation in 2026 (Cormann, March 2026) but as of Oct 2026 it was still pending; re-check if updating later. Bulgaria/Croatia/Peru also target 2026-2027.",
+    "Argentina's process was slowed in 2023-2024 but remains formally open on the OECD list.",
+    "Taiwan is not a member; participates in some committees (e.g. Competition, Steel) as an observer under the name 'Chinese Taipei' - not listed as these are committee-level arrangements."
+  ]
+}

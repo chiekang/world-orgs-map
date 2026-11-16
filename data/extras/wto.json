@@ -1,0 +1,123 @@
+{
+  "id": "wto",
+  "next_meeting": {
+    "name": {
+      "en": "WTO General Council (December 2026)",
+      "zh": "WTO 總理事會（2026年12月）"
+    },
+    "date_start": "2026-12",
+    "date_end": "2026-12",
+    "date_precision": "month",
+    "city": {
+      "en": "Geneva",
+      "zh": "瑞士日內瓦"
+    },
+    "country_iso3": "CHE",
+    "lat": 46.2,
+    "lon": 6.14,
+    "level": "other",
+    "confirmed": false,
+    "source": "https://www.eeas.europa.eu/delegations/world-trade-organization-wto/eu-statement-general-council-5-6-october-2026_en"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "MC14 in Yaoundé ends with limited results",
+        "zh": "雅溫得第14屆部長會議成果有限"
+      },
+      "summary": {
+        "en": "The March 2026 Ministerial Conference in Cameroon delivered only partial results, with key decisions sent back to Geneva.",
+        "zh": "2026年3月在喀麥隆舉行的部長會議只取得部分成果，關鍵決定被送回日內瓦繼續談判。"
+      },
+      "question": {
+        "en": "Why is it so hard for 166 members to agree by consensus?",
+        "zh": "為什麼166個會員很難以共識決達成協議？"
+      },
+      "date": "2026-04",
+      "url": "https://www.weforum.org/stories/2026/04/mc14-yaounde-wto-trade/"
+    },
+    {
+      "title": {
+        "en": "E-commerce duty moratorium in question",
+        "zh": "電子傳輸免關稅慣例出現變數"
+      },
+      "summary": {
+        "en": "At the October 2026 General Council, the EU called for urgent restoration of the moratorium on customs duties on electronic transmissions.",
+        "zh": "在2026年10月總理事會上，歐盟呼籲盡快恢復電子傳輸免課關稅的暫停措施。"
+      },
+      "question": {
+        "en": "Should countries be allowed to charge tariffs on digital downloads and streaming?",
+        "zh": "各國是否應可對數位下載與串流服務課徵關稅？"
+      },
+      "date": "2026-10",
+      "url": "https://www.eeas.europa.eu/delegations/world-trade-organization-wto/eu-statement-general-council-5-6-october-2026_en"
+    },
+    {
+      "title": {
+        "en": "Members push WTO reform before MC15",
+        "zh": "會員在第15屆部長會議前推動改革"
+      },
+      "summary": {
+        "en": "WTO members are holding more focused reform talks and seeking a clearer roadmap toward the next (15th) Ministerial Conference.",
+        "zh": "WTO會員加強聚焦改革討論，並尋求通往下屆（第15屆）部長會議更清楚的路線圖。"
+      },
+      "question": {
+        "en": "What is the most urgent WTO reform: dispute settlement, decision-making, or new rules?",
+        "zh": "WTO最迫切的改革是什麼：爭端解決、決策方式，還是新規則？"
+      },
+      "date": "2026-10",
+      "url": "https://worldtradescanner.com/WTO%20Members%20Intensify%20Substantive%20Discussions%20on%20Reform.htm"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1947",
+      "text": {
+        "en": "GATT signed by 23 countries",
+        "zh": "23國簽署關稅暨貿易總協定"
+      }
+    },
+    {
+      "year": "1994",
+      "text": {
+        "en": "Uruguay Round concludes; Marrakesh Agreement",
+        "zh": "烏拉圭回合結束，簽署馬拉喀什協定"
+      }
+    },
+    {
+      "year": "1995",
+      "text": {
+        "en": "WTO begins operating in Geneva",
+        "zh": "WTO於日內瓦正式運作"
+      }
+    },
+    {
+      "year": "2001",
+      "text": {
+        "en": "China joins; Doha Round launched",
+        "zh": "中國加入，啟動杜哈回合"
+      }
+    },
+    {
+      "year": "2002",
+      "text": {
+        "en": "Taiwan joins as Chinese Taipei",
+        "zh": "台灣以中華台北名義加入"
+      }
+    },
+    {
+      "year": "2019",
+      "text": {
+        "en": "Appellate Body stops functioning",
+        "zh": "上訴機構停擺"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "MC14 held in Yaoundé, Cameroon",
+        "zh": "第14屆部長會議於喀麥隆雅溫得舉行"
+      }
+    }
+  ]
+}

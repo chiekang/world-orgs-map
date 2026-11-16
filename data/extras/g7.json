@@ -1,0 +1,123 @@
+{
+  "id": "g7",
+  "next_meeting": {
+    "name": {
+      "en": "G7 Leaders' Summit 2027 (US presidency)",
+      "zh": "2027 年 G7 領袖峰會（美國擔任主席國）"
+    },
+    "date_start": "2027",
+    "date_end": "2027",
+    "date_precision": "year",
+    "city": {
+      "en": "United States (venue not yet announced)",
+      "zh": "美國（地點尚未公布）"
+    },
+    "country_iso3": "USA",
+    "lat": 38.9,
+    "lon": -77.04,
+    "level": "leaders",
+    "confirmed": false,
+    "source": "https://www.everycrsreport.com/files/2026-11-04_R40977_5b77624b091e5f2cbe2d28c9dc42fcc4e78a395d.html"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "G7 forms critical minerals alliance at Évian",
+        "zh": "G7 於埃維昂峰會成立關鍵礦產聯盟"
+      },
+      "summary": {
+        "en": "At the June 2026 Évian summit, G7 leaders agreed steps to reduce dependence on China for critical minerals used in batteries and electronics.",
+        "zh": "2026年6月埃維昂峰會上，G7領袖同意採取措施，降低電池與電子產品所需關鍵礦產對中國的依賴。"
+      },
+      "question": {
+        "en": "Can rich countries really build supply chains for critical minerals without China? What would it cost consumers?",
+        "zh": "富裕國家真的能建立不依賴中國的關鍵礦產供應鏈嗎？消費者要付出什麼代價？"
+      },
+      "date": "2026-06",
+      "url": "https://www.climatechangenews.com/2026/06/18/warning-against-consumer-club-as-g7-forms-critical-minerals-alliance/"
+    },
+    {
+      "title": {
+        "en": "G7 backs Ukraine, plans more pressure on Russia",
+        "zh": "G7 支持烏克蘭並計畫加強對俄施壓"
+      },
+      "summary": {
+        "en": "The Évian summit ended with leaders backing Ukraine and planning greater sanctions pressure on Russia.",
+        "zh": "埃維昂峰會結束時，領袖們表態支持烏克蘭，並計畫對俄羅斯施加更大的制裁壓力。"
+      },
+      "question": {
+        "en": "How do sanctions on Russia affect global energy and commodity markets?",
+        "zh": "對俄制裁如何影響全球能源與大宗商品市場？"
+      },
+      "date": "2026-06",
+      "url": "https://moderndiplomacy.eu/2026/06/17/g7-leaders-unite-on-ukraine-support-and-plan-stronger-sanctions-on-russia/"
+    },
+    {
+      "title": {
+        "en": "The United States takes the G7 presidency in 2027",
+        "zh": "美國將於 2027 年接任 G7 主席國"
+      },
+      "summary": {
+        "en": "After France's 2026 presidency, the US holds the rotating G7 presidency in 2027, while also hosting the G20 in 2026.",
+        "zh": "繼法國2026年擔任主席國後，美國將於2027年接任G7輪值主席，同時也是2026年G20主辦國。"
+      },
+      "question": {
+        "en": "How much can one host country shape the agenda of an informal club like the G7?",
+        "zh": "單一主辦國能在多大程度上主導G7這類非正式組織的議程？"
+      },
+      "date": "2026-11",
+      "url": "https://www.everycrsreport.com/files/2026-11-04_R40977_5b77624b091e5f2cbe2d28c9dc42fcc4e78a395d.html"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1975",
+      "text": {
+        "en": "First summit of six leaders at Rambouillet, France",
+        "zh": "六國領袖於法國朗布依埃舉行首次峰會"
+      }
+    },
+    {
+      "year": "1976",
+      "text": {
+        "en": "Canada joins, forming the G7",
+        "zh": "加拿大加入，形成G7"
+      }
+    },
+    {
+      "year": "1977",
+      "text": {
+        "en": "European Community begins attending summits",
+        "zh": "歐洲共同體開始出席峰會"
+      }
+    },
+    {
+      "year": "1997",
+      "text": {
+        "en": "Russia fully joins; group becomes the G8",
+        "zh": "俄羅斯正式加入，成為G8"
+      }
+    },
+    {
+      "year": "2008",
+      "text": {
+        "en": "Global financial crisis shifts economic coordination toward the G20",
+        "zh": "全球金融海嘯使經濟協調重心轉向G20"
+      }
+    },
+    {
+      "year": "2014",
+      "text": {
+        "en": "Russia suspended over Crimea; back to G7",
+        "zh": "俄羅斯因克里米亞問題遭暫停資格，恢復為G7"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "Évian summit in France launches critical minerals cooperation",
+        "zh": "法國埃維昂峰會啟動關鍵礦產合作"
+      }
+    }
+  ]
+}

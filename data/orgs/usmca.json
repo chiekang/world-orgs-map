@@ -1,0 +1,59 @@
+{
+  "id": "usmca",
+  "abbr": "USMCA",
+  "name": {
+    "en": "United States-Mexico-Canada Agreement (USMCA / CUSMA / T-MEC)",
+    "zh": "美墨加協定"
+  },
+  "category": "economic",
+  "founded": "2020",
+  "headquarters": {
+    "en": "No permanent secretariat (Free Trade Commission; national Secretariat sections in each country)",
+    "zh": "無常設總部（由自由貿易委員會運作，三國各設秘書處分部）"
+  },
+  "nature": {
+    "en": "Trilateral free trade agreement (replaced NAFTA)",
+    "zh": "三國自由貿易協定（取代北美自由貿易協定 NAFTA）"
+  },
+  "purpose": {
+    "en": "Keeps trade among the US, Mexico and Canada largely tariff-free, with rules of origin (especially for cars), labour and digital-trade rules.",
+    "zh": "讓美、墨、加三國間的貿易大致免關稅，並訂有原產地規則（特別是汽車）、勞工與數位貿易等規範。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "USA",
+      "status": "member",
+      "joined": "2020"
+    },
+    {
+      "iso3": "MEX",
+      "status": "member",
+      "joined": "2020"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "2020"
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "Party",
+      "zh": "締約國"
+    }
+  },
+  "sources": [
+    "https://www.whitecase.com/insight-alert/usmca-2026-joint-review-united-states-declines-extend-agreement-triggering-annual",
+    "https://www.gtlaw.com/en/insights/2026/7/usmca-joint-review-triggers-annual-reviews-but-does-not-alter-current-trade-benefits",
+    "https://www.thompsonhinesmartrade.com/2026/07/ustr-issues-statement-on-status-of-usmca-review/",
+    "https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement"
+  ],
+  "notes": [
+    "Entered into force 1 July 2020, replacing NAFTA (1994).",
+    "2026 joint review (Art. 34.7): at the 1 July 2026 review the US did not confirm a 16-year extension (USTR: did not agree to renew 'in its current form'); Mexico and Canada supported extension.",
+    "Consequence: annual joint reviews until all three agree to extend; otherwise the agreement expires 1 July 2036. Tariff preferences and all other provisions remain fully in force meanwhile.",
+    "Separate US tariffs imposed on Canada/Mexico in 2025-2026 under other US laws are outside USMCA membership and not reflected here."
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "opec",
+  "abbr": "OPEC",
+  "name": {
+    "en": "Organization of the Petroleum Exporting Countries",
+    "zh": "石油輸出國組織"
+  },
+  "category": "economic",
+  "founded": "1960",
+  "headquarters": {
+    "en": "Vienna, Austria",
+    "zh": "奧地利維也納"
+  },
+  "nature": {
+    "en": "Intergovernmental organization of oil-exporting countries (commodity producers' cartel)",
+    "zh": "石油出口國的政府間組織（原物料生產國卡特爾）"
+  },
+  "purpose": {
+    "en": "Oil-exporting countries coordinate their oil policies and production levels to influence world oil prices and secure stable revenues.",
+    "zh": "石油出口國協調石油政策與產量，以影響國際油價並確保穩定收入。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "IRN",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "IRQ",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "KWT",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "SAU",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "VEN",
+      "status": "member",
+      "joined": "1960"
+    },
+    {
+      "iso3": "LBY",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "DZA",
+      "status": "member",
+      "joined": "1969"
+    },
+    {
+      "iso3": "NGA",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "GAB",
+      "status": "member",
+      "joined": "1975",
+      "note": "Left 1995, rejoined 2016."
+    },
+    {
+      "iso3": "GNQ",
+      "status": "member",
+      "joined": "2017"
+    },
+    {
+      "iso3": "COG",
+      "status": "member",
+      "joined": "2018"
+    },
+    {
+      "iso3": "AZE",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "BHR",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "BRN",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "KAZ",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "MYS",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "MEX",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "OMN",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "RUS",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "SDN",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "SSD",
+      "status": "partner",
+      "joined": "2016",
+      "note": "OPEC+ (Declaration of Cooperation) partner since Dec 2016; non-OPEC producer with production commitments."
+    },
+    {
+      "iso3": "BRA",
+      "status": "partner",
+      "joined": "2025",
+      "note": "Joined the OPEC+ Charter of Cooperation (dialogue framework) in Feb 2025; NOT a Declaration of Cooperation participant and has no production quota."
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "Member Country",
+      "zh": "會員國"
+    },
+    "partner": {
+      "en": "OPEC+ partner (non-OPEC)",
+      "zh": "OPEC+ 合作夥伴（非OPEC會員）"
+    }
+  },
+  "sources": [
+    "https://www.opec.org/member-countries.html",
+    "https://www.wam.ae/en/article/bzxzuh7-uae-announces-decision-exit-opec",
+    "https://www.opec.org/pr-detail/1633585-10-december-2025.html",
+    "https://www.enerdata.net/publications/daily-energy-news/uae-announces-exit-opec-effective-1-may-2026-after-59-years.html",
+    "https://gulfnews.com/business/energy/uae-announces-decision-to-exit-opecgovernment-officials-industry-experts-reveal-reasons-behind-move-1.500522017",
+    "https://www.local10.com/news/2026/04/28/united-arab-emirates-says-it-will-leave-opec-effective-may-1/",
+    "https://eco3min.fr/en/qa/opec-members/"
+  ],
+  "notes": [
+    "UAE (member since 1967) announced on 28 Apr 2026 (WAM) its exit from OPEC and OPEC+, effective 1 May 2026; it is therefore excluded. Caveat: a secondary source reports OPEC's website still listed the UAE as of early Nov 2026 and OPEC issued no statement; the UAE no longer appears in the OPEC+ voluntary-adjustment group after May 2026. OPEC now has 11 members.",
+    "Former members: Qatar (left 2019), Ecuador (left 2020), Angola (left 1 Jan 2024), Indonesia (suspended 2016), UAE (left 2026).",
+    "Judgement call: the 10 non-OPEC Declaration of Cooperation (OPEC+) countries are shown as 'partner' because OPEC+ jointly sets output and is central to teaching oil-market policy. Brazil is also shown as 'partner' but only under the looser Charter of Cooperation (no quotas) - see its note.",
+    "opec.org could not be fetched directly (blocked); membership was cross-checked with news reports and OPEC press releases."
+  ]
+}

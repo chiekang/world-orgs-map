@@ -1,0 +1,115 @@
+{
+  "id": "nato",
+  "next_meeting": {
+    "name": {
+      "en": "NATO Summit 2027",
+      "zh": "2027年北約峰會"
+    },
+    "date_start": "2027",
+    "date_end": "2027",
+    "date_precision": "year",
+    "city": {
+      "en": "Tirana",
+      "zh": "阿爾巴尼亞地拉那"
+    },
+    "country_iso3": "ALB",
+    "lat": 41.33,
+    "lon": 19.82,
+    "level": "leaders",
+    "confirmed": false,
+    "source": "https://en.wikipedia.org/wiki/2027_Albania_NATO_summit",
+    "note": "Albania's hosting agreed at the 2025 Hague summit; dates not announced. Some July 2026 reports questioned whether it would go ahead in Albania."
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Ankara summit: spending and Ukraine aid",
+        "zh": "安卡拉峰會：國防支出與援烏"
+      },
+      "summary": {
+        "en": "At the 7-8 July 2026 Ankara summit, allies cited over US$50 billion in new procurement and pledged EUR 70 billion for Ukraine; only five allies are projected to meet the 3.5% core defence target in 2026.",
+        "zh": "2026年7月7至8日安卡拉峰會上，盟國宣布逾500億美元新採購並承諾700億歐元援烏；預估2026年僅五國達到3.5%核心國防支出目標。"
+      },
+      "question": {
+        "en": "How might higher defence spending affect government budgets and other public services?",
+        "zh": "提高國防支出會如何影響政府預算與其他公共服務？"
+      },
+      "date": "2026-07",
+      "url": "https://www.aljazeera.com/amp/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara"
+    },
+    {
+      "title": {
+        "en": "Greenland and Arctic tensions",
+        "zh": "格陵蘭與北極緊張情勢"
+      },
+      "summary": {
+        "en": "At the Ankara summit the US president renewed his claim that the US should control Greenland; Denmark said it is not for sale.",
+        "zh": "在安卡拉峰會上，美國總統再度主張美國應控制格陵蘭；丹麥表示格陵蘭不賣。"
+      },
+      "question": {
+        "en": "Why is the Arctic becoming more important for trade routes and resources?",
+        "zh": "為什麼北極在航運路線與資源上變得越來越重要？"
+      },
+      "date": "2026-07",
+      "url": "https://www.aljazeera.com/amp/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1949",
+      "text": {
+        "en": "North Atlantic Treaty signed by 12 founding members",
+        "zh": "12個創始國簽署《北大西洋公約》"
+      }
+    },
+    {
+      "year": "1955",
+      "text": {
+        "en": "West Germany joins; Warsaw Pact formed in response",
+        "zh": "西德加入；華沙公約組織隨後成立"
+      }
+    },
+    {
+      "year": "1999",
+      "text": {
+        "en": "Czechia, Hungary and Poland join",
+        "zh": "捷克、匈牙利、波蘭加入"
+      }
+    },
+    {
+      "year": "2001",
+      "text": {
+        "en": "Article 5 invoked for first time after 9/11",
+        "zh": "911事件後首次援引第五條"
+      }
+    },
+    {
+      "year": "2004",
+      "text": {
+        "en": "Seven Central and Eastern European states join",
+        "zh": "七個中東歐國家加入"
+      }
+    },
+    {
+      "year": "2023",
+      "text": {
+        "en": "Finland joins after Russia's invasion of Ukraine",
+        "zh": "俄羅斯入侵烏克蘭後芬蘭加入"
+      }
+    },
+    {
+      "year": "2024",
+      "text": {
+        "en": "Sweden becomes 32nd member",
+        "zh": "瑞典成為第32個成員國"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "en": "Hague summit agrees 5% of GDP defence goal by 2035",
+        "zh": "海牙峰會同意2035年國防支出達GDP 5%"
+      }
+    }
+  ]
+}

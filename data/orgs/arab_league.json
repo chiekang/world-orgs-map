@@ -1,0 +1,153 @@
+{
+  "id": "arab_league",
+  "abbr": "LAS",
+  "name": {
+    "en": "League of Arab States (Arab League)",
+    "zh": "阿拉伯國家聯盟（阿拉伯聯盟）"
+  },
+  "category": "regional",
+  "founded": "1945",
+  "headquarters": {
+    "en": "Cairo, Egypt",
+    "zh": "埃及開羅"
+  },
+  "nature": {
+    "en": "Regional intergovernmental organization",
+    "zh": "區域性政府間組織"
+  },
+  "purpose": {
+    "en": "Coordinates political, economic and cultural cooperation among Arab states and seeks to safeguard their independence and common interests.",
+    "zh": "協調阿拉伯國家之間的政治、經濟與文化合作，維護各國獨立與共同利益。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "DZA",
+      "status": "member",
+      "joined": "1962"
+    },
+    {
+      "iso3": "BHR",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "COM",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "DJI",
+      "status": "member",
+      "joined": "1977"
+    },
+    {
+      "iso3": "EGY",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "IRQ",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "JOR",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "KWT",
+      "status": "member",
+      "joined": "1961"
+    },
+    {
+      "iso3": "LBN",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "LBY",
+      "status": "member",
+      "joined": "1953"
+    },
+    {
+      "iso3": "MRT",
+      "status": "member",
+      "joined": "1973"
+    },
+    {
+      "iso3": "MAR",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "OMN",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "PSE",
+      "status": "member",
+      "joined": "1976",
+      "official_name": "State of Palestine",
+      "note": "Admitted 1976 as the PLO; seat held by the State of Palestine since 1988."
+    },
+    {
+      "iso3": "QAT",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "SAU",
+      "status": "member",
+      "joined": "1945"
+    },
+    {
+      "iso3": "SOM",
+      "status": "member",
+      "joined": "1974"
+    },
+    {
+      "iso3": "SDN",
+      "status": "member",
+      "joined": "1956"
+    },
+    {
+      "iso3": "SYR",
+      "status": "member",
+      "joined": "1945",
+      "note": "Suspended 16 Nov 2011; readmitted 7 May 2023."
+    },
+    {
+      "iso3": "TUN",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "ARE",
+      "status": "member",
+      "joined": "1971"
+    },
+    {
+      "iso3": "YEM",
+      "status": "member",
+      "joined": "1945",
+      "note": "North Yemen 1945, South Yemen 1967; unified Yemen 1990."
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member state",
+      "zh": "會員國"
+    }
+  },
+  "sources": [
+    "http://www.leagueofarabstates.net/",
+    "https://en.wikipedia.org/wiki/Member_states_of_the_Arab_League"
+  ],
+  "notes": [
+    "22 members; Syria reinstated 7 May 2023 after suspension since Nov 2011. No membership changes found for 2025-2026.",
+    "Observers not included: secondary sources list Eritrea, Armenia, Chad, Greece, Brazil, India and Venezuela, but several were invited only for single summits and no current official observer list from the League could be verified."
+  ]
+}

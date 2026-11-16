@@ -1,0 +1,107 @@
+{
+  "id": "aiib",
+  "next_meeting": {
+    "name": {
+      "en": "12th AIIB Annual Meeting",
+      "zh": "亞投行第12屆年會"
+    },
+    "date_start": "2027-07-14",
+    "date_end": "2027-07-15",
+    "date_precision": "day",
+    "city": {
+      "en": "Baku",
+      "zh": "亞塞拜然巴庫"
+    },
+    "country_iso3": "AZE",
+    "lat": 40.41,
+    "lon": 49.87,
+    "level": "general_assembly",
+    "confirmed": true,
+    "source": "https://aiib.org/en/news-events/news/2026/azerbaijan-to-host-aiib-12th-annual-meeting-in-2027.html"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "11th Annual Meeting held in Doha",
+        "zh": "第11屆年會於杜哈舉行"
+      },
+      "summary": {
+        "en": "AIIB held its 11th Annual Meeting in Doha, Qatar, in late September 2026, its first since Zou Jiayi became president, and chose Azerbaijan to host in 2027.",
+        "zh": "亞投行2026年9月底於卡達杜哈舉行第11屆年會，為鄒加怡出任行長後首次年會，並決定2027年由亞塞拜然主辦。"
+      },
+      "question": {
+        "en": "Why do development banks rotate annual meetings among member countries?",
+        "zh": "開發銀行為何要在成員國之間輪流舉辦年會？"
+      },
+      "date": "2026-09",
+      "url": "https://aiib.org/en/news-events/news/2026/aiib-opens-11th-annual-meeting-advancing-multilateral-cooperation-for-sustainable-development.html"
+    },
+    {
+      "title": {
+        "en": "Target: about US$20 billion a year by 2030",
+        "zh": "目標：2030年每年融資約200億美元"
+      },
+      "summary": {
+        "en": "AIIB's president said the bank aims to roughly double annual financing to about US$20 billion by 2030 to help close the infrastructure funding gap.",
+        "zh": "亞投行行長表示，目標在2030年前將年度融資約翻倍至200億美元，以縮小基礎建設資金缺口。"
+      },
+      "question": {
+        "en": "How can a development bank lend more without risking its credit rating?",
+        "zh": "開發銀行如何在不損及信用評等下擴大放款？"
+      },
+      "date": "2026-09",
+      "url": "https://www.qatar-tribune.com/article/256477/business/aiib-president-sets-20-billion-annual-financing-target-by-2030-at-doha-meet"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2013",
+      "text": {
+        "en": "Xi Jinping proposes an Asian infrastructure bank",
+        "zh": "習近平提議成立亞洲基礎設施銀行"
+      }
+    },
+    {
+      "year": "2015",
+      "text": {
+        "en": "Articles of Agreement signed; enters into force in December",
+        "zh": "簽署協定，12月生效"
+      }
+    },
+    {
+      "year": "2016",
+      "text": {
+        "en": "Bank opens in Beijing with 57 founding members",
+        "zh": "於北京開業，57個創始成員"
+      }
+    },
+    {
+      "year": "2019",
+      "text": {
+        "en": "Membership passes 100",
+        "zh": "成員數突破100"
+      }
+    },
+    {
+      "year": "2021",
+      "text": {
+        "en": "Commits to align with Paris Agreement goals",
+        "zh": "承諾融資與《巴黎協定》目標一致"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "en": "10th Annual Meeting in Beijing marks a decade",
+        "zh": "北京第10屆年會，成立十週年"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "Zou Jiayi succeeds Jin Liqun as president",
+        "zh": "鄒加怡接替金立群出任行長"
+      }
+    }
+  ]
+}

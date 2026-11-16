@@ -1,0 +1,190 @@
+{
+  "id": "sco",
+  "abbr": "SCO",
+  "name": {
+    "en": "Shanghai Cooperation Organisation",
+    "zh": "上海合作組織"
+  },
+  "category": "political_security",
+  "founded": "2001",
+  "headquarters": {
+    "en": "Secretariat in Beijing, China; Regional Anti-Terrorist Structure (RATS) in Tashkent, Uzbekistan",
+    "zh": "秘書處設於中國北京；地區反恐怖機構設於烏茲別克塔什干"
+  },
+  "nature": {
+    "en": "Eurasian intergovernmental organization for political, security and economic cooperation (not a military alliance)",
+    "zh": "歐亞地區的政府間組織，涵蓋政治、安全與經濟合作（非軍事同盟）"
+  },
+  "purpose": {
+    "en": "Led by China and Russia, it coordinates members on counter-terrorism, border security and regional stability, and increasingly on trade, energy and connectivity.",
+    "zh": "由中國與俄羅斯主導，協調成員在反恐、邊境安全與區域穩定方面的合作，近年也擴及貿易、能源與交通連結。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "CHN",
+      "status": "member",
+      "joined": "2001"
+    },
+    {
+      "iso3": "RUS",
+      "status": "member",
+      "joined": "2001"
+    },
+    {
+      "iso3": "KAZ",
+      "status": "member",
+      "joined": "2001"
+    },
+    {
+      "iso3": "KGZ",
+      "status": "member",
+      "joined": "2001"
+    },
+    {
+      "iso3": "TJK",
+      "status": "member",
+      "joined": "2001"
+    },
+    {
+      "iso3": "UZB",
+      "status": "member",
+      "joined": "2001"
+    },
+    {
+      "iso3": "IND",
+      "status": "member",
+      "joined": "2017"
+    },
+    {
+      "iso3": "PAK",
+      "status": "member",
+      "joined": "2017"
+    },
+    {
+      "iso3": "IRN",
+      "status": "member",
+      "joined": "2023"
+    },
+    {
+      "iso3": "BLR",
+      "status": "member",
+      "joined": "2024"
+    },
+    {
+      "iso3": "AFG",
+      "status": "observer",
+      "joined": "2012",
+      "note": "Observer status nominally retained; Afghanistan has not participated since the Taliban takeover in 2021."
+    },
+    {
+      "iso3": "MNG",
+      "status": "observer",
+      "joined": "2004"
+    },
+    {
+      "iso3": "LKA",
+      "status": "dialogue_partner",
+      "joined": "2009"
+    },
+    {
+      "iso3": "TUR",
+      "status": "dialogue_partner",
+      "joined": "2012"
+    },
+    {
+      "iso3": "ARM",
+      "status": "dialogue_partner",
+      "joined": "2015"
+    },
+    {
+      "iso3": "AZE",
+      "status": "dialogue_partner",
+      "joined": "2015"
+    },
+    {
+      "iso3": "KHM",
+      "status": "dialogue_partner",
+      "joined": "2015"
+    },
+    {
+      "iso3": "NPL",
+      "status": "dialogue_partner",
+      "joined": "2015"
+    },
+    {
+      "iso3": "EGY",
+      "status": "dialogue_partner",
+      "joined": "2022"
+    },
+    {
+      "iso3": "QAT",
+      "status": "dialogue_partner",
+      "joined": "2022"
+    },
+    {
+      "iso3": "SAU",
+      "status": "dialogue_partner",
+      "joined": "2022"
+    },
+    {
+      "iso3": "ARE",
+      "status": "dialogue_partner",
+      "joined": "2023"
+    },
+    {
+      "iso3": "BHR",
+      "status": "dialogue_partner",
+      "joined": "2023"
+    },
+    {
+      "iso3": "KWT",
+      "status": "dialogue_partner",
+      "joined": "2023"
+    },
+    {
+      "iso3": "MDV",
+      "status": "dialogue_partner",
+      "joined": "2023"
+    },
+    {
+      "iso3": "MMR",
+      "status": "dialogue_partner",
+      "joined": "2023"
+    },
+    {
+      "iso3": "LAO",
+      "status": "dialogue_partner",
+      "joined": "2025",
+      "note": "Granted by decision of the Tianjin summit, 1 Sep 2025; memorandum signed 10 Jul 2026 — the 15th dialogue partner."
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "Member State",
+      "zh": "成員國"
+    },
+    "observer": {
+      "en": "Observer",
+      "zh": "觀察員國"
+    },
+    "dialogue_partner": {
+      "en": "Dialogue Partner",
+      "zh": "對話夥伴"
+    }
+  },
+  "sources": [
+    "https://eng.sectsco.org/20260306/2185663.html",
+    "https://eng.sectsco.org/20260710/2431087.html",
+    "https://www.specialeurasia.com/2026/09/02/sco-bishkek-summit-2026/",
+    "https://en.fergana.agency/news/149061/?country=kg",
+    "https://www.mfa.gov.cn/eng/wjbzhd/202509/t20250903_11701370.html"
+  ],
+  "notes": [
+    "10 members (Belarus joined Jul 2024, Astana), 2 observers, 15 dialogue partners as of 2026-11-16.",
+    "SCO Partner status: the Tianjin summit (1 Sep 2025) decided to introduce a single 'SCO Partner' status and abolish the observer and dialogue-partner statuses. However, the SCO Secretariat (Mar 2026) states that existing observers and dialogue partners keep their current status until amendments to the SCO legal framework take effect. The Bishkek summit (Sep 2026) approved a protocol amending the SCO Charter, but no report found that it has entered into force or that any country has been designated 'SCO Partner'. Therefore the old categories are retained here; once in force, all 17 observers + dialogue partners would become 'partner' (夥伴國).",
+    "Türkiye (dialogue partner) said in Sep 2026 it would consider full membership — not an application decision.",
+    "Some 'joined' years for dialogue partners are approximate (year status was granted)."
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "brics",
+  "abbr": "BRICS",
+  "name": {
+    "en": "BRICS",
+    "zh": "金磚國家"
+  },
+  "category": "economic",
+  "founded": "2009",
+  "headquarters": {
+    "en": "No permanent secretariat (rotating chairship: India 2026, China 2027); its New Development Bank is in Shanghai",
+    "zh": "無常設秘書處（輪值主席國：2026年印度、2027年中國）；所屬新開發銀行總部設於上海"
+  },
+  "nature": {
+    "en": "Informal intergovernmental grouping of major emerging economies",
+    "zh": "主要新興經濟體的非正式政府間合作機制"
+  },
+  "purpose": {
+    "en": "Large emerging economies of the 'Global South' cooperate on trade, finance and development and push for a bigger voice in global institutions such as the IMF and World Bank. The name comes from Brazil, Russia, India, China and South Africa.",
+    "zh": "「全球南方」的大型新興經濟體在貿易、金融與發展上合作，並爭取在國際貨幣基金、世界銀行等全球機構中更大的發言權。名稱取自巴西、俄羅斯、印度、中國與南非的英文字首。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "BRA",
+      "status": "member",
+      "joined": "2009"
+    },
+    {
+      "iso3": "RUS",
+      "status": "member",
+      "joined": "2009"
+    },
+    {
+      "iso3": "IND",
+      "status": "member",
+      "joined": "2009"
+    },
+    {
+      "iso3": "CHN",
+      "status": "member",
+      "joined": "2009"
+    },
+    {
+      "iso3": "ZAF",
+      "status": "member",
+      "joined": "2011"
+    },
+    {
+      "iso3": "EGY",
+      "status": "member",
+      "joined": "2024"
+    },
+    {
+      "iso3": "ETH",
+      "status": "member",
+      "joined": "2024"
+    },
+    {
+      "iso3": "IRN",
+      "status": "member",
+      "joined": "2024"
+    },
+    {
+      "iso3": "ARE",
+      "status": "member",
+      "joined": "2024"
+    },
+    {
+      "iso3": "SAU",
+      "status": "member",
+      "joined": "2024",
+      "note": "Ambiguous: invited in 2023 and listed by official BRICS (Brazil 2025, India 2026) sites as a full member effective 1 Jan 2024, but Riyadh has never publicly confirmed formal accession; attended the Sept 2026 New Delhi summit only via its foreign minister as an invitee."
+    },
+    {
+      "iso3": "IDN",
+      "status": "member",
+      "joined": "2025"
+    },
+    {
+      "iso3": "BLR",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "BOL",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "CUB",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "KAZ",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "MYS",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "NGA",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "THA",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "UGA",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "UZB",
+      "status": "partner",
+      "joined": "2025"
+    },
+    {
+      "iso3": "VNM",
+      "status": "partner",
+      "joined": "2025"
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Full member",
+      "zh": "正式成員"
+    },
+    "partner": {
+      "en": "Partner country",
+      "zh": "夥伴國"
+    }
+  },
+  "sources": [
+    "https://brics.br/en/about-the-brics/frequently-asked-questions-about-the-brics",
+    "https://en.wikipedia.org/wiki/18th_BRICS_summit",
+    "https://www.businesstoday.in/india/story/bt-explainerbrics-decoded-the-origin-evolution-members-partners-and-future-of-the-summit-554110-2026-09-10"
+  ],
+  "notes": [
+    "11 full members (counting Saudi Arabia) and 10 partner countries as of 2026; no new members/partners admitted at the 18th summit (New Delhi, 12-13 Sept 2026).",
+    "Indonesia became a full member on 6 January 2025 (announced by Brazil's chairship).",
+    "Partner category created at the Kazan summit (Oct 2024); Belarus, Bolivia, Cuba, Kazakhstan, Malaysia, Thailand, Uganda, Uzbekistan joined 1 Jan 2025, Nigeria 17 Jan 2025, Vietnam June 2025 (joined years for the first eight recorded as 2025).",
+    "Saudi Arabia judgement: kept as 'member' following the official BRICS/Indian government lists, with caveat that its accession is unconfirmed by Riyadh (Reuters). Front-end may wish to style it differently.",
+    "Argentina was invited in 2023 but declined (Dec 2023) and is not listed. BRICS started as BRIC (first summit 2009); South Africa joined 2010/2011."
+  ]
+}

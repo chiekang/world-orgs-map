@@ -1,0 +1,114 @@
+{
+  "id": "rcep",
+  "next_meeting": {
+    "name": {
+      "en": "6th RCEP Ministers' Meeting (expected, with ASEAN 2027 chair Singapore)",
+      "zh": "第6屆RCEP部長會議（預期由2027東協主席國新加坡主辦）"
+    },
+    "date_start": "2027",
+    "date_end": "2027",
+    "date_precision": "year",
+    "city": {
+      "en": "Singapore (expected)",
+      "zh": "新加坡（預期）"
+    },
+    "country_iso3": "SGP",
+    "lat": 1.29,
+    "lon": 103.85,
+    "level": "ministers",
+    "confirmed": false,
+    "source": "https://news.cgtn.com/news/2026-10-02/RCEP-enters-new-phase-of-expansion-and-upgrading-1QTyNROvSHS/p.html"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Accession groups set for four applicants",
+        "zh": "四個申請方成立入會工作小組"
+      },
+      "summary": {
+        "en": "RCEP ministers agreed to set up accession working groups for Bangladesh, Chile, Hong Kong and Sri Lanka, and noted Uruguay's interest.",
+        "zh": "RCEP部長同意為孟加拉、智利、香港與斯里蘭卡成立入會工作小組，並注意到烏拉圭的加入意願。"
+      },
+      "question": {
+        "en": "Why would Chile or Uruguay, far from Asia, want to join an Asian trade deal?",
+        "zh": "遠在南美的智利、烏拉圭為何想加入亞洲貿易協定？"
+      },
+      "date": "2026-10",
+      "url": "https://news.cgtn.com/news/2026-10-02/RCEP-enters-new-phase-of-expansion-and-upgrading-1QTyNROvSHS/p.html"
+    },
+    {
+      "title": {
+        "en": "RCEP prepares 2027 review and upgrade",
+        "zh": "RCEP籌備2027年檢討與升級"
+      },
+      "summary": {
+        "en": "At their September 2026 meeting in Manila, ministers moved toward a 2027 general review that may add digital economy and green rules.",
+        "zh": "2026年9月馬尼拉部長會議推動2027年全面檢討，未來可能納入數位經濟與綠色轉型規則。"
+      },
+      "question": {
+        "en": "What new trade rules would matter most for Taiwan's exporters if Taiwan is outside RCEP?",
+        "zh": "台灣不在RCEP內，哪些新規則對台灣出口商影響最大？"
+      },
+      "date": "2026-09",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/23/rcep-ministers-agree-to-strengthen-implementation-build-economic-resilience"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2012",
+      "text": {
+        "en": "RCEP negotiations launched in Phnom Penh",
+        "zh": "於金邊啟動RCEP談判"
+      }
+    },
+    {
+      "year": "2017",
+      "text": {
+        "en": "First RCEP leaders' meeting in Manila",
+        "zh": "於馬尼拉舉行首次RCEP領袖會議"
+      }
+    },
+    {
+      "year": "2019",
+      "text": {
+        "en": "India withdraws from negotiations",
+        "zh": "印度退出談判"
+      }
+    },
+    {
+      "year": "2020",
+      "text": {
+        "en": "15 countries sign RCEP (virtual summit)",
+        "zh": "15國以視訊方式簽署RCEP"
+      }
+    },
+    {
+      "year": "2022",
+      "text": {
+        "en": "RCEP enters into force on 1 January",
+        "zh": "RCEP於1月1日生效"
+      }
+    },
+    {
+      "year": "2023",
+      "text": {
+        "en": "Enters into force for all 15 parties (Philippines last)",
+        "zh": "對全部15國生效（菲律賓最後）"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "en": "5th RCEP Leaders' Summit in Kuala Lumpur",
+        "zh": "於吉隆坡舉行第5屆RCEP領袖峰會"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "Accession working groups for four applicants agreed",
+        "zh": "同意為四個申請方成立入會工作小組"
+      }
+    }
+  ]
+}

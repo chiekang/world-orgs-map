@@ -1,0 +1,130 @@
+{
+  "id": "mercosur",
+  "next_meeting": {
+    "name": {
+      "en": "69th Mercosur Summit (Uruguay pro tempore presidency)",
+      "zh": "第69屆南方共同市場峰會（烏拉圭輪值主席）"
+    },
+    "date_start": "2026-12",
+    "date_end": null,
+    "date_precision": "month",
+    "city": {
+      "en": "Uruguay (venue TBC; EU–Mercosur business forum in Punta del Este on 2 Dec)",
+      "zh": "烏拉圭（地點未定；歐盟—南方共同市場商業論壇12月2日於東角市舉行）"
+    },
+    "country_iso3": "URY",
+    "lat": -34.96,
+    "lon": -54.94,
+    "level": "leaders",
+    "confirmed": false,
+    "source": "https://en.mercopress.com/2026/07/01/uruguay-takes-over-the-mercosur-presidency-vowing-to-modernize-and-open-the-bloc"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "EU–Mercosur trade deal provisionally applied",
+        "zh": "歐盟—南方共同市場貿易協定暫行生效"
+      },
+      "summary": {
+        "en": "After more than 25 years of talks, the EU–Mercosur interim trade agreement began to apply provisionally on 1 May 2026, cutting tariffs on goods such as cars, wine and olive oil.",
+        "zh": "歷經25年以上談判，歐盟與南方共同市場的過渡貿易協定於2026年5月1日暫行生效，調降汽車、葡萄酒、橄欖油等商品關稅。"
+      },
+      "question": {
+        "en": "Who wins and who worries when the EU opens its market to South American farm products?",
+        "zh": "歐盟向南美農產品開放市場，誰受益、誰擔憂？"
+      },
+      "date": "2026-05",
+      "url": "https://policy.trade.ec.europa.eu/news/eu-mercosur-interim-trade-agreement-starts-provisionally-apply-2026-04-30_en"
+    },
+    {
+      "title": {
+        "en": "Mercosur launches trade talks with Japan",
+        "zh": "南方共同市場啟動與日本的經貿談判"
+      },
+      "summary": {
+        "en": "At the June 2026 summit in Paraguay, Mercosur announced the start of trade negotiations with Japan, as the bloc turns more toward Asia.",
+        "zh": "2026年6月在巴拉圭舉行的峰會上，南方共同市場宣布啟動與日本的貿易談判，顯示該集團更加轉向亞洲。"
+      },
+      "question": {
+        "en": "Why might Japan want a trade deal with South American food and mineral exporters?",
+        "zh": "日本為何想與南美糧食及礦產出口國簽貿易協定？"
+      },
+      "date": "2026-07",
+      "url": "https://en.mercopress.com/2026/06/30/mercosur-turns-to-asia-with-japan-talks-as-the-eu-quota-split-stays-unresolved"
+    },
+    {
+      "title": {
+        "en": "Uruguay takes the rotating presidency",
+        "zh": "烏拉圭接任輪值主席"
+      },
+      "summary": {
+        "en": "Uruguay's President Yamandú Orsi took over Mercosur's presidency on 30 June 2026, promising to modernize the bloc and work on trade talks with Canada and the UAE and closer ties with EFTA.",
+        "zh": "烏拉圭總統奧西於2026年6月30日接任南方共同市場輪值主席，承諾推動集團現代化，推進與加拿大及阿聯的貿易談判，並加強與歐洲自由貿易協會的關係。"
+      },
+      "question": {
+        "en": "Should a customs union let members sign trade deals on their own?",
+        "zh": "關稅同盟是否應允許成員國各自對外簽署貿易協定？"
+      },
+      "date": "2026-07",
+      "url": "https://en.mercopress.com/2026/07/01/uruguay-takes-over-the-mercosur-presidency-vowing-to-modernize-and-open-the-bloc"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1991",
+      "text": {
+        "en": "Treaty of Asunción creates Mercosur (4 founders)",
+        "zh": "《亞松森條約》創立南方共同市場（四個創始國）"
+      }
+    },
+    {
+      "year": "1994",
+      "text": {
+        "en": "Ouro Preto Protocol sets institutions and customs union",
+        "zh": "《黑金城議定書》確立機構與關稅同盟"
+      }
+    },
+    {
+      "year": "1995",
+      "text": {
+        "en": "Common external tariff takes effect",
+        "zh": "共同對外關稅生效"
+      }
+    },
+    {
+      "year": "2012",
+      "text": {
+        "en": "Venezuela joins as full member",
+        "zh": "委內瑞拉成為正式會員"
+      }
+    },
+    {
+      "year": "2016",
+      "text": {
+        "en": "Venezuela suspended (indefinitely from 2017)",
+        "zh": "委內瑞拉遭停權（2017年起無限期）"
+      }
+    },
+    {
+      "year": "2019",
+      "text": {
+        "en": "EU–Mercosur agreement reached in principle",
+        "zh": "與歐盟原則上達成協定"
+      }
+    },
+    {
+      "year": "2024",
+      "text": {
+        "en": "Bolivia becomes full member; EU deal concluded",
+        "zh": "玻利維亞成為正式會員；與歐盟完成協定談判"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "EU–Mercosur deal provisionally applied from 1 May",
+        "zh": "歐盟協定5月1日起暫行生效"
+      }
+    }
+  ]
+}

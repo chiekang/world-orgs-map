@@ -1,0 +1,707 @@
+{
+  "id": "aiib",
+  "abbr": "AIIB",
+  "name": {
+    "en": "Asian Infrastructure Investment Bank",
+    "zh": "亞洲基礎設施投資銀行（亞投行）"
+  },
+  "category": "financial",
+  "founded": "2015",
+  "headquarters": {
+    "en": "Beijing, China",
+    "zh": "中國北京"
+  },
+  "nature": {
+    "en": "Multilateral development bank",
+    "zh": "多邊開發銀行"
+  },
+  "purpose": {
+    "en": "China-initiated development bank that lends to and invests in infrastructure (energy, transport, water, digital) in Asia and beyond.",
+    "zh": "由中國倡議成立的開發銀行，對亞洲及其他地區的能源、交通、水利、數位等基礎建設提供貸款與投資。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "AFG",
+      "status": "member",
+      "joined": "2017",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "ARM",
+      "status": "member",
+      "joined": "2025",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "AUS",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "AZE",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "BHR",
+      "status": "member",
+      "joined": "2018",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "BGD",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "BRN",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "KHM",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "CHN",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "COK",
+      "status": "member",
+      "joined": "2020",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "CYP",
+      "status": "member",
+      "joined": "2018",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "FJI",
+      "status": "member",
+      "joined": "2017",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "GEO",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "HKG",
+      "status": "member",
+      "joined": "2017",
+      "note": "Regional member",
+      "official_name": "Hong Kong, China"
+    },
+    {
+      "iso3": "IND",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "IDN",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "IRN",
+      "status": "member",
+      "joined": "2017",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "IRQ",
+      "status": "member",
+      "joined": "2022",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "ISR",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "JOR",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "KAZ",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "KOR",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "KWT",
+      "status": "member",
+      "joined": "2025",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "KGZ",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "LAO",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "MYS",
+      "status": "member",
+      "joined": "2017",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "MDV",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "MNG",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "MMR",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "NRU",
+      "status": "member",
+      "joined": "2025",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "NPL",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "NZL",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "OMN",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "PAK",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "PNG",
+      "status": "member",
+      "joined": "2024",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "PHL",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "QAT",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "RUS",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "WSM",
+      "status": "member",
+      "joined": "2018",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "SAU",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "SGP",
+      "status": "member",
+      "joined": "2015",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "SLB",
+      "status": "member",
+      "joined": "2025",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "LKA",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "TJK",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "THA",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "TLS",
+      "status": "member",
+      "joined": "2017",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "TON",
+      "status": "member",
+      "joined": "2021",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "TUR",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "ARE",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "UZB",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "VUT",
+      "status": "member",
+      "joined": "2018",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "VNM",
+      "status": "member",
+      "joined": "2016",
+      "note": "Regional member"
+    },
+    {
+      "iso3": "DZA",
+      "status": "member",
+      "joined": "2019",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "ARG",
+      "status": "member",
+      "joined": "2021",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "AUT",
+      "status": "member",
+      "joined": "2015",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "BLR",
+      "status": "member",
+      "joined": "2019",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "BEL",
+      "status": "member",
+      "joined": "2019",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "BEN",
+      "status": "member",
+      "joined": "2020",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "BRA",
+      "status": "member",
+      "joined": "2020",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "2018",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "CHL",
+      "status": "member",
+      "joined": "2021",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "CIV",
+      "status": "member",
+      "joined": "2020",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "HRV",
+      "status": "member",
+      "joined": "2021",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "DNK",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "DJI",
+      "status": "member",
+      "joined": "2024",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "ECU",
+      "status": "member",
+      "joined": "2019",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "EGY",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "SLV",
+      "status": "member",
+      "joined": "2025",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "ETH",
+      "status": "member",
+      "joined": "2017",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "FIN",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "FRA",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "DEU",
+      "status": "member",
+      "joined": "2015",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "GHA",
+      "status": "member",
+      "joined": "2020",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "GRC",
+      "status": "member",
+      "joined": "2019",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "GIN",
+      "status": "member",
+      "joined": "2019",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "HUN",
+      "status": "member",
+      "joined": "2017",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "ISL",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "IRL",
+      "status": "member",
+      "joined": "2017",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "ITA",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "KEN",
+      "status": "member",
+      "joined": "2024",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "LBR",
+      "status": "member",
+      "joined": "2021",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "LBY",
+      "status": "member",
+      "joined": "2023",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "LUX",
+      "status": "member",
+      "joined": "2015",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "MDG",
+      "status": "member",
+      "joined": "2018",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "MLT",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "MRT",
+      "status": "member",
+      "joined": "2025",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "MAR",
+      "status": "member",
+      "joined": "2022",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "NLD",
+      "status": "member",
+      "joined": "2015",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "NOR",
+      "status": "member",
+      "joined": "2015",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "PER",
+      "status": "member",
+      "joined": "2022",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "POL",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "PRT",
+      "status": "member",
+      "joined": "2017",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "ROU",
+      "status": "member",
+      "joined": "2018",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "RWA",
+      "status": "member",
+      "joined": "2020",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "SEN",
+      "status": "member",
+      "joined": "2025",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "SRB",
+      "status": "member",
+      "joined": "2019",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "ZAF",
+      "status": "member",
+      "joined": "2023",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "ESP",
+      "status": "member",
+      "joined": "2017",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "SDN",
+      "status": "member",
+      "joined": "2018",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "SWE",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "CHE",
+      "status": "member",
+      "joined": "2016",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "TZA",
+      "status": "member",
+      "joined": "2025",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "TGO",
+      "status": "member",
+      "joined": "2023",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "TUN",
+      "status": "member",
+      "joined": "2022",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "GBR",
+      "status": "member",
+      "joined": "2015",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "URY",
+      "status": "member",
+      "joined": "2020",
+      "note": "Non-regional member"
+    },
+    {
+      "iso3": "LBN",
+      "status": "prospective",
+      "note": "Regional prospective member (membership approved, accession formalities not yet completed)"
+    },
+    {
+      "iso3": "BOL",
+      "status": "prospective",
+      "note": "Non-regional prospective member (membership approved, accession formalities not yet completed)"
+    },
+    {
+      "iso3": "COL",
+      "status": "prospective",
+      "note": "Non-regional prospective member (membership approved, accession formalities not yet completed)"
+    },
+    {
+      "iso3": "NGA",
+      "status": "prospective",
+      "note": "Non-regional prospective member (membership approved, accession formalities not yet completed)"
+    },
+    {
+      "iso3": "VEN",
+      "status": "prospective",
+      "note": "Non-regional prospective member (membership approved, accession formalities not yet completed)"
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "Member",
+      "zh": "成員"
+    },
+    "prospective": {
+      "en": "Prospective member",
+      "zh": "意向成員（待完成入會程序）"
+    }
+  },
+  "sources": [
+    "https://www.aiib.org/en/about-aiib/governance/members-of-bank/index.html"
+  ],
+  "notes": [
+    "Official AIIB page 'Members and Prospective Members of the Bank' (data as of 16 Oct 2026, read 2026-11-16): 111 approved members = 106 members (52 regional + 54 non-regional) + 5 prospective (Lebanon; Bolivia, Colombia, Nigeria, Venezuela).",
+    "Recent joiners 2025: El Salvador (Feb), Nauru (Feb), Kuwait (May), Solomon Islands (Jun), Mauritania (Jun), Armenia (Sep), Tanzania (Oct), Senegal (Dec).",
+    "'joined' = year of AIIB membership date shown on the official page (Dec 2015 = founding members on entry into force of the Articles).",
+    "AIIB counts Hong Kong, China as a regional member; the US, Japan and Taiwan are not members."
+  ]
+}

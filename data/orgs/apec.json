@@ -1,0 +1,154 @@
+{
+  "id": "apec",
+  "abbr": "APEC",
+  "name": {
+    "en": "Asia-Pacific Economic Cooperation",
+    "zh": "亞太經濟合作會議"
+  },
+  "category": "economic",
+  "founded": "1989",
+  "headquarters": {
+    "en": "Secretariat in Singapore",
+    "zh": "秘書處設於新加坡"
+  },
+  "nature": {
+    "en": "Regional intergovernmental economic forum of 'member economies'; decisions are non-binding and made by consensus",
+    "zh": "區域性政府間經濟論壇，成員稱為「會員經濟體」；以共識決，決議不具法律拘束力"
+  },
+  "purpose": {
+    "en": "Promotes free and open trade and investment, regional economic integration and sustainable growth around the Pacific Rim.",
+    "zh": "推動環太平洋地區的貿易與投資自由化、區域經濟整合及永續成長。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "AUS",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "BRN",
+      "status": "member",
+      "joined": "1989",
+      "official_name": "Brunei Darussalam"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "CHL",
+      "status": "member",
+      "joined": "1994"
+    },
+    {
+      "iso3": "CHN",
+      "status": "member",
+      "joined": "1991",
+      "official_name": "People's Republic of China"
+    },
+    {
+      "iso3": "HKG",
+      "status": "member",
+      "joined": "1991",
+      "official_name": "Hong Kong, China"
+    },
+    {
+      "iso3": "IDN",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "JPN",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "KOR",
+      "status": "member",
+      "joined": "1989",
+      "official_name": "Republic of Korea"
+    },
+    {
+      "iso3": "MYS",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "MEX",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "NZL",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "PNG",
+      "status": "member",
+      "joined": "1993"
+    },
+    {
+      "iso3": "PER",
+      "status": "member",
+      "joined": "1998"
+    },
+    {
+      "iso3": "PHL",
+      "status": "member",
+      "joined": "1989",
+      "official_name": "The Philippines"
+    },
+    {
+      "iso3": "RUS",
+      "status": "member",
+      "joined": "1998"
+    },
+    {
+      "iso3": "SGP",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "TWN",
+      "status": "member",
+      "joined": "1991",
+      "official_name": "Chinese Taipei",
+      "note": "Joined 1991 together with the PRC and Hong Kong; participates as an economy under the name Chinese Taipei (中華台北). Leaders' meeting attended by a special envoy."
+    },
+    {
+      "iso3": "THA",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "USA",
+      "status": "member",
+      "joined": "1989",
+      "official_name": "The United States"
+    },
+    {
+      "iso3": "VNM",
+      "status": "member",
+      "joined": "1998",
+      "official_name": "Viet Nam"
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "Member economy",
+      "zh": "會員經濟體"
+    }
+  },
+  "sources": [
+    "https://apec.org/who-we-are/our-members"
+  ],
+  "notes": [
+    "APEC officially has 21 'member economies' (not 'member countries'), which allows Taiwan (Chinese Taipei) and Hong Kong, China to participate alongside sovereign states.",
+    "No membership changes in 2025–2026 per apec.org (checked 2026-11-16). A membership moratorium has been in place since 1998 (Peru, Russia, Viet Nam were the last to join).",
+    "Joined years are taken from the apec.org member list."
+  ]
+}

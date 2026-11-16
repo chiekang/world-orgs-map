@@ -1,0 +1,1027 @@
+{
+  "id": "wto",
+  "abbr": "WTO",
+  "name": {
+    "en": "World Trade Organization",
+    "zh": "世界貿易組織"
+  },
+  "category": "economic",
+  "founded": "1995",
+  "headquarters": {
+    "en": "Geneva, Switzerland",
+    "zh": "瑞士日內瓦"
+  },
+  "nature": {
+    "en": "Intergovernmental organization of states and separate customs territories that sets and enforces global trade rules",
+    "zh": "由國家與獨立關稅領域組成、制定並執行全球貿易規則的政府間國際組織"
+  },
+  "purpose": {
+    "en": "The WTO sets the rules for trade between its members, provides a forum to negotiate lower trade barriers, and settles trade disputes. It succeeded the GATT (1947) in 1995.",
+    "zh": "WTO制定成員間的國際貿易規則，提供談判降低貿易障礙的平台，並處理貿易爭端；1995年取代關稅暨貿易總協定（GATT）。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "AFG",
+      "status": "member",
+      "joined": "2016"
+    },
+    {
+      "iso3": "ALB",
+      "status": "member",
+      "joined": "2000"
+    },
+    {
+      "iso3": "AGO",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "ATG",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ARG",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ARM",
+      "status": "member",
+      "joined": "2003"
+    },
+    {
+      "iso3": "AUS",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "AUT",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BHR",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Bahrain, Kingdom of"
+    },
+    {
+      "iso3": "BGD",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BRB",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BEL",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BLZ",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BEN",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "BOL",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Bolivia, Plurinational State of"
+    },
+    {
+      "iso3": "BWA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BRA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BRN",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Brunei Darussalam"
+    },
+    {
+      "iso3": "BGR",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "BFA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BDI",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "KHM",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "CMR",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "CPV",
+      "status": "member",
+      "joined": "2008",
+      "official_name": "Cabo Verde"
+    },
+    {
+      "iso3": "CAF",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "TCD",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "CHL",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "CHN",
+      "status": "member",
+      "joined": "2001"
+    },
+    {
+      "iso3": "COL",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "COM",
+      "status": "member",
+      "joined": "2024"
+    },
+    {
+      "iso3": "COD",
+      "status": "member",
+      "joined": "1997",
+      "official_name": "Congo, Democratic Republic of the"
+    },
+    {
+      "iso3": "COG",
+      "status": "member",
+      "joined": "1997",
+      "official_name": "Congo"
+    },
+    {
+      "iso3": "CRI",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "CIV",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "HRV",
+      "status": "member",
+      "joined": "2000"
+    },
+    {
+      "iso3": "CUB",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "CYP",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "CZE",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Czech Republic"
+    },
+    {
+      "iso3": "DNK",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "DJI",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "DMA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "DOM",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ECU",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "EGY",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "SLV",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "EST",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "SWZ",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "FJI",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "FIN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "FRA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "GAB",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "GMB",
+      "status": "member",
+      "joined": "1996",
+      "official_name": "The Gambia"
+    },
+    {
+      "iso3": "GEO",
+      "status": "member",
+      "joined": "2000"
+    },
+    {
+      "iso3": "DEU",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "GHA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "GRC",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "GRD",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "GTM",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "GIN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "GNB",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "GUY",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "HTI",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "HND",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "HKG",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Hong Kong, China",
+      "note": "Member as a separate customs territory, not as a sovereign state."
+    },
+    {
+      "iso3": "HUN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ISL",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "IND",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "IDN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "IRL",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ISR",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ITA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "JAM",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "JPN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "JOR",
+      "status": "member",
+      "joined": "2000"
+    },
+    {
+      "iso3": "KAZ",
+      "status": "member",
+      "joined": "2015"
+    },
+    {
+      "iso3": "KEN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "KOR",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Korea, Republic of"
+    },
+    {
+      "iso3": "KWT",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "KGZ",
+      "status": "member",
+      "joined": "1998",
+      "official_name": "Kyrgyz Republic"
+    },
+    {
+      "iso3": "LAO",
+      "status": "member",
+      "joined": "2013",
+      "official_name": "Lao People's Democratic Republic"
+    },
+    {
+      "iso3": "LVA",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "LSO",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "LBR",
+      "status": "member",
+      "joined": "2016"
+    },
+    {
+      "iso3": "LIE",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "LTU",
+      "status": "member",
+      "joined": "2001"
+    },
+    {
+      "iso3": "LUX",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MDG",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MWI",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MYS",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MDV",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MLI",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MLT",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MAC",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Macao, China",
+      "note": "Member as a separate customs territory, not as a sovereign state."
+    },
+    {
+      "iso3": "MRT",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MUS",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MEX",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MDA",
+      "status": "member",
+      "joined": "2001",
+      "official_name": "Moldova, Republic of"
+    },
+    {
+      "iso3": "MNG",
+      "status": "member",
+      "joined": "1997"
+    },
+    {
+      "iso3": "MNE",
+      "status": "member",
+      "joined": "2012"
+    },
+    {
+      "iso3": "MAR",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MOZ",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MMR",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "NAM",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "NPL",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "NLD",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Netherlands"
+    },
+    {
+      "iso3": "NZL",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "NIC",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "NER",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "NGA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "MKD",
+      "status": "member",
+      "joined": "2003"
+    },
+    {
+      "iso3": "NOR",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "OMN",
+      "status": "member",
+      "joined": "2000"
+    },
+    {
+      "iso3": "PAK",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "PAN",
+      "status": "member",
+      "joined": "1997"
+    },
+    {
+      "iso3": "PNG",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "PRY",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "PER",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "PHL",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "POL",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "PRT",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "QAT",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "ROU",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "RUS",
+      "status": "member",
+      "joined": "2012",
+      "official_name": "Russian Federation"
+    },
+    {
+      "iso3": "RWA",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "KNA",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "LCA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "VCT",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "WSM",
+      "status": "member",
+      "joined": "2012"
+    },
+    {
+      "iso3": "SAU",
+      "status": "member",
+      "joined": "2005",
+      "official_name": "Saudi Arabia, Kingdom of"
+    },
+    {
+      "iso3": "SEN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "SYC",
+      "status": "member",
+      "joined": "2015"
+    },
+    {
+      "iso3": "SLE",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "SGP",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "SVK",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Slovak Republic"
+    },
+    {
+      "iso3": "SVN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "SLB",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "ZAF",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ESP",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "LKA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "SUR",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "SWE",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "CHE",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "TWN",
+      "status": "member",
+      "joined": "2002",
+      "official_name": "Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu (Chinese Taipei)",
+      "note": "Member as a separate customs territory, not as a sovereign state."
+    },
+    {
+      "iso3": "TJK",
+      "status": "member",
+      "joined": "2013"
+    },
+    {
+      "iso3": "TZA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "THA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "TLS",
+      "status": "member",
+      "joined": "2024"
+    },
+    {
+      "iso3": "TGO",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "TON",
+      "status": "member",
+      "joined": "2007"
+    },
+    {
+      "iso3": "TTO",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "TUN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "TUR",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Türkiye"
+    },
+    {
+      "iso3": "UGA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "UKR",
+      "status": "member",
+      "joined": "2008"
+    },
+    {
+      "iso3": "ARE",
+      "status": "member",
+      "joined": "1996"
+    },
+    {
+      "iso3": "GBR",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "USA",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "URY",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "VUT",
+      "status": "member",
+      "joined": "2012"
+    },
+    {
+      "iso3": "VEN",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Venezuela, Bolivarian Republic of"
+    },
+    {
+      "iso3": "VNM",
+      "status": "member",
+      "joined": "2007",
+      "official_name": "Viet Nam"
+    },
+    {
+      "iso3": "YEM",
+      "status": "member",
+      "joined": "2014"
+    },
+    {
+      "iso3": "ZMB",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ZWE",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "DZA",
+      "status": "observer",
+      "note": "Acceding government (accession application 1987); inactive since 2014."
+    },
+    {
+      "iso3": "AND",
+      "status": "observer",
+      "note": "Acceding government (accession application 1997); inactive since 1999."
+    },
+    {
+      "iso3": "AZE",
+      "status": "observer",
+      "note": "Acceding government (accession application 1997); active."
+    },
+    {
+      "iso3": "BHS",
+      "status": "observer",
+      "note": "Acceding government (accession application 2001); inactive since 2019."
+    },
+    {
+      "iso3": "BLR",
+      "status": "observer",
+      "note": "Acceding government (accession application 1993); inactive since 2019."
+    },
+    {
+      "iso3": "BTN",
+      "status": "observer",
+      "note": "Acceding government (accession application 1999); reactivation."
+    },
+    {
+      "iso3": "BIH",
+      "status": "observer",
+      "note": "Acceding government (accession application 1999); advanced stage."
+    },
+    {
+      "iso3": "CUW",
+      "status": "observer",
+      "note": "Acceding government (application 2019); Curaçao (constituent country of the Kingdom of the Netherlands)."
+    },
+    {
+      "iso3": "GNQ",
+      "status": "observer",
+      "note": "Acceding government (accession application 2007); activation."
+    },
+    {
+      "iso3": "ETH",
+      "status": "observer",
+      "note": "Acceding government (accession application 2003); active; 8th Working Party meeting Nov 2026, 11 of 17 bilateral deals signed."
+    },
+    {
+      "iso3": "IRN",
+      "status": "observer",
+      "note": "Acceding government (accession application 1996); inactive since 2011."
+    },
+    {
+      "iso3": "IRQ",
+      "status": "observer",
+      "note": "Acceding government (accession application 2004); active."
+    },
+    {
+      "iso3": "LBN",
+      "status": "observer",
+      "note": "Acceding government (accession application 1999); inactive since 2017."
+    },
+    {
+      "iso3": "LBY",
+      "status": "observer",
+      "note": "Acceding government (accession application 2004); inactive."
+    },
+    {
+      "iso3": "STP",
+      "status": "observer",
+      "note": "Acceding government (accession application 2005); inactive."
+    },
+    {
+      "iso3": "SRB",
+      "status": "observer",
+      "note": "Acceding government (accession application 2004); inactive since 2013."
+    },
+    {
+      "iso3": "SOM",
+      "status": "observer",
+      "note": "Acceding government (accession application 2015); active."
+    },
+    {
+      "iso3": "SSD",
+      "status": "observer",
+      "note": "Acceding government (accession application 2017); inactive since 2019."
+    },
+    {
+      "iso3": "SDN",
+      "status": "observer",
+      "note": "Acceding government (accession application 1994); inactive since 2021."
+    },
+    {
+      "iso3": "SYR",
+      "status": "observer",
+      "note": "Acceding government (accession application 2001); inactive since 2010."
+    },
+    {
+      "iso3": "TKM",
+      "status": "observer",
+      "note": "Acceding government (accession application 2021); activation."
+    },
+    {
+      "iso3": "UZB",
+      "status": "observer",
+      "note": "Acceding government (accession application 1994); active; advanced stage, targeting accession by end-2026."
+    },
+    {
+      "iso3": "VAT",
+      "status": "observer",
+      "official_name": "Holy See",
+      "note": "Observer since 1997; the only observer not required to start accession negotiations."
+    }
+  ],
+  "non_state_members": [
+    {
+      "name": {
+        "en": "European Union",
+        "zh": "歐盟"
+      },
+      "status": "member",
+      "joined": "1995",
+      "note": "WTO member in its own right alongside its 27 member states; counted in the WTO's 166-member total."
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member",
+      "zh": "會員"
+    },
+    "observer": {
+      "en": "Observer (acceding government)",
+      "zh": "觀察員（入會申請中）"
+    }
+  },
+  "sources": [
+    "https://www.wto.org/english/thewto_e/whatis_e/tif_e/org6_e.htm",
+    "https://www.wto.org/english/thewto_e/acc_e/acc_e.htm",
+    "https://en.wikipedia.org/wiki/Member_states_of_the_World_Trade_Organization",
+    "https://www.wto.org/english/news_e/news26_e/acc_01nov26_545_e.htm",
+    "https://www.wto.org/english/news_e/news26_e/acc_10nov26_550_e.htm"
+  ],
+  "notes": [
+    "Official total is 166 members = 165 states/customs territories (listed here) + the European Union. Latest accessions: Comoros (21 Aug 2024) and Timor-Leste (30 Aug 2024).",
+    "No new accession found through 2026-11-16: Uzbekistan's Working Party chair visited Tashkent 1–3 Nov 2026 (negotiations 'in critical phase'); Ethiopia's 8th Working Party met 9–10 Nov 2026. Both remain observers.",
+    "Taiwan joined on 1 Jan 2002 as the 'Separate Customs Territory of Taiwan, Penghu, Kinmen and Matsu' (short name Chinese Taipei).",
+    "Observer list (22 acceding governments + Holy See) taken from the WTO observer list as reflected on Wikipedia (cross-checked with WTO accession news); activity labels are approximate.",
+    "The live wto.org member page renders its table dynamically and could not be machine-read on 2026-11-16; member list cross-checked against Wikipedia's table derived from it (166 incl. EU).",
+    "Palestine is not a WTO observer. Faroe Islands reported (Nov 2025) to seek separate membership; not yet an applicant on the list."
+  ]
+}

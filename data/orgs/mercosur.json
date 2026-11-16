@@ -1,0 +1,125 @@
+{
+  "id": "mercosur",
+  "abbr": "Mercosur",
+  "name": {
+    "en": "Southern Common Market (Mercosur)",
+    "zh": "南方共同市場"
+  },
+  "category": "regional",
+  "founded": "1991",
+  "headquarters": {
+    "en": "Montevideo, Uruguay (Administrative Secretariat)",
+    "zh": "烏拉圭蒙特維多（行政秘書處）"
+  },
+  "nature": {
+    "en": "Regional customs union and trade bloc (intergovernmental)",
+    "zh": "區域關稅同盟暨經貿集團（政府間組織）"
+  },
+  "purpose": {
+    "en": "South American countries remove tariffs among themselves and apply a common external tariff, and negotiate trade deals as one bloc (e.g. with the EU).",
+    "zh": "南美國家彼此取消關稅、對外採用共同關稅，並以集團身分對外洽簽貿易協定（例如與歐盟的協定）。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "ARG",
+      "status": "member",
+      "joined": "1991"
+    },
+    {
+      "iso3": "BRA",
+      "status": "member",
+      "joined": "1991"
+    },
+    {
+      "iso3": "PRY",
+      "status": "member",
+      "joined": "1991"
+    },
+    {
+      "iso3": "URY",
+      "status": "member",
+      "joined": "1991"
+    },
+    {
+      "iso3": "BOL",
+      "status": "member",
+      "joined": "2024",
+      "note": "Full State Party since July 2024 (accession protocol of 2015 ratified by all members); still phasing in Mercosur rules during a transition period."
+    },
+    {
+      "iso3": "VEN",
+      "status": "suspended",
+      "joined": "2012",
+      "note": "Suspended since Dec 2016 and, under the democratic clause (Ushuaia Protocol), since 5 Aug 2017 in all rights and obligations. Readmission discussed in 2026 (Brazil open, Argentina opposed) but no decision as of Nov 2026."
+    },
+    {
+      "iso3": "CHL",
+      "status": "associate",
+      "joined": "1996"
+    },
+    {
+      "iso3": "PER",
+      "status": "associate",
+      "joined": "2003"
+    },
+    {
+      "iso3": "COL",
+      "status": "associate",
+      "joined": "2004"
+    },
+    {
+      "iso3": "ECU",
+      "status": "associate",
+      "joined": "2004"
+    },
+    {
+      "iso3": "GUY",
+      "status": "associate",
+      "joined": "2013",
+      "note": "Framework agreement signed 2013; in force 2015."
+    },
+    {
+      "iso3": "SUR",
+      "status": "associate",
+      "joined": "2013",
+      "note": "Framework agreement signed 2013; in force 2015."
+    },
+    {
+      "iso3": "PAN",
+      "status": "associate",
+      "joined": "2024",
+      "note": "Became associate state at the Dec 2024 Montevideo summit."
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "State Party (full member)",
+      "zh": "正式會員國"
+    },
+    "suspended": {
+      "en": "Suspended State Party",
+      "zh": "停權會員國"
+    },
+    "associate": {
+      "en": "Associated State",
+      "zh": "準會員國（聯繫國）"
+    }
+  },
+  "sources": [
+    "https://betaweb.mercosur.int/en?p=36341",
+    "https://www.imidaily.com/supranational-settlement-blocs/venezuela-pushes-for-mercosur-reinstatement-as-bloc-launches-eu-trade-deal/",
+    "https://www.intellinews.com/milei-s-mercosur-snub-exposes-the-bloc-s-deepening-fault-lines-451545/",
+    "https://batimes.com.ar/news/economy/mercosur-to-reconsider-venezuelas-membership-brazil-says.phtml",
+    "https://en.mercopress.com/2024/12/07/panama-becomes-mercosur-associate-state"
+  ],
+  "notes": [
+    "Official Mercosur 'Countries' page lists States Parties Argentina, Bolivia, Brazil, Paraguay, Uruguay, Venezuela (suspended) and Associated States Chile, Colombia, Ecuador, Guyana, Panama, Peru, Suriname.",
+    "Venezuela readmission: Brazil VP Alckmin (Apr 2026) said the suspension would be 'rediscussed'; Argentina vetoed it informally at the 68th summit (Luque, Paraguay, 29-30 Jun 2026). Status unchanged as of 2026-11-16.",
+    "Colombia (Mar 2026) said it would seek full membership; no formal accession as of Nov 2026, so it remains an associate.",
+    "Bolivia's associate status was superseded by full membership in 2024, so it is listed only as member.",
+    "Observers (e.g. Mexico, New Zealand) are not listed because the official page does not list them.",
+    "mercosur.int main site was behind a bot check; the official beta site page was used."
+  ]
+}

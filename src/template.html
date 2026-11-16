@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>World of International Organizations</title>
+<style>
+:root{
+  --bg:#f7f6f2; --panel:#ffffff; --ink:#1c2430; --muted:#5d6672; --line:#dcd9d1;
+  --navy:#1d3557; --land:#e3e1db; --land-stroke:#ffffff;
+  --t1:#1d4e89; --t2:#5b8fc9; --t3:#a9c9ea; --t4:#b9a99a;
+  --cA:#1f6fb2; --cB:#d9822b; --cC:#2e8b57; --cX:#6b2c91;
+  --good:#2e7d32; --bad:#c62828;
+  --radius:12px;
+  font-family: "Inter","Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink)}
+body{display:flex;flex-direction:column;min-height:100%}
+button{font:inherit;color:inherit;cursor:pointer}
+header{display:flex;align-items:center;gap:12px;padding:10px 16px;background:var(--panel);border-bottom:1px solid var(--line)}
+header h1{font-size:17px;margin:0;font-weight:700;color:var(--navy);line-height:1.2;flex:1}
+header h1 small{display:block;font-weight:400;font-size:12px;color:var(--muted)}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex-shrink:0}
+.lang button{border:0;background:none;padding:6px 12px;font-size:13px}
+.lang button.on{background:var(--navy);color:#fff}
+nav.modes{display:flex;gap:6px;padding:8px 16px 0;background:var(--panel)}
+nav.modes button{flex:1;max-width:160px;border:1px solid var(--line);background:var(--bg);border-radius:10px 10px 0 0;border-bottom:0;padding:9px 6px;font-size:14px;font-weight:600;color:var(--muted)}
+nav.modes button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.toolbar{background:var(--panel);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;flex-direction:column;gap:8px}
+.search{position:relative}
+.search input{width:100%;padding:10px 12px 10px 36px;border:1px solid var(--line);border-radius:10px;font-size:15px;background:var(--bg)}
+.search svg{position:absolute;left:11px;top:11px;width:16px;height:16px;stroke:var(--muted)}
+.suggest{position:absolute;z-index:30;left:0;right:0;top:44px;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);max-height:260px;overflow:auto;display:none}
+.suggest button{display:block;width:100%;text-align:left;border:0;background:none;padding:10px 12px;font-size:15px}
+.suggest button:hover,.suggest button:focus{background:var(--bg)}
+.groups{display:flex;flex-direction:column;gap:6px}
+.group{display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.group::-webkit-scrollbar{display:none}
+.group .glabel{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);flex-shrink:0;width:84px}
+.chip{flex-shrink:0;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600;white-space:nowrap;min-height:36px}
+.chip.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.chip .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:0}
+.hint{font-size:12px;color:var(--muted)}
+main{flex:1;display:flex;min-height:0;position:relative}
+#mapwrap{flex:1;position:relative;min-height:340px;background:#eef3f7;overflow:hidden;touch-action:none}
+#map{width:100%;height:100%;display:block}
+.country{stroke:var(--land-stroke);stroke-width:.4;vector-effect:non-scaling-stroke;cursor:pointer;transition:fill .25s}
+.country:hover{filter:brightness(.92)}
+.country.sel{stroke:#111;stroke-width:1.6}
+.smalldot{stroke:#fff;stroke-width:1;vector-effect:non-scaling-stroke;cursor:pointer}
+.zoombtns{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px}
+.zoombtns button{width:38px;height:38px;border-radius:10px;border:1px solid var(--line);background:#fff;font-size:20px;line-height:1;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.legend{position:absolute;left:10px;bottom:10px;background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px;max-width:calc(100% - 20px)}
+.legend div{display:flex;align-items:center;gap:6px;margin:2px 0}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:2px}
+.asof{position:absolute;right:10px;bottom:10px;font-size:11px;color:var(--muted);background:rgba(255,255,255,.85);padding:3px 7px;border-radius:6px}
+aside#panel{width:380px;flex-shrink:0;background:var(--panel);border-left:1px solid var(--line);overflow:auto;padding:16px}
+.card{border:1px solid var(--line);border-radius:var(--radius);padding:14px;margin-bottom:12px;background:#fff}
+.card h2{font-size:18px;margin:0 0 2px;color:var(--navy)}
+.card h3{font-size:14px;margin:0 0 6px}
+.sub{font-size:13px;color:var(--muted);margin:0 0 10px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:14px;margin:8px 0}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;font-weight:600}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.stat{background:var(--bg);border-radius:10px;padding:10px}
+.stat b{display:block;font-size:20px;color:var(--navy)}
+.stat span{font-size:12px;color:var(--muted)}
+.bar{height:6px;background:var(--line);border-radius:3px;margin-top:6px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--navy)}
+details{margin-top:10px;font-size:14px}
+summary{cursor:pointer;font-weight:600;color:var(--navy);padding:4px 0}
+.members{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.members button{border:1px solid var(--line);background:var(--bg);border-radius:6px;padding:3px 7px;font-size:12px}
+.tag{display:inline-block;font-size:11px;padding:3px 8px;border-radius:8px;color:#fff;font-weight:600;vertical-align:middle;max-width:46%;text-align:center;line-height:1.3;flex-shrink:0}
+.tag.light{color:#1c2430}
+.orglist{list-style:none;padding:0;margin:8px 0 0}
+.orglist li{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--bg);font-size:14px}
+.orglist li small{display:block;color:var(--muted);font-size:12px}
+.flag{width:44px;height:auto;border-radius:3px;box-shadow:0 0 0 1px var(--line);vertical-align:middle}
+.ctitle{display:flex;gap:12px;align-items:center}
+.close{float:right;border:0;background:none;font-size:22px;line-height:1;color:var(--muted);padding:0 4px}
+.cmpcount{font-size:14px;margin:6px 0}
+.cmpcount div{display:flex;align-items:center;gap:8px;margin:4px 0}
+.cmpcount i{width:14px;height:10px;border-radius:2px;display:inline-block}
+.quiz .q{font-size:17px;font-weight:600;margin:6px 0 12px;line-height:1.4}
+.quiz .opts{display:grid;gap:8px}
+.quiz .opts button{border:1px solid var(--line);background:#fff;border-radius:10px;padding:12px;font-size:15px;text-align:left;min-height:46px}
+.quiz .opts button.right{background:#e8f5e9;border-color:var(--good)}
+.quiz .opts button.wrong{background:#ffebee;border-color:var(--bad)}
+.quiz .fb{margin-top:10px;font-size:14px;min-height:20px}
+.quiz .score{display:flex;gap:10px;font-size:13px;color:var(--muted)}
+.quiz .score b{color:var(--navy);font-size:16px}
+.primary{border:0;background:var(--navy);color:#fff;border-radius:10px;padding:11px 16px;font-size:15px;font-weight:600;margin-top:10px;width:100%}
+.note{font-size:12px;color:var(--muted);margin-top:8px;line-height:1.5}
+.empty{color:var(--muted);font-size:14px;line-height:1.6}
+.tip{position:absolute;pointer-events:none;background:#1c2430;color:#fff;font-size:12px;padding:5px 8px;border-radius:6px;white-space:nowrap;display:none;z-index:20}
+/*PHASE2*/
+.meet{background:linear-gradient(135deg,#1d3557,#2a5c8f);color:#fff;border-radius:12px;padding:12px 14px;margin:10px 0}
+.meet .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.06em;opacity:.8}
+.meet .nm{font-weight:700;font-size:15px;margin:2px 0}
+.meet .wh{font-size:13px;opacity:.9}
+.meet .cd{font-size:26px;font-weight:800;line-height:1.1;margin-top:6px}
+.meet .cd small{font-size:13px;font-weight:500;opacity:.85}
+.meet.past{background:#5d6672}
+.hot{border-left:3px solid var(--cB);padding:4px 0 4px 10px;margin:10px 0}
+.hot b{display:block;font-size:14px}
+.hot p{margin:3px 0;font-size:13px;line-height:1.5;color:#3a4350}
+.hot .qq{font-size:13px;color:var(--navy);font-style:italic}
+.hot a{font-size:12px;color:var(--muted)}
+.tl{list-style:none;margin:6px 0 0;padding:0 0 0 14px;border-left:2px solid var(--line)}
+.tl li{position:relative;margin:0 0 8px;font-size:13px;line-height:1.45}
+.tl li:before{content:"";position:absolute;left:-20px;top:5px;width:9px;height:9px;border-radius:50%;background:var(--navy)}
+.tl b{color:var(--navy);margin-right:6px}
+.uplist{list-style:none;margin:6px 0 0;padding:0}
+.uplist li button{display:flex;width:100%;justify-content:space-between;align-items:center;gap:10px;text-align:left;border:0;border-bottom:1px solid var(--bg);background:none;padding:9px 2px}
+.uplist .d{font-weight:800;color:var(--navy);font-size:18px;min-width:58px;text-align:right}
+.uplist .d small{display:block;font-size:10px;font-weight:500;color:var(--muted)}
+.uplist .m{font-size:14px}.uplist .m small{display:block;color:var(--muted);font-size:12px}
+.presets{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.presets button{flex-shrink:0;border:1px dashed var(--navy);background:#fff;color:var(--navy);border-radius:10px;padding:6px 10px;font-size:13px;font-weight:600}
+.subtabs{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}
+.subtabs button{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:7px 12px;font-size:13px;font-weight:600}
+.subtabs button.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.rk{width:100%;border-collapse:collapse;font-size:14px}
+.rk td{padding:6px 4px;border-bottom:1px solid var(--bg)}
+.rk tr{cursor:pointer}.rk tr:hover td{background:var(--bg)}
+.rk .n{color:var(--muted);width:28px}.rk .c{font-weight:700;color:var(--navy);text-align:right}
+.rk tr.me td{background:#fff4e5}
+.ew{display:grid;grid-template-columns:70px 1fr;gap:4px 8px;align-items:center;font-size:12px;margin-top:8px}
+.ew button{border:0;background:none;text-align:left;font-weight:700;font-size:13px;color:var(--navy);padding:0}
+.ew .bars div{height:8px;border-radius:4px;margin:2px 0;min-width:2px}
+.ew .bars span{font-size:11px;color:var(--muted)}
+.big{font-size:44px;font-weight:800;color:var(--navy);text-align:center;margin:6px 0}
+.timer{height:8px;border-radius:4px;background:var(--line);overflow:hidden;margin:4px 0 10px}
+.timer i{display:block;height:100%;background:var(--cB);transition:width .25s linear}
+.clues{list-style:none;padding:0;margin:8px 0}
+.clues li{background:var(--bg);border-radius:8px;padding:8px 10px;margin:6px 0;font-size:14px}
+.marker{pointer-events:none}
+@keyframes pulse{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(3)}}
+.pulse{fill:var(--cB);transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-out infinite}
+/* mobile */
+@media (min-width:821px){
+  .groups{flex-direction:row;flex-wrap:wrap;gap:6px 18px}
+  .group{overflow:visible;flex-wrap:wrap}
+  .group .glabel{width:auto}
+  .chip{padding:5px 11px;min-height:30px}
+  #mapwrap{min-height:62vh}
+}
+@media (max-width:820px){
+  main{flex-direction:column}
+  #mapwrap{flex:none;height:52vh;min-height:300px}
+  aside#panel{width:auto;border-left:0;border-top:1px solid var(--line);padding:12px}
+  header h1{font-size:15px}
+  .group .glabel{width:auto;margin-right:2px}
+  .legend{font-size:11px;padding:6px 8px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title"></h1>
+  <div class="lang" role="group" aria-label="Language">
+    <button data-lang="en">EN</button><button data-lang="zh">中文</button>
+  </div>
+</header>
+<nav class="modes">
+  <button data-mode="explore"></button>
+  <button data-mode="compare"></button>
+  <button data-mode="rank"></button>
+  <button data-mode="quiz"></button>
+</nav>
+<div class="toolbar">
+  <div class="search">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input id="q" type="search" autocomplete="off">
+    <div class="suggest" id="suggest"></div>
+  </div>
+  <div class="groups" id="groups"></div>
+  <div class="hint" id="hint"></div>
+</div>
+<main>
+  <div id="mapwrap">
+    <svg id="map"></svg>
+    <div class="zoombtns">
+      <button id="zin" aria-label="Zoom in">+</button>
+      <button id="zout" aria-label="Zoom out">−</button>
+      <button id="zreset" aria-label="Reset" style="font-size:15px">⟲</button>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="asof" id="asof"></div>
+    <div class="tip" id="tip"></div>
+  </div>
+  <aside id="panel"></aside>
+</main>
+
+<script>/*__LIBS__*/</script>
+<script>
+const DATA = /*__DATA__*/;
+</script>
+<script>
+(function(){
+"use strict";
+const {orgs, countries, topo, asOf, extraPoints} = DATA;
+
+/* ---------- i18n ---------- */
+const T = {
+  en:{title:"World of International Organizations",subtitle:"Financial Market and Global Business · Fu Jen Catholic University",
+    explore:"Explore",compare:"Compare",quiz:"Quiz",search:"Search a country…",
+    hintExplore:"Pick an organization to see its members. Tap any country to see which organizations it belongs to.",
+    hintCompare:"Pick up to 3 organizations to see where they overlap.",
+    hintQuiz:"Test yourself! Members are highlighted after you answer.",
+    rank:"Rankings",hintRank:"Which countries join the most clubs? Which clubs carry the most economic weight?",
+    nextMeet:"Next meeting",daysLeft:"days to go",dayLeft:"day to go",now:"Happening now",held:"Recently held",tbc:"to be confirmed",
+    hot:"Hot topics",discuss:"Discuss: ",timeline:"Timeline",readMore:"Source",
+    upcoming:"Upcoming meetings",upcomingSub:"Countdown to the next summits. Tap one to explore the organization.",
+    rivals:"Try:",tabConn:"Most connected countries",tabEcon:"Economic weight",
+    connSub:"Number of full memberships among the organizations on this map (Taiwan's allies list excluded). Darker = more.",
+    memberships:"memberships",top:"Top 15",fewest:"Fewest memberships",taiwanRank:"Taiwan",
+    econSub:"Share of world GDP (blue) and population (orange) held by each organization's full members.",
+    classic:"Classic",blitz:"60-second challenge",guess:"Guess who?",start:"Start",timeLeft:"s left",
+    blitzIntro:"Answer as many as you can in 60 seconds. No penalty for wrong answers — speed matters!",
+    timeUp:"Time's up!",best:"Personal best",again:"Play again",
+    guessIntro:"Read the clues and guess the country. Fewer clues = more points.",
+    whoAmI:"Who am I?",nextClue:"Show another clue",clueOrg:o=>`I am a full member of ${o}.`,
+    cluePop:p=>`My population is about ${p}.`,clueGdp:g=>`My GDP is about ${g}.`,clueNone:o=>`I am NOT a member of ${o}.`,
+    pts:"points",itWas:"It was",total:"Total",
+    cat:{economic:"Economy & Trade",political_security:"Politics & Security",regional:"Regional",financial:"Finance",other:"Other"},
+    founded:"Founded",hq:"Headquarters",nature:"Type",members:"Members",
+    gdpShare:"Share of world GDP",popShare:"Share of world population",
+    gdpNote:"Full members only, nominal GDP.",
+    memberList:"Member list",nonState:"Non-state members / participants",sources:"Sources & notes",
+    noOrg:"Choose an organization above to begin, or tap a country on the map.",
+    gdp:"GDP (nominal)",pop:"Population",partOf:"Belongs to",none:"Not a member of any listed organization.",
+    nonMember:"Non-member",inBoth:"In 2+ selected",inAll:"In all selected",only:"only",
+    pickMore:"Select organizations above (up to 3).",max3:"You can compare up to 3 organizations.",
+    q1:(c,o)=>`Is ${c} a full member of ${o}?`,q2:c=>`Which organization is ${c} a full member of?`,
+    q3:(o)=>`Which of these countries is a full member of ${o}?`,
+    yes:"Yes",no:"No",correct:"Correct!",wrong:"Not quite.",next:"Next question",score:"Score",streak:"Streak",
+    asof:"Data as of",trn:"t",bn:"bn",mn:"m",
+    statusNote:"Darker = full member; lighter shades = other relationships."},
+  zh:{title:"國際組織世界地圖",subtitle:"Financial Market and Global Business · 輔仁大學",
+    explore:"探索",compare:"比較",quiz:"測驗",search:"搜尋國家…",
+    hintExplore:"選一個組織，地圖會顯示成員國。點任何國家，可看它參加了哪些組織。",
+    hintCompare:"最多選 3 個組織，看看它們的成員在哪裡重疊。",
+    hintQuiz:"自我測驗！作答後地圖會顯示答案。",
+    rank:"排行榜",hintRank:"哪些國家參加最多組織？哪些組織的經濟分量最重？",
+    nextMeet:"下一次會議",daysLeft:"天後",dayLeft:"天後",now:"正在舉行",held:"剛舉行過",tbc:"待確認",
+    hot:"最新議題",discuss:"討論：",timeline:"大事記",readMore:"來源",
+    upcoming:"即將舉行的會議",upcomingSub:"各大峰會倒數計時。點選可查看該組織。",
+    rivals:"試試看：",tabConn:"最愛入會的國家",tabEcon:"經濟實力比較",
+    connSub:"計算各國在本地圖組織中的正式成員數（不含台灣邦交國清單）。顏色越深＝參加越多。",
+    memberships:"個組織",top:"前 15 名",fewest:"參加最少的國家",taiwanRank:"台灣",
+    econSub:"各組織正式成員合計占全球 GDP（藍）與人口（橘）的比重。",
+    classic:"經典題",blitz:"60 秒挑戰",guess:"猜猜我是誰",start:"開始",timeLeft:"秒",
+    blitzIntro:"60 秒內盡量多答！答錯不扣分，速度最重要。",
+    timeUp:"時間到！",best:"個人最佳",again:"再玩一次",
+    guessIntro:"看提示猜國家，用越少提示猜中，分數越高。",
+    whoAmI:"我是誰？",nextClue:"再給一個提示",clueOrg:o=>`我是 ${o} 的正式成員。`,
+    cluePop:p=>`我的人口大約是 ${p}。`,clueGdp:g=>`我的 GDP 大約是 ${g}。`,clueNone:o=>`我「不是」${o} 的成員。`,
+    pts:"分",itWas:"答案是",total:"總分",
+    cat:{economic:"經濟與貿易",political_security:"政治與安全",regional:"區域組織",financial:"金融",other:"其他"},
+    founded:"成立",hq:"總部",nature:"性質",members:"成員",
+    gdpShare:"占全球 GDP",popShare:"占全球人口",gdpNote:"僅計正式成員，名目 GDP。",
+    memberList:"成員名單",nonState:"非國家成員／參與者",sources:"資料來源與說明",
+    noOrg:"請先在上方選一個組織，或直接點地圖上的國家。",
+    gdp:"GDP（名目）",pop:"人口",partOf:"參加的組織",none:"未參加列表中的任何組織。",
+    nonMember:"非成員",inBoth:"同時屬於 2 個以上",inAll:"同時屬於全部",only:"獨有",
+    pickMore:"請在上方選擇組織（最多 3 個）。",max3:"最多只能比較 3 個組織。",
+    q1:(c,o)=>`${c}是 ${o} 的正式成員嗎？`,q2:c=>`${c}是下列哪個組織的正式成員？`,
+    q3:(o)=>`下列哪個國家是 ${o} 的正式成員？`,
+    yes:"是",no:"不是",correct:"答對了！",wrong:"答錯了。",next:"下一題",score:"得分",streak:"連續答對",
+    asof:"資料更新日期",trn:" 兆",bn:" 億",mn:" 萬",
+    statusNote:"深色＝正式成員；淺色＝其他身分。"}
+};
+let lang = (()=>{try{return localStorage.getItem("ioLang")||(navigator.language||"").startsWith("zh")?"zh":"en"}catch(e){return "en"}})();
+try{ const s=localStorage.getItem("ioLang"); if(s) lang=s; }catch(e){}
+const t = k => T[lang][k];
+const L = o => o ? (o[lang] ?? o.en ?? "") : "";
+
+/* ---------- data prep ---------- */
+const C = {}; countries.forEach(c => C[c.iso3] = c);
+const NUM2ISO = {}; countries.forEach(c => { if(c.iso_numeric) NUM2ISO[String(c.iso_numeric).padStart(3,"0")] = c.iso3; });
+const NAME2ISO = {"Kosovo":"XKX","N. Cyprus":null,"Somaliland":null};
+const ORG = {}; orgs.forEach(o => ORG[o.id] = o);
+const CAT_ORDER = ["economic","political_security","regional","financial","other"];
+const TIER = {member:1, observer:2, dialogue_partner:2, partner:2, associate:2, permanent_guest:2,
+              candidate:3, acceding:3, prospective:3, suspended:4};
+const TIERCOL = {1:"var(--t1)",2:"var(--t2)",3:"var(--t3)",4:"var(--t4)"};
+const CMPCOL = ["var(--cA)","var(--cB)","var(--cC)"];
+// membership index: iso3 -> [{org, status, official_name}]
+const MEMB = {};
+orgs.forEach(o => (o.members||[]).forEach(m => { (MEMB[m.iso3] ||= []).push({id:o.id, status:m.status, official_name:m.official_name}); }));
+const statusOf = (orgId, iso) => { const m=(ORG[orgId].members||[]).find(x=>x.iso3===iso); return m ? m.status : null; };
+const officialName = (orgId, iso) => { const m=(ORG[orgId].members||[]).find(x=>x.iso3===iso); return m && m.official_name; };
+const cname = (iso, orgId) => {
+  if (orgId) { const on = officialName(orgId, iso); if (on) return on; }
+  const c = C[iso]; return c ? L(c.name) : iso;
+};
+const WORLD_GDP = countries.reduce((s,c)=>s+(c.gdp_usd||0),0);
+const WORLD_POP = countries.reduce((s,c)=>s+(c.population||0),0);
+
+/* ---------- state ---------- */
+let mode = "explore";
+let selected = [];       // org ids
+let focusIso = null;     // country shown in panel
+let quiz = {score:0, total:0, streak:0, cur:null, answered:false};
+
+/* ---------- map ---------- */
+const svg = d3.select("#map");
+const wrap = document.getElementById("mapwrap");
+const gRoot = svg.append("g");
+const gLand = gRoot.append("g");
+const gDots = gRoot.append("g");
+const gMarks = gRoot.append("g").attr("class","marker");
+const features = topojson.feature(topo, topo.objects.countries).features
+  .filter(f => f.properties.name !== "Antarctica" && f.id !== "010");
+features.forEach(f => { f.iso = f.id ? NUM2ISO[String(f.id).padStart(3,"0")] : NAME2ISO[f.properties.name]; });
+const projection = d3.geoNaturalEarth1();
+const path = d3.geoPath(projection);
+let W=0,H=0, curK=1;
+const countryPaths = gLand.selectAll("path").data(features).join("path")
+  .attr("class","country")
+  .on("click",(e,f)=>{ if(f.iso) onCountry(f.iso); })
+  .on("mousemove",(e,f)=>showTip(e,f.iso))
+  .on("mouseleave",hideTip);
+
+let dotData = [];
+function layout(){
+  W = wrap.clientWidth; H = wrap.clientHeight;
+  svg.attr("viewBox",`0 0 ${W} ${H}`);
+  projection.fitExtent([[6,6],[W-6,H-6]], {type:"FeatureCollection",features});
+  countryPaths.attr("d", path);
+  // small-country dots: any geometry smaller than threshold in px²
+  dotData = [];
+  features.forEach(f => {
+    if (!f.iso) return;
+    const a = path.area(f);
+    if (a < 14) { const [x,y] = path.centroid(f); if (isFinite(x)) dotData.push({iso:f.iso,x,y}); }
+  });
+  (extraPoints||[]).forEach(p => { const xy = projection([p.lon,p.lat]); dotData.push({iso:p.iso3,x:xy[0],y:xy[1]}); });
+  gDots.selectAll("circle").data(dotData, d=>d.iso).join("circle")
+    .attr("class","smalldot").attr("cx",d=>d.x).attr("cy",d=>d.y)
+    .on("click",(e,d)=>onCountry(d.iso))
+    .on("mousemove",(e,d)=>showTip(e,d.iso)).on("mouseleave",hideTip);
+  sizeDots(); paint();
+}
+const zoom = d3.zoom().scaleExtent([1,12]).on("zoom", e => { gRoot.attr("transform", e.transform); curK=e.transform.k; sizeDots(); });
+svg.call(zoom).on("dblclick.zoom", null);
+function sizeDots(){ gDots.selectAll("circle").attr("r", d => (d.on ? 4.2 : 2.4)/curK);
+  gMarks.selectAll("g.mk").attr("transform", d => `translate(${d.x},${d.y}) scale(${1/curK})`); }
+document.getElementById("zin").onclick = ()=>svg.transition().duration(300).call(zoom.scaleBy,1.6);
+document.getElementById("zout").onclick = ()=>svg.transition().duration(300).call(zoom.scaleBy,1/1.6);
+document.getElementById("zreset").onclick = ()=>svg.transition().duration(400).call(zoom.transform,d3.zoomIdentity);
+function zoomTo(iso){
+  const f = features.find(x=>x.iso===iso); let cx,cy,k;
+  if (f) { const [[x0,y0],[x1,y1]] = path.bounds(f); cx=(x0+x1)/2; cy=(y0+y1)/2;
+    k = Math.min(8, 0.5/Math.max((x1-x0)/W,(y1-y0)/H)); }
+  else { const d = dotData.find(x=>x.iso===iso); if(!d) return; cx=d.x; cy=d.y; k=6; }
+  k = Math.max(1.5, Math.min(k, 4.5));
+  svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(W/2,H/2).scale(k).translate(-cx,-cy));
+}
+new ResizeObserver(()=>layout()).observe(wrap);
+
+/* colour for a country under current state */
+function fillFor(iso){
+  if (!iso) return "var(--land)";
+  if (mode === "rank") { if (rankTab!=="conn") return "var(--land)"; const n = CONN[iso]||0; return n ? connScale(n) : "var(--land)"; }
+  if (mode === "quiz" && game === "guess") { return (guess && guess.answered && guess.iso===iso) ? "var(--cB)" : "var(--land)"; }
+  if (mode === "quiz") {
+    const q = quiz.cur; if (!q || !quiz.answered) return (q && q.iso===iso) ? "var(--cB)" : "var(--land)";
+    if (q.org) { const s=statusOf(q.org,iso); if (s==="member") return "var(--t1)"; }
+    return (q.iso===iso) ? "var(--cB)" : "var(--land)";
+  }
+  if (mode === "compare") {
+    const inSel = selected.filter(id => statusOf(id, iso) === "member");
+    if (inSel.length === 0) return "var(--land)";
+    if (inSel.length >= 2) return "var(--cX)";
+    return CMPCOL[selected.indexOf(inSel[0])];
+  }
+  if (!selected.length) return "var(--land)";
+  const s = statusOf(selected[0], iso); return s ? TIERCOL[TIER[s]||2] : "var(--land)";
+}
+function paint(){
+  countryPaths.attr("fill", f => fillFor(f.iso)).classed("sel", f => f.iso && f.iso===focusIso);
+  gDots.selectAll("circle")
+    .each(d => { d.on = fillFor(d.iso)!=="var(--land)" || d.iso===focusIso; })
+    .attr("fill", d => d.on ? fillFor(d.iso) : "#bdb9b0")
+    .attr("opacity", d => d.on ? 1 : (selected.length||mode==="quiz" ? 0.35 : 0.8))
+    .attr("stroke", d => d.iso===focusIso ? "#111" : "#fff");
+  drawMarks(); sizeDots(); renderLegend();
+}
+
+/* tooltip */
+const tip = document.getElementById("tip");
+function showTip(e, iso){
+  if (!iso || !C[iso]) return;
+  const r = wrap.getBoundingClientRect();
+  let s = cname(iso, mode==="explore" ? selected[0] : null);
+  if (mode==="explore" && selected[0]) { const st = statusOf(selected[0], iso); if (st) s += " · " + L(ORG[selected[0]].status_labels[st]); }
+  tip.textContent = s; tip.style.display="block";
+  tip.style.left = Math.min(e.clientX - r.left + 12, r.width-160) + "px"; tip.style.top = (e.clientY - r.top + 12) + "px";
+}
+function hideTip(){ tip.style.display="none"; }
+
+/* ---------- legend ---------- */
+function renderLegend(){
+  const el = document.getElementById("legend"); let h = "";
+  if (mode === "rank" && rankTab === "conn") { h = `<div style="display:block">${t("memberships")}</div><div><i style="background:${connScale(1)}"></i>1</div><div><i style="background:${connScale(Math.round(CONN_MAX/2))}"></i>${Math.round(CONN_MAX/2)}</div><div><i style="background:${connScale(CONN_MAX)}"></i>${CONN_MAX}</div>`; }
+  if (mode === "explore" && selected[0]) {
+    const o = ORG[selected[0]]; const used = [...new Set(o.members.map(m=>m.status))]
+      .sort((a,b)=>(TIER[a]||2)-(TIER[b]||2));
+    used.forEach(s => { h += `<div><i style="background:${TIERCOL[TIER[s]||2]}"></i>${L(o.status_labels[s])} (${o.members.filter(m=>m.status===s).length})</div>`; });
+    h += `<div><i style="background:var(--land)"></i>${t("nonMember")}</div>`;
+  } else if (mode === "compare" && selected.length) {
+    selected.forEach((id,i)=>{ h += `<div><i style="background:${CMPCOL[i]}"></i>${ORG[id].abbr} ${selected.length>1?t("only"):""}</div>`; });
+    if (selected.length>1) h += `<div><i style="background:var(--cX)"></i>${t("inBoth")}</div>`;
+  } else if (mode === "quiz" && quiz.cur && quiz.answered && quiz.cur.org) {
+    h = `<div><i style="background:var(--t1)"></i>${ORG[quiz.cur.org].abbr}</div><div><i style="background:var(--cB)"></i>${cname(quiz.cur.iso)}</div>`;
+  }
+  el.innerHTML = h; el.style.display = h ? "block" : "none";
+}
+
+/* ---------- org chips ---------- */
+function renderGroups(){
+  const g = document.getElementById("groups"); g.innerHTML = "";
+  if (mode === "quiz" || mode === "rank") { g.style.display="none"; return; } g.style.display="";
+  if (mode === "compare") {
+    const row = document.createElement("div"); row.className = "presets";
+    row.innerHTML = `<span class="glabel" style="align-self:center;font-size:11px;color:var(--muted);flex-shrink:0">${t("rivals")}</span>` +
+      PRESETS.filter(p=>p.ids.every(id=>ORG[id])).map((p,i)=>`<button data-preset="${i}" title="${esc(L(p.why))}">${p.ids.map(id=>ORG[id].abbr).join(" vs ")}</button>`).join("");
+    row.querySelectorAll("[data-preset]").forEach(b => b.onclick = () => { const p = PRESETS[+b.dataset.preset]; selected = p.ids.slice(); presetWhy = p; focusIso=null; renderGroups(); paint(); renderPanel(); svg.transition().duration(400).call(zoom.transform,d3.zoomIdentity); });
+    g.appendChild(row);
+  }
+  CAT_ORDER.forEach(cat => {
+    const list = orgs.filter(o=>o.category===cat); if (!list.length) return;
+    const row = document.createElement("div"); row.className="group";
+    row.innerHTML = `<span class="glabel">${t("cat")[cat]}</span>`;
+    list.forEach(o => {
+      const b = document.createElement("button"); b.className = "chip"; const idx = selected.indexOf(o.id);
+      if (idx>=0) b.classList.add("on");
+      b.innerHTML = (mode==="compare" && idx>=0 ? `<span class="dot" style="background:${CMPCOL[idx]}"></span>` : "") + o.abbr;
+      b.title = L(o.name);
+      b.onclick = () => toggleOrg(o.id);
+      row.appendChild(b);
+    });
+    g.appendChild(row);
+  });
+}
+function toggleOrg(id){
+  if (mode === "explore") { selected = selected[0]===id ? [] : [id]; focusIso = null; }
+  else {
+    const i = selected.indexOf(id);
+    presetWhy = null;
+    if (i>=0) selected.splice(i,1);
+    else { if (selected.length>=3) { flashHint(t("max3")); return; } selected.push(id); }
+  }
+  renderGroups(); paint(); renderPanel();
+}
+function flashHint(msg){ const h=document.getElementById("hint"); h.textContent=msg; h.style.color="var(--bad)"; setTimeout(()=>{h.style.color="";setHint();},2200); }
+function setHint(){ document.getElementById("hint").textContent = t({explore:"hintExplore",compare:"hintCompare",rank:"hintRank",quiz:"hintQuiz"}[mode]); }
+
+/* ---------- formatting ---------- */
+function money(v){
+  if (v==null) return "—";
+  if (lang==="zh") { if (v>=1e12) return "US$ "+(v/1e12).toFixed(2)+" 兆"; if (v>=1e8) return "US$ "+Math.round(v/1e8).toLocaleString()+" 億"; return "US$ "+Math.round(v/1e4).toLocaleString()+" 萬"; }
+  if (v>=1e12) return "US$ "+(v/1e12).toFixed(2)+" trillion"; if (v>=1e9) return "US$ "+(v/1e9).toFixed(1)+" billion"; return "US$ "+(v/1e6).toFixed(0)+" million";
+}
+function people(v){
+  if (v==null) return "—";
+  if (lang==="zh") { if (v>=1e8) return (v/1e8).toFixed(2)+" 億"; if (v>=1e4) return Math.round(v/1e4).toLocaleString()+" 萬"; return v.toLocaleString(); }
+  if (v>=1e9) return (v/1e9).toFixed(2)+" billion"; if (v>=1e6) return (v/1e6).toFixed(1)+" million"; return v.toLocaleString();
+}
+const pct = x => (x*100).toFixed(x<0.1?1:0)+"%";
+const esc = s => String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const flagImg = iso => { const c=C[iso]; const svg = c && c.iso2 && DATA.flags[c.iso2.toUpperCase()]; if(!svg) return ""; return `<img class="flag" alt="" src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}">`; };
+
+/* ---------- panel ---------- */
+function orgCard(o){
+  const full = o.members.filter(m=>m.status==="member");
+  const gdp = full.reduce((s,m)=>s+((C[m.iso3]||{}).gdp_usd||0),0);
+  const pop = full.reduce((s,m)=>s+((C[m.iso3]||{}).population||0),0);
+  const byStatus = {}; o.members.forEach(m=>(byStatus[m.status] ||= []).push(m));
+  const order = Object.keys(byStatus).sort((a,b)=>(TIER[a]||2)-(TIER[b]||2));
+  let h = `<div class="card"><h2>${esc(o.abbr)}</h2><p class="sub">${esc(L(o.name))}</p>
+    <p style="margin:0 0 8px;font-size:14px;line-height:1.55">${esc(L(o.purpose))}</p>${meetBox(o.id)}
+    <dl class="kv"><dt>${t("nature")}</dt><dd>${esc(L(o.nature))}</dd>
+    <dt>${t("founded")}</dt><dd>${esc(o.founded||"—")}</dd>
+    <dt>${t("hq")}</dt><dd>${esc(L(o.headquarters))}</dd>
+    <dt>${t("members")}</dt><dd>${order.map(s=>`${byStatus[s].length} ${esc(L(o.status_labels[s]))}`).join(" · ")}</dd></dl>
+    <div class="stats">
+      <div class="stat"><b>${pct(gdp/WORLD_GDP)}</b><span>${t("gdpShare")}</span><div class="bar"><i style="width:${Math.min(100,gdp/WORLD_GDP*100)}%"></i></div></div>
+      <div class="stat"><b>${pct(pop/WORLD_POP)}</b><span>${t("popShare")}</span><div class="bar"><i style="width:${Math.min(100,pop/WORLD_POP*100)}%"></i></div></div>
+    </div><p class="note">${t("gdpNote")}</p>`;
+  h += `<details><summary>${t("memberList")}</summary>`;
+  order.forEach(s => {
+    h += `<div style="margin-top:8px"><span class="tag ${(TIER[s]||2)>=3?"light":""}" style="background:${TIERCOL[TIER[s]||2]}">${esc(L(o.status_labels[s]))}</span><div class="members">`;
+    byStatus[s].slice().sort((a,b)=>cname(a.iso3,o.id).localeCompare(cname(b.iso3,o.id))).forEach(m => {
+      h += `<button data-iso="${m.iso3}">${esc(cname(m.iso3,o.id))}</button>`; });
+    h += `</div></div>`;
+  });
+  h += `</details>`;
+  if (o.non_state_members && o.non_state_members.length) {
+    h += `<details open><summary>${t("nonState")}</summary><ul style="margin:6px 0;padding-left:18px">` +
+      o.non_state_members.map(n=>`<li>${esc(L(n.name))}${n.status&&o.status_labels[n.status]?` — ${esc(L(o.status_labels[n.status]))}`:""}</li>`).join("") + `</ul></details>`;
+  }
+  h += extrasBlock(o.id);
+  h += `<details><summary>${t("sources")}</summary><ul style="margin:6px 0;padding-left:18px;font-size:12px;line-height:1.5">` +
+    (o.notes||[]).map(n=>`<li>${esc(n)}</li>`).join("") +
+    (o.sources||[]).map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s.replace(/^https?:\/\//,"").slice(0,60))}</a></li>`).join("") + `</ul></details></div>`;
+  return h;
+}
+function countryCard(iso){
+  const c = C[iso] || {name:{en:iso,zh:iso}};
+  const list = (MEMB[iso]||[]).slice().sort((a,b)=>(TIER[a.status]||2)-(TIER[b.status]||2) || ORG[a.id].abbr.localeCompare(ORG[b.id].abbr));
+  let h = `<div class="card"><button class="close" data-close>×</button>
+    <div class="ctitle">${flagImg(iso)}<div><h2>${esc(c.name[lang]||c.name.en)}</h2><p class="sub" style="margin:0">${esc(lang==="zh"?c.name.en:c.name.zh)}</p></div></div>
+    <div class="stats"><div class="stat"><b style="font-size:16px">${money(c.gdp_usd)}</b><span>${t("gdp")}${c.gdp_year?` · ${c.gdp_year}`:""}</span></div>
+    <div class="stat"><b style="font-size:16px">${people(c.population)}</b><span>${t("pop")}${c.pop_year?` · ${c.pop_year}`:""}</span></div></div>
+    <h3 style="margin-top:14px">${t("partOf")} (${list.filter(x=>x.status==="member").length})</h3>`;
+  if (!list.length) h += `<p class="empty">${t("none")}</p>`;
+  else h += `<ul class="orglist">` + list.map(x => { const o=ORG[x.id];
+      return `<li><span><b>${esc(o.abbr)}</b><small>${esc(L(o.name))}${x.official_name?` · “${esc(x.official_name)}”`:""}</small></span>
+      <span class="tag ${(TIER[x.status]||2)>=3?"light":""}" style="background:${TIERCOL[TIER[x.status]||2]}">${esc(L(o.status_labels[x.status]))}</span></li>`; }).join("") + `</ul>`;
+  return h + `</div>`;
+}
+function compareCard(){
+  if (!selected.length) return `<div class="card"><p class="empty">${t("pickMore")}</p></div>`;
+  const sets = selected.map(id => new Set(ORG[id].members.filter(m=>m.status==="member").map(m=>m.iso3)));
+  const all = new Set(sets.flatMap(s=>[...s]));
+  const inAll = [...all].filter(i => sets.every(s=>s.has(i)));
+  const in2 = [...all].filter(i => sets.filter(s=>s.has(i)).length>=2);
+  let h = `<div class="card"><h3>${selected.map(id=>ORG[id].abbr).join(" · ")}</h3>${presetWhy && presetWhy.ids.join()===selected.join() ? `<p class="sub" style="margin:0 0 6px">${esc(L(presetWhy.why))}</p>` : ""}<div class="cmpcount">`;
+  selected.forEach((id,i)=>{ const only=[...sets[i]].filter(x=>sets.filter(s=>s.has(x)).length===1).length;
+    h += `<div><i style="background:${CMPCOL[i]}"></i><b>${ORG[id].abbr}</b> ${sets[i].size} · ${t("only")} ${only}</div>`; });
+  if (selected.length>1) { h += `<div><i style="background:var(--cX)"></i>${t("inBoth")}: <b>${in2.length}</b></div>`;
+    if (selected.length===3) h += `<div><i style="background:var(--cX)"></i>${t("inAll")}: <b>${inAll.length}</b></div>`; }
+  h += `</div><p class="note">${lang==="zh"?"僅比較正式成員。點地圖上的國家可看詳情。":"Full members only. Tap a country for details."}</p></div>`;
+  return h + selected.map(id=>orgCard(ORG[id])).join("");
+}
+function renderPanel(){
+  const p = document.getElementById("panel"); let h = "";
+  if (mode === "quiz") h = quizCard();
+  else if (mode === "rank") { if (focusIso) h += countryCard(focusIso); h += rankCard(); }
+  else {
+    if (focusIso) h += countryCard(focusIso);
+    if (mode === "compare") h += compareCard();
+    else if (selected[0]) h += orgCard(ORG[selected[0]]);
+    else if (!focusIso) h += upcomingCard();
+  }
+  p.innerHTML = h;
+  p.querySelectorAll("[data-iso]").forEach(b => b.onclick = () => { onCountry(b.dataset.iso); zoomTo(b.dataset.iso); });
+  p.querySelectorAll("[data-close]").forEach(b => b.onclick = () => { focusIso=null; paint(); renderPanel(); });
+  p.querySelectorAll("[data-ans]").forEach(b => b.onclick = () => answer(b.dataset.ans, b));
+  const nx = p.querySelector("[data-next]"); if (nx) nx.onclick = nextQ;
+  p.querySelectorAll("[data-org]").forEach(b => b.onclick = () => { setMode("explore"); selected=[b.dataset.org]; renderGroups(); paint(); renderPanel(); const m=EXTRAS[b.dataset.org]&&EXTRAS[b.dataset.org].next_meeting; if (m&&m.lat!=null) zoomToXY(m.lon,m.lat,2.2); });
+  p.querySelectorAll("[data-rt]").forEach(b => b.onclick = () => { rankTab=b.dataset.rt; focusIso=null; paint(); renderPanel(); });
+  p.querySelectorAll("[data-game]").forEach(b => b.onclick = () => setGame(b.dataset.game));
+  p.querySelectorAll("[data-act]").forEach(b => b.onclick = () => ACT[b.dataset.act](b));
+}
+function onCountry(iso){
+  if (mode === "quiz") return;
+  focusIso = iso; paint(); renderPanel();
+  document.getElementById("panel").scrollTop = 0;
+  if (window.innerWidth <= 820) document.getElementById("panel").scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+/* ---------- search ---------- */
+const qEl = document.getElementById("q"), sg = document.getElementById("suggest");
+qEl.addEventListener("input", () => {
+  const v = qEl.value.trim().toLowerCase(); if (!v) { sg.style.display="none"; return; }
+  const hits = countries.filter(c => (c.name.en||"").toLowerCase().includes(v) || (c.name.zh||"").includes(qEl.value.trim()) || c.iso3.toLowerCase()===v).slice(0,8);
+  sg.innerHTML = hits.map(c=>`<button data-s="${c.iso3}">${esc(c.name[lang])} <span style="color:var(--muted);font-size:13px">${esc(lang==="zh"?c.name.en:c.name.zh)}</span></button>`).join("");
+  sg.style.display = hits.length ? "block" : "none";
+  sg.querySelectorAll("button").forEach(b => b.onclick = () => { const iso=b.dataset.s; qEl.value=""; sg.style.display="none";
+    if (mode==="quiz") setMode("explore"); onCountry(iso); zoomTo(iso); });
+});
+qEl.addEventListener("keydown", e => { if (e.key==="Enter") { const b=sg.querySelector("button"); if (b) b.click(); } });
+document.addEventListener("click", e => { if (!e.target.closest(".search")) sg.style.display="none"; });
+
+/* ---------- quiz ---------- */
+const shuffle = a => { for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+const pick = a => a[Math.floor(Math.random()*a.length)];
+const quizOrgs = () => orgs.filter(o => o.members.filter(m=>m.status==="member").length >= 3 && o.id!=="un");
+const memberSet = id => new Set(ORG[id].members.filter(m=>m.status==="member").map(m=>m.iso3));
+function makeQ(){
+  const type = pick([1,1,2,3]);
+  const qo = quizOrgs();
+  if (type===1) {
+    const o = pick(qo); const ms = memberSet(o.id); const yes = Math.random()<0.5;
+    let iso;
+    if (yes) iso = pick([...ms]);
+    else { const near = Object.keys(MEMB).filter(i => !ms.has(i) && C[i] && (MEMB[i]||[]).length>=4); iso = pick(near.length?near:Object.keys(C).filter(i=>!ms.has(i))); }
+    return {type, org:o.id, iso, opts:[{k:"yes",l:t("yes"),ok:yes},{k:"no",l:t("no"),ok:!yes}]};
+  }
+  if (type===2) {
+    const cands = Object.keys(MEMB).filter(i => C[i] && MEMB[i].some(x=>x.status==="member" && x.id!=="un" && x.id!=="wto" && x.id!=="imf"));
+    const iso = pick(cands);
+    const right = pick(MEMB[iso].filter(x=>x.status==="member" && !["un","wto","imf"].includes(x.id))).id;
+    const wrongs = shuffle(qo.filter(o => statusOf(o.id, iso)!=="member").map(o=>o.id)).slice(0,3);
+    if (wrongs.length<3) return makeQ();
+    return {type, iso, org:right, opts:shuffle([right,...wrongs]).map(id=>({k:id,l:ORG[id].abbr+" — "+L(ORG[id].name),ok:id===right}))};
+  }
+  const o = pick(qo.filter(o=>memberSet(o.id).size<=60)); const ms = memberSet(o.id);
+  const right = pick([...ms]);
+  const pool = shuffle(Object.keys(C).filter(i=>!ms.has(i) && C[i].population>1e6)).slice(0,3);
+  return {type, org:o.id, iso:right, opts:shuffle([right,...pool]).map(i=>({k:i,l:cname(i,o.id),ok:i===right}))};
+}
+function qText(q){
+  if (q.type===1) return t("q1")(cname(q.iso,q.org), ORG[q.org].abbr);
+  if (q.type===2) return t("q2")(cname(q.iso));
+  return t("q3")(ORG[q.org].abbr+(lang==="zh"?"（"+L(ORG[q.org].name)+"）":" ("+L(ORG[q.org].name)+")"));
+}
+function quizCard(){
+  const tabs = `<div class="subtabs">${["classic","blitz","guess"].map(g=>`<button data-game="${g}" class="${g===game?"on":""}">${t(g)}</button>`).join("")}</div>`;
+  if (game === "blitz") return `<div class="card quiz">${tabs}${blitzBody()}</div>`;
+  if (game === "guess") return `<div class="card quiz">${tabs}${guessBody()}</div>`;
+  return quizClassic(tabs);
+}
+function quizClassic(tabs){
+  if (!quiz.cur) nextQ(true);
+  const q = quiz.cur;
+  let h = `<div class="card quiz">${tabs}<div class="score"><span>${t("score")} <b>${quiz.score}/${quiz.total}</b></span><span>${t("streak")} <b>${quiz.streak}</b></span></div>
+    <div class="q">${esc(qText(q))}</div><div class="opts">`;
+  q.opts.forEach(o => { let cls=""; if (quiz.answered) { if (o.ok) cls="right"; else if (o.k===quiz.picked) cls="wrong"; }
+    h += `<button data-ans="${esc(o.k)}" class="${cls}" ${quiz.answered?"disabled":""}>${esc(o.l)}</button>`; });
+  h += `</div><div class="fb">${quiz.answered ? (quiz.lastOk?`<b style="color:var(--good)">${t("correct")}</b>`:`<b style="color:var(--bad)">${t("wrong")}</b>`) + " " + esc(explain(q)) : ""}</div>`;
+  if (quiz.answered) h += `<button class="primary" data-next>${t("next")} →</button>`;
+  return h + `</div>`;
+}
+function explain(q){
+  const o = ORG[q.org]; const n = memberSet(q.org).size;
+  return lang==="zh" ? `${o.abbr} 目前有 ${n} 個正式成員國，已在地圖上以深藍色標出。` : `${o.abbr} has ${n} full member countries, shown in dark blue on the map.`;
+}
+function answer(k, btn){
+  if (game === "blitz") return blitzAnswer(k, btn);
+  if (game === "guess") return guessAnswer(k);
+  if (quiz.answered) return; const q = quiz.cur; const opt = q.opts.find(o=>o.k===k);
+  quiz.answered = true; quiz.picked = k; quiz.total++; quiz.lastOk = opt.ok;
+  if (opt.ok) { quiz.score++; quiz.streak++; } else quiz.streak = 0;
+  paint(); renderPanel();
+  svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+}
+function nextQ(silent){
+  quiz.cur = makeQ(); quiz.answered = false; quiz.picked = null;
+  if (silent!==true) { paint(); renderPanel(); zoomTo(quiz.cur.iso); }
+}
+
+/* ---------- mode & language ---------- */
+function setMode(m){
+  mode = m; focusIso = null;
+  if (m === "explore") selected = selected.slice(0,1);
+  if (m === "quiz") { quiz.cur = null; stopBlitz(); }
+  if (m !== "quiz") stopBlitz();
+  document.querySelectorAll("nav.modes button").forEach(b=>b.classList.toggle("on", b.dataset.mode===m));
+  setHint(); renderGroups(); renderPanel(); paint();
+  if (m==="quiz" && quiz.cur) zoomTo(quiz.cur.iso);
+}
+function setLang(l){
+  lang = l; try{localStorage.setItem("ioLang",l)}catch(e){}
+  document.documentElement.lang = l==="zh"?"zh-Hant":"en";
+  document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on", b.dataset.lang===l));
+  document.getElementById("title").innerHTML = `${t("title")}<small>${t("subtitle")}</small>`;
+  document.title = t("title");
+  document.querySelectorAll("nav.modes button").forEach(b=>b.textContent = t(b.dataset.mode));
+  qEl.placeholder = t("search");
+  document.getElementById("asof").textContent = `${t("asof")}: ${asOf}`;
+  if (quiz.cur) { const keep = quiz.cur; if (keep.type===1) keep.opts.forEach(o=>o.l=t(o.k)); else if (keep.type===2) keep.opts.forEach(o=>o.l=ORG[o.k].abbr+" — "+L(ORG[o.k].name)); else keep.opts.forEach(o=>o.l=cname(o.k,keep.org)); }
+  setHint(); renderGroups(); renderPanel(); renderLegend();
+}
+document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>setLang(b.dataset.lang));
+document.querySelectorAll("nav.modes button").forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
+
+/* ================= PHASE 2: meetings, hot topics, timeline, rankings, rivalries, games ================= */
+const EXTRAS = DATA.extras || {};
+const MON_EN = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+let presetWhy = null, rankTab = "conn", game = "classic";
+const PRESETS = [
+  {ids:["g7","brics"], why:{en:"Established advanced economies vs. the leading emerging-market bloc.", zh:"老牌已開發經濟體 vs. 新興市場集團。"}},
+  {ids:["nato","sco"], why:{en:"A Western defence alliance vs. a Eurasian security grouping led by China and Russia.", zh:"西方軍事同盟 vs. 中俄主導的歐亞安全組織。"}},
+  {ids:["cptpp","rcep"], why:{en:"Two Asia-Pacific mega trade deals: who is in one, both, or neither?", zh:"兩大亞太自貿協定：誰只在其一、誰兩邊都有、誰都不在？"}},
+  {ids:["g7","g20"], why:{en:"Why did the 'rich club' need a bigger table after the 2008 crisis?", zh:"2008 年金融海嘯後，為什麼「富國俱樂部」需要一張更大的桌子？"}},
+  {ids:["eu","asean","mercosur"], why:{en:"Three regional blocs with very different depths of integration.", zh:"三個區域集團，整合程度大不相同。"}},
+  {ids:["apec","rcep","cptpp"], why:{en:"Overlapping Asia-Pacific trade circles — where does Taiwan fit?", zh:"層層重疊的亞太經貿圈，台灣在哪裡？"}}
+];
+
+/* ---------- dates & countdown ---------- */
+function pd(str, end){
+  if (!str) return null; const [y,m,d] = str.split("-").map(Number);
+  if (!m) return end ? new Date(y,11,31) : new Date(y,0,1);
+  if (!d) return end ? new Date(y,m,0) : new Date(y,m-1,1);
+  return new Date(y,m-1,d);
+}
+function meetState(m){
+  const now = new Date(), t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const s = pd(m.date_start), e = pd(m.date_end || m.date_start, true);
+  const days = Math.round((s - t0)/864e5);
+  return {days, state: days > 0 ? "future" : (e >= t0 ? "now" : "past"), start:s};
+}
+function fmtDate(m){
+  const p = m.date_precision || (m.date_start.length===10 ? "day" : m.date_start.length===7 ? "month" : "year");
+  const s = pd(m.date_start), e = m.date_end ? pd(m.date_end) : null;
+  if (p === "year") return lang==="zh" ? `${s.getFullYear()} 年` : `${s.getFullYear()}`;
+  if (p === "month") return lang==="zh" ? `${s.getFullYear()} 年 ${s.getMonth()+1} 月` : `${MON_EN[s.getMonth()]} ${s.getFullYear()}`;
+  if (!e || +e === +s) return lang==="zh" ? `${s.getFullYear()} 年 ${s.getMonth()+1} 月 ${s.getDate()} 日` : `${s.getDate()} ${MON_EN[s.getMonth()]} ${s.getFullYear()}`;
+  if (e.getMonth() === s.getMonth()) return lang==="zh" ? `${s.getFullYear()} 年 ${s.getMonth()+1} 月 ${s.getDate()}–${e.getDate()} 日` : `${s.getDate()}–${e.getDate()} ${MON_EN[s.getMonth()]} ${s.getFullYear()}`;
+  return lang==="zh" ? `${s.getFullYear()} 年 ${s.getMonth()+1}/${s.getDate()}–${e.getMonth()+1}/${e.getDate()}` : `${s.getDate()} ${MON_EN[s.getMonth()]} – ${e.getDate()} ${MON_EN[e.getMonth()]} ${e.getFullYear()}`;
+}
+const precise = m => (m.date_precision || "day") === "day" && m.date_start.length === 10;
+function countdownHTML(m){
+  const st = meetState(m);
+  if (st.state === "now") return `<div class="cd">${t("now")}</div>`;
+  if (st.state === "past") return `<div class="cd" style="font-size:18px">${t("held")}</div>`;
+  if (!precise(m)) return "";
+  return `<div class="cd">${st.days} <small>${st.days===1?t("dayLeft"):t("daysLeft")}</small></div>`;
+}
+function meetBox(id){
+  const m = EXTRAS[id] && EXTRAS[id].next_meeting; if (!m || !m.date_start) return "";
+  const st = meetState(m);
+  return `<div class="meet ${st.state==="past"?"past":""}"><div class="lbl">${t("nextMeet")}${m.confirmed===false?` · ${t("tbc")}`:""}</div>
+    <div class="nm">${esc(L(m.name))}</div><div class="wh">📅 ${esc(fmtDate(m))}${m.city&&L(m.city)?`<br>📍 ${esc(L(m.city))}`:""}</div>${countdownHTML(m)}
+    ${m.source?`<a href="${esc(m.source)}" target="_blank" rel="noopener" style="color:#fff;opacity:.7;font-size:11px">${t("readMore")} ↗</a>`:""}</div>`;
+}
+function extrasBlock(id){
+  const x = EXTRAS[id]; if (!x) return ""; let h = "";
+  if (x.hot_topics && x.hot_topics.length) {
+    h += `<details open><summary>🔥 ${t("hot")}</summary>` + x.hot_topics.map(ht => `<div class="hot"><b>${esc(L(ht.title))}</b>
+      <p>${esc(L(ht.summary))}</p>${ht.question?`<p class="qq">💬 ${t("discuss")}${esc(L(ht.question))}</p>`:""}
+      ${ht.url?`<a href="${esc(ht.url)}" target="_blank" rel="noopener">${esc(ht.date||"")} · ${t("readMore")} ↗</a>`:""}</div>`).join("") + `</details>`;
+  }
+  if (x.timeline && x.timeline.length) {
+    h += `<details><summary>🕰️ ${t("timeline")}</summary><ul class="tl">` +
+      x.timeline.map(e => `<li><b>${esc(e.year)}</b>${esc(L(e.text))}</li>`).join("") + `</ul></details>`;
+  }
+  return h;
+}
+function upcomingList(){
+  return orgs.filter(o => EXTRAS[o.id] && EXTRAS[o.id].next_meeting && EXTRAS[o.id].next_meeting.date_start)
+    .map(o => ({o, m:EXTRAS[o.id].next_meeting, st:meetState(EXTRAS[o.id].next_meeting)}))
+    .filter(x => x.st.state !== "past")
+    .sort((a,b) => a.st.start - b.st.start);
+}
+function upcomingCard(){
+  const list = upcomingList();
+  if (!list.length) return `<div class="card"><p class="empty">${t("noOrg")}</p></div>`;
+  return `<div class="card"><h3>⏳ ${t("upcoming")}</h3><p class="sub">${t("upcomingSub")}</p><ul class="uplist">` +
+    list.map(({o,m,st}) => `<li><button data-org="${o.id}"><span class="m"><b>${esc(o.abbr)}</b>${m.city&&L(m.city)?` · ${esc(L(m.city))}`:""}<small>${esc(L(m.name))} · ${esc(fmtDate(m))}</small></span>
+      <span class="d">${st.state==="now" ? `<small>${t("now")}</small>` : precise(m) ? `${st.days}<small>${st.days===1?t("dayLeft"):t("daysLeft")}</small>` : `<small>${esc(fmtDate(m))}</small>`}</span></button></li>`).join("") +
+    `</ul><p class="note">${t("noOrg")}</p></div>`;
+}
+
+/* ---------- map markers for meetings ---------- */
+function drawMarks(){
+  let list = [];
+  if (mode === "explore") {
+    const ids = selected[0] ? [selected[0]] : upcomingList().map(x=>x.o.id);
+    list = ids.map(id => EXTRAS[id] && EXTRAS[id].next_meeting).filter(m => m && m.lat != null && m.lon != null)
+      .map((m,i) => { const xy = projection([m.lon, m.lat]); return {x:xy[0], y:xy[1], k:ids[i]+m.lat}; });
+  }
+  const sel = gMarks.selectAll("g.mk").data(list, d=>d.k);
+  sel.exit().remove();
+  const en = sel.enter().append("g").attr("class","mk");
+  en.append("circle").attr("class","pulse").attr("r",7);
+  en.append("path").attr("d", d3.symbol(d3.symbolStar, 150)()).attr("fill","#f2a900").attr("stroke","#fff").attr("stroke-width",1.5);
+  gMarks.selectAll("g.mk").attr("transform", d => `translate(${d.x},${d.y}) scale(${1/curK})`);
+}
+function zoomToXY(lon, lat, k){
+  const [x,y] = projection([lon,lat]);
+  svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(W/2,H/2).scale(k).translate(-x,-y));
+}
+
+/* ---------- rankings ---------- */
+const CONN = {};
+orgs.filter(o => o.id !== "taiwan_allies").forEach(o => o.members.forEach(m => { if (m.status === "member") CONN[m.iso3] = (CONN[m.iso3]||0) + 1; }));
+const CONN_MAX = Math.max(...Object.values(CONN));
+const connScale = d3.scaleSequential([-CONN_MAX*0.25, CONN_MAX], d3.interpolateBlues);
+function connRanking(){
+  const rows = countries.filter(c => C[c.iso3] && (CONN[c.iso3] || statusOf("un", c.iso3)==="member"))
+    .map(c => ({iso:c.iso3, n:CONN[c.iso3]||0})).sort((a,b) => b.n - a.n || cname(a.iso).localeCompare(cname(b.iso)));
+  let r = 0, prev = null; rows.forEach((x,i) => { if (x.n !== prev) { r = i+1; prev = x.n; } x.rank = r; });
+  return rows;
+}
+function rankCard(){
+  const tabs = `<div class="subtabs">${["conn","econ"].map(k=>`<button data-rt="${k}" class="${rankTab===k?"on":""}">${t(k==="conn"?"tabConn":"tabEcon")}</button>`).join("")}</div>`;
+  if (rankTab === "conn") {
+    const rows = connRanking(); const row = x => `<tr data-iso="${x.iso}" class="${x.iso==="TWN"?"me":""}"><td class="n">${x.rank}</td><td>${esc(cname(x.iso))}</td><td class="c">${x.n}</td></tr>`;
+    const tw = rows.find(x => x.iso === "TWN");
+    const unRows = rows.filter(x => statusOf("un", x.iso) === "member");
+    return `<div class="card">${tabs}<p class="sub">${t("connSub")}</p>
+      <h3>🏆 ${t("top")}</h3><table class="rk">${rows.slice(0,15).map(row).join("")}</table>
+      ${tw ? `<h3 style="margin-top:14px">📍 ${t("taiwanRank")}</h3><table class="rk">${row(tw)}</table>` : ""}
+      <h3 style="margin-top:14px">🔍 ${t("fewest")}</h3><table class="rk">${unRows.slice(-6).reverse().map(row).join("")}</table>
+      <p class="note">${lang==="zh"?`共 ${orgs.length-1} 個組織。點國家可在地圖上查看。`:`Out of ${orgs.length-1} organizations. Tap a country to see it on the map.`}</p></div>`;
+  }
+  const rows = orgs.map(o => { const full = o.members.filter(m=>m.status==="member");
+      return {o, g: full.reduce((s,m)=>s+((C[m.iso3]||{}).gdp_usd||0),0)/WORLD_GDP, p: full.reduce((s,m)=>s+((C[m.iso3]||{}).population||0),0)/WORLD_POP}; })
+    .sort((a,b) => b.g - a.g);
+  return `<div class="card">${tabs}<p class="sub">${t("econSub")}</p><div class="ew">` + rows.map(r => `<button data-org="${r.o.id}">${esc(r.o.abbr)}</button>
+    <div class="bars"><div style="width:${r.g*100}%;background:var(--t1)"></div><div style="width:${r.p*100}%;background:var(--cB)"></div>
+    <span>GDP ${pct(r.g)} · ${lang==="zh"?"人口":"Pop."} ${pct(r.p)}</span></div>`).join("") + `</div>
+    <p class="note">${t("gdpNote")}</p></div>`;
+}
+
+/* ---------- games ---------- */
+function setGame(g){ stopBlitz(); game = g; if (g === "guess" && !guess) newGuess(); quiz.cur = null; if (g === "classic") nextQ(true); renderPanel(); paint(); svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); }
+let blitz = {running:false, done:false, score:0, total:0, end:0, iv:null, lock:false};
+const bestKey = "ioBlitzBest";
+const getBest = () => { try { return +localStorage.getItem(bestKey) || 0; } catch(e) { return 0; } };
+function stopBlitz(){ if (blitz.iv) clearInterval(blitz.iv); blitz.iv = null; blitz.running = false; blitz.done = false; }
+function blitzBody(){
+  if (blitz.running) {
+    const q = quiz.cur, rem = Math.max(0, Math.ceil((blitz.end - Date.now())/1000));
+    return `<div class="score"><span>⏱ <b id="bt">${rem}</b> ${t("timeLeft")}</span><span>${t("score")} <b>${blitz.score}/${blitz.total}</b></span></div>
+      <div class="timer"><i id="bbar" style="width:${rem/60*100}%"></i></div>
+      <div class="q">${esc(qText(q))}</div><div class="opts">${q.opts.map(o=>`<button data-ans="${esc(o.k)}">${esc(o.l)}</button>`).join("")}</div>`;
+  }
+  if (blitz.done) {
+    return `<div class="q" style="text-align:center">${t("timeUp")}</div><div class="big">${blitz.score}</div>
+      <p class="sub" style="text-align:center">${blitz.score}/${blitz.total} · ${t("best")}: <b>${getBest()}</b></p>
+      <button class="primary" data-act="blitzStart">${t("again")} ↻</button>`;
+  }
+  return `<p style="font-size:15px;line-height:1.5">${t("blitzIntro")}</p><p class="sub">${t("best")}: <b>${getBest()}</b></p>
+    <button class="primary" data-act="blitzStart">${t("start")} ▶</button>`;
+}
+function blitzTick(){
+  const rem = blitz.end - Date.now();
+  const bt = document.getElementById("bt"), bb = document.getElementById("bbar");
+  if (bt) bt.textContent = Math.max(0, Math.ceil(rem/1000)); if (bb) bb.style.width = Math.max(0, rem/600) + "%";
+  if (rem <= 0) {
+    clearInterval(blitz.iv); blitz.iv = null; blitz.running = false; blitz.done = true;
+    try { if (blitz.score > getBest()) localStorage.setItem(bestKey, blitz.score); } catch(e) {}
+    quiz.cur = null; renderPanel(); paint();
+  }
+}
+function blitzAnswer(k, btn){
+  if (!blitz.running || blitz.lock) return;
+  const opt = quiz.cur.opts.find(o => o.k === k); blitz.total++; if (opt.ok) blitz.score++;
+  blitz.lock = true; quiz.answered = true;
+  document.querySelectorAll("#panel [data-ans]").forEach(b => { const o = quiz.cur.opts.find(x=>x.k===b.dataset.ans); if (o.ok) b.classList.add("right"); else if (b===btn) b.classList.add("wrong"); });
+  paint();
+  setTimeout(() => { blitz.lock = false; if (!blitz.running) return; quiz.cur = makeQ(); quiz.answered = false; renderPanel(); paint(); }, opt.ok ? 450 : 900);
+}
+let guess = null, guessTotal = 0;
+function newGuess(tries){
+  const GENERIC = ["un","imf","wto","taiwan_allies"];
+  const pool = Object.keys(CONN).filter(i => C[i] && CONN[i] >= 5);
+  const iso = pick(pool);
+  const mem = orgs.filter(o => !GENERIC.includes(o.id) && statusOf(o.id, iso) === "member")
+    .sort((a,b) => b.members.length - a.members.length);           // broad -> specific
+  if (mem.length < 3 && (tries||0) < 30) return newGuess((tries||0)+1);
+  let picks = mem;
+  if (mem.length > 4) picks = [...new Set([0,1,2,3].map(i => mem[Math.round(i*(mem.length-1)/3)]))];
+  const clues = picks.map(o => ({type:"org", id:o.id}));
+  clues.push({type:"pop"});
+  // distractors: share as many clues as possible (all but the most specific one ideally)
+  const score = i => picks.reduce((s,o) => s + (statusOf(o.id,i)==="member"?1:0), 0);
+  const cands = shuffle(Object.keys(C).filter(i => i !== iso && score(i) >= 1)).sort((a,b) => score(b) - score(a));
+  const opts = shuffle([iso, ...cands.slice(0,3)]);
+  guess = {iso, clues, shown:1, opts, answered:false, picked:null};
+}
+function clueText(c){
+  if (c.type === "org") { const o = ORG[c.id]; const nm = L(o.name);
+    return t("clueOrg")(lang==="zh" ? (nm.includes(o.abbr) ? nm : `${o.abbr} ${nm}`) : (nm.includes(o.abbr) ? nm : `${nm} (${o.abbr})`)); }
+  return t("cluePop")(people(C[guess.iso].population));
+}
+function guessBody(){
+  if (!guess) newGuess();
+  const g = guess, pts = Math.max(1, 6 - g.shown);
+  let h = `<div class="score"><span>${t("total")} <b>${guessTotal}</b> ${t("pts")}</span><span>${lang==="zh"?"本題":"This round"} <b>${g.answered ? (g.picked===g.iso?pts:0) : pts}</b> ${t("pts")}</span></div>
+    <div class="q">🕵️ ${t("whoAmI")}</div><ul class="clues">${g.clues.slice(0, g.shown).map((c,i)=>`<li>${i+1}. ${esc(clueText(c))}</li>`).join("")}</ul>`;
+  if (!g.answered && g.shown < g.clues.length) h += `<button class="chip" data-act="guessMore" style="margin-bottom:10px">💡 ${t("nextClue")}</button>`;
+  h += `<div class="opts">${g.opts.map(i => { let cls = ""; if (g.answered) { if (i===g.iso) cls="right"; else if (i===g.picked) cls="wrong"; }
+      return `<button data-ans="${i}" class="${cls}" ${g.answered?"disabled":""}>${esc(cname(i))}</button>`; }).join("")}</div>`;
+  if (g.answered) h += `<div class="fb">${g.picked===g.iso?`<b style="color:var(--good)">${t("correct")} +${pts} ${t("pts")}</b>`:`<b style="color:var(--bad)">${t("wrong")}</b> ${t("itWas")} ${esc(cname(g.iso))}.`}</div>
+    <button class="primary" data-act="guessNext">${t("next")} →</button>`;
+  else if (!g.shown) h += "";
+  return `<p class="sub">${t("guessIntro")}</p>` + h;
+}
+function guessAnswer(k){
+  if (!guess || guess.answered) return;
+  guess.answered = true; guess.picked = k;
+  if (k === guess.iso) guessTotal += Math.max(1, 6 - guess.shown);
+  renderPanel(); paint(); zoomTo(guess.iso);
+}
+const ACT = {
+  blitzStart(){ blitz = {running:true, done:false, score:0, total:0, end:Date.now()+60000, iv:null, lock:false};
+    quiz.cur = makeQ(); quiz.answered = false; blitz.iv = setInterval(blitzTick, 250); renderPanel(); paint(); svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); },
+  guessMore(){ if (guess && guess.shown < guess.clues.length) { guess.shown++; renderPanel(); } },
+  guessNext(){ newGuess(); renderPanel(); paint(); svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); }
+};
+/* ================= END PHASE 2 ================= */
+
+setLang(lang); setMode("explore"); layout();
+})();
+</script>
+</body>
+</html>

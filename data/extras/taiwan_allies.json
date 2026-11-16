@@ -1,0 +1,112 @@
+{
+  "id": "taiwan_allies",
+  "next_meeting": null,
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Honduras weighs restoring ties with Taiwan",
+        "zh": "宏都拉斯考慮與台灣復交"
+      },
+      "summary": {
+        "en": "Honduras's new president Nasry Asfura is considering restoring recognition of Taiwan, ending ties with Beijing set up in 2023, and has ordered a review of agreements with China.",
+        "zh": "宏都拉斯新任總統阿斯夫拉考慮恢復承認台灣、結束2023年與北京建立的關係，並下令檢討與中國的協議。"
+      },
+      "question": {
+        "en": "What economic factors influence a country's choice between Taipei and Beijing?",
+        "zh": "哪些經濟因素會影響一國在台北與北京之間的選擇？"
+      },
+      "date": "2026-03",
+      "url": "https://www.wsls.com/news/world/2026/03/05/honduras-weighs-shift-in-china-taiwan-ties-as-trump-pushes-for-us-dominance-in-latin-america/"
+    },
+    {
+      "title": {
+        "en": "Lai postpones Eswatini visit, citing pressure",
+        "zh": "賴清德延後訪問史瓦帝尼，指稱遭施壓"
+      },
+      "summary": {
+        "en": "In April 2026 President Lai Ching-te postponed a trip to Eswatini, Taiwan's only African ally, saying China pressured African countries.",
+        "zh": "2026年4月，賴清德總統延後訪問台灣在非洲唯一邦交國史瓦帝尼，並表示中國向非洲國家施壓。"
+      },
+      "question": {
+        "en": "How does outside pressure on third countries affect small states' diplomacy?",
+        "zh": "第三國受到外部施壓，會如何影響小國外交？"
+      },
+      "date": "2026-04",
+      "url": "https://www.clickondetroit.com/news/world/2026/04/21/taiwan-president-postpones-eswatini-visit-and-says-china-pressured-african-countries/"
+    },
+    {
+      "title": {
+        "en": "Paraguay's president visits Taiwan",
+        "zh": "巴拉圭總統訪台"
+      },
+      "summary": {
+        "en": "Paraguayan President Santiago Peña, leader of Taiwan's only South American ally, visited Taiwan in May 2026 and reaffirmed ties.",
+        "zh": "台灣在南美洲唯一邦交國巴拉圭的總統潘尼亞於2026年5月訪台，重申雙邊邦誼。"
+      },
+      "question": {
+        "en": "What does Paraguay gain from ties with Taiwan, given its beef and soy exports?",
+        "zh": "以牛肉、黃豆出口為主的巴拉圭，與台灣維持邦交能獲得什麼？"
+      },
+      "date": "2026-05",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/05/08/taiwan-welcomes-paraguay-leader-as-china-applies-diplomatic-pressure"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1969",
+      "text": {
+        "en": "ROC has 70 diplomatic allies, its historical peak",
+        "zh": "中華民國邦交國達70國，為歷史高峰"
+      }
+    },
+    {
+      "year": "1971",
+      "text": {
+        "en": "UN Resolution 2758 gives China's seat to the PRC",
+        "zh": "聯大2758號決議，中國席位由中華人民共和國取得"
+      }
+    },
+    {
+      "year": "1979",
+      "text": {
+        "en": "United States switches recognition to Beijing",
+        "zh": "美國改與北京建交"
+      }
+    },
+    {
+      "year": "1990",
+      "text": {
+        "en": "Lee Teng-hui's pragmatic diplomacy (1988–2000) lifts allies, at most 31",
+        "zh": "李登輝務實外交（1988–2000年）使邦交國回升，最多達31國"
+      }
+    },
+    {
+      "year": "2016",
+      "text": {
+        "en": "Allies stand at 22 as cross-strait truce ends",
+        "zh": "兩岸外交休兵結束時，邦交國為22國"
+      }
+    },
+    {
+      "year": "2019",
+      "text": {
+        "en": "Solomon Islands and Kiribati switch; down to 15",
+        "zh": "索羅門群島與吉里巴斯斷交，降至15國"
+      }
+    },
+    {
+      "year": "2023",
+      "text": {
+        "en": "Honduras switches to Beijing; 13 allies remain",
+        "zh": "宏都拉斯斷交，剩13國"
+      }
+    },
+    {
+      "year": "2024",
+      "text": {
+        "en": "Nauru switches; 12 allies remain",
+        "zh": "諾魯斷交，剩12國"
+      }
+    }
+  ]
+}

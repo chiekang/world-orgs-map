@@ -1,0 +1,131 @@
+{
+  "id": "cptpp",
+  "next_meeting": {
+    "name": {
+      "en": "11th CPTPP Commission Meeting (ministerial)",
+      "zh": "第11屆CPTPP執委會（部長級）會議"
+    },
+    "date_start": "2026-11",
+    "date_end": null,
+    "date_precision": "month",
+    "city": {
+      "en": "Hanoi",
+      "zh": "越南河內"
+    },
+    "country_iso3": "VNM",
+    "lat": 21.03,
+    "lon": 105.85,
+    "level": "ministers",
+    "confirmed": false,
+    "source": "https://trungtamwto.vn/su-kien/33909-moi-tham-du-dien-dan-doanh-nghiep-cptpp-asean-eu-2026",
+    "note": "Viet Nam (2026 chair) says the 11th Commission meeting is in Nov 2026 in Viet Nam; a CPTPP-ASEAN-EU business forum in Hanoi on 26 Nov 2026 is billed as on its sidelines. Exact Commission dates not officially published."
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Costa Rica's accession talks concluded",
+        "zh": "哥斯大黎加完成入會談判"
+      },
+      "summary": {
+        "en": "In May 2026 CPTPP parties concluded the work of Costa Rica's accession working group, making it the next country in line to join.",
+        "zh": "2026年5月，CPTPP成員完成哥斯大黎加入會工作小組的談判，哥國成為下一個準備加入的國家。"
+      },
+      "question": {
+        "en": "Why would a small economy like Costa Rica want to join a mostly Asia-Pacific trade deal?",
+        "zh": "像哥斯大黎加這樣的小型經濟體，為什麼想加入以亞太為主的貿易協定？"
+      },
+      "date": "2026-05",
+      "url": "https://www.gov.uk/government/publications/conclusion-of-costa-ricas-cptpp-accession-working-group"
+    },
+    {
+      "title": {
+        "en": "Preparatory talks with UAE, Indonesia, Philippines",
+        "zh": "與阿聯、印尼、菲律賓展開入會預備討論"
+      },
+      "summary": {
+        "en": "At the online Commission meeting on 26 June 2026, ministers agreed to start preparatory discussions with the UAE, Indonesia and the Philippines and created a working group on rules of origin and illegal transshipment.",
+        "zh": "2026年6月26日線上執委會會議中，部長們同意與阿聯、印尼、菲律賓展開入會預備討論，並成立處理原產地規則與非法轉運的工作小組。"
+      },
+      "question": {
+        "en": "How might rules against transshipment change where companies build factories in Asia?",
+        "zh": "防止轉運的規則，可能如何影響企業在亞洲設廠的選擇？"
+      },
+      "date": "2026-06",
+      "url": "https://production.humanresourcesonline.net/cptpp-ministers-to-advance-expansion-talks-launch-customs-working-group-and-deepen-asean-eu-trade-dialogues"
+    },
+    {
+      "title": {
+        "en": "Viet Nam chairs CPTPP in 2026",
+        "zh": "越南擔任2026年CPTPP主席國"
+      },
+      "summary": {
+        "en": "As 2026 chair, Viet Nam is pushing expansion, an upgrade of the agreement and trade dialogues with ASEAN and the EU.",
+        "zh": "越南作為2026年主席國，推動擴大成員、協定升級，以及與東協和歐盟的貿易對話。"
+      },
+      "question": {
+        "en": "What can a developing economy gain from chairing a high-standard trade agreement?",
+        "zh": "開發中經濟體擔任高標準貿易協定的主席國，可以獲得什麼？"
+      },
+      "date": "2026-07",
+      "url": "https://en.qdnd.vn/economy/international-cooperation/vietnam-advances-cptpp-agenda-as-2026-chair-592678"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2016",
+      "text": {
+        "en": "Original TPP signed by 12 countries including the US",
+        "zh": "包含美國在內的12國簽署原始TPP"
+      }
+    },
+    {
+      "year": "2017",
+      "text": {
+        "en": "United States withdraws from TPP",
+        "zh": "美國退出TPP"
+      }
+    },
+    {
+      "year": "2018",
+      "text": {
+        "en": "11 countries sign CPTPP (March); in force 30 December",
+        "zh": "11國簽署CPTPP（3月），12月30日生效"
+      }
+    },
+    {
+      "year": "2021",
+      "text": {
+        "en": "UK, China and Taiwan apply to join",
+        "zh": "英國、中國與台灣申請加入"
+      }
+    },
+    {
+      "year": "2023",
+      "text": {
+        "en": "UK signs accession protocol",
+        "zh": "英國簽署入會議定書"
+      }
+    },
+    {
+      "year": "2024",
+      "text": {
+        "en": "CPTPP enters into force for the UK (12th party)",
+        "zh": "CPTPP對英國生效（第12個締約方）"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "en": "Accession process launched for Uruguay",
+        "zh": "啟動烏拉圭入會程序"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "Costa Rica talks concluded; Viet Nam chairs",
+        "zh": "哥斯大黎加談判完成；越南任主席國"
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "rcep",
+  "abbr": "RCEP",
+  "name": {
+    "en": "Regional Comprehensive Economic Partnership",
+    "zh": "區域全面經濟夥伴協定"
+  },
+  "category": "economic",
+  "founded": "2020",
+  "headquarters": {
+    "en": "RCEP Support Unit hosted by the ASEAN Secretariat, Jakarta, Indonesia",
+    "zh": "RCEP支援單位設於東協秘書處（印尼雅加達）"
+  },
+  "nature": {
+    "en": "Mega free trade agreement (treaty) among ASEAN and five partners; signed 15 Nov 2020, in force 1 Jan 2022",
+    "zh": "東協與五個夥伴國簽署的大型自由貿易協定（條約）；2020年11月15日簽署，2022年1月1日生效"
+  },
+  "purpose": {
+    "en": "The world's largest free trade agreement by GDP and population: cuts tariffs, harmonizes rules of origin and facilitates trade and investment across East Asia and Oceania.",
+    "zh": "以GDP與人口計算全球最大的自由貿易協定：降低關稅、統一原產地規則，促進東亞與大洋洲的貿易與投資。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "AUS",
+      "status": "member",
+      "joined": "2022"
+    },
+    {
+      "iso3": "BRN",
+      "status": "member",
+      "joined": "2022",
+      "official_name": "Brunei Darussalam"
+    },
+    {
+      "iso3": "KHM",
+      "status": "member",
+      "joined": "2022"
+    },
+    {
+      "iso3": "CHN",
+      "status": "member",
+      "joined": "2022"
+    },
+    {
+      "iso3": "JPN",
+      "status": "member",
+      "joined": "2022"
+    },
+    {
+      "iso3": "LAO",
+      "status": "member",
+      "joined": "2022",
+      "official_name": "Lao PDR"
+    },
+    {
+      "iso3": "NZL",
+      "status": "member",
+      "joined": "2022"
+    },
+    {
+      "iso3": "SGP",
+      "status": "member",
+      "joined": "2022"
+    },
+    {
+      "iso3": "THA",
+      "status": "member",
+      "joined": "2022"
+    },
+    {
+      "iso3": "VNM",
+      "status": "member",
+      "joined": "2022",
+      "official_name": "Viet Nam"
+    },
+    {
+      "iso3": "KOR",
+      "status": "member",
+      "joined": "2022",
+      "official_name": "Republic of Korea",
+      "note": "In force 1 Feb 2022."
+    },
+    {
+      "iso3": "MYS",
+      "status": "member",
+      "joined": "2022",
+      "note": "In force 18 Mar 2022."
+    },
+    {
+      "iso3": "MMR",
+      "status": "member",
+      "joined": "2022",
+      "note": "Entry into force for Myanmar (1 May 2022) is contested by some parties following the 2021 coup."
+    },
+    {
+      "iso3": "IDN",
+      "status": "member",
+      "joined": "2023",
+      "note": "In force 2 Jan 2023."
+    },
+    {
+      "iso3": "PHL",
+      "status": "member",
+      "joined": "2023",
+      "note": "In force 2 Jun 2023."
+    },
+    {
+      "iso3": "HKG",
+      "status": "acceding",
+      "official_name": "Hong Kong, China",
+      "note": "Applied Jan 2022. Accession working group agreed at the 5th RCEP Ministers' Meeting (Manila, Sep 2026)."
+    },
+    {
+      "iso3": "LKA",
+      "status": "acceding",
+      "note": "Applied 2023. Accession working group agreed at the 5th RCEP Ministers' Meeting (Manila, Sep 2026)."
+    },
+    {
+      "iso3": "CHL",
+      "status": "acceding",
+      "note": "Applied 2024. Accession working group agreed at the 5th RCEP Ministers' Meeting (Manila, Sep 2026)."
+    },
+    {
+      "iso3": "BGD",
+      "status": "acceding",
+      "note": "Applied 2025. Accession working group agreed at the 5th RCEP Ministers' Meeting (Manila, Sep 2026)."
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "Party (in force)",
+      "zh": "締約方（已生效）"
+    },
+    "acceding": {
+      "en": "Accession in progress",
+      "zh": "入會程序進行中"
+    }
+  },
+  "sources": [
+    "https://rcepsec.org/",
+    "https://news.cgtn.com/news/2026-10-02/RCEP-enters-new-phase-of-expansion-and-upgrading-1QTyNROvSHS/p.html",
+    "https://www.thestar.com.my/business/business-news/2025/09/24/hong-kong-sri-lanka-chile-bangladesh-keen-to-join-rcep",
+    "https://thefinancialexpress.com.bd/trade/rcep-ministers-approve-bangladeshs-accession-advancement"
+  ],
+  "notes": [
+    "15 parties (10 ASEAN members as of 2020 + China, Japan, Republic of Korea, Australia, New Zealand). Timor-Leste, ASEAN's 11th member since Oct 2025, is NOT an RCEP party.",
+    "India took part in negotiations but withdrew in 2019; it may rejoin under special provisions but has not applied.",
+    "Accession: Hong Kong, Sri Lanka, Chile and Bangladesh applied; at the 5th RCEP Ministers' Meeting (Manila, concluded 21 Sep 2026) ministers agreed to establish accession working groups for all four (CGTN, 2 Oct 2026). Marked 'acceding'. No new party admitted as of 2026-11-16.",
+    "Application years for acceding economies are approximate (from news reports)."
+  ]
+}

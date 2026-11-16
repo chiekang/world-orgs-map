@@ -1,0 +1,237 @@
+{
+  "id": "eu",
+  "abbr": "EU",
+  "name": {
+    "en": "European Union",
+    "zh": "歐洲聯盟（歐盟）"
+  },
+  "category": "regional",
+  "founded": "1993",
+  "headquarters": {
+    "en": "Brussels, Belgium (also Strasbourg and Luxembourg)",
+    "zh": "比利時布魯塞爾（另有史特拉斯堡、盧森堡）"
+  },
+  "nature": {
+    "en": "Supranational political and economic union",
+    "zh": "超國家的政治與經濟聯盟"
+  },
+  "purpose": {
+    "en": "A union of 27 European countries sharing a single market, common rules and (for 21 of them) the euro, pooling sovereignty to promote peace, prosperity and common values.",
+    "zh": "由27個歐洲國家組成，共享單一市場與共同規範（其中21國使用歐元），透過讓渡部分主權促進和平、繁榮與共同價值。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "AUT",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "BEL",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "BGR",
+      "status": "member",
+      "joined": "2007"
+    },
+    {
+      "iso3": "HRV",
+      "status": "member",
+      "joined": "2013"
+    },
+    {
+      "iso3": "CYP",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "CZE",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "DNK",
+      "status": "member",
+      "joined": "1973"
+    },
+    {
+      "iso3": "EST",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "FIN",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "FRA",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "DEU",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "GRC",
+      "status": "member",
+      "joined": "1981"
+    },
+    {
+      "iso3": "HUN",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "IRL",
+      "status": "member",
+      "joined": "1973"
+    },
+    {
+      "iso3": "ITA",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "LVA",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "LTU",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "LUX",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "MLT",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "NLD",
+      "status": "member",
+      "joined": "1958"
+    },
+    {
+      "iso3": "POL",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "PRT",
+      "status": "member",
+      "joined": "1986"
+    },
+    {
+      "iso3": "ROU",
+      "status": "member",
+      "joined": "2007"
+    },
+    {
+      "iso3": "SVK",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "SVN",
+      "status": "member",
+      "joined": "2004"
+    },
+    {
+      "iso3": "ESP",
+      "status": "member",
+      "joined": "1986"
+    },
+    {
+      "iso3": "SWE",
+      "status": "member",
+      "joined": "1995"
+    },
+    {
+      "iso3": "ALB",
+      "status": "candidate",
+      "note": "Candidate since 2014. Negotiations opened 2022; aims to conclude talks by 2027."
+    },
+    {
+      "iso3": "BIH",
+      "status": "candidate",
+      "note": "Candidate since 2022. Candidate status Dec 2022; negotiations not yet opened in practice."
+    },
+    {
+      "iso3": "GEO",
+      "status": "candidate",
+      "note": "Candidate since 2023. Candidate status Dec 2023; Commission (2026 package) calls it a 'candidate country in name only' with accession de facto halted."
+    },
+    {
+      "iso3": "MDA",
+      "status": "candidate",
+      "note": "Candidate since 2022. Negotiations opened June 2024."
+    },
+    {
+      "iso3": "MNE",
+      "status": "candidate",
+      "note": "Candidate since 2010. Most advanced: 21 chapters provisionally closed by Nov 2026."
+    },
+    {
+      "iso3": "MKD",
+      "status": "candidate",
+      "note": "Candidate since 2005. Negotiations opened 2022; constitutional amendments pending."
+    },
+    {
+      "iso3": "SRB",
+      "status": "candidate",
+      "note": "Candidate since 2012. Negotiations opened 2014; no substantive progress per 2026 package."
+    },
+    {
+      "iso3": "TUR",
+      "status": "candidate",
+      "note": "Candidate since 1999. Negotiations frozen since 2018.",
+      "official_name": "Türkiye"
+    },
+    {
+      "iso3": "UKR",
+      "status": "candidate",
+      "note": "Candidate since 2022. Negotiations opened June 2024."
+    },
+    {
+      "iso3": "XKX",
+      "status": "prospective",
+      "note": "Potential candidate; applied for membership Dec 2022. Commission ready to prepare an Opinion if the Council requests (2026 package). Five EU member states do not recognise Kosovo."
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member state",
+      "zh": "會員國"
+    },
+    "candidate": {
+      "en": "Candidate country",
+      "zh": "候選國"
+    },
+    "prospective": {
+      "en": "Potential candidate",
+      "zh": "潛在候選國"
+    }
+  },
+  "sources": [
+    "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+    "https://enlargement.ec.europa.eu/enlargement-policy_en",
+    "https://www.eeas.europa.eu/delegations/georgia/2026-enlargement-package-shows-reform-commitment-delivers-progress-towards-eu-membership_en",
+    "https://europeanwesternbalkans.com/2026/11/04/european-commission-adopts-enlargement-package-with-roadmaps-for-the-most-advanced-candidates/"
+  ],
+  "notes": [
+    "27 member states; no accession or withdrawal in 2025-2026 (UK left 31 Jan 2020). 'joined' for founding six = 1958 (EEC); EU itself founded 1993 (Maastricht Treaty).",
+    "9 candidate countries per the Commission's 2026 Enlargement Package (4 Nov 2026): Albania, Bosnia and Herzegovina, Georgia, Moldova, Montenegro, North Macedonia, Serbia, Türkiye, Ukraine. Roadmaps issued to Montenegro, Albania, Moldova, Ukraine.",
+    "Kosovo is listed as 'prospective' (EU term: potential candidate), not a candidate.",
+    "Iceland: accession talks suspended 2013 and in 2015 Iceland asked not to be regarded as a candidate; not marked here (any 2026 moves toward resuming talks were not verified)."
+  ]
+}

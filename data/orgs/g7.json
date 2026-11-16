@@ -1,0 +1,85 @@
+{
+  "id": "g7",
+  "abbr": "G7",
+  "name": {
+    "en": "Group of Seven",
+    "zh": "七大工業國組織"
+  },
+  "category": "economic",
+  "founded": "1975",
+  "headquarters": {
+    "en": "No permanent secretariat (rotating annual presidency; France holds it in 2026)",
+    "zh": "無常設秘書處（年度輪值主席國；2026年由法國擔任）"
+  },
+  "nature": {
+    "en": "Informal intergovernmental forum of major advanced democracies",
+    "zh": "主要先進民主國家的非正式政府間論壇"
+  },
+  "purpose": {
+    "en": "Leaders of seven large advanced economies meet every year to coordinate on the world economy, trade, security and global challenges such as climate and energy.",
+    "zh": "七個大型先進經濟體的領袖每年聚會，協調全球經濟、貿易、安全，以及氣候與能源等全球議題。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "USA",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "JPN",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "DEU",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "FRA",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "GBR",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "ITA",
+      "status": "member",
+      "joined": "1975"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "1976"
+    }
+  ],
+  "non_state_members": [
+    {
+      "name": {
+        "en": "European Union",
+        "zh": "歐盟"
+      },
+      "status": "member",
+      "note": "'Non-enumerated' participant: attends all summits (since 1977/1981) but is not counted among the seven and does not hold the presidency."
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member",
+      "zh": "正式成員"
+    }
+  },
+  "sources": [
+    "https://www.elysee.fr/en/g7-evian",
+    "https://www.consilium.europa.eu/en/policies/g7/",
+    "https://en.wikipedia.org/wiki/G7"
+  ],
+  "notes": [
+    "Founded 1975 as G6 (Rambouillet); Canada joined 1976. Russia was part of the G8 from 1997 and was suspended in 2014 (Crimea), effectively ending the G8; Russia is not listed.",
+    "2026 presidency: France (Evian summit, June 2026). No membership changes in 2025-2026."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "asean",
+  "abbr": "ASEAN",
+  "name": {
+    "en": "Association of Southeast Asian Nations",
+    "zh": "東南亞國家協會（東協）"
+  },
+  "category": "regional",
+  "founded": "1967",
+  "headquarters": {
+    "en": "ASEAN Secretariat, Jakarta, Indonesia",
+    "zh": "東協秘書處，印尼雅加達"
+  },
+  "nature": {
+    "en": "Regional intergovernmental organization (legal personality under the 2008 ASEAN Charter); consensus-based",
+    "zh": "區域性政府間組織（依2008年《東協憲章》具法人地位），採共識決"
+  },
+  "purpose": {
+    "en": "Promotes economic growth, political-security cooperation and social-cultural ties among Southeast Asian countries, and builds an ASEAN Community with a single market.",
+    "zh": "促進東南亞國家的經濟成長、政治安全合作與社會文化交流，建立具單一市場的東協共同體。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "IDN",
+      "status": "member",
+      "joined": "1967"
+    },
+    {
+      "iso3": "MYS",
+      "status": "member",
+      "joined": "1967"
+    },
+    {
+      "iso3": "PHL",
+      "status": "member",
+      "joined": "1967"
+    },
+    {
+      "iso3": "SGP",
+      "status": "member",
+      "joined": "1967"
+    },
+    {
+      "iso3": "THA",
+      "status": "member",
+      "joined": "1967"
+    },
+    {
+      "iso3": "BRN",
+      "status": "member",
+      "joined": "1984",
+      "official_name": "Brunei Darussalam"
+    },
+    {
+      "iso3": "VNM",
+      "status": "member",
+      "joined": "1995",
+      "official_name": "Viet Nam"
+    },
+    {
+      "iso3": "LAO",
+      "status": "member",
+      "joined": "1997",
+      "official_name": "Lao PDR"
+    },
+    {
+      "iso3": "MMR",
+      "status": "member",
+      "joined": "1997",
+      "note": "Since 2021 the military regime has been excluded from political-level representation at ASEAN Summits/AMMs (non-political representative only); remains a member."
+    },
+    {
+      "iso3": "KHM",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "TLS",
+      "status": "member",
+      "joined": "2025",
+      "note": "Admitted as the 11th member on 26 Oct 2025 (Declaration on the Admission of Timor-Leste signed at the 47th ASEAN Summit, Kuala Lumpur)."
+    },
+    {
+      "iso3": "PNG",
+      "status": "observer",
+      "joined": "1976",
+      "note": "Special observer status since 1976."
+    },
+    {
+      "iso3": "AUS",
+      "status": "dialogue_partner",
+      "joined": "1974"
+    },
+    {
+      "iso3": "NZL",
+      "status": "dialogue_partner",
+      "joined": "1975"
+    },
+    {
+      "iso3": "JPN",
+      "status": "dialogue_partner",
+      "joined": "1977"
+    },
+    {
+      "iso3": "CAN",
+      "status": "dialogue_partner",
+      "joined": "1977"
+    },
+    {
+      "iso3": "USA",
+      "status": "dialogue_partner",
+      "joined": "1977"
+    },
+    {
+      "iso3": "KOR",
+      "status": "dialogue_partner",
+      "joined": "1991",
+      "official_name": "Republic of Korea"
+    },
+    {
+      "iso3": "CHN",
+      "status": "dialogue_partner",
+      "joined": "1996"
+    },
+    {
+      "iso3": "IND",
+      "status": "dialogue_partner",
+      "joined": "1996"
+    },
+    {
+      "iso3": "RUS",
+      "status": "dialogue_partner",
+      "joined": "1996"
+    },
+    {
+      "iso3": "GBR",
+      "status": "dialogue_partner",
+      "joined": "2021"
+    },
+    {
+      "iso3": "TUR",
+      "status": "dialogue_partner",
+      "joined": "2026",
+      "note": "Conferred full Dialogue Partner status by the 59th ASEAN Foreign Ministers' Meeting, Manila, 21 Jul 2026 (previously Sectoral Dialogue Partner since 2017)."
+    }
+  ],
+  "non_state_members": [
+    {
+      "name": {
+        "en": "European Union",
+        "zh": "歐盟"
+      },
+      "status": "dialogue_partner",
+      "joined": "1977",
+      "note": "Dialogue Partner"
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member State",
+      "zh": "會員國"
+    },
+    "observer": {
+      "en": "Observer",
+      "zh": "觀察員"
+    },
+    "dialogue_partner": {
+      "en": "Dialogue Partner",
+      "zh": "對話夥伴"
+    }
+  },
+  "sources": [
+    "https://asean.org/forging-a-new-era-timor-leste-admitted-into-asean/",
+    "https://asean.org/wp-content/uploads/2026/09/Overview-ASEAN-Turkiye-Dialogue-Partnership_ao-August-2026.pdf",
+    "https://asean.org/wp-content/uploads/2026/05/ASEAN-External-Relations-Coordinatorship-as-of-May-2026.pdf",
+    "https://www.businesstoday.com.my/2026/07/21/asean-names-turkiye-as-new-dialogue-partner-adds-germany-and-qatar-as-sectoral-partners/",
+    "https://asean.org/wp-content/uploads/2026/08/Overview-ASEAN-Turkiye-Dialogue-Partnership_ao-August-2026.pdf"
+  ],
+  "notes": [
+    "11 member states as of 2026-11-16: Timor-Leste admitted 26 Oct 2025 (asean.org).",
+    "12 full Dialogue Partners: Australia, Canada, China, EU, India, Japan, Republic of Korea, New Zealand, Russia, UK, USA, and Türkiye (added 21 Jul 2026 at the 59th AMM, Manila). Dialogue-partner 'joined' years are approximate start years of dialogue relations.",
+    "Not included: Sectoral Dialogue Partners (e.g. Pakistan, Norway, Switzerland, Brazil, UAE, Morocco, and since Jul 2026 Germany and Qatar) and Development Partners — a separate, lower tier.",
+    "Papua New Guinea is the only observer (since 1976)."
+  ]
+}

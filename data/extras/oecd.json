@@ -1,0 +1,123 @@
+{
+  "id": "oecd",
+  "next_meeting": {
+    "name": {
+      "en": "OECD Ministerial Council Meeting 2027 (chaired by Czechia)",
+      "zh": "2027 年 OECD 部長理事會（捷克擔任主席）"
+    },
+    "date_start": "2027",
+    "date_end": "2027",
+    "date_precision": "year",
+    "city": {
+      "en": "Paris",
+      "zh": "法國巴黎"
+    },
+    "country_iso3": "FRA",
+    "lat": 48.86,
+    "lon": 2.35,
+    "level": "ministers",
+    "confirmed": false,
+    "source": "https://mzv.gov.cz/oecd.paris/en/news/index.html"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Ministers discuss getting industrial policy right",
+        "zh": "部長會議聚焦「做對產業政策」"
+      },
+      "summary": {
+        "en": "The June 2026 Ministerial Council Meeting, chaired by Finland, focused on industrial policies that keep markets open.",
+        "zh": "2026年6月由芬蘭主持的部長理事會，主題是如何在維持市場開放下推動產業政策。"
+      },
+      "question": {
+        "en": "When should governments subsidize industries like chips or batteries, and when does it hurt trade?",
+        "zh": "政府何時該補貼晶片、電池等產業？何時反而傷害貿易？"
+      },
+      "date": "2026-06",
+      "url": "https://oecd.org/en/about/news/press-releases/2026/06/oecd-ministerial-council-outcomes.html"
+    },
+    {
+      "title": {
+        "en": "Energy shock lifts inflation forecasts",
+        "zh": "能源衝擊推升通膨預測"
+      },
+      "summary": {
+        "en": "The OECD forecast 2.9% world growth for 2026 and raised its inflation forecasts because of the Middle East conflict and energy prices.",
+        "zh": "OECD預測2026年全球成長2.9%，並因中東衝突與能源價格上調通膨預測。"
+      },
+      "question": {
+        "en": "How does an oil price shock affect inflation and interest rates in Taiwan?",
+        "zh": "油價衝擊如何影響台灣的通膨與利率？"
+      },
+      "date": "2026-03",
+      "url": "https://tradingeconomics.com/world/full-year-gdp-growth/news/536692"
+    },
+    {
+      "title": {
+        "en": "Czechia to chair the 2027 ministerial meeting",
+        "zh": "捷克將主持2027年部長理事會"
+      },
+      "summary": {
+        "en": "The OECD Council chose Czechia to chair its 2027 Ministerial Council Meeting, the first time the country takes this role.",
+        "zh": "OECD理事會指定捷克主持2027年部長理事會，這是捷克首次擔任此角色。"
+      },
+      "question": {
+        "en": "What can smaller member countries gain from chairing an international meeting?",
+        "zh": "較小的成員國主持國際會議能得到什麼好處？"
+      },
+      "date": "2026-09",
+      "url": "https://mzv.gov.cz/oecd.paris/en/news/index.html"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1948",
+      "text": {
+        "en": "OEEC founded to manage Marshall Plan aid",
+        "zh": "歐洲經濟合作組織成立，管理馬歇爾計畫援助"
+      }
+    },
+    {
+      "year": "1961",
+      "text": {
+        "en": "OEEC becomes the OECD with US and Canada",
+        "zh": "OEEC改組為OECD，美國與加拿大加入"
+      }
+    },
+    {
+      "year": "1964",
+      "text": {
+        "en": "Japan joins, first Asian member",
+        "zh": "日本加入，成為首個亞洲成員"
+      }
+    },
+    {
+      "year": "1996",
+      "text": {
+        "en": "South Korea joins",
+        "zh": "韓國加入"
+      }
+    },
+    {
+      "year": "1999",
+      "text": {
+        "en": "Anti-Bribery Convention enters into force",
+        "zh": "反賄賂公約生效"
+      }
+    },
+    {
+      "year": "2021",
+      "text": {
+        "en": "Global minimum tax deal agreed (Pillar Two)",
+        "zh": "達成全球最低稅負協議（支柱二）"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "Pillar Two 'side-by-side' package agreed with the US",
+        "zh": "與美國達成支柱二「並行」方案"
+      }
+    }
+  ]
+}

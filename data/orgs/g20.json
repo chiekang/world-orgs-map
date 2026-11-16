@@ -1,0 +1,168 @@
+{
+  "id": "g20",
+  "abbr": "G20",
+  "name": {
+    "en": "Group of Twenty",
+    "zh": "二十國集團"
+  },
+  "category": "economic",
+  "founded": "1999",
+  "headquarters": {
+    "en": "No permanent secretariat (rotating annual presidency; United States in 2026)",
+    "zh": "無常設秘書處（年度輪值主席國；2026年由美國擔任）"
+  },
+  "nature": {
+    "en": "Informal intergovernmental forum of major advanced and emerging economies",
+    "zh": "主要已開發與新興經濟體的非正式政府間論壇"
+  },
+  "purpose": {
+    "en": "The world's largest economies (about 85% of world GDP) coordinate on global economic growth, financial stability and international policy. It began as a finance ministers' meeting after the 1997 Asian financial crisis and became a leaders' summit in 2008.",
+    "zh": "全球最大的經濟體（約占全球GDP的85%）在此協調經濟成長、金融穩定與國際政策。1997年亞洲金融風暴後成立財長會議，2008年金融海嘯後升格為領袖峰會。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "ARG",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "AUS",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "BRA",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "CAN",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "CHN",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "FRA",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "DEU",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "IND",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "IDN",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "ITA",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "JPN",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "KOR",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "MEX",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "RUS",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "ZAF",
+      "status": "member",
+      "joined": "1999",
+      "note": "Formal member, but the 2026 US presidency did not invite South Africa to 2026 G20 meetings or the December 2026 Doral (Miami) summit (announced 27 Nov 2025). Hosted the 2025 presidency."
+    },
+    {
+      "iso3": "SAU",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "TUR",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "GBR",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "USA",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "ESP",
+      "status": "permanent_guest",
+      "note": "Permanent guest invitee since 2010 (not a formal member). Per US CRS report R40977 (4 Nov 2026), the Trump Administration has invited Spain to the December 2026 summit, although Bloomberg (16 Jan 2026) reported Spain was shut out of early 2026 G20 planning."
+    }
+  ],
+  "non_state_members": [
+    {
+      "name": {
+        "en": "European Union",
+        "zh": "歐盟"
+      },
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "name": {
+        "en": "African Union",
+        "zh": "非洲聯盟"
+      },
+      "status": "member",
+      "joined": "2023",
+      "note": "Admitted as permanent member at the New Delhi summit, September 2023."
+    }
+  ],
+  "status_labels": {
+    "member": {
+      "en": "Member",
+      "zh": "正式成員"
+    },
+    "permanent_guest": {
+      "en": "Permanent guest",
+      "zh": "永久受邀國"
+    }
+  },
+  "sources": [
+    "https://www.g20.org/",
+    "https://en.wikipedia.org/wiki/2026_G20_Miami_summit",
+    "https://www.tribuneindia.com/news/world/us-unveils-new-g20-for-2026-excludes-south-africa-over-politics-of-grievance",
+    "https://www.polskieradio.pl/395/7784/Artykul/3617253",
+    "https://statedept.substack.com/p/america-welcomes-a-new-g20",
+    "https://www.everycrsreport.com/files/2026-11-04_R40977_5b77624b091e5f2cbe2d28c9dc42fcc4e78a395d.html",
+    "https://www.bloomberg.com/news/articles/2026-01-16/spain-shut-out-as-us-embraces-trump-s-allies-for-g-20-planning"
+  ],
+  "notes": [
+    "19 countries + EU + AU. South Africa is kept as 'member' because no formal G20 decision has removed it; its exclusion is a host decision of the 2026 US presidency (Trump, 27 Nov 2025). South Africa was absent from the first US-hosted sherpa meeting (Dec 2025).",
+    "2026 leaders' summit planned for 14-15 December 2026, Trump National Doral, Doral (Miami), Florida. Reports (Bloomberg, Sept 2026) suggest Putin may skip it."
+  ]
+}

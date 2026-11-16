@@ -1,0 +1,123 @@
+{
+  "id": "apec",
+  "next_meeting": {
+    "name": {
+      "en": "33rd APEC Economic Leaders' Meeting",
+      "zh": "第33屆APEC經濟領袖會議"
+    },
+    "date_start": "2026-11-18",
+    "date_end": "2026-11-19",
+    "date_precision": "day",
+    "city": {
+      "en": "Shenzhen, Guangdong",
+      "zh": "中國廣東省深圳市"
+    },
+    "country_iso3": "CHN",
+    "lat": 22.54,
+    "lon": 114.06,
+    "level": "leaders",
+    "confirmed": true,
+    "source": "https://focustaiwan.tw/politics/202611030015"
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Taiwan weighs APEC Shenzhen attendance",
+        "zh": "台灣評估是否出席深圳APEC"
+      },
+      "summary": {
+        "en": "Taiwan, an APEC member as 'Chinese Taipei' since 1991, said it wants a formal invitation from host China before deciding whether to send a representative.",
+        "zh": "台灣自1991年以「中華台北」名義加入APEC；行政院表示希望先收到主辦國中國的正式邀請，再決定是否派員出席。"
+      },
+      "question": {
+        "en": "How does APEC's 'member economy' format let Taiwan take part, and where are its limits?",
+        "zh": "APEC的「會員經濟體」設計如何讓台灣參與？它的限制在哪裡？"
+      },
+      "date": "2026-11-03",
+      "url": "https://focustaiwan.tw/politics/202611030015"
+    },
+    {
+      "title": {
+        "en": "US and China seek deals before Shenzhen",
+        "zh": "美中在深圳峰會前力拚達成協議"
+      },
+      "summary": {
+        "en": "US and Chinese negotiators are working to agree concrete trade outcomes before the leaders meet at APEC in Shenzhen.",
+        "zh": "美中談判代表正努力在雙方領袖於深圳APEC會面前，敲定具體的貿易成果。"
+      },
+      "question": {
+        "en": "Why do big bilateral deals often get announced at multilateral summits like APEC?",
+        "zh": "為什麼大型雙邊協議常在APEC這類多邊峰會上宣布？"
+      },
+      "date": "2026-11",
+      "url": "https://scmp.com/news/china/diplomacy/article/3371413/us-china-negotiators-race-nail-down-concrete-deals-shenzhen-apec-looms"
+    },
+    {
+      "title": {
+        "en": "Trump expects to meet Xi and Putin in China",
+        "zh": "川普預期在中國與習近平、普丁會面"
+      },
+      "summary": {
+        "en": "Trump said he thinks he will meet Xi Jinping and Vladimir Putin at the APEC summit in China, and mentioned Iran as a topic.",
+        "zh": "川普表示他預期會在中國的APEC峰會上與習近平及普丁會面，並提到伊朗議題。"
+      },
+      "question": {
+        "en": "Should an economic forum like APEC also be used for security diplomacy?",
+        "zh": "APEC這樣的經濟論壇，是否也應成為安全外交的場合？"
+      },
+      "date": "2026-11-09",
+      "url": "https://chinaglobalsouth.com/2026/11/09/trump-xi-putin-china-apec-summit-iran-nuclear-talks/"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1989",
+      "text": {
+        "en": "Founded in Canberra with 12 members",
+        "zh": "於坎培拉成立，創始成員12個"
+      }
+    },
+    {
+      "year": "1991",
+      "text": {
+        "en": "China, Hong Kong and Chinese Taipei join",
+        "zh": "中國、香港與中華台北加入"
+      }
+    },
+    {
+      "year": "1993",
+      "text": {
+        "en": "First Economic Leaders' Meeting at Blake Island, US",
+        "zh": "於美國布萊克島舉行首次經濟領袖會議"
+      }
+    },
+    {
+      "year": "1994",
+      "text": {
+        "en": "Bogor Goals set free trade targets",
+        "zh": "通過茂物目標，設定貿易自由化時程"
+      }
+    },
+    {
+      "year": "1998",
+      "text": {
+        "en": "Peru, Russia, Viet Nam join; membership freeze begins",
+        "zh": "秘魯、俄羅斯、越南加入，此後凍結新會員"
+      }
+    },
+    {
+      "year": "2020",
+      "text": {
+        "en": "Putrajaya Vision 2040 adopted",
+        "zh": "通過2040太子城願景"
+      }
+    },
+    {
+      "year": "2026",
+      "text": {
+        "en": "China hosts leaders' meeting in Shenzhen",
+        "zh": "中國於深圳主辦領袖會議"
+      }
+    }
+  ]
+}

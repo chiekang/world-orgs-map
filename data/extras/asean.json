@@ -1,0 +1,131 @@
+{
+  "id": "asean",
+  "next_meeting": {
+    "name": {
+      "en": "49th ASEAN Summit and Related Summits",
+      "zh": "第49屆東協峰會及相關會議"
+    },
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-17",
+    "date_precision": "day",
+    "city": {
+      "en": "Manila (PICC, Pasay City), Philippines",
+      "zh": "菲律賓馬尼拉（巴賽市菲律賓國際會議中心）"
+    },
+    "country_iso3": "PHL",
+    "lat": 14.55,
+    "lon": 120.98,
+    "level": "leaders",
+    "confirmed": true,
+    "source": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/10/marcos-makes-final-walkthrough-of-asean-summit-venues",
+    "note": "Dates per Bernama/The Star (15-17 Nov); Manila declared 16-18 Nov special non-working days for the summit."
+  },
+  "hot_topics": [
+    {
+      "title": {
+        "en": "Philippines hosts 49th ASEAN Summit in Manila",
+        "zh": "菲律賓在馬尼拉主辦第49屆東協峰會"
+      },
+      "summary": {
+        "en": "As 2026 chair, the Philippines hosts ASEAN leaders in Manila on 15–17 November, using the summit to promote itself as a destination for new investment.",
+        "zh": "菲律賓以2026年東協輪值主席國身分，於11月15至17日在馬尼拉接待東協領袖，並藉峰會宣傳自己是新投資的好去處。"
+      },
+      "question": {
+        "en": "What can a country gain economically from chairing a regional organization for a year?",
+        "zh": "擔任區域組織一年的輪值主席，國家在經濟上能獲得什麼？"
+      },
+      "date": "2026-11",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/08/asean-summit-highlights-philippines039-leadership-readiness-for-new-investments"
+    },
+    {
+      "title": {
+        "en": "Push to finish South China Sea Code of Conduct",
+        "zh": "力拚完成南海行為準則"
+      },
+      "summary": {
+        "en": "As 2026 ASEAN chair, the Philippines wants ASEAN and China to conclude a South China Sea Code of Conduct within the year.",
+        "zh": "菲律賓作為2026年東協主席國，希望東協與中國在年內完成「南海行為準則」。"
+      },
+      "question": {
+        "en": "Why do shipping routes in the South China Sea matter for global trade?",
+        "zh": "為什麼南海航道對全球貿易很重要？"
+      },
+      "date": "2026-07",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/12/philippines-urges-effective-south-china-sea-coc-amid-persistent-tensions"
+    },
+    {
+      "title": {
+        "en": "Singapore to chair ASEAN in 2027",
+        "zh": "新加坡將接任2027年東協主席"
+      },
+      "summary": {
+        "en": "Singapore will take over the ASEAN chair in 2027 and says it will focus on deeper regional integration and wider external partnerships.",
+        "zh": "新加坡將於2027年接任東協主席，並表示將聚焦深化區域整合與擴大對外夥伴關係。"
+      },
+      "question": {
+        "en": "Which priorities should a small, trade-dependent economy push when leading a regional bloc?",
+        "zh": "一個依賴貿易的小型經濟體領導區域集團時，應優先推動哪些議題？"
+      },
+      "date": "2026-10",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/07/singapore-eyes-deeper-asean-integration-wider-partnerships-as-2027-chair"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1967",
+      "text": {
+        "en": "Bangkok Declaration founds ASEAN with five members",
+        "zh": "《曼谷宣言》簽署，五國創立東協"
+      }
+    },
+    {
+      "year": "1976",
+      "text": {
+        "en": "First ASEAN Summit in Bali; Treaty of Amity and Cooperation",
+        "zh": "峇里島首屆東協峰會，簽署《友好合作條約》"
+      }
+    },
+    {
+      "year": "1984",
+      "text": {
+        "en": "Brunei joins as sixth member",
+        "zh": "汶萊加入，成為第六個成員國"
+      }
+    },
+    {
+      "year": "1992",
+      "text": {
+        "en": "ASEAN Free Trade Area (AFTA) agreed",
+        "zh": "同意成立東協自由貿易區（AFTA）"
+      }
+    },
+    {
+      "year": "1999",
+      "text": {
+        "en": "Cambodia joins, completing ASEAN-10",
+        "zh": "柬埔寨加入，東協十國到齊"
+      }
+    },
+    {
+      "year": "2008",
+      "text": {
+        "en": "ASEAN Charter enters into force",
+        "zh": "《東協憲章》生效"
+      }
+    },
+    {
+      "year": "2015",
+      "text": {
+        "en": "ASEAN Community, incl. Economic Community, launched",
+        "zh": "東協共同體（含經濟共同體）正式成立"
+      }
+    },
+    {
+      "year": "2025",
+      "text": {
+        "en": "Timor-Leste admitted as 11th member",
+        "zh": "東帝汶成為第11個成員國"
+      }
+    }
+  ]
+}

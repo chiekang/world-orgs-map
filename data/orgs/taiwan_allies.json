@@ -1,0 +1,107 @@
+{
+  "id": "taiwan_allies",
+  "abbr": "ROC Allies",
+  "name": {
+    "en": "Taiwan's Diplomatic Allies",
+    "zh": "中華民國（台灣）邦交國"
+  },
+  "category": "other",
+  "founded": "1912",
+  "headquarters": {
+    "en": "Ministry of Foreign Affairs, Taipei",
+    "zh": "外交部（台北）"
+  },
+  "nature": {
+    "en": "Not an organization: countries with formal diplomatic relations with the Republic of China (Taiwan)",
+    "zh": "非國際組織：與中華民國（台灣）維持正式外交關係的國家"
+  },
+  "purpose": {
+    "en": "Shows the countries that officially recognize the Republic of China (Taiwan) and exchange embassies with it instead of with the People's Republic of China.",
+    "zh": "顯示正式承認中華民國（台灣）、並與台灣（而非中華人民共和國）互設大使館的國家。"
+  },
+  "as_of": "2026-11-16",
+  "members": [
+    {
+      "iso3": "MHL",
+      "status": "member",
+      "joined": "1998"
+    },
+    {
+      "iso3": "PLW",
+      "status": "member",
+      "joined": "1999"
+    },
+    {
+      "iso3": "TUV",
+      "status": "member",
+      "joined": "1979"
+    },
+    {
+      "iso3": "SWZ",
+      "status": "member",
+      "joined": "1968",
+      "note": "Eswatini (formerly Swaziland); Taiwan's only ally in Africa."
+    },
+    {
+      "iso3": "VAT",
+      "status": "member",
+      "joined": "1942",
+      "note": "Holy See; Taiwan's only ally in Europe."
+    },
+    {
+      "iso3": "BLZ",
+      "status": "member",
+      "joined": "1989"
+    },
+    {
+      "iso3": "GTM",
+      "status": "member",
+      "joined": "1933"
+    },
+    {
+      "iso3": "HTI",
+      "status": "member",
+      "joined": "1956"
+    },
+    {
+      "iso3": "PRY",
+      "status": "member",
+      "joined": "1957",
+      "note": "Taiwan's only ally in South America."
+    },
+    {
+      "iso3": "KNA",
+      "status": "member",
+      "joined": "1983"
+    },
+    {
+      "iso3": "LCA",
+      "status": "member",
+      "joined": "2007",
+      "note": "Relations first established 1984, broken 1997, restored 2007."
+    },
+    {
+      "iso3": "VCT",
+      "status": "member",
+      "joined": "1981"
+    }
+  ],
+  "non_state_members": [],
+  "status_labels": {
+    "member": {
+      "en": "Diplomatic ally",
+      "zh": "邦交國"
+    }
+  },
+  "sources": [
+    "https://en.mofa.gov.tw/AlliesIndex.aspx?n=1294&sms=1007",
+    "https://www.internazionale.it/ultime-notizie-reuters/2026/05/02/factbox-taiwan-s-12-remaining-diplomatic-allies",
+    "https://chinaglobalsouth.com/2026/05/11/honduras-china-ties-taiwan-huawei-cisco/"
+  ],
+  "notes": [
+    "Verified against Taiwan MOFA 'Diplomatic Allies' page (last updated 2026-11-02, read 2026-11-16): 12 allies - Marshall Islands, Palau, Tuvalu; Eswatini; Holy See; Belize, Guatemala, Haiti, Paraguay, St Kitts and Nevis, Saint Lucia, St Vincent and the Grenadines. MOFA news of 14 Nov 2026 still calls Palau an ally.",
+    "No switches in 2025-2026; the last loss was Nauru (Jan 2024). Honduras (switched to Beijing 2023) has discussed restoring ties under President Asfura in 2026 but had not done so as of Nov 2026.",
+    "Taiwan (TWN) itself is not included as a member; highlight it separately on the map if desired.",
+    "'founded' = 1912, founding of the Republic of China (this is a list, not an organization). 'joined' = year current relations were established with the ROC (approximate for Guatemala, often cited as 1933)."
+  ]
+}
