@@ -21,9 +21,23 @@
 html,body{margin:0;height:100%;background:var(--bg);color:var(--ink)}
 body{display:flex;flex-direction:column;min-height:100%;padding:14px 16px 20px;gap:12px}
 button{font:inherit;color:inherit;cursor:pointer}
-header{display:flex;align-items:center;gap:12px;padding:0 2px}
-header h1{font-size:20px;margin:0;font-weight:800;color:var(--navy);line-height:1.2;flex:1;letter-spacing:.01em}
-header h1 small{display:block;font-weight:600;font-size:12px;color:var(--ink);margin-top:2px}
+header.hero{position:relative;overflow:hidden;display:flex;align-items:center;gap:18px;background:var(--blue);color:#fff;border:2px solid #111;border-radius:18px;box-shadow:0 6px 0 #111;padding:22px 24px 22px}
+header.hero:before{content:"";position:absolute;right:-60px;top:-70px;width:300px;height:300px;border-radius:50%;background:var(--yellow);border:2px solid #111}
+header.hero:after{content:"";position:absolute;left:46%;bottom:-48px;width:130px;height:130px;border-radius:50%;background:var(--orange);border:2px solid #111;opacity:.95}
+.hero-main{position:relative;z-index:2;flex:1;min-width:0}
+.eyebrow{display:inline-block;background:var(--yellow);color:#111;border:2px solid #111;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:800;letter-spacing:.04em;box-shadow:0 2px 0 #111}
+header h1{font-size:44px;margin:12px 0 6px;font-weight:800;color:#fff;line-height:1.1;letter-spacing:.02em;text-shadow:3px 3px 0 #111}
+.tagline{margin:0 0 14px;font-size:15px;font-weight:600;color:var(--cream);max-width:560px;line-height:1.55}
+.herostats{display:flex;flex-wrap:wrap;gap:8px}
+.herostats span{background:#fff;color:#111;border:2px solid #111;border-radius:12px;padding:5px 12px;font-size:13px;font-weight:700;box-shadow:0 3px 0 #111}
+.herostats b{font-size:17px;font-weight:800;color:var(--orange);margin-right:3px}
+.hero-side{position:relative;z-index:2;width:300px;height:170px;flex-shrink:0}
+.hero-side .globe{position:absolute;right:30px;top:6px;width:150px;height:150px;filter:drop-shadow(0 5px 0 #111)}
+.hero-side .fc{position:absolute;border:2px solid #111;border-radius:12px;padding:6px 12px;font-weight:800;font-size:15px;box-shadow:0 3px 0 #111;color:#111}
+.fc.a{left:0;top:18px;background:#fff;transform:rotate(-8deg)}
+.fc.b{left:20px;bottom:10px;background:var(--teal);transform:rotate(5deg)}
+.fc.c{right:0;bottom:6px;background:var(--orange);color:#fff;transform:rotate(-5deg)}
+header .lang{position:absolute;right:16px;top:14px;z-index:3}
 .lang{display:flex;border:2px solid #111;border-radius:999px;overflow:hidden;flex-shrink:0;background:#fff;box-shadow:0 3px 0 #111}
 .lang button{border:0;background:none;padding:6px 13px;font-size:13px;font-weight:700}
 .lang button.on{background:var(--yellow);color:#111}
@@ -169,7 +183,14 @@ summary{cursor:pointer;font-weight:800;color:var(--navy);padding:4px 0}
   main{flex-direction:column}
   #mapwrap{flex:none;height:52vh;min-height:300px}
   aside#panel{width:auto;padding:0 2px 6px}
-  header h1{font-size:16px}
+  header.hero{padding:16px 14px 18px;flex-direction:column;align-items:flex-start}
+  header h1{font-size:30px;margin-top:10px}
+  .tagline{font-size:13px}
+  .hero-side{display:none}
+  header.hero:before{width:200px;height:200px;right:-70px;top:-90px}
+  header.hero:after{display:none}
+  header .lang{top:12px;right:12px}
+  .eyebrow{font-size:11px;max-width:calc(100% - 118px)}
   .group .glabel{width:auto;margin-right:2px}
   .legend{font-size:11px;padding:6px 8px}
   nav.modes button{font-size:13px;padding:9px 4px}
@@ -177,8 +198,17 @@ summary{cursor:pointer;font-weight:800;color:var(--navy);padding:4px 0}
 </style>
 </head>
 <body>
-<header>
-  <h1 id="title"></h1>
+<header class="hero">
+  <div class="hero-main">
+    <div class="eyebrow" id="eyebrow"></div>
+    <h1 id="title"></h1>
+    <p class="tagline" id="tagline"></p>
+    <div class="herostats" id="herostats"></div>
+  </div>
+  <div class="hero-side" aria-hidden="true">
+    <svg class="globe" viewBox="0 0 150 150"><circle cx="75" cy="75" r="70" fill="#D8F2EE" stroke="#111" stroke-width="3"/><g fill="none" stroke="#111" stroke-width="2"><ellipse cx="75" cy="75" rx="30" ry="70"/><path d="M75 5v140M8 55h134M8 95h134"/></g><path d="M38 42c10-8 24-6 30 2s-2 16-12 18-22 2-24-8z M92 70c10-6 26-2 28 10s-10 26-20 28-14-12-12-22z" fill="#2B4EE0" stroke="#111" stroke-width="2"/><path d="M118 22l4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1z" fill="#FBB91F" stroke="#111" stroke-width="2"/></svg>
+    <span class="fc a">G20</span><span class="fc b">APEC</span><span class="fc c">WTO</span>
+  </div>
   <div class="lang" role="group" aria-label="Language">
     <button data-lang="en">EN</button><button data-lang="zh">中文</button>
   </div>
@@ -684,7 +714,12 @@ function setLang(l){
   lang = l; try{localStorage.setItem("ioLang",l)}catch(e){}
   document.documentElement.lang = l==="zh"?"zh-Hant":"en";
   document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on", b.dataset.lang===l));
-  document.getElementById("title").innerHTML = `${t("title")}<small>${t("subtitle")}</small>`;
+  document.getElementById("title").textContent = t("title");
+  document.getElementById("eyebrow").textContent = lang==="zh" ? "輔仁大學 · FINANCIAL MARKET AND GLOBAL BUSINESS" : "FU JEN CATHOLIC UNIVERSITY · FINANCIAL MARKET AND GLOBAL BUSINESS";
+  document.getElementById("tagline").textContent = lang==="zh" ? "G20、APEC、WTO、CPTPP……點一下地圖，看看世界各國在哪些大型國際組織裡。" : "G20, APEC, WTO, CPTPP… tap the map to see which big international clubs each country belongs to.";
+  document.getElementById("herostats").innerHTML = lang==="zh"
+    ? `<span><b>${orgs.length}</b>個國際組織</span><span><b>${countries.length}</b>個國家與地區</span><span>資料更新 ${asOf}</span>`
+    : `<span><b>${orgs.length}</b> organizations</span><span><b>${countries.length}</b> countries &amp; regions</span><span>Data as of ${asOf}</span>`;
   document.title = t("title");
   document.querySelectorAll("nav.modes button").forEach(b=>b.textContent = t(b.dataset.mode));
   qEl.placeholder = t("search");
