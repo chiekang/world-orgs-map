@@ -2963,6 +2963,51 @@
    "pop_year": 2025,
    "population_source_note": "World Bank WDI SP.POP.TOTL (2025)",
    "note": "Constituent country of the Kingdom of the Netherlands; WTO observer. Added 2026-11-16 by verifier."
+  },
+  {
+   "iso3": "ABW",
+   "iso2": "AW",
+   "iso_numeric": "533",
+   "name": {
+    "en": "Aruba",
+    "zh": "阿魯巴"
+   },
+   "un_member": false,
+   "gdp_usd": null,
+   "gdp_year": null,
+   "population": null,
+   "pop_year": null,
+   "note": "Constituent country of the Kingdom of the Netherlands; INTERPOL member. Added 2026-11-18."
+  },
+  {
+   "iso3": "SXM",
+   "iso2": "SX",
+   "iso_numeric": "534",
+   "name": {
+    "en": "Sint Maarten",
+    "zh": "荷屬聖馬丁"
+   },
+   "un_member": false,
+   "gdp_usd": null,
+   "gdp_year": null,
+   "population": null,
+   "pop_year": null,
+   "note": "Constituent country of the Kingdom of the Netherlands; INTERPOL member. Added 2026-11-18."
+  },
+  {
+   "iso3": "NIU",
+   "iso2": "NU",
+   "iso_numeric": "570",
+   "name": {
+    "en": "Niue",
+    "zh": "紐埃"
+   },
+   "un_member": false,
+   "gdp_usd": null,
+   "gdp_year": null,
+   "population": null,
+   "pop_year": null,
+   "note": "Self-governing state in free association with New Zealand; IPCC member. Added 2026-11-18."
   }
  ]
 }

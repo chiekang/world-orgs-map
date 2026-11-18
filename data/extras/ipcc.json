@@ -1,0 +1,107 @@
+{
+ "id": "ipcc",
+ "next_meeting": {
+  "name": {
+   "en": "IPCC-65 resumed plenary (virtual)",
+   "zh": "IPCC第65屆全會續會（線上）"
+  },
+  "date_start": "2026-12-01",
+  "date_end": null,
+  "date_precision": "day",
+  "city": {
+   "en": "Virtual (Secretariat in Geneva)",
+   "zh": "線上舉行（秘書處在日內瓦）"
+  },
+  "country_iso3": "CHE",
+  "lat": 46.2,
+  "lon": 6.15,
+  "level": "other",
+  "confirmed": true,
+  "source": "https://unfccc.int/sites/default/files/resource/SB65-IPCC-Secretary-Amoehner-COP31.pdf"
+ },
+ "hot_topics": [
+  {
+   "title": {
+    "en": "Plenary in Ethiopia ends without a timeline",
+    "zh": "衣索比亞全會未能敲定時程"
+   },
+   "summary": {
+    "en": "At IPCC-65 (12–16 Oct 2026, Addis Ababa) governments could not agree on when the three Working Group reports of the seventh assessment (AR7) should be approved, and the session was suspended.",
+    "zh": "IPCC第65屆全會（2026年10月12至16日，阿迪斯阿貝巴）上，各國無法就第七次評估報告（AR7）三份工作小組報告的審議時程達成共識，會議因此中止。"
+   },
+   "question": {
+    "en": "Why does the timing of IPCC reports matter for the UN Global Stocktake?",
+    "zh": "IPCC報告的發布時間為何會影響聯合國的「全球盤點」？"
+   },
+   "date": "2026-10",
+   "url": "https://www.carbonbrief.org/qa-why-a-pivotal-ipcc-meeting-in-ethiopia-ended-in-profound-disappointment"
+  },
+  {
+   "title": {
+    "en": "Scientists press on despite deadlock",
+    "zh": "科學家在僵局中繼續撰寫"
+   },
+   "summary": {
+    "en": "Authors keep working on AR7 while a special report on cities is due for approval in Singapore in March 2027.",
+    "zh": "作者群持續撰寫AR7，而《氣候變遷與城市特別報告》預定2027年3月在新加坡審議。"
+   },
+   "question": {
+    "en": "Should scientific reports need approval from every government?",
+    "zh": "科學報告是否應該取得每個政府的同意？"
+   },
+   "date": "2026-10",
+   "url": "https://climatechangenews.com/2026/10/19/ipcc-scientists-vow-to-press-on-with-climate-reports-despite-political-deadlock"
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1988",
+   "text": {
+    "en": "Created by WMO and UNEP",
+    "zh": "由WMO與UNEP設立"
+   }
+  },
+  {
+   "year": "1990",
+   "text": {
+    "en": "First Assessment Report",
+    "zh": "第一次評估報告"
+   }
+  },
+  {
+   "year": "1992",
+   "text": {
+    "en": "Reports feed into the UN climate convention (UNFCCC)",
+    "zh": "報告成為氣候公約（UNFCCC）的科學基礎"
+   }
+  },
+  {
+   "year": "2007",
+   "text": {
+    "en": "Shares the Nobel Peace Prize with Al Gore",
+    "zh": "與高爾共同獲得諾貝爾和平獎"
+   }
+  },
+  {
+   "year": "2014",
+   "text": {
+    "en": "Fifth Assessment Report supports the Paris Agreement",
+    "zh": "第五次評估報告支持《巴黎協定》"
+   }
+  },
+  {
+   "year": "2021",
+   "text": {
+    "en": "Sixth report (AR6): human influence \"unequivocal\"",
+    "zh": "第六次評估報告（AR6）：人為影響「毋庸置疑」"
+   }
+  },
+  {
+   "year": "2026",
+   "text": {
+    "en": "IPCC-65 suspended with no AR7 timeline",
+    "zh": "第65屆全會中止，AR7時程未定"
+   }
+  }
+ ]
+}

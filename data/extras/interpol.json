@@ -1,0 +1,107 @@
+{
+ "id": "interpol",
+ "next_meeting": {
+  "name": {
+   "en": "94th INTERPOL General Assembly",
+   "zh": "第94屆國際刑警組織大會"
+  },
+  "date_start": "2026-11-30",
+  "date_end": "2026-12-03",
+  "date_precision": "day",
+  "city": {
+   "en": "Hong Kong, China",
+   "zh": "中國香港"
+  },
+  "country_iso3": "HKG",
+  "lat": 22.32,
+  "lon": 114.17,
+  "level": "general_assembly",
+  "confirmed": true,
+  "source": "https://news.cgtn.com/news/2026-10-26/Hong-Kong-to-host-94th-Interpol-General-Assembly-1RysNMAV16g/p.html"
+ },
+ "hot_topics": [
+  {
+   "title": {
+    "en": "Operation First Light 2026: 5,800+ arrests",
+    "zh": "「第一道曙光2026」行動：逮捕逾5,800人"
+   },
+   "summary": {
+    "en": "A 97-country operation against social-engineering scams ran from January to April 2026, with 5,811 arrests and about USD 293 million in illicit assets intercepted.",
+    "zh": "97個國家與地區聯手打擊社交工程詐騙，2026年1至4月行動共逮捕5,811人，攔截約2.93億美元非法資產。"
+   },
+   "question": {
+    "en": "Why are scams so hard to stop when criminals sit in different countries from victims?",
+    "zh": "詐騙集團與受害者分處不同國家時，為什麼特別難防堵？"
+   },
+   "date": "2026-07",
+   "url": "https://www.interpol.int/en/news-and-events/news/2026/over-5-800-arrests-usd-293-million-intercepted-in-global-fraud-bust"
+  },
+  {
+   "title": {
+    "en": "Serengeti III hits African cybercrime",
+    "zh": "「塞倫蓋蒂III」重擊非洲網路犯罪"
+   },
+   "summary": {
+    "en": "An INTERPOL-coordinated operation from June to August 2026 led to 1,462 arrests and over USD 105 million recovered across Africa.",
+    "zh": "國際刑警協調的行動於2026年6至8月在非洲逮捕1,462人，追回逾1.05億美元。"
+   },
+   "question": {
+    "en": "How is AI changing the way cybercriminals operate?",
+    "zh": "AI如何改變網路犯罪者的作案方式？"
+   },
+   "date": "2026-10",
+   "url": "https://www.interpol.int/es/Noticias-y-acontecimientos/Noticias/2026/Cybercrime-crackdown-in-Africa-nets-1-462-arrests-recovers-over-USD-105-million"
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1923",
+   "text": {
+    "en": "International Criminal Police Commission founded in Vienna",
+    "zh": "國際刑事警察委員會於維也納成立"
+   }
+  },
+  {
+   "year": "1946",
+   "text": {
+    "en": "Reorganised after WWII; Paris becomes headquarters",
+    "zh": "二戰後重組，總部設於巴黎"
+   }
+  },
+  {
+   "year": "1956",
+   "text": {
+    "en": "Adopts the name International Criminal Police Organization-INTERPOL",
+    "zh": "定名為國際刑事警察組織（INTERPOL）"
+   }
+  },
+  {
+   "year": "1989",
+   "text": {
+    "en": "Headquarters moves to Lyon, France",
+    "zh": "總部遷至法國里昂"
+   }
+  },
+  {
+   "year": "1984",
+   "text": {
+    "en": "Taiwan (ROC) loses its membership",
+    "zh": "中華民國喪失會員資格"
+   }
+  },
+  {
+   "year": "2017",
+   "text": {
+    "en": "Palestine admitted as a member",
+    "zh": "巴勒斯坦獲准加入"
+   }
+  },
+  {
+   "year": "2026",
+   "text": {
+    "en": "196 members; Hong Kong to host the 94th General Assembly",
+    "zh": "會員達196個，香港主辦第94屆大會"
+   }
+  }
+ ]
+}

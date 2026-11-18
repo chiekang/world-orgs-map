@@ -6,7 +6,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 ORDER = ["g7", "g20", "apec", "oecd", "wto", "brics", "rcep", "cptpp", "usmca", "opec",
          "un", "nato", "eu", "sco",
          "asean", "au", "arab_league", "mercosur",
-         "imf", "aiib", "taiwan_allies"]
+         "imf", "worldbank", "aiib", "interpol", "ipcc", "taiwan_allies"]
 
 def rd(p): return open(os.path.join(ROOT, p), encoding="utf-8").read()
 

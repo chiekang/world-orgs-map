@@ -1,0 +1,114 @@
+{
+ "id": "worldbank",
+ "next_meeting": {
+  "name": {
+   "en": "2027 IMF–World Bank Spring Meetings",
+   "zh": "2027年IMF與世界銀行春季會議"
+  },
+  "date_start": "2027-04",
+  "date_end": null,
+  "date_precision": "month",
+  "city": {
+   "en": "Washington, D.C., United States",
+   "zh": "美國華盛頓特區"
+  },
+  "country_iso3": "USA",
+  "lat": 38.9,
+  "lon": -77.04,
+  "level": "ministers",
+  "confirmed": false,
+  "source": "https://www.worldbank.org/en/meetings/splash/spring"
+ },
+ "hot_topics": [
+  {
+   "title": {
+    "en": "Banga warns of an 800 million jobs gap",
+    "zh": "彭杰警告恐缺8億個工作"
+   },
+   "summary": {
+    "en": "At the Bangkok Annual Meetings, President Ajay Banga said about 1.2 billion young people will enter job markets in developing countries over 10–15 years, but only about 400 million jobs are expected.",
+    "zh": "世銀總裁彭杰（Banga）在曼谷年會指出，未來10至15年開發中國家將有約12億年輕人進入職場，但預計只有約4億個工作機會。"
+   },
+   "question": {
+    "en": "Should a development bank prioritise creating jobs over climate goals?",
+    "zh": "開發銀行應該把創造就業放在氣候目標之前嗎？"
+   },
+   "date": "2026-10",
+   "url": "https://blueprint.ng/?p=853965"
+  },
+  {
+   "title": {
+    "en": "2026 Annual Meetings in Bangkok",
+    "zh": "2026年會於曼谷舉行"
+   },
+   "summary": {
+    "en": "The 12–18 October meetings focused on conflicts, tight budgets, rising debt and high energy costs, with AI and private capital for jobs on the agenda.",
+    "zh": "10月12至18日的年會聚焦衝突、緊縮預算、債務攀升與能源成本高漲，並討論AI與民間資金如何促進就業。"
+   },
+   "question": {
+    "en": "Why is rising debt a bigger problem for poorer countries?",
+    "zh": "為什麼債務上升對較貧窮國家的問題更大？"
+   },
+   "date": "2026-10",
+   "url": "https://sdg.iisd.org/?p=900869"
+  }
+ ],
+ "timeline": [
+  {
+   "year": "1944",
+   "text": {
+    "en": "Bretton Woods conference creates the IBRD (and the IMF)",
+    "zh": "布列敦森林會議設立IBRD（與IMF）"
+   }
+  },
+  {
+   "year": "1946",
+   "text": {
+    "en": "World Bank begins operations",
+    "zh": "世界銀行開始運作"
+   }
+  },
+  {
+   "year": "1947",
+   "text": {
+    "en": "First loan: USD 250 million to France for reconstruction",
+    "zh": "首筆貸款：2.5億美元貸給法國重建"
+   }
+  },
+  {
+   "year": "1960",
+   "text": {
+    "en": "International Development Association (IDA) created for the poorest countries",
+    "zh": "成立國際開發協會（IDA），服務最貧窮國家"
+   }
+  },
+  {
+   "year": "1980",
+   "text": {
+    "en": "PRC takes China seat; Taiwan (ROC) leaves",
+    "zh": "中華人民共和國取得中國席位，中華民國退出"
+   }
+  },
+  {
+   "year": "2007",
+   "text": {
+    "en": "Robert Zoellick era: focus shifts to climate and global public goods",
+    "zh": "佐利克任內，重心擴及氣候與全球公共財"
+   }
+  },
+  {
+   "year": "2023",
+   "text": {
+    "en": "Ajay Banga becomes president; \"better, bigger bank\" reform begins",
+    "zh": "彭杰接任總裁，啟動「更好、更大的銀行」改革"
+   }
+  },
+  {
+   "year": "2026",
+   "text": {
+    "en": "Annual Meetings in Bangkok put jobs at the centre of the agenda",
+    "zh": "曼谷年會把就業列為核心議程"
+   }
+  }
+ ]
+}

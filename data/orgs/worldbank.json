@@ -1,0 +1,798 @@
+{
+ "id": "worldbank",
+ "abbr": "WB",
+ "name": {
+  "en": "World Bank (IBRD/IDA)",
+  "zh": "世界銀行"
+ },
+ "category": "financial",
+ "founded": "1944",
+ "headquarters": {
+  "en": "Washington, D.C., United States",
+  "zh": "美國華盛頓特區"
+ },
+ "nature": {
+  "en": "Specialized agency of the UN system; multilateral development bank owned by its member countries",
+  "zh": "聯合國體系專門機構；由會員國共同持有的多邊開發銀行"
+ },
+ "purpose": {
+  "en": "The World Bank lends to and advises developing countries to reduce poverty and boost shared prosperity, funding projects such as roads, power, schools and health. The IBRD and IDA together form the World Bank; the wider World Bank Group also includes IFC, MIGA and ICSID. Created at Bretton Woods in 1944.",
+  "zh": "世界銀行向開發中國家提供貸款與政策建議，以消除貧窮、促進共享繁榮，資助道路、電力、學校與醫療等計畫。IBRD與IDA合稱世界銀行，世界銀行集團另含IFC、MIGA與ICSID。1944年布列敦森林會議創立。"
+ },
+ "as_of": "2026-11-18",
+ "members": [
+  {
+   "iso3": "AFG",
+   "status": "member"
+  },
+  {
+   "iso3": "AGO",
+   "status": "member"
+  },
+  {
+   "iso3": "ALB",
+   "status": "member"
+  },
+  {
+   "iso3": "ARE",
+   "status": "member"
+  },
+  {
+   "iso3": "ARG",
+   "status": "member"
+  },
+  {
+   "iso3": "ARM",
+   "status": "member"
+  },
+  {
+   "iso3": "ATG",
+   "status": "member"
+  },
+  {
+   "iso3": "AUS",
+   "status": "member"
+  },
+  {
+   "iso3": "AUT",
+   "status": "member"
+  },
+  {
+   "iso3": "AZE",
+   "status": "member"
+  },
+  {
+   "iso3": "BDI",
+   "status": "member"
+  },
+  {
+   "iso3": "BEL",
+   "status": "member"
+  },
+  {
+   "iso3": "BEN",
+   "status": "member"
+  },
+  {
+   "iso3": "BFA",
+   "status": "member"
+  },
+  {
+   "iso3": "BGD",
+   "status": "member"
+  },
+  {
+   "iso3": "BGR",
+   "status": "member"
+  },
+  {
+   "iso3": "BHR",
+   "status": "member"
+  },
+  {
+   "iso3": "BHS",
+   "status": "member"
+  },
+  {
+   "iso3": "BIH",
+   "status": "member"
+  },
+  {
+   "iso3": "BLR",
+   "status": "member"
+  },
+  {
+   "iso3": "BLZ",
+   "status": "member"
+  },
+  {
+   "iso3": "BOL",
+   "status": "member"
+  },
+  {
+   "iso3": "BRA",
+   "status": "member"
+  },
+  {
+   "iso3": "BRB",
+   "status": "member"
+  },
+  {
+   "iso3": "BRN",
+   "status": "member"
+  },
+  {
+   "iso3": "BTN",
+   "status": "member"
+  },
+  {
+   "iso3": "BWA",
+   "status": "member"
+  },
+  {
+   "iso3": "CAF",
+   "status": "member"
+  },
+  {
+   "iso3": "CAN",
+   "status": "member"
+  },
+  {
+   "iso3": "CHE",
+   "status": "member"
+  },
+  {
+   "iso3": "CHL",
+   "status": "member"
+  },
+  {
+   "iso3": "CHN",
+   "status": "member"
+  },
+  {
+   "iso3": "CIV",
+   "status": "member"
+  },
+  {
+   "iso3": "CMR",
+   "status": "member"
+  },
+  {
+   "iso3": "COD",
+   "status": "member"
+  },
+  {
+   "iso3": "COG",
+   "status": "member"
+  },
+  {
+   "iso3": "COL",
+   "status": "member"
+  },
+  {
+   "iso3": "COM",
+   "status": "member"
+  },
+  {
+   "iso3": "CPV",
+   "status": "member"
+  },
+  {
+   "iso3": "CRI",
+   "status": "member"
+  },
+  {
+   "iso3": "CYP",
+   "status": "member"
+  },
+  {
+   "iso3": "CZE",
+   "status": "member"
+  },
+  {
+   "iso3": "DEU",
+   "status": "member"
+  },
+  {
+   "iso3": "DJI",
+   "status": "member"
+  },
+  {
+   "iso3": "DMA",
+   "status": "member"
+  },
+  {
+   "iso3": "DNK",
+   "status": "member"
+  },
+  {
+   "iso3": "DOM",
+   "status": "member"
+  },
+  {
+   "iso3": "DZA",
+   "status": "member"
+  },
+  {
+   "iso3": "ECU",
+   "status": "member"
+  },
+  {
+   "iso3": "EGY",
+   "status": "member"
+  },
+  {
+   "iso3": "ERI",
+   "status": "member"
+  },
+  {
+   "iso3": "ESP",
+   "status": "member"
+  },
+  {
+   "iso3": "EST",
+   "status": "member"
+  },
+  {
+   "iso3": "ETH",
+   "status": "member"
+  },
+  {
+   "iso3": "FIN",
+   "status": "member"
+  },
+  {
+   "iso3": "FJI",
+   "status": "member"
+  },
+  {
+   "iso3": "FRA",
+   "status": "member"
+  },
+  {
+   "iso3": "FSM",
+   "status": "member"
+  },
+  {
+   "iso3": "GAB",
+   "status": "member"
+  },
+  {
+   "iso3": "GBR",
+   "status": "member"
+  },
+  {
+   "iso3": "GEO",
+   "status": "member"
+  },
+  {
+   "iso3": "GHA",
+   "status": "member"
+  },
+  {
+   "iso3": "GIN",
+   "status": "member"
+  },
+  {
+   "iso3": "GMB",
+   "status": "member"
+  },
+  {
+   "iso3": "GNB",
+   "status": "member"
+  },
+  {
+   "iso3": "GNQ",
+   "status": "member"
+  },
+  {
+   "iso3": "GRC",
+   "status": "member"
+  },
+  {
+   "iso3": "GRD",
+   "status": "member"
+  },
+  {
+   "iso3": "GTM",
+   "status": "member"
+  },
+  {
+   "iso3": "GUY",
+   "status": "member"
+  },
+  {
+   "iso3": "HND",
+   "status": "member"
+  },
+  {
+   "iso3": "HRV",
+   "status": "member"
+  },
+  {
+   "iso3": "HTI",
+   "status": "member"
+  },
+  {
+   "iso3": "HUN",
+   "status": "member"
+  },
+  {
+   "iso3": "IDN",
+   "status": "member"
+  },
+  {
+   "iso3": "IND",
+   "status": "member"
+  },
+  {
+   "iso3": "IRL",
+   "status": "member"
+  },
+  {
+   "iso3": "IRN",
+   "status": "member"
+  },
+  {
+   "iso3": "IRQ",
+   "status": "member"
+  },
+  {
+   "iso3": "ISL",
+   "status": "member"
+  },
+  {
+   "iso3": "ISR",
+   "status": "member"
+  },
+  {
+   "iso3": "ITA",
+   "status": "member"
+  },
+  {
+   "iso3": "JAM",
+   "status": "member"
+  },
+  {
+   "iso3": "JOR",
+   "status": "member"
+  },
+  {
+   "iso3": "JPN",
+   "status": "member"
+  },
+  {
+   "iso3": "KAZ",
+   "status": "member"
+  },
+  {
+   "iso3": "KEN",
+   "status": "member"
+  },
+  {
+   "iso3": "KGZ",
+   "status": "member"
+  },
+  {
+   "iso3": "KHM",
+   "status": "member"
+  },
+  {
+   "iso3": "KIR",
+   "status": "member"
+  },
+  {
+   "iso3": "KNA",
+   "status": "member"
+  },
+  {
+   "iso3": "KOR",
+   "status": "member"
+  },
+  {
+   "iso3": "KWT",
+   "status": "member"
+  },
+  {
+   "iso3": "LAO",
+   "status": "member"
+  },
+  {
+   "iso3": "LBN",
+   "status": "member"
+  },
+  {
+   "iso3": "LBR",
+   "status": "member"
+  },
+  {
+   "iso3": "LBY",
+   "status": "member"
+  },
+  {
+   "iso3": "LCA",
+   "status": "member"
+  },
+  {
+   "iso3": "LKA",
+   "status": "member"
+  },
+  {
+   "iso3": "LSO",
+   "status": "member"
+  },
+  {
+   "iso3": "LTU",
+   "status": "member"
+  },
+  {
+   "iso3": "LUX",
+   "status": "member"
+  },
+  {
+   "iso3": "LVA",
+   "status": "member"
+  },
+  {
+   "iso3": "MAR",
+   "status": "member"
+  },
+  {
+   "iso3": "MDA",
+   "status": "member"
+  },
+  {
+   "iso3": "MDG",
+   "status": "member"
+  },
+  {
+   "iso3": "MDV",
+   "status": "member"
+  },
+  {
+   "iso3": "MEX",
+   "status": "member"
+  },
+  {
+   "iso3": "MHL",
+   "status": "member"
+  },
+  {
+   "iso3": "MKD",
+   "status": "member"
+  },
+  {
+   "iso3": "MLI",
+   "status": "member"
+  },
+  {
+   "iso3": "MLT",
+   "status": "member"
+  },
+  {
+   "iso3": "MMR",
+   "status": "member"
+  },
+  {
+   "iso3": "MNE",
+   "status": "member"
+  },
+  {
+   "iso3": "MNG",
+   "status": "member"
+  },
+  {
+   "iso3": "MOZ",
+   "status": "member"
+  },
+  {
+   "iso3": "MRT",
+   "status": "member"
+  },
+  {
+   "iso3": "MUS",
+   "status": "member"
+  },
+  {
+   "iso3": "MWI",
+   "status": "member"
+  },
+  {
+   "iso3": "MYS",
+   "status": "member"
+  },
+  {
+   "iso3": "NAM",
+   "status": "member"
+  },
+  {
+   "iso3": "NER",
+   "status": "member"
+  },
+  {
+   "iso3": "NGA",
+   "status": "member"
+  },
+  {
+   "iso3": "NIC",
+   "status": "member"
+  },
+  {
+   "iso3": "NLD",
+   "status": "member"
+  },
+  {
+   "iso3": "NOR",
+   "status": "member"
+  },
+  {
+   "iso3": "NPL",
+   "status": "member"
+  },
+  {
+   "iso3": "NRU",
+   "status": "member"
+  },
+  {
+   "iso3": "NZL",
+   "status": "member"
+  },
+  {
+   "iso3": "OMN",
+   "status": "member"
+  },
+  {
+   "iso3": "PAK",
+   "status": "member"
+  },
+  {
+   "iso3": "PAN",
+   "status": "member"
+  },
+  {
+   "iso3": "PER",
+   "status": "member"
+  },
+  {
+   "iso3": "PHL",
+   "status": "member"
+  },
+  {
+   "iso3": "PLW",
+   "status": "member"
+  },
+  {
+   "iso3": "PNG",
+   "status": "member"
+  },
+  {
+   "iso3": "POL",
+   "status": "member"
+  },
+  {
+   "iso3": "PRT",
+   "status": "member"
+  },
+  {
+   "iso3": "PRY",
+   "status": "member"
+  },
+  {
+   "iso3": "QAT",
+   "status": "member"
+  },
+  {
+   "iso3": "ROU",
+   "status": "member"
+  },
+  {
+   "iso3": "RUS",
+   "status": "member"
+  },
+  {
+   "iso3": "RWA",
+   "status": "member"
+  },
+  {
+   "iso3": "SAU",
+   "status": "member"
+  },
+  {
+   "iso3": "SDN",
+   "status": "member"
+  },
+  {
+   "iso3": "SEN",
+   "status": "member"
+  },
+  {
+   "iso3": "SGP",
+   "status": "member"
+  },
+  {
+   "iso3": "SLB",
+   "status": "member"
+  },
+  {
+   "iso3": "SLE",
+   "status": "member"
+  },
+  {
+   "iso3": "SLV",
+   "status": "member"
+  },
+  {
+   "iso3": "SMR",
+   "status": "member"
+  },
+  {
+   "iso3": "SOM",
+   "status": "member"
+  },
+  {
+   "iso3": "SRB",
+   "status": "member"
+  },
+  {
+   "iso3": "SSD",
+   "status": "member"
+  },
+  {
+   "iso3": "STP",
+   "status": "member"
+  },
+  {
+   "iso3": "SUR",
+   "status": "member"
+  },
+  {
+   "iso3": "SVK",
+   "status": "member"
+  },
+  {
+   "iso3": "SVN",
+   "status": "member"
+  },
+  {
+   "iso3": "SWE",
+   "status": "member"
+  },
+  {
+   "iso3": "SWZ",
+   "status": "member"
+  },
+  {
+   "iso3": "SYC",
+   "status": "member"
+  },
+  {
+   "iso3": "SYR",
+   "status": "member"
+  },
+  {
+   "iso3": "TCD",
+   "status": "member"
+  },
+  {
+   "iso3": "TGO",
+   "status": "member"
+  },
+  {
+   "iso3": "THA",
+   "status": "member"
+  },
+  {
+   "iso3": "TJK",
+   "status": "member"
+  },
+  {
+   "iso3": "TKM",
+   "status": "member"
+  },
+  {
+   "iso3": "TLS",
+   "status": "member"
+  },
+  {
+   "iso3": "TON",
+   "status": "member"
+  },
+  {
+   "iso3": "TTO",
+   "status": "member"
+  },
+  {
+   "iso3": "TUN",
+   "status": "member"
+  },
+  {
+   "iso3": "TUR",
+   "status": "member"
+  },
+  {
+   "iso3": "TUV",
+   "status": "member"
+  },
+  {
+   "iso3": "TZA",
+   "status": "member"
+  },
+  {
+   "iso3": "UGA",
+   "status": "member"
+  },
+  {
+   "iso3": "UKR",
+   "status": "member"
+  },
+  {
+   "iso3": "URY",
+   "status": "member"
+  },
+  {
+   "iso3": "USA",
+   "status": "member"
+  },
+  {
+   "iso3": "UZB",
+   "status": "member"
+  },
+  {
+   "iso3": "VCT",
+   "status": "member"
+  },
+  {
+   "iso3": "VEN",
+   "status": "member"
+  },
+  {
+   "iso3": "VNM",
+   "status": "member"
+  },
+  {
+   "iso3": "VUT",
+   "status": "member"
+  },
+  {
+   "iso3": "WSM",
+   "status": "member"
+  },
+  {
+   "iso3": "XKX",
+   "status": "member"
+  },
+  {
+   "iso3": "YEM",
+   "status": "member"
+  },
+  {
+   "iso3": "ZAF",
+   "status": "member"
+  },
+  {
+   "iso3": "ZMB",
+   "status": "member"
+  },
+  {
+   "iso3": "ZWE",
+   "status": "member"
+  }
+ ],
+ "non_state_members": [],
+ "status_labels": {
+  "member": {
+   "en": "Member country",
+   "zh": "會員國"
+  }
+ },
+ "sources": [
+  "https://www.worldbank.org/en/about/leadership/members",
+  "https://www.worldbank.org/en/about/what-we-do"
+ ],
+ "notes": [
+  "189 member countries of the IBRD (IMF members except Andorra and Liechtenstein, which are IMF but not World Bank members). Includes Kosovo.",
+  "Non-members: Taiwan, Cuba, North Korea, Monaco, Andorra, Liechtenstein, Holy See, Palestine (Palestine participates via the West Bank and Gaza programme; not a member).",
+  "Taiwan (ROC) left in 1980 when the PRC took the China seat.",
+  "List derived from the IMF membership list minus AND and LIE; verified against the official 189 total."
+ ]
+}
