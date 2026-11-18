@@ -501,7 +501,7 @@ const T = {
     rivals:"Try:",tabConn:"Most connected countries",tabEcon:"Economic weight",
     connSub:"Number of full memberships among the organizations on this map (Taiwan's allies list excluded). Darker = more.",
     memberships:"memberships",top:"Top 15",fewest:"Fewest memberships",taiwanRank:"Taiwan",
-    econSub:"Share of world GDP (blue) and population (orange) held by each organization's full members.",
+    econSub:"Share of world GDP (blue) and population (orange) held by each organization's full members (G20 counts its 19 member countries only; the EU and AU are not added).",
     classic:"Classic",duel:"Which is bigger?",blitz:"60-second challenge",guess:"Guess who?",start:"Start",timeLeft:"s left",
     blitzIntro:"Answer as many as you can in 60 seconds. No penalty for wrong answers — speed matters!",
     timeUp:"Time's up!",best:"Personal best",again:"Play again",
@@ -537,7 +537,7 @@ const T = {
     rivals:"試試看：",tabConn:"最愛入會的國家",tabEcon:"經濟實力比較",
     connSub:"計算各國在本地圖組織中的正式成員數（不含台灣邦交國清單）。顏色越深＝參加越多。",
     memberships:"個組織",top:"前 15 名",fewest:"參加最少的國家",taiwanRank:"台灣",
-    econSub:"各組織正式成員合計占全球 GDP（藍）與人口（橘）的比重。",
+    econSub:"各組織正式成員合計占全球 GDP（藍）與人口（橘）的比重（G20 只計 19 個成員國，未加入歐盟與非盟）。",
     classic:"經典題",duel:"國家對決",blitz:"60 秒挑戰",guess:"猜猜我是誰",start:"開始",timeLeft:"秒",
     blitzIntro:"60 秒內盡量多答！答錯不扣分，速度最重要。",
     timeUp:"時間到！",best:"個人最佳",again:"再玩一次",
@@ -1553,7 +1553,7 @@ Object.assign(T.zh,{myday:"你的一天",hintMyday:"輸入你的月收入或零�
 const MDT = {
   en:{title:"Your Day",sub:"What if you earned your income somewhere else?",intro:"Enter what you earn (or receive) per month. We compare it with the average yearly income per person in every country.",
     amt:"Monthly income / allowance",pre:"Quick picks",basisL:"Compare with",ppp:"PPP (adjusted for prices)",nom:"Nominal (market exchange rate)",
-    asm:"Per month",perY:"per year",head:(n,m)=>`Your income is higher than the average person's in <b class="mdn">${n}</b> of ${m} countries`,
+    asm:"Per month",perY:"per year",head:(n,m)=>`Your income is roughly higher than the average person's in about <b class="mdn">${n}</b> of ${m} countries`,
     pct:p=>`That puts you above ${p}% of countries`,zero:"Type an amount above to see where you stand.",
     ladder:"The world's income ladder",low:"lowest",high:"highest",you:"You",
     pick:"Compare with a country",choose:"Choose a country…",quick:"Try:",tapmap:"Or tap any country on the map.",
@@ -1561,15 +1561,15 @@ const MDT = {
     avgIs:(v)=>`Average there: ${v} per person per year`,
     v:["Very rich by local standards","Above the local average","About the local average","Below the local average","Far below the local average"],
     close:"Closest to your income",closeS:"Countries where the average person earns about what you do.",
-    gap:(a,an,b,bn,x)=>`The gap: the average person in ${bn} earns about ${x}× as much as in ${an} (${b} vs ${a} a year).`,
-    rate:"Rate: 1 USD ≈",rateN:"TWD (approximate, for illustration; editable)",
-    adj:(f,h)=>`PPP-adjusted for ${h} prices (×${f})`,
-    cavP:"Caveat: GDP per capita is an average over everyone, including children and income from capital — not wages, so it is higher than what a typical person earns. Both sides are in PPP dollars: your income is converted at the rate below, then scaled by your home country's price level (PPP factor), so that it is comparable.",
+    gap:(a,an,b,bn,x)=>`The gap (extremes, mostly tiny economies): the average person in ${bn} earns about ${x}× as much as in ${an} (${b} vs ${a} a year).`,
+    rate:"Rate: 1 USD ≈",rateN:"TWD (about the market rate in mid-Nov 2026; editable)",
+    adj:(f,h)=>`PPP-adjusted using ${h}'s household price level (estimate ×${f}, range 1.9–2.0)`,
+    cavP:"Rough comparison only — GDP per capita includes children, retirees and corporate profit and is not a personal wage. Both sides are in PPP dollars: your income is converted at the rate above, then scaled by your home price level (an estimate for Taiwan), so treat results as approximate.",
     cavN:"Caveat: GDP per capita is an average over everyone, including children and income from capital — not wages, and the average is higher than what the typical person earns. This uses market exchange rates and does not adjust for local prices, so it understates how far money goes in poorer countries.",
     src:"Source",noData:"No income data for this country.",usd:"US$",twd:"NT$"},
   zh:{title:"你的一天",sub:"如果你在別的國家賺同樣的錢，會是什麼光景？",intro:"輸入你每月的收入或零用錢，我們把它和各國「平均每人每年所得」比一比。",
     amt:"月收入／零用錢",pre:"快速選擇",basisL:"比較基準",ppp:"購買力平價（PPP，已調整物價）",nom:"名目（市場匯率）",
-    asm:"每月",perY:"每年",head:(n,m)=>`你的收入高於 <b class="mdn">${n}</b> / ${m} 個國家的平均每人所得`,
+    asm:"每月",perY:"每年",head:(n,m)=>`你的收入大約高於 <b class="mdn">${n}</b> / ${m} 個國家的平均每人所得`,
     pct:p=>`你超過了 ${p}% 的國家`,zero:"在上面輸入金額，看看你在世界的哪個位置。",
     ladder:"世界收入階梯",low:"最低",high:"最高",you:"你",
     pick:"和某個國家比",choose:"選擇國家…",quick:"試試：",tapmap:"也可以直接點地圖上的國家。",
@@ -1577,16 +1577,16 @@ const MDT = {
     avgIs:(v)=>`當地平均：每人每年 ${v}`,
     v:["以當地標準來看非常富裕","高於當地平均","和當地平均差不多","低於當地平均","遠低於當地平均"],
     close:"跟你最接近的國家",closeS:"這些國家的平均每人所得，和你差不多。",
-    gap:(a,an,b,bn,x)=>`落差有多大：${bn}的平均每人所得約是${an}的 ${x} 倍（每年 ${b} 對 ${a}）。`,
-    rate:"匯率：1 美元 ≈",rateN:"新台幣（約略值，僅供示意，可自行修改）",
-    adj:(f,h)=>`依${h}物價換算成購買力（×${f}）`,
-    cavP:"提醒：人均 GDP 是全體居民（含兒童、含資本收益）的平均，並不是薪資，所以會高於一般人的實際收入。這裡兩邊都用購買力平價（PPP）美元：你的收入先依下方匯率換算，再乘上你所在國家的物價水準（PPP 係數），才能公平比較。",
+    gap:(a,an,b,bn,x)=>`落差有多大（兩端多為小型經濟體）：${bn}的平均每人所得約是${an}的 ${x} 倍（每年 ${b} 對 ${a}）。`,
+    rate:"匯率：1 美元 ≈",rateN:"新台幣（約為 2026 年 11 月中旬市場匯率，可自行修改）",
+    adj:(f,h)=>`依${h}家庭消費物價換算成購買力（估計 ×${f}，約 1.9–2.0）`,
+    cavP:"人均 GDP 含兒童、退休者與企業獲利，僅供粗略比較，非個人薪資水準。兩邊都用購買力平價（PPP）美元：你的收入先依匯率換算，再乘上所在地的家庭消費物價水準（台灣為估計值）才能比較，結果請當作約略值。",
     cavN:"提醒：人均 GDP 是全體居民（含兒童、含資本收益）的平均，並不是薪資，而且平均數會高於一般人的實際收入。這裡用市場匯率、沒有調整各國物價，所以會低估錢在較貧窮國家的購買力。",
     src:"資料來源",noData:"這個國家沒有所得資料。",usd:"US$",twd:"NT$"}
 };
 const mt = k => (MDT[lang] || MDT.en)[k];
-const MD_KEY = "ioMyDay";
-const md = {amt:null, cur:null, basis:null, rate:31.5, sel:null, shown:null};
+const MD_KEY = "ioMyDay2";   // v2: new default rate and PPP factor
+const md = {amt:null, cur:null, basis:null, rate:32.8, sel:null, shown:null};
 try { const s = JSON.parse(localStorage.getItem(MD_KEY)||"null"); if (s) { if (s.amt>=0) md.amt=s.amt; if (s.cur) md.cur=s.cur; if (s.basis) md.basis=s.basis; if (s.rate>0) md.rate=s.rate; if (s.sel) md.sel=s.sel; } } catch(e){}
 const mdSave = () => { try { localStorage.setItem(MD_KEY, JSON.stringify({amt:md.amt,cur:md.cur,basis:md.basis,rate:md.rate,sel:md.sel})); } catch(e){} };
 const mdReduced = () => window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -1597,8 +1597,9 @@ const mdBasis = () => (mdHasPPP() && md.basis!=="nom") ? "ppp" : "nom";
 const mdUSDm = () => mdCur()==="TWD" ? mdAmt()/md.rate : mdAmt();   // monthly USD
 const mdHome = () => mdCur()==="TWD" ? "TWN" : "USA";   // where the user's money is spent
 // PPP basis: scale the user's income by their HOME price level, otherwise market-rate dollars are compared with PPP dollars (apples vs oranges)
-const mdPPPf = () => { if (mdBasis()!=="ppp") return 1; const c = C[mdHome()], p = DATA.ppp.values[mdHome()];
-  return (c && c.gdp_usd>0 && c.population>0 && p>0) ? p/(c.gdp_usd/c.population) : 1; };
+// Taiwan: household-consumption price level (Penn World Table 11.0, 2023, ~1/0.513 = 1.95; range 1.9-2.0). The whole-GDP ratio (2.28) overstates what a salary buys.
+// USA: 1 by definition.
+const mdPPPf = () => { if (mdBasis()!=="ppp") return 1; return mdHome()==="TWN" ? 1.95 : 1; };
 const mdUSDy = () => mdUSDm()*12*mdPPPf();
 const mdFmtUSD = v => "US$" + Math.round(v).toLocaleString("en-US");
 const mdFmtCur = (v,cur) => (cur==="TWD" ? "NT$" : "US$") + Math.round(v).toLocaleString("en-US");
@@ -1658,7 +1659,7 @@ function mdOutHtml(){
   const amt = mdAmt(); if (!(amt>0)) return `<p class="note" style="margin-top:14px">${mt("zero")}</p>`;
   const st = mdStand(), d = mdData(), cur = mdCur(), y = mdUSDy();
   let h = `<div class="mdhead"><div class="mdbig">${mt("head")(st.n, st.m)}</div>
-    <div class="note" style="margin:2px 0 0">${mt("pct")(Math.round(st.n/st.m*100))} · ${mt("asm")} ${mdFmtCur(amt,cur)}${cur==="TWD"?` ≈ ${mdFmtUSD(mdUSDm())}`:""} · ${mdFmtUSD(mdUSDm()*12)} ${mt("perY")}${mdPPPf()!==1?` · ${mt("adj")(mdPPPf().toFixed(2), cname(mdHome()))} ≈ <b>${mdFmtUSD(y)}</b>`:""}</div></div>
+    <div class="note" style="margin:2px 0 0">${mt("pct")(Math.round(st.n/st.m*100))} · ${mt("asm")} ${mdFmtCur(amt,cur)}${cur==="TWD"?` ≈ ${mdFmtUSD(mdUSDm())}`:""} · ${mdFmtUSD(mdUSDm()*12)} ${mt("perY")}${mdPPPf()>1.001?` · ${mt("adj")(mdPPPf().toFixed(2), cname(mdHome()))} ≈ <b>${mdFmtUSD(y)}</b>`:""}</div></div>
     <h3 style="margin-top:14px">${mt("ladder")}</h3>${mdStrip(st)}
     <h3 style="margin-top:14px">${mt("pick")}</h3>
     <select id="mdSel" class="mdsel"><option value="">${mt("choose")}</option>${[...d.arr].sort((a,b)=>cname(a.iso).localeCompare(cname(b.iso), lang==="zh"?"zh-Hant":"en")).map(a=>`<option value="${a.iso}" ${a.iso===md.sel?"selected":""}>${esc(cname(a.iso))}</option>`).join("")}</select>

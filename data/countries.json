@@ -2973,11 +2973,11 @@
     "zh": "阿魯巴"
    },
    "un_member": false,
-   "gdp_usd": null,
-   "gdp_year": null,
-   "population": null,
-   "pop_year": null,
-   "note": "Constituent country of the Kingdom of the Netherlands; INTERPOL member. Added 2026-11-18."
+   "gdp_usd": 4420000000,
+   "gdp_year": 2025,
+   "population": 109000,
+   "pop_year": 2025,
+   "note": "Constituent country of the Kingdom of the Netherlands; INTERPOL member. GDP and population from IMF WEO Oct 2026 (NGDPD, LP), added 2026-11-18."
   },
   {
    "iso3": "SXM",
