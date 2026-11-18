@@ -200,7 +200,6 @@ summary{cursor:pointer;font-weight:800;color:var(--navy);padding:4px 0}
 <body>
 <header class="hero">
   <div class="hero-main">
-    <div class="eyebrow" id="eyebrow"></div>
     <h1 id="title"></h1>
     <p class="tagline" id="tagline"></p>
     <div class="herostats" id="herostats"></div>
@@ -710,7 +709,6 @@ function setLang(l){
   document.documentElement.lang = l==="zh"?"zh-Hant":"en";
   document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on", b.dataset.lang===l));
   document.getElementById("title").textContent = t("title");
-  document.getElementById("eyebrow").textContent = lang==="zh" ? "輔仁大學 · FINANCIAL MARKET AND GLOBAL BUSINESS" : "FU JEN CATHOLIC UNIVERSITY · FINANCIAL MARKET AND GLOBAL BUSINESS";
   document.getElementById("tagline").textContent = lang==="zh" ? "G20、APEC、WTO、CPTPP……點地圖看各國加入了哪些國際組織。" : "G20, APEC, WTO, CPTPP… tap the map to see which big international clubs each country belongs to.";
   document.getElementById("herostats").innerHTML = lang==="zh"
     ? `<span><b>${orgs.length}</b>個國際組織</span><span><b>${countries.length}</b>個國家與地區</span><span>資料更新 ${asOf}</span>`
