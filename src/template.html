@@ -27,7 +27,7 @@ header.hero:after{content:"";position:absolute;left:46%;bottom:-48px;width:130px
 .hero-main{position:relative;z-index:2;flex:1;min-width:0}
 .eyebrow{display:inline-block;background:var(--yellow);color:#111;border:2px solid #111;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:800;letter-spacing:.04em;box-shadow:0 2px 0 #111}
 header h1{font-size:44px;margin:12px 0 6px;font-weight:800;color:#fff;line-height:1.1;letter-spacing:.02em;text-shadow:3px 3px 0 #111}
-.tagline{margin:0 0 14px;font-size:15px;font-weight:600;color:var(--cream);max-width:560px;line-height:1.55}
+.tagline{margin:0 0 14px;font-size:15px;font-weight:600;color:var(--cream);max-width:680px;line-height:1.55}
 .herostats{display:flex;flex-wrap:wrap;gap:8px}
 .herostats span{background:#fff;color:#111;border:2px solid #111;border-radius:12px;padding:5px 12px;font-size:13px;font-weight:700;box-shadow:0 3px 0 #111}
 .herostats b{font-size:17px;font-weight:800;color:var(--orange);margin-right:3px}
@@ -39,7 +39,7 @@ header h1{font-size:44px;margin:12px 0 6px;font-weight:800;color:#fff;line-heigh
 .fc.c{right:0;bottom:6px;background:var(--orange);color:#fff;transform:rotate(-5deg)}
 header .lang{position:absolute;right:16px;top:14px;z-index:3}
 .lang{display:flex;border:2px solid #111;border-radius:999px;overflow:hidden;flex-shrink:0;background:#fff;box-shadow:0 3px 0 #111}
-.lang button{border:0;background:none;padding:6px 13px;font-size:13px;font-weight:700}
+.lang button{color:#111;border:0;background:none;padding:6px 13px;font-size:13px;font-weight:700}
 .lang button.on{background:var(--yellow);color:#111}
 nav.modes{display:flex;gap:8px;flex-wrap:wrap}
 nav.modes button{flex:1;max-width:170px;border:2px solid #111;background:#fff;border-radius:12px;padding:10px 6px;font-size:14px;font-weight:800;color:#111;box-shadow:0 3px 0 #111;transition:transform .08s,box-shadow .08s}
@@ -711,7 +711,7 @@ function setLang(l){
   document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on", b.dataset.lang===l));
   document.getElementById("title").textContent = t("title");
   document.getElementById("eyebrow").textContent = lang==="zh" ? "輔仁大學 · FINANCIAL MARKET AND GLOBAL BUSINESS" : "FU JEN CATHOLIC UNIVERSITY · FINANCIAL MARKET AND GLOBAL BUSINESS";
-  document.getElementById("tagline").textContent = lang==="zh" ? "G20、APEC、WTO、CPTPP……點一下地圖，看看世界各國在哪些大型國際組織裡。" : "G20, APEC, WTO, CPTPP… tap the map to see which big international clubs each country belongs to.";
+  document.getElementById("tagline").textContent = lang==="zh" ? "G20、APEC、WTO、CPTPP……點地圖看各國加入了哪些國際組織。" : "G20, APEC, WTO, CPTPP… tap the map to see which big international clubs each country belongs to.";
   document.getElementById("herostats").innerHTML = lang==="zh"
     ? `<span><b>${orgs.length}</b>個國際組織</span><span><b>${countries.length}</b>個國家與地區</span><span>資料更新 ${asOf}</span>`
     : `<span><b>${orgs.length}</b> organizations</span><span><b>${countries.length}</b> countries &amp; regions</span><span>Data as of ${asOf}</span>`;
