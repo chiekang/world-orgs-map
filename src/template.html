@@ -10,7 +10,8 @@
 :root{
   --accent:#E8766A; --on-accent:#fff; --hero-ink:#fff;
   --bg:#E7E9EC; --panel:#ffffff; --ink:#222222; --muted:#6d7178; --line:#dfe1e5; --soft:#F2F3F5;
-  --navy:var(--accent); --land:#ffffff; --land-stroke:#c9ccd1; --ocean:color-mix(in srgb,var(--accent) 12%,#f4f5f7);
+  --navy:var(--accent); --land:color-mix(in srgb,var(--accent) 3%,#fff); --land-stroke:color-mix(in srgb,var(--accent) 32%,#c4c9cf); --ocean:color-mix(in srgb,var(--accent) 34%,#e9eef3);
+  --r-sm:5px; --r-md:8px; --r-lg:16px; --sp:12px; --shadow-sm:0 2px 8px rgba(30,35,45,.08); --arc:var(--accent);
   --coral:#E8766A; --mustard:#EBB015; --mint:#5BB89A; --char:#2A2D31;
   --t1:var(--accent); --t2:color-mix(in srgb,var(--accent) 58%,#fff); --t3:color-mix(in srgb,var(--accent) 28%,#fff); --t4:#2A2D31;
   --cA:#E8766A; --cB:#EBB015; --cC:#5BB89A; --cX:#2A2D31;
@@ -74,8 +75,8 @@ main{flex:1;display:flex;min-height:0;position:relative;gap:16px;align-items:str
 #map{width:100%;height:100%;display:block}
 .country{stroke:var(--land-stroke);stroke-width:.5;vector-effect:non-scaling-stroke;cursor:pointer;transition:fill .25s}
 .country:hover{filter:brightness(.94)}
-.country.sel{stroke:#222;stroke-width:2}
-.smalldot{stroke:#9aa0a8;stroke-width:.8;vector-effect:non-scaling-stroke;cursor:pointer}
+.country.sel{stroke:#222;stroke-width:1.5}
+.smalldot{vector-effect:non-scaling-stroke;cursor:pointer}
 .zoombtns{position:absolute;right:12px;top:12px;display:flex;flex-direction:column;gap:6px}
 .zoombtns button{width:38px;height:38px;border-radius:6px;border:0;background:#fff;font-size:20px;font-weight:500;line-height:1;box-shadow:0 3px 10px rgba(30,35,45,.15);color:#222}
 .zoombtns button:hover{background:var(--accent);color:var(--on-accent)}
@@ -176,6 +177,47 @@ summary{cursor:pointer;font-weight:700;color:var(--ink);padding:4px 0}
 .clues{list-style:none;padding:0;margin:8px 0}
 .clues li{background:var(--soft);border-radius:6px;padding:9px 12px;margin:7px 0;font-size:14px;font-weight:500;border-left:4px solid var(--accent)}
 .marker{pointer-events:none}
+/* DUEL CSS */
+.duel .dscore{align-items:center}
+.duel .dflame b{font-family:"Montserrat",sans-serif;font-size:20px}
+.duel .dflame.hot{animation:dflame 1s ease-in-out infinite;transform-origin:left center}
+.duel .dcards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0 10px}
+.duel .dc{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:150px;padding:18px 8px 12px;background:#fff;border:1px solid var(--line);border-top:6px solid var(--cA);border-radius:8px;text-align:center;transition:transform .15s,box-shadow .15s,background .25s,border-color .25s}
+.duel .dc.dcB{border-top-color:var(--cB)}
+.duel .dc:hover:not(:disabled){transform:translateY(-3px);box-shadow:var(--shadow)}
+.duel .dc:active:not(:disabled){transform:scale(.97)}
+.duel .dc:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.duel .dc:disabled{cursor:default;color:var(--ink)}
+.duel .dc .flag{width:min(96px,70%);height:auto;box-shadow:0 2px 8px rgba(0,0,0,.18)}
+.duel .dc .dn{font-size:16px;font-weight:800;line-height:1.25}
+.duel .dc .dk{position:absolute;top:6px;left:8px;font-size:11px;font-weight:700;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px}
+.duel .dc .dv{font-family:"Montserrat",sans-serif;font-size:15px;font-weight:800;color:var(--muted);font-variant-numeric:tabular-nums}
+.duel .dc.right{background:var(--good);border-color:var(--good);color:#fff}
+.duel .dc.right .dv,.duel .dc.right .dk{color:#fff;border-color:rgba(255,255,255,.5)}
+.duel .dc.wrong{background:var(--bad);border-color:var(--bad);color:#fff}
+.duel .dc.wrong .dv,.duel .dc.wrong .dk{color:#fff;border-color:rgba(255,255,255,.5)}
+.duel .dc.dim{opacity:.7}
+.duel .dc.pop{animation:dpop .5s cubic-bezier(.2,1.6,.4,1)}
+.duel .dc.shake{animation:dshake .45s}
+.duel .drev{border-radius:8px;padding:10px 14px;background:var(--soft);border-left:5px solid var(--good)}
+.duel .drev.bad{border-left-color:var(--bad)}
+.duel .drev.good{animation:dflash .7s}
+.duel .drev.bad{animation:dflashbad .7s}
+.duel .drev b{font-size:15px}
+.duel .drev.good b{color:var(--good)}.duel .drev.bad b{color:var(--bad)}
+.duel .drev p{margin:6px 0 0;font-size:14px;line-height:1.5;font-weight:500}
+.duel .dhint{text-align:center;margin:4px 0 0}
+.duel .dres{margin-top:6px;text-align:center}
+.duel .dover{font-weight:800;font-size:16px;color:var(--bad);margin-top:12px}
+.duel .drec{font-weight:800;color:var(--accent);margin:4px 0}
+@keyframes dpop{0%{transform:scale(1)}45%{transform:scale(1.09)}100%{transform:scale(1)}}
+@keyframes dshake{0%,100%{transform:translateX(0)}20%{transform:translateX(-9px)}40%{transform:translateX(8px)}60%{transform:translateX(-6px)}80%{transform:translateX(4px)}}
+@keyframes dflash{0%{background:color-mix(in srgb,var(--good) 45%,#fff)}100%{background:var(--soft)}}
+@keyframes dflashbad{0%{background:color-mix(in srgb,var(--bad) 40%,#fff)}100%{background:var(--soft)}}
+@keyframes dflame{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@media (max-width:480px){.duel .dc{min-height:140px;padding:16px 6px 10px}.duel .dc .dn{font-size:14px}.duel .dc .dv{font-size:13px}}
+@media (prefers-reduced-motion:reduce){.duel .dc,.duel .dc.pop,.duel .dc.shake,.duel .drev,.duel .dflame.hot{animation:none!important;transition:none!important}}
+/* END DUEL CSS */
 @keyframes pulse{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(3)}}
 .pulse{fill:var(--accent);transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-out infinite}
 /* mobile */
@@ -210,6 +252,181 @@ summary{cursor:pointer;font-weight:700;color:var(--ink);padding:4px 0}
   .legend{font-size:11px;padding:6px 8px}
   nav.modes button{font-size:13px;padding:10px 4px;flex:1 1 22%}
 }
+/* ===== VISUAL layer (hero slim, compact picker, map richness, cards, mobile sheet) ===== */
+body{font-variant-numeric:tabular-nums}
+.country{transition:fill .5s ease,filter .15s}
+.smalldot{transition:fill .5s ease;paint-order:stroke}
+.smalldot.on{filter:drop-shadow(0 0 2.5px var(--accent))}
+.smalldot:hover{stroke:var(--accent);stroke-width:2}
+#mapwrap{background:radial-gradient(120% 90% at 50% 40%,color-mix(in srgb,var(--ocean) 70%,#fff),var(--ocean))}
+.arc{fill:none;stroke:var(--arc);stroke-linecap:round;pointer-events:none;stroke-dasharray:1;stroke-dashoffset:1;opacity:.55;animation:arcdraw .9s ease-out forwards}
+.arcdot{fill:var(--arc);opacity:.7;pointer-events:none}
+@keyframes arcdraw{to{stroke-dashoffset:0}}
+.legend .gradbar{display:block;width:150px;height:10px;border-radius:5px;margin:4px 0 2px;border:0;background:linear-gradient(90deg,color-mix(in srgb,var(--accent) 30%,#fff),var(--accent))}
+.legend .gradlbl{display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted);margin:0}
+/* compact organization picker */
+.group.pop{flex-wrap:nowrap;overflow-x:auto;padding:2px}
+.chip.more{background:var(--soft);border-style:dashed;display:inline-flex;align-items:center;gap:5px}
+.chip.more.on{background:var(--ink);border-color:var(--ink);color:#fff;border-style:solid}
+.chip.more svg{width:11px;height:11px;transition:transform .2s}
+.chip.more.on svg{transform:rotate(180deg)}
+.toolbar{position:relative}
+.morebox{display:none;position:absolute;z-index:35;left:0;right:0;top:calc(100% + 6px);background:var(--panel);border-radius:var(--r-md);box-shadow:0 18px 44px rgba(30,35,45,.22);padding:12px 14px;max-height:60vh;overflow:auto}
+.morebox.open{display:block;animation:fadeUp .18s ease-out}
+.morebox .group{flex-wrap:wrap;overflow:visible;padding:3px 2px}
+.morebox .group .glabel{width:120px}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+/* cards */
+.ctitle .flag{width:72px;border-radius:var(--r-sm);box-shadow:0 0 0 1px rgba(0,0,0,.1),0 4px 10px rgba(0,0,0,.12)}
+.ctitle h2{font-size:28px;line-height:1.15;font-weight:800}
+.card{border-radius:var(--r-md)}
+.stat{border-radius:var(--r-md)}
+.stat b{font-size:28px;line-height:1.1;letter-spacing:-.01em}
+.stat em{font-style:normal;font-family:"Roboto","Noto Sans TC",sans-serif;font-size:12px;font-weight:700;color:var(--muted);margin-left:5px;letter-spacing:0}
+.stat span{display:block;margin-top:3px;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em}
+.orglist li{border-bottom:1px dashed var(--line)}
+.orglist li b{display:inline-block;min-width:52px;text-align:center;padding:2px 9px;margin-bottom:3px;border:1.5px solid var(--ink);border-radius:var(--r-sm);font-size:13px;font-weight:800;letter-spacing:.04em;background:#fff;transform:rotate(-1.5deg)}
+.tag{border-radius:999px;padding:3px 11px;font-size:11px;font-weight:700;letter-spacing:.03em}
+.live{display:inline-block;width:.42em;height:.42em;min-width:9px;min-height:9px;border-radius:50%;background:#e5322d;border:2px solid #fff;margin-right:.4em;vertical-align:middle;animation:livepulse 1.4s ease-out infinite;box-sizing:content-box}
+@keyframes livepulse{0%{box-shadow:0 0 0 0 rgba(229,50,45,.65)}100%{box-shadow:0 0 0 10px rgba(229,50,45,0)}}
+.meet{border-radius:var(--r-md)}
+.meet .cd{font-size:56px;letter-spacing:-.02em}
+.meet .cd small{font-size:14px;letter-spacing:0}
+.uplist .d{font-size:30px;line-height:1;min-width:76px}
+.uplist .d small{margin-top:4px}
+.uplist li button{border-radius:var(--r-sm);transition:background .15s}
+@media (min-width:821px){
+  body{padding:12px 16px 14px;gap:10px}
+  header.hero{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 20px;padding:12px 22px 14px}
+  .hero-top{display:contents}
+  .hero-brand{grid-column:1;grid-row:1;font-size:12px}
+  .hero-ctl{grid-column:2;grid-row:1 / span 2}
+  .hero-mid{grid-column:1;grid-row:2;max-width:none;display:flex;align-items:center;gap:6px 28px;flex-wrap:wrap}
+  header h1{font-size:28px;margin:0}
+  .tagline{display:none}
+  .stats-line{margin:0;gap:18px;flex-wrap:nowrap}
+  .stats-line div{font-size:12px;display:flex;align-items:baseline;gap:5px;white-space:nowrap}
+  .stats-line b{display:inline;font-size:15px}
+  nav.modes button{padding:9px 8px;flex:0 1 140px}
+  .toolbar{flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px 14px;padding:8px 12px}
+  .search{width:230px;flex:none}
+  .search input{padding:8px 10px 8px 36px}
+  .search svg{top:10px}
+  .suggest{top:42px}
+  .groups{flex:1 1 0;min-width:0;flex-direction:row;flex-wrap:wrap;align-items:center;gap:6px 10px}
+  .groups>.presets{flex:1 0 100%;order:-1}
+  .group.pop{flex:1 1 auto;min-width:0}
+  .group.pop .glabel{display:none}
+  .hint{flex:1 0 100%;font-size:12px;order:5}
+  main{min-height:460px}
+  #mapwrap{min-height:0}
+  aside#panel{width:380px;min-height:0}
+}
+@media (min-width:821px) and (max-width:1099px){ aside#panel{width:320px} .search{width:180px} }
+@media (max-width:820px){
+  html,body{height:auto}
+  body{padding:8px 8px 16px;gap:8px;min-height:100%}
+  header.hero{padding:10px 14px 12px;gap:6px}
+  header h1{font-size:21px;margin:0}
+  .tagline{display:none}
+  .stats-line{margin-top:6px;gap:14px;flex-wrap:nowrap}
+  .stats-line div{font-size:10.5px;white-space:nowrap}
+  .stats-line b{font-size:14px;display:inline;margin-right:3px}
+  .stats-line div:nth-child(n+3){display:none}
+  nav.modes{position:sticky;top:0;z-index:45;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;gap:6px;margin:0 -8px;padding:6px 8px;background:var(--bg);-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
+  nav.modes::-webkit-scrollbar{display:none}
+  nav.modes button{flex:0 0 auto;white-space:nowrap;padding:10px 16px;font-size:14px;scroll-snap-align:start}
+  .toolbar{padding:8px 10px;gap:8px}
+  .group.pop{flex-wrap:wrap;overflow:visible;gap:6px}
+  .chip{padding:5px 12px;min-height:34px}
+  .stat b{font-size:23px}
+  .stat em{font-size:11px;white-space:nowrap;margin-left:3px}
+  .search input{padding:9px 10px 9px 36px}
+  .search svg{top:11px}
+  .suggest{top:42px}
+  .hint{font-size:11px;line-height:1.4}
+  #mapwrap{height:55vh;min-height:320px}
+  .zoombtns button{width:34px;height:34px}
+  .morebox{max-height:50vh}
+  .morebox .group .glabel{width:100%}
+  .ctitle .flag{width:60px}
+  .ctitle h2{font-size:24px}
+  .meet .cd{font-size:44px}
+  aside#panel.sheet{position:fixed;left:0;right:0;bottom:0;width:auto;max-height:56vh;z-index:60;background:var(--bg);border-radius:20px 20px 0 0;box-shadow:0 -12px 36px rgba(20,25,35,.28);padding:26px 10px 14px;overflow:auto;overscroll-behavior:contain;animation:sheetUp .28s cubic-bezier(.2,.8,.2,1)}
+  aside#panel.sheet::before{content:"";position:absolute;top:9px;left:50%;width:42px;height:5px;margin-left:-21px;border-radius:3px;background:#b9bec6}
+  aside#panel.sheet .card{margin-bottom:10px}
+  aside#panel.sheet .close{width:36px;height:36px;font-size:20px}
+  body.sheet-open{padding-bottom:calc(56vh + 8px)}
+}
+@keyframes sheetUp{from{transform:translateY(100%)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
+  .arc{stroke-dashoffset:0}
+}
+/* WORLD100 CSS */
+.w100 .sub{margin:0 0 10px}
+.w100pick{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
+.w100pick label{display:flex;align-items:center;gap:8px}
+.w100pick .sw{width:14px;height:14px;border-radius:50%;flex-shrink:0}
+.w100pick select{flex:1;min-width:0;padding:7px 8px;border:1px solid var(--line);border-radius:6px;background:var(--soft);font:inherit;font-size:13px;color:var(--ink)}
+.w100big{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.w100big>div:not(.w100ov){flex:1;min-width:120px;background:var(--soft);border-radius:6px;padding:8px 10px}
+.w100big b{font-size:30px;font-weight:800;line-height:1.1}
+.w100big small{font-size:13px;color:var(--muted);font-weight:600}
+.w100big span{display:block;font-size:12px;color:var(--muted)}
+.w100big b span,.w100big b small{display:inline}
+.w100ov{flex-basis:100%;font-size:12.5px;color:var(--muted)}.w100ov b{color:var(--ink)}
+.w100grids{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:520px){.w100grids{grid-template-columns:1fr}}
+.w100grid{display:grid;grid-template-columns:repeat(10,1fr);gap:3px;max-width:260px}
+.w100i{width:100%;aspect-ratio:10/14;color:var(--c);cursor:pointer;transition:opacity .15s,transform .15s}
+.w100i.off{opacity:0;transform:scale(.4)}
+.w100i:hover{transform:scale(1.15)}
+.w100leg{display:flex;flex-wrap:wrap;gap:4px 14px;margin:10px 0 4px;font-size:12px}
+.w100leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+.w100detail{font-size:12.5px;color:var(--muted);min-height:2.6em;margin:6px 0}
+.w100ins{font-size:14px;font-weight:600;margin:6px 0 0;line-height:1.5;border-left:3px solid var(--accent);padding-left:10px}
+/* END WORLD100 CSS */
+/* MYDAY CSS */
+.md .mdl{display:block;font-size:12px;font-weight:700;color:var(--muted);margin:12px 0 5px}
+.md .mdrow{display:flex;gap:8px;align-items:stretch;flex-wrap:wrap}
+.md .mdinp{flex:1 1 150px;display:flex;align-items:center;gap:6px;border:2px solid var(--line);border-radius:var(--r-md);background:#fff;padding:0 12px;min-height:46px}
+.md .mdinp:focus-within{border-color:var(--accent)}
+.md .mdinp span{font-weight:700;color:var(--muted)}
+.md .mdinp input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;font-size:22px;font-weight:800;color:var(--ink);width:100%}
+.md .mdseg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:#fff}
+.md .mdseg button{border:0;background:transparent;padding:0 14px;min-height:44px;font-weight:700;font-size:13px;color:var(--ink);cursor:pointer}
+.md .mdseg button.on{background:var(--accent);color:var(--on-accent)}
+.md .mdseg2 button{min-height:36px;padding:0 12px;font-size:12px}
+.md .mdpre,.md .mdquick{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
+.md .mdp .flag{width:18px;margin-right:6px;vertical-align:-3px}
+.md .mdbig{font-size:20px;font-weight:800;line-height:1.35;margin-top:14px}
+.md .mdn{font-size:34px;color:var(--accent);font-variant-numeric:tabular-nums}
+.md .mdstrip{position:relative;margin-top:30px}
+.md .mdbars{display:flex;align-items:flex-end;gap:0;height:74px;overflow:hidden}
+.md .mdb{flex:1 1 0;min-width:0;background:var(--line);border-right:.5px solid #fff;cursor:pointer}
+.md .mdb.lo{background:var(--accent)}
+.md .mdb:hover,.md .mdb.sel{background:var(--ink)}
+.md .mdyou{position:absolute;top:-24px;bottom:0;width:0;border-left:2px solid var(--ink);pointer-events:none}
+.md .mdyou span{position:absolute;top:0;left:0;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:11px;font-weight:700;border-radius:999px;padding:1px 9px;white-space:nowrap}
+.md .mdends{display:flex;justify-content:space-between;gap:8px;font-size:11px;color:var(--muted);margin-top:4px}
+.md .mdsel{width:100%;min-height:42px;border:1px solid var(--line);border-radius:var(--r-md);padding:0 10px;font:inherit;background:#fff;color:var(--ink)}
+.md .mdcty{border-left:5px solid var(--accent);background:color-mix(in srgb,var(--accent) 6%,#fff);border-radius:var(--r-md);padding:12px 14px;margin-top:12px}
+.md .mdx{display:flex;align-items:baseline;gap:8px;margin:8px 0 4px;flex-wrap:wrap}
+.md .mdxn{font-size:38px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.md .mdxl{font-size:13px;color:var(--muted);font-weight:600}
+.md .mdedu{font-size:14px;font-weight:600;margin:14px 0 0;line-height:1.5;border-left:3px solid var(--accent);padding-left:10px}
+.md .mdrate{width:62px;border:1px solid var(--line);border-radius:5px;padding:2px 6px;font:inherit;font-size:12px}
+@media (max-width:520px){.md .mdbig{font-size:18px}.md .mdn{font-size:30px}.md .mdxn{font-size:32px}.md .mdbars{height:60px}}
+/* END MYDAY CSS */
+/* FACTS CSS */
+.facts{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px}
+.facts h3{margin:0 0 8px}
+.frow{display:flex;gap:10px;font-size:13.5px;padding:4px 0}
+.frow b{flex:0 0 92px;color:var(--muted);font-weight:600}
+.facts .fun{background:var(--soft);border-left:4px solid var(--accent);border-radius:6px;padding:10px 12px;margin:10px 0 0;font-size:14px;line-height:1.5}
+.facts .fnote{font-size:11px;color:var(--muted);margin:6px 0 0}
+/* END FACTS CSS */
 </style>
 </head>
 <body>
@@ -232,6 +449,8 @@ summary{cursor:pointer;font-weight:700;color:var(--ink);padding:4px 0}
   <button data-mode="compare"></button>
   <button data-mode="rank"></button>
   <button data-mode="quiz"></button>
+  <button data-mode="world100"></button>
+  <button data-mode="myday"></button>
 </nav>
 <div class="toolbar">
   <div class="search">
@@ -273,6 +492,8 @@ const T = {
     hintExplore:"Pick an organization to see its members. Tap any country to see which organizations it belongs to.",
     hintCompare:"Pick up to 3 organizations to see where they overlap.",
     hintQuiz:"Test yourself! Members are highlighted after you answer.",
+    world100:"World of 100",w100:"World of 100",w100Sub:"Shrink the world to 100 people and 100 dollars. Who is in the club?",hintWorld100:"If the world were 100 people and 100 dollars: how many belong to this organization?",
+    w100People:"Population",w100Money:"GDP",w100None:"Compare with… (optional)",w100Overlap:"In both",w100PeopleU:"people",w100MoneyU:"dollars",w100Countries:"countries",w100Rest:"Everyone else",w100Tap:"Tap an icon to see the largest countries behind it.",w100Top:"Top 3 ",w100ByPop:"by population",w100ByGdp:"by GDP",
     rank:"Rankings",hintRank:"Which countries join the most clubs? Which clubs carry the most economic weight?",
     nextMeet:"Next meeting",daysLeft:"days to go",dayLeft:"day to go",now:"Happening now",held:"Recently held",tbc:"to be confirmed",
     hot:"Hot topics",discuss:"Discuss: ",timeline:"Timeline",readMore:"Source",
@@ -281,7 +502,7 @@ const T = {
     connSub:"Number of full memberships among the organizations on this map (Taiwan's allies list excluded). Darker = more.",
     memberships:"memberships",top:"Top 15",fewest:"Fewest memberships",taiwanRank:"Taiwan",
     econSub:"Share of world GDP (blue) and population (orange) held by each organization's full members.",
-    classic:"Classic",blitz:"60-second challenge",guess:"Guess who?",start:"Start",timeLeft:"s left",
+    classic:"Classic",duel:"Which is bigger?",blitz:"60-second challenge",guess:"Guess who?",start:"Start",timeLeft:"s left",
     blitzIntro:"Answer as many as you can in 60 seconds. No penalty for wrong answers — speed matters!",
     timeUp:"Time's up!",best:"Personal best",again:"Play again",
     guessIntro:"Read the clues and guess the country. Fewer clues = more points.",
@@ -307,6 +528,8 @@ const T = {
     hintExplore:"選一個組織，地圖會顯示成員國。點任何國家，可看它參加了哪些組織。",
     hintCompare:"最多選 3 個組織，看看它們的成員在哪裡重疊。",
     hintQuiz:"自我測驗！作答後地圖會顯示答案。",
+    world100:"100人世界",w100:"100人世界",w100Sub:"把世界縮成 100 個人、100 塊錢，看看這個組織佔多少。",hintWorld100:"如果世界只有 100 個人、100 塊錢：這個組織佔了多少？",
+    w100People:"人口",w100Money:"GDP",w100None:"與…比較（選填）",w100Overlap:"兩者重疊",w100PeopleU:"人",w100MoneyU:"元",w100Countries:"國",w100Rest:"其他人",w100Tap:"點一下圖示，看背後最大的國家。",w100Top:"前 3 大",w100ByPop:"（人口）",w100ByGdp:"（GDP）",
     rank:"排行榜",hintRank:"哪些國家參加最多組織？哪些組織的經濟分量最重？",
     nextMeet:"下一次會議",daysLeft:"天後",dayLeft:"天後",now:"正在舉行",held:"剛舉行過",tbc:"待確認",
     hot:"最新議題",discuss:"討論：",timeline:"大事記",readMore:"來源",
@@ -315,7 +538,7 @@ const T = {
     connSub:"計算各國在本地圖組織中的正式成員數（不含台灣邦交國清單）。顏色越深＝參加越多。",
     memberships:"個組織",top:"前 15 名",fewest:"參加最少的國家",taiwanRank:"台灣",
     econSub:"各組織正式成員合計占全球 GDP（藍）與人口（橘）的比重。",
-    classic:"經典題",blitz:"60 秒挑戰",guess:"猜猜我是誰",start:"開始",timeLeft:"秒",
+    classic:"經典題",duel:"國家對決",blitz:"60 秒挑戰",guess:"猜猜我是誰",start:"開始",timeLeft:"秒",
     blitzIntro:"60 秒內盡量多答！答錯不扣分，速度最重要。",
     timeUp:"時間到！",best:"個人最佳",again:"再玩一次",
     guessIntro:"看提示猜國家，用越少提示猜中，分數越高。",
@@ -383,6 +606,7 @@ const svg = d3.select("#map");
 const wrap = document.getElementById("mapwrap");
 const gRoot = svg.append("g");
 const gLand = gRoot.append("g");
+const gArcs = gRoot.append("g").attr("class","arcs").attr("pointer-events","none");
 const gDots = gRoot.append("g");
 const gMarks = gRoot.append("g").attr("class","marker");
 const features = topojson.feature(topo, topo.objects.countries).features
@@ -419,7 +643,7 @@ function layout(){
 }
 const zoom = d3.zoom().scaleExtent([1,12]).on("zoom", e => { gRoot.attr("transform", e.transform); curK=e.transform.k; sizeDots(); });
 svg.call(zoom).on("dblclick.zoom", null);
-function sizeDots(){ gDots.selectAll("circle").attr("r", d => (d.on ? 4.2 : 2.4)/curK);
+function sizeDots(){ gArcs.selectAll("path").attr("stroke-width", 1.4/curK); gDots.selectAll("circle").attr("r", d => (d.on ? 5 : 3)/curK);
   gMarks.selectAll("g.mk").attr("transform", d => `translate(${d.x},${d.y}) scale(${1/curK})`); }
 document.getElementById("zin").onclick = ()=>svg.transition().duration(300).call(zoom.scaleBy,1.6);
 document.getElementById("zout").onclick = ()=>svg.transition().duration(300).call(zoom.scaleBy,1/1.6);
@@ -437,7 +661,10 @@ new ResizeObserver(()=>layout()).observe(wrap);
 /* colour for a country under current state */
 function fillFor(iso){
   if (!iso) return "var(--land)";
+  if (mode === "myday") return mdFill(iso);
+  if (mode === "world100") { const k = w100Cat(iso); return k==="N" ? "var(--land)" : W100COL[k]; }
   if (mode === "rank") { if (rankTab!=="conn") return "var(--land)"; const n = CONN[iso]||0; return n ? connScale(n) : "var(--land)"; }
+  if (mode === "quiz" && game === "duel") return duelFill(iso);
   if (mode === "quiz" && game === "guess") { return (guess && guess.answered && guess.iso===iso) ? "var(--cB)" : "var(--land)"; }
   if (mode === "quiz") {
     const q = quiz.cur; if (!q || !quiz.answered) return (q && q.iso===iso) ? "var(--cB)" : "var(--land)";
@@ -451,7 +678,7 @@ function fillFor(iso){
     return CMPCOL[selected.indexOf(inSel[0])];
   }
   if (!selected.length) return "var(--land)";
-  const s = statusOf(selected[0], iso); return s ? TIERCOL[TIER[s]||2] : "var(--land)";
+  const s = statusOf(selected[0], iso); if (s === "member") return memberShade(selected[0], iso); return s ? TIERCOL[TIER[s]||2] : "var(--land)";
 }
 function paint(){
   countryPaths.attr("fill", f => fillFor(f.iso)).classed("sel", f => f.iso && f.iso===focusIso);
@@ -459,9 +686,86 @@ function paint(){
     .each(d => { d.on = fillFor(d.iso)!=="var(--land)" || d.iso===focusIso; })
     .attr("fill", d => d.on ? fillFor(d.iso) : "#ffffff")
     .attr("opacity", d => d.on ? 1 : (selected.length||mode==="quiz" ? 0.35 : 0.8))
-    .attr("stroke", d => d.iso===focusIso ? "#222" : "#9aa0a8");
-  drawMarks(); sizeDots(); renderLegend();
+    .attr("stroke", d => d.iso===focusIso ? "#222" : (d.on ? "#fff" : "#9aa0a8"))
+    .attr("stroke-width", d => d.iso===focusIso ? 1.8 : (d.on ? 1.4 : 0.8))
+    .classed("on", d => d.on);
+  drawMarks(); sizeDots(); renderLegend(); drawArcs(); syncSheet();
 }
+
+/* ===== VISUAL helpers: shading, arcs, bottom sheet, compact picker ===== */
+const VTX = {en:{more:"More",less:"Less",gdpLow:"Smaller GDP",gdpHigh:"Larger GDP"}, zh:{more:"更多組織",less:"收合",gdpLow:"GDP 較小",gdpHigh:"GDP 較大"}};
+const VT = k => VTX[lang][k];
+const POPULAR = ["g7","g20","apec","wto","eu","un","imf"];
+let moreOpen = false, lastArcKey = "", sheetWas = false;
+const SHADE = {};
+function shadeInfo(id){
+  if (SHADE[id]) return SHADE[id];
+  const gs = ORG[id].members.filter(m=>m.status==="member").map(m=>(C[m.iso3]||{}).gdp_usd||0).filter(g=>g>0);
+  let r = {flat:true};
+  if (gs.length >= 4) { const lo = Math.log(Math.min(...gs)), hi = Math.log(Math.max(...gs)); r = {lo, hi, flat: hi-lo < 0.3}; }
+  return SHADE[id] = r;
+}
+function memberShade(id, iso){
+  const s = shadeInfo(id); if (s.flat) return "var(--t1)";
+  const g = (C[iso]||{}).gdp_usd; let k = g>0 ? (Math.log(g)-s.lo)/(s.hi-s.lo) : 0; k = Math.max(0, Math.min(1, k));
+  return `color-mix(in srgb,var(--accent) ${Math.round(28+72*k)}%,#fff)`;
+}
+function bigNum(s){ const m = String(s).match(/^(US\$\s*)?([\d.,]+)\s*(.*)$/); if (!m) return `<b>${esc(s)}</b>`; return `<b>${m[2]}<em>${esc(((m[3]||"")+(m[1]?" US$":"")).trim())}</em></b>`; }
+function bigMember(id){
+  let best = null, bg = -1; ORG[id].members.forEach(m => { const g = (C[m.iso3]||{}).gdp_usd||0; if (m.status==="member" && g>bg) { bg=g; best=m.iso3; } });
+  return best;
+}
+/* centroid of a country's largest polygon (so France/USA/Norway don't point into the sea) */
+let centKey = "", CENT = {};
+function centroidOf(iso){
+  const k = W+"x"+H; if (k !== centKey) { centKey = k; CENT = {}; }
+  if (iso in CENT) return CENT[iso];
+  const f = features.find(x => x.iso === iso); let p = null;
+  if (f) {
+    const g = f.geometry;
+    if (g.type === "MultiPolygon") { let best = -1; g.coordinates.forEach(c => { const pf = {type:"Polygon", coordinates:c}; const a = path.area(pf); if (a > best) { best = a; p = path.centroid(pf); } }); }
+    else p = path.centroid(f);
+  }
+  if (!p || !isFinite(p[0]) || !isFinite(p[1])) { const d = dotData.find(x => x.iso === iso); p = d ? [d.x, d.y] : null; }
+  return CENT[iso] = p;
+}
+function arcTargets(){
+  const gd = i => (C[i]||{}).gdp_usd||0; let tg = [];
+  if (selected[0] && statusOf(selected[0], focusIso) === "member") tg = ORG[selected[0]].members.filter(m=>m.status==="member").map(m=>m.iso3);
+  else {
+    const sc = {};
+    (MEMB[focusIso]||[]).filter(x => x.status==="member" && x.id!=="taiwan_allies" && ORG[x.id].members.length <= 60)
+      .forEach(x => ORG[x.id].members.forEach(m => { if (m.status==="member") sc[m.iso3] = (sc[m.iso3]||0)+1; }));
+    tg = Object.keys(sc).sort((a,b) => sc[b]-sc[a] || gd(b)-gd(a));
+  }
+  return tg.filter(i => i!==focusIso && C[i] && centroidOf(i)).sort((a,b) => gd(b)-gd(a)).slice(0,60);
+}
+function drawArcs(){
+  const key = [mode, focusIso, selected[0], W, H].join("|");
+  if (key === lastArcKey) return; lastArcKey = key;
+  gArcs.selectAll("*").remove();
+  if (mode !== "explore" || !focusIso || !C[focusIso]) return;
+  const src = centroidOf(focusIso); if (!src) return;
+  arcTargets().forEach((iso, i) => {
+    const p = centroidOf(iso), dx = p[0]-src[0], dy = p[1]-src[1], dist = Math.hypot(dx, dy); if (dist < 4) return;
+    const mx = (src[0]+p[0])/2, my = (src[1]+p[1])/2 - dist*0.35;
+    gArcs.append("path").attr("class","arc").attr("pathLength",1).attr("stroke-width",1.4/curK)
+      .attr("d", `M${src[0]},${src[1]}Q${mx},${my} ${p[0]},${p[1]}`).style("animation-delay", (i*12)+"ms");
+  });
+}
+function syncSheet(){
+  const p = document.getElementById("panel");
+  const on = window.innerWidth <= 820 && !!focusIso && (mode==="explore" || mode==="compare" || mode==="rank");
+  p.classList.toggle("sheet", on); document.body.classList.toggle("sheet-open", on);
+  if (on && !sheetWas) { const y = wrap.getBoundingClientRect().top + window.scrollY - 56; window.scrollTo({top:Math.max(0,y), behavior:"smooth"}); }
+  sheetWas = on;
+}
+(function(){
+  const p = document.getElementById("panel"); let y0 = null;
+  p.addEventListener("touchstart", e => { y0 = (p.classList.contains("sheet") && p.scrollTop <= 0) ? e.touches[0].clientY : null; }, {passive:true});
+  p.addEventListener("touchend", e => { if (y0 == null) return; const dy = e.changedTouches[0].clientY - y0; y0 = null; if (dy > 80) { focusIso = null; paint(); renderPanel(); } }, {passive:true});
+  document.addEventListener("click", () => { if (moreOpen) { moreOpen = false; renderGroups(); } });
+})();
 
 /* tooltip */
 const tip = document.getElementById("tip");
@@ -470,6 +774,7 @@ function showTip(e, iso){
   const r = wrap.getBoundingClientRect();
   let s = cname(iso, mode==="explore" ? selected[0] : null);
   if (mode==="explore" && selected[0]) { const st = statusOf(selected[0], iso); if (st) s += " · " + L(ORG[selected[0]].status_labels[st]); }
+  if (mode === "myday") s += mdTip(iso);
   tip.textContent = s; tip.style.display="block";
   tip.style.left = Math.min(e.clientX - r.left + 12, r.width-160) + "px"; tip.style.top = (e.clientY - r.top + 12) + "px";
 }
@@ -482,21 +787,25 @@ function renderLegend(){
   if (mode === "explore" && selected[0]) {
     const o = ORG[selected[0]]; const used = [...new Set(o.members.map(m=>m.status))]
       .sort((a,b)=>(TIER[a]||2)-(TIER[b]||2));
-    used.forEach(s => { h += `<div><i style="background:${TIERCOL[TIER[s]||2]}"></i>${L(o.status_labels[s])} (${o.members.filter(m=>m.status===s).length})</div>`; });
+    used.forEach(s => { h += `<div><i style="background:${s==="member" ? memberShade(o.id, bigMember(o.id)) : TIERCOL[TIER[s]||2]}"></i>${L(o.status_labels[s])} (${o.members.filter(m=>m.status===s).length})</div>`;
+      if (s==="member" && o.members.filter(m=>m.status==="member").length>=4) h += `<div style="display:block;margin:0 0 4px"><i class="gradbar"></i><p class="gradlbl"><span>${VT("gdpLow")}</span><span>${VT("gdpHigh")}</span></p></div>`; });
     h += `<div><i style="background:var(--land)"></i>${t("nonMember")}</div>`;
   } else if (mode === "compare" && selected.length) {
     selected.forEach((id,i)=>{ h += `<div><i style="background:${CMPCOL[i]}"></i>${ORG[id].abbr} ${selected.length>1?t("only"):""}</div>`; });
     if (selected.length>1) h += `<div><i style="background:var(--cX)"></i>${t("inBoth")}</div>`;
+  } else if (mode === "world100") {
+    h = `<div><i style="background:${W100COL.A}"></i>${ORG[W100.a].abbr}</div>` + (W100.b ? `<div><i style="background:${W100COL.B}"></i>${ORG[W100.b].abbr}</div><div><i style="background:${W100COL.X}"></i>${t("w100Overlap")}</div>` : "") + `<div><i style="background:var(--land)"></i>${t("nonMember")}</div>`;
   } else if (mode === "quiz" && quiz.cur && quiz.answered && quiz.cur.org) {
     h = `<div><i style="background:var(--t1)"></i>${ORG[quiz.cur.org].abbr}</div><div><i style="background:var(--cB)"></i>${cname(quiz.cur.iso)}</div>`;
   }
+  if (mode === "myday") h = mdLegend();
   el.innerHTML = h; el.style.display = h ? "block" : "none";
 }
 
 /* ---------- org chips ---------- */
 function renderGroups(){
   const g = document.getElementById("groups"); g.innerHTML = "";
-  if (mode === "quiz" || mode === "rank") { g.style.display="none"; return; } g.style.display="";
+  if (mode === "quiz" || mode === "rank" || mode === "world100" || mode === "myday") { g.style.display="none"; return; } g.style.display="";
   if (mode === "compare") {
     const row = document.createElement("div"); row.className = "presets";
     row.innerHTML = `<span class="glabel" style="align-self:center;font-size:11px;color:var(--muted);flex-shrink:0">${t("rivals")}</span>` +
@@ -504,20 +813,31 @@ function renderGroups(){
     row.querySelectorAll("[data-preset]").forEach(b => b.onclick = () => { const p = PRESETS[+b.dataset.preset]; selected = p.ids.slice(); presetWhy = p; focusIso=null; renderGroups(); paint(); renderPanel(); svg.transition().duration(400).call(zoom.transform,d3.zoomIdentity); });
     g.appendChild(row);
   }
+  /* compact picker: popular chips + "More" dropdown with every category */
+  const mkChip = o => {
+    const b = document.createElement("button"); b.className = "chip"; const idx = selected.indexOf(o.id);
+    if (idx>=0) b.classList.add("on");
+    b.innerHTML = (mode==="compare" && idx>=0 ? `<span class="dot" style="background:${CMPCOL[idx]}"></span>` : "") + o.abbr;
+    b.title = L(o.name);
+    b.onclick = () => { toggleOrg(o.id); if (mode==="explore") moreOpen = false, renderGroups(); };
+    return b;
+  };
+  const pop = document.createElement("div"); pop.className = "group pop";
+  const popIds = POPULAR.filter(id => ORG[id]); selected.forEach(id => { if (!popIds.includes(id)) popIds.push(id); });
+  popIds.forEach(id => pop.appendChild(mkChip(ORG[id])));
+  const more = document.createElement("button"); more.className = "chip more" + (moreOpen ? " on" : "");
+  more.innerHTML = `${VT(moreOpen ? "less" : "more")}<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4l4 4 4-4"/></svg>`;
+  more.onclick = e => { e.stopPropagation(); moreOpen = !moreOpen; renderGroups(); };
+  pop.appendChild(more); g.appendChild(pop);
+  const box = document.createElement("div"); box.className = "morebox" + (moreOpen ? " open" : ""); box.onclick = e => e.stopPropagation();
   CAT_ORDER.forEach(cat => {
     const list = orgs.filter(o=>o.category===cat); if (!list.length) return;
     const row = document.createElement("div"); row.className="group";
     row.innerHTML = `<span class="glabel">${t("cat")[cat]}</span>`;
-    list.forEach(o => {
-      const b = document.createElement("button"); b.className = "chip"; const idx = selected.indexOf(o.id);
-      if (idx>=0) b.classList.add("on");
-      b.innerHTML = (mode==="compare" && idx>=0 ? `<span class="dot" style="background:${CMPCOL[idx]}"></span>` : "") + o.abbr;
-      b.title = L(o.name);
-      b.onclick = () => toggleOrg(o.id);
-      row.appendChild(b);
-    });
-    g.appendChild(row);
+    list.forEach(o => row.appendChild(mkChip(o)));
+    box.appendChild(row);
   });
+  g.appendChild(box);
 }
 function toggleOrg(id){
   if (mode === "explore") { selected = selected[0]===id ? [] : [id]; focusIso = null; }
@@ -530,7 +850,7 @@ function toggleOrg(id){
   renderGroups(); paint(); renderPanel();
 }
 function flashHint(msg){ const h=document.getElementById("hint"); h.textContent=msg; h.style.color="var(--bad)"; setTimeout(()=>{h.style.color="";setHint();},2200); }
-function setHint(){ document.getElementById("hint").textContent = t({explore:"hintExplore",compare:"hintCompare",rank:"hintRank",quiz:"hintQuiz"}[mode]); }
+function setHint(){ document.getElementById("hint").textContent = t({explore:"hintExplore",compare:"hintCompare",rank:"hintRank",quiz:"hintQuiz",world100:"hintWorld100",myday:"hintMyday"}[mode]); }
 
 /* ---------- formatting ---------- */
 function money(v){
@@ -582,13 +902,26 @@ function orgCard(o){
     (o.sources||[]).map(s=>`<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s.replace(/^https?:\/\//,"").slice(0,60))}</a></li>`).join("") + `</ul></details></div>`;
   return h;
 }
+function factsBlock(iso){
+  const f = (DATA.facts||{})[iso]; if (!f) return "";
+  const zh = lang==="zh", row = (k,v) => v ? `<div class="frow"><b>${k}</b><span>${v}</span></div>` : "";
+  const langs = f.languages && (f.languages[lang]||f.languages.en||[]).join(zh?"、":", ");
+  const ex = f.top_export && (f.top_export[lang]||f.top_export.en);
+  const tp = f.top_partner && (f.top_partner[lang]||f.top_partner.en);
+  const fun = f.fun && (f.fun[lang]||f.fun.en);
+  return `<div class="facts"><h3>${zh?"認識這個國家":"Know this country"}</h3>
+    ${row(zh?"語言":"Languages", esc(langs))}${row(zh?"最大出口品":"Top export", esc(ex))}${row(zh?"最大貿易夥伴":"Top trade partner", esc(tp))}
+    ${fun?`<p class="fun">💡 <b>${zh?"你可能不知道":"Did you know"}：</b>${esc(fun)}</p>`:""}
+    ${(ex||tp)&&f.year?`<p class="fnote">${zh?"貿易資料約為":"Trade data ≈"} ${f.year}</p>`:""}</div>`;
+}
 function countryCard(iso){
   const c = C[iso] || {name:{en:iso,zh:iso}};
   const list = (MEMB[iso]||[]).slice().sort((a,b)=>(TIER[a.status]||2)-(TIER[b.status]||2) || ORG[a.id].abbr.localeCompare(ORG[b.id].abbr));
   let h = `<div class="card"><button class="close" data-close>×</button>
     <div class="ctitle">${flagImg(iso)}<div><h2>${esc(c.name[lang]||c.name.en)}</h2><p class="sub" style="margin:0">${esc(lang==="zh"?c.name.en:c.name.zh)}</p></div></div>
-    <div class="stats"><div class="stat"><b style="font-size:16px">${money(c.gdp_usd)}</b><span>${t("gdp")}${c.gdp_year?` · ${c.gdp_year}`:""}</span></div>
-    <div class="stat"><b style="font-size:16px">${people(c.population)}</b><span>${t("pop")}${c.pop_year?` · ${c.pop_year}`:""}</span></div></div>
+    <div class="stats"><div class="stat">${bigNum(money(c.gdp_usd))}<span>${t("gdp")}${c.gdp_year?` · ${c.gdp_year}`:""}</span></div>
+    <div class="stat">${bigNum(people(c.population))}<span>${t("pop")}${c.pop_year?` · ${c.pop_year}`:""}</span></div></div>
+    ${factsBlock(iso)}
     <h3 style="margin-top:14px">${t("partOf")} (${list.filter(x=>x.status==="member").length})</h3>`;
   if (!list.length) h += `<p class="empty">${t("none")}</p>`;
   else h += `<ul class="orglist">` + list.map(x => { const o=ORG[x.id];
@@ -613,6 +946,8 @@ function compareCard(){
 function renderPanel(){
   const p = document.getElementById("panel"); let h = "";
   if (mode === "quiz") h = quizCard();
+  else if (mode === "myday") h = mdCard();
+  else if (mode === "world100") h = w100Card();
   else if (mode === "rank") { if (focusIso) h += countryCard(focusIso); h += rankCard(); }
   else {
     if (focusIso) h += countryCard(focusIso);
@@ -629,12 +964,15 @@ function renderPanel(){
   p.querySelectorAll("[data-rt]").forEach(b => b.onclick = () => { rankTab=b.dataset.rt; focusIso=null; paint(); renderPanel(); });
   p.querySelectorAll("[data-game]").forEach(b => b.onclick = () => setGame(b.dataset.game));
   p.querySelectorAll("[data-act]").forEach(b => b.onclick = () => ACT[b.dataset.act](b));
+  if (mode === "world100") w100Bind(); else w100Stop();
+  if (mode === "myday") mdBind();
 }
 function onCountry(iso){
   if (mode === "quiz") return;
+  if (mode === "myday") { mdPick(iso); return; }
   focusIso = iso; paint(); renderPanel();
   document.getElementById("panel").scrollTop = 0;
-  if (window.innerWidth <= 820) document.getElementById("panel").scrollIntoView({behavior:"smooth", block:"start"});
+  if (window.innerWidth <= 820 && !document.getElementById("panel").classList.contains("sheet")) document.getElementById("panel").scrollIntoView({behavior:"smooth", block:"start"});
 }
 
 /* ---------- search ---------- */
@@ -684,9 +1022,10 @@ function qText(q){
   return t("q3")(ORG[q.org].abbr+(lang==="zh"?"（"+L(ORG[q.org].name)+"）":" ("+L(ORG[q.org].name)+")"));
 }
 function quizCard(){
-  const tabs = `<div class="subtabs">${["classic","blitz","guess"].map(g=>`<button data-game="${g}" class="${g===game?"on":""}">${t(g)}</button>`).join("")}</div>`;
+  const tabs = `<div class="subtabs">${["classic","blitz","guess","duel"].map(g=>`<button data-game="${g}" class="${g===game?"on":""}">${t(g)}</button>`).join("")}</div>`;
   if (game === "blitz") return `<div class="card quiz">${tabs}${blitzBody()}</div>`;
   if (game === "guess") return `<div class="card quiz">${tabs}${guessBody()}</div>`;
+  if (game === "duel") return `<div class="card quiz duel">${tabs}${duelBody()}</div>`;
   return quizClassic(tabs);
 }
 function quizClassic(tabs){
@@ -706,6 +1045,7 @@ function explain(q){
 }
 function answer(k, btn){
   if (game === "blitz") return blitzAnswer(k, btn);
+  if (game === "duel") return duelAnswer(k);
   if (game === "guess") return guessAnswer(k);
   if (quiz.answered) return; const q = quiz.cur; const opt = q.opts.find(o=>o.k===k);
   quiz.answered = true; quiz.picked = k; quiz.total++; quiz.lastOk = opt.ok;
@@ -788,7 +1128,7 @@ function fmtDate(m){
 const precise = m => (m.date_precision || "day") === "day" && m.date_start.length === 10;
 function countdownHTML(m){
   const st = meetState(m);
-  if (st.state === "now") return `<div class="cd">${t("now")}</div>`;
+  if (st.state === "now") return `<div class="cd" style="font-size:28px"><span class="live"></span>${t("now")}</div>`;
   if (st.state === "past") return `<div class="cd" style="font-size:18px">${t("held")}</div>`;
   if (!precise(m)) return "";
   return `<div class="cd">${st.days} <small>${st.days===1?t("dayLeft"):t("daysLeft")}</small></div>`;
@@ -824,7 +1164,7 @@ function upcomingCard(){
   if (!list.length) return `<div class="card"><p class="empty">${t("noOrg")}</p></div>`;
   return `<div class="card"><h3>⏳ ${t("upcoming")}</h3><p class="sub">${t("upcomingSub")}</p><ul class="uplist">` +
     list.map(({o,m,st}) => `<li><button data-org="${o.id}"><span class="m"><b>${esc(o.abbr)}</b>${m.city&&L(m.city)?` · ${esc(L(m.city))}`:""}<small>${esc(L(m.name))} · ${esc(fmtDate(m))}</small></span>
-      <span class="d">${st.state==="now" ? `<small>${t("now")}</small>` : precise(m) ? `${st.days}<small>${st.days===1?t("dayLeft"):t("daysLeft")}</small>` : `<small>${esc(fmtDate(m))}</small>`}</span></button></li>`).join("") +
+      <span class="d">${st.state==="now" ? `<span class="live"></span><small style="color:#e5322d;font-weight:700">${t("now")}</small>` : precise(m) ? `${st.days}<small>${st.days===1?t("dayLeft"):t("daysLeft")}</small>` : `<small>${esc(fmtDate(m))}</small>`}</span></button></li>`).join("") +
     `</ul><p class="note">${t("noOrg")}</p></div>`;
 }
 
@@ -881,7 +1221,7 @@ function rankCard(){
 }
 
 /* ---------- games ---------- */
-function setGame(g){ stopBlitz(); game = g; if (g === "guess" && !guess) newGuess(); quiz.cur = null; if (g === "classic") nextQ(true); renderPanel(); paint(); svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); }
+function setGame(g){ stopBlitz(); game = g; if (g === "guess" && !guess) newGuess(); if (g === "duel") duelEnter(); quiz.cur = null; if (g === "classic") nextQ(true); renderPanel(); paint(); svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); }
 let blitz = {running:false, done:false, score:0, total:0, end:0, iv:null, lock:false};
 const bestKey = "ioBlitzBest";
 const getBest = () => { try { return +localStorage.getItem(bestKey) || 0; } catch(e) { return 0; } };
@@ -967,6 +1307,410 @@ const ACT = {
   guessMore(){ if (guess && guess.shown < guess.clues.length) { guess.shown++; renderPanel(); } },
   guessNext(){ newGuess(); renderPanel(); paint(); svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); }
 };
+/* ---------- world100 ---------- */
+const W100 = {a:"g7", b:"", timers:[], raf:[]};
+const W100COL = {A:"var(--accent)", B:"#3B82C4", X:"var(--char)", N:"#d3d6db"};
+const W100_ORG_OK = id => ORG[id] && (ORG[id].members||[]).some(m=>m.status==="member");
+function w100Cat(iso){ // A, B, X (both), N
+  const a = W100.a && statusOf(W100.a, iso)==="member", b = W100.b && statusOf(W100.b, iso)==="member";
+  return a&&b ? "X" : a ? "A" : b ? "B" : "N";
+}
+function w100Alloc(vals){ // largest remainder, sums to 100 exactly
+  const tot = Object.values(vals).reduce((s,v)=>s+v,0) || 1;
+  const keys = Object.keys(vals), raw = keys.map(k=>vals[k]/tot*100), fl = raw.map(Math.floor);
+  let left = 100 - fl.reduce((s,v)=>s+v,0);
+  keys.map((k,i)=>[i, raw[i]-fl[i]]).sort((x,y)=>y[1]-x[1]).forEach(([i])=>{ if (left>0) { fl[i]++; left--; } });
+  const o = {}; keys.forEach((k,i)=>o[k]=fl[i]); return o;
+}
+function w100Calc(){
+  const pop={A:0,B:0,X:0,N:0}, gdp={A:0,B:0,X:0,N:0}, list={A:[],B:[],X:[],N:[]};
+  Object.keys(C).forEach(iso=>{ const c=C[iso]; if(!c) return; const k=w100Cat(iso);
+    pop[k]+=c.population||0; gdp[k]+=c.gdp_usd||0; list[k].push(iso); });
+  const sum = o => o.A+o.B+o.X+o.N;
+  const tp = sum(pop)||1, tg = sum(gdp)||1;
+  return {pop, gdp, list, tp, tg, np: w100Alloc(pop), ng: w100Alloc(gdp),
+    pShare: k=>(pop[k]+(k==="A"?pop.X:0))/tp, gShare:k=>(gdp[k]+(k==="A"?gdp.X:0))/tg};
+}
+function w100Insight(r){
+  const A = W100.a && ORG[W100.a]; if (!A) return "";
+  const pS=(r.pop.A+r.pop.X)/r.tp, gS=(r.gdp.A+r.gdp.X)/r.tg, rt = pS>0 ? gS/pS : 0;
+  const nm = A.abbr, f1 = x=>x.toFixed(1);
+  const pc = Math.round(pS*100), gc = Math.round(gS*100);
+  let s;
+  if (!pS) return lang==="zh" ? `${nm} 沒有可計算的正式成員資料。` : `No full-member data available for ${nm}.`;
+  if (rt >= 1.1) s = lang==="zh"
+    ? `${nm} 約佔世界人口 ${pc}%，卻創造約 ${gc}% 的 GDP：平均每位成員國居民「扛著」世界平均 GDP 的 ${f1(rt)} 倍。`
+    : `${nm} holds about ${pc}% of the world's people but about ${gc}% of its GDP: each ${nm} person "carries" ${f1(rt)}x the world-average GDP.`;
+  else if (rt <= 0.9) s = lang==="zh"
+    ? `${nm} 約佔世界人口 ${pc}%，但只佔約 ${gc}% 的 GDP：平均每人只有世界平均 GDP 的 ${f1(rt)} 倍。`
+    : `${nm} holds about ${pc}% of the world's people but only about ${gc}% of its GDP: each person has just ${f1(rt)}x the world-average GDP.`;
+  else s = lang==="zh"
+    ? `${nm} 的人口占比（約 ${pc}%）與 GDP 占比（約 ${gc}%）相近，平均每人約等於世界平均（${f1(rt)} 倍）。`
+    : `${nm}'s share of population (~${pc}%) and GDP (~${gc}%) are about equal: each person is near the world average (${f1(rt)}x).`;
+  if (pS > 0.5) s += lang==="zh" ? ` 全球過半人口都在這個組織裡。` : ` More than half of humanity lives in this group.`;
+  return s;
+}
+const W100_NAMES = {A:()=>W100.a?ORG[W100.a].abbr:"", B:()=>W100.b?ORG[W100.b].abbr:"", X:()=>`${ORG[W100.a].abbr} ∩ ${ORG[W100.b].abbr}`, N:()=>t("w100Rest")};
+function w100Icons(kind, counts){
+  // order: A only, both, B only, rest
+  const order = ["A","X","B","N"]; let h = "", i = 0;
+  order.forEach(k=>{ for (let n=0;n<counts[k];n++,i++) h += `<svg class="w100i" data-k="${k}" data-kind="${kind}" data-i="${i}" viewBox="0 0 10 14" style="--c:${W100COL[k]}"><use href="#${kind==="p"?"w100p":"w100c"}"/></svg>`; });
+  return h;
+}
+function w100Opts(sel, allowNone){
+  let h = allowNone ? `<option value="">${t("w100None")}</option>` : "";
+  CAT_ORDER.forEach(cat=>{ const l = orgs.filter(o=>o.category===cat && W100_ORG_OK(o.id)); if(!l.length) return;
+    h += `<optgroup label="${esc(t("cat")[cat])}">` + l.map(o=>`<option value="${o.id}"${o.id===sel?" selected":""}>${esc(o.abbr)} — ${esc(L(o.name))}</option>`).join("") + `</optgroup>`; });
+  return h;
+}
+function w100Card(){
+  return `<div class="card w100">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+    <symbol id="w100p" viewBox="0 0 10 14"><circle cx="5" cy="3" r="2.6" fill="currentColor"/><path d="M1 13.5v-4.2C1 7.6 2.3 6.5 5 6.5s4 1.1 4 2.8v4.2z" fill="currentColor"/></symbol>
+    <symbol id="w100c" viewBox="0 0 10 14"><circle cx="5" cy="7" r="4.6" fill="currentColor"/><text x="5" y="9.4" text-anchor="middle" font-size="7" font-weight="800" fill="#fff" font-family="sans-serif">$</text></symbol></defs></svg>
+  <h2>${t("w100")}</h2><p class="sub">${t("w100Sub")}</p>
+  <div class="w100pick"><label><span class="sw" style="background:${W100COL.A}"></span><select id="w100a">${w100Opts(W100.a,false)}</select></label>
+  <label><span class="sw" style="background:${W100COL.B}"></span><select id="w100b">${w100Opts(W100.b,true)}</select></label></div>
+  <div class="w100big" id="w100big"></div>
+  <div class="w100grids"><div><h3>${t("w100People")}</h3><div class="w100grid" id="w100gp"></div></div><div><h3>${t("w100Money")}</h3><div class="w100grid" id="w100gg"></div></div></div>
+  <div class="w100leg" id="w100leg"></div>
+  <p class="w100detail" id="w100detail" aria-live="polite">${t("w100Tap")}</p>
+  <p class="w100ins" id="w100ins"></p></div>`;
+}
+function w100Stop(){ W100.timers.forEach(clearTimeout); W100.timers=[]; W100.raf.forEach(cancelAnimationFrame); W100.raf=[]; }
+function w100Update(animate){
+  const gp = document.getElementById("w100gp"); if (!gp) return;
+  w100Stop();
+  const r = w100Calc(); W100.r = r;
+  const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  gp.innerHTML = w100Icons("p", r.np); document.getElementById("w100gg").innerHTML = w100Icons("g", r.ng);
+  const pA = r.np.A + r.np.X, gA = r.ng.A + r.ng.X;
+  const both = W100.a && W100.b;
+  const big = document.getElementById("w100big");
+  const mk = (id,lbl,n,extra)=>`<div><b><span id="${id}">${animate&&!reduce?0:n}</span><small> / 100</small></b><span>${lbl}</span>${extra||""}</div>`;
+  let bh = mk("w100n1", t("w100People"), pA) + mk("w100n2", t("w100Money"), gA);
+  if (both) bh += `<div class="w100ov">${t("w100Overlap")}: <b>${r.np.X}</b> ${t("w100PeopleU")} · <b>${r.ng.X}</b> ${t("w100MoneyU")} (${r.list.X.length} ${t("w100Countries")})</div>`;
+  big.innerHTML = bh;
+  const leg = (both?["A","X","B","N"]:["A","N"]).map(k=>`<span><i style="background:${W100COL[k]}"></i>${esc(W100_NAMES[k]())}</span>`).join("");
+  document.getElementById("w100leg").innerHTML = leg;
+  document.getElementById("w100ins").textContent = w100Insight(r);
+  document.getElementById("w100detail").textContent = t("w100Tap");
+  // staggered fill
+  const icons = [...document.querySelectorAll(".w100i")];
+  if (animate && !reduce) {
+    icons.forEach(el=>el.classList.add("off"));
+    const n = Math.max(icons.length/2,1);
+    icons.forEach(el=>{ const idx = +el.dataset.i; W100.timers.push(setTimeout(()=>el.classList.remove("off"), (idx/n)*600)); });
+    [["w100n1",pA],["w100n2",gA]].forEach(([id,target])=>{ const el=document.getElementById(id), t0=performance.now();
+      const step = now=>{ const p=Math.min(1,(now-t0)/600); el.textContent=Math.round(target*p); if(p<1) W100.raf.push(requestAnimationFrame(step)); };
+      W100.raf.push(requestAnimationFrame(step)); });
+  }
+}
+function w100Tip(el){
+  const r = W100.r; if (!r) return; const k = el.dataset.k, kind = el.dataset.kind;
+  const key = kind==="p" ? "population" : "gdp_usd";
+  const top = r.list[k].slice().sort((a,b)=>((C[b]||{})[key]||0)-((C[a]||{})[key]||0)).slice(0,3)
+    .map(iso=>`${cname(iso)} (${kind==="p"?people(C[iso].population):money(C[iso].gdp_usd)})`).join(", ");
+  const cnt = (kind==="p"?r.np:r.ng)[k];
+  document.getElementById("w100detail").textContent = `${W100_NAMES[k]()} · ${cnt}/100 ${kind==="p"?t("w100PeopleU"):t("w100MoneyU")} · ${t("w100Top")}${kind==="p"?t("w100ByPop"):t("w100ByGdp")}: ${top||"—"}`;
+}
+function w100Bind(){
+  const a = document.getElementById("w100a"), b = document.getElementById("w100b"); if (!a) return;
+  a.onchange = ()=>{ W100.a=a.value; if (W100.b===W100.a) { W100.b=""; b.value=""; } w100Update(true); paint(); };
+  b.onchange = ()=>{ W100.b=b.value; if (W100.b===W100.a) { W100.b=""; b.value=""; } w100Update(true); paint(); };
+  document.querySelector(".w100grids").onclick = e=>{ const el = e.target.closest(".w100i"); if (el) w100Tip(el); };
+  w100Update(true);
+}
+/* END world100 */
+/* ---------- duel ---------- */
+const DUEL_KEY = "ioDuelBest";
+const duelBest = () => { try { return +localStorage.getItem(DUEL_KEY) || 0; } catch(e) { return 0; } };
+const duelReduced = () => window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+let duel = {cur:null, streak:0, score:0, over:false, answered:false, picked:null, ok:false, gain:0, last:[], lastM:null, newBest:false};
+const DUEL_SURPRISE = {gdp:[["IDN","NLD"],["CHE","TUR"],["POL","SAU"],["CAN","KOR"],["ESP","MEX"]],
+  pop:[["ETH","JPN"],["PAK","BRA"],["BGD","RUS"],["VNM","DEU"]], pcap:[]};
+const DUEL_TXT = {
+  en:{head:"Which country has the larger", gdp:"GDP", pop:"population", pcap:"GDP per capita", streak:"Streak", score:"Score", best:"Best",
+      good:"Correct!", bad:"Not quite.", over:"Run over", rec:"New personal best!", again:"Play again", hint:"Tap a card, or press 1 / 2 (← / →).", next:"Next"},
+  zh:{head:"哪個國家的", gdp:"GDP 比較大？", pop:"人口比較多？", pcap:"人均 GDP 比較高？", streak:"連勝", score:"總分", best:"最佳",
+      good:"答對了！", bad:"答錯了。", over:"挑戰結束", rec:"刷新個人紀錄！", again:"再玩一次", hint:"點選卡片，或按 1 / 2（← / →）。", next:"下一題"}
+};
+const dT = () => DUEL_TXT[lang] || DUEL_TXT.en;
+const duelVal = (i,m) => m==="gdp" ? C[i].gdp_usd : m==="pop" ? C[i].population : C[i].gdp_usd / C[i].population;
+const duelPools = {};
+const duelPool = m => duelPools[m] || (duelPools[m] = Object.keys(C).filter(i => C[i].gdp_usd > 0 && C[i].population >= 3e5));
+const duelFmt = (m,v) => m==="gdp" ? money(v) : m==="pop" ? people(Math.round(v)) : "US$ " + Math.round(v).toLocaleString();
+const duelRatio = (x,y) => Math.max(x,y)/Math.min(x,y);
+const duelRStr = r => (r>=10 ? r.toFixed(0) : r.toFixed(1));
+function duelEnter(){ if (!duel.cur) duelNew(); }
+function duelRestart(){ duel = {cur:null, streak:0, score:0, over:false, answered:false, picked:null, ok:false, gain:0, last:[], lastM:duel.lastM, newBest:false}; duelNew(); }
+function duelNew(){
+  const s = duel.streak;
+  const m = pick(["gdp","pop","pcap"].filter(x => x !== duel.lastM));
+  const [lo,hi] = s<3 ? [3,30] : s<6 ? [2,5] : s<10 ? [1.5,2.5] : s<15 ? [1.25,1.8] : [1.1,1.5];
+  const pool = duelPool(m), val = i => duelVal(i,m);
+  const ok = (a,b) => a!==b && !duel.last.includes(a) && !duel.last.includes(b);
+  let pair = null;
+  if (s >= 1 && Math.random() < 0.22) {                                 // surprising pairs
+    if (m === "pcap") {
+      const rich = pool.filter(i => C[i].population < 3e6).sort((a,b)=>val(b)-val(a)).slice(0,18);
+      const big = pool.filter(i => C[i].population > 8e7);
+      if (rich.length && big.length) { const a = pick(rich), b = pick(big); if (ok(a,b) && duelRatio(val(a),val(b))>1.05) pair = [a,b]; }
+    } else {
+      const lst = DUEL_SURPRISE[m].filter(([a,b]) => pool.includes(a) && pool.includes(b) && ok(a,b) && duelRatio(val(a),val(b))>1.05);
+      if (lst.length) pair = pick(lst);
+    }
+  }
+  for (let k=0; k<300 && !pair; k++) {
+    const a = pick(pool); if (duel.last.includes(a)) continue;
+    const c = pool.filter(b => ok(a,b) && duelRatio(val(a),val(b)) >= lo && duelRatio(val(a),val(b)) <= hi);
+    if (c.length) pair = [a, pick(c)];
+  }
+  if (!pair) { do { pair = shuffle(pool.slice()).slice(0,2); } while (!ok(pair[0],pair[1]) || duelRatio(val(pair[0]),val(pair[1])) < 1.05); }
+  pair = shuffle(pair.slice());
+  const win = val(pair[0]) > val(pair[1]) ? "A" : "B";
+  duel.cur = {m, A:pair[0], B:pair[1], win}; duel.lastM = m; duel.last = pair.slice();
+  duel.answered = false; duel.picked = null; duel.ok = false;
+}
+function duelFill(iso){
+  const c = duel.cur; if (!c || !iso) return "var(--land)";
+  return iso===c.A ? "var(--cA)" : iso===c.B ? "var(--cB)" : "var(--land)";
+}
+function duelSoftZoom(){ svg.transition().duration(duelReduced()?0:700).call(zoom.transform, d3.zoomIdentity); }
+function duelAnswer(k){
+  if (!duel.cur || duel.answered || duel.over || (k!=="A" && k!=="B")) return;
+  duel.answered = true; duel.picked = k; duel.ok = (k === duel.cur.win);
+  if (duel.ok) { duel.gain = 10 + 5*Math.min(duel.streak,20); duel.streak++; duel.score += duel.gain; }
+  else { duel.over = true; duel.gain = 0; duel.newBest = duel.streak > duelBest();
+    if (duel.newBest) { try { localStorage.setItem(DUEL_KEY, duel.streak); } catch(e) {} } }
+  renderPanel(); paint(); duelSoftZoom(); duelAnimate();
+}
+function duelInsight(){
+  const c = duel.cur, m = c.m, z = lang==="zh";
+  const w = c.win==="A" ? c.A : c.B, l = w===c.A ? c.B : c.A, nw = cname(w), nl = cname(l);
+  const g = i => C[i].gdp_usd, p = i => C[i].population, pc = i => g(i)/p(i);
+  const pcf = v => "US$ " + Math.round(v).toLocaleString();
+  if (m==="gdp" && p(w) < p(l)) { const r = duelRStr(duelRatio(p(w),p(l)));
+    return z ? `但${nl}的人口是${nw}的 ${r} 倍；平均每人 GDP：${nw} ${pcf(pc(w))}，${nl} ${pcf(pc(l))}。`
+             : `But ${nl} has ${r}x more people. GDP per person: ${nw} ${pcf(pc(w))} vs ${nl} ${pcf(pc(l))}.`; }
+  if (m==="pop" && g(w) < g(l)) { const r = duelRStr(duelRatio(g(w),g(l)));
+    return z ? `但${nl}的經濟規模（GDP）是${nw}的 ${r} 倍。` : `But ${nl}'s economy is ${r}x bigger than ${nw}'s.`; }
+  if (m==="pcap" && g(w) < g(l)) return z ? `不過總 GDP 反而較小：${nw} ${money(g(w))}，${nl} ${money(g(l))}。` : `Yet its total GDP is smaller: ${nw} ${money(g(w))} vs ${nl} ${money(g(l))}.`;
+  const diffs = ["g20","oecd","eu"].filter(id => ORG[id] && (statusOf(id,w)==="member") !== (statusOf(id,l)==="member"));
+  if (diffs.length) { const id = pick(diffs), a = ORG[id].abbr, inW = statusOf(id,w)==="member", yes = inW?nw:nl, no = inW?nl:nw;
+    return z ? `${yes}是 ${a} 成員，${no}不是。` : `${yes} is a member of the ${a}; ${no} is not.`; }
+  if (m==="gdp") return z ? `平均每人 GDP：${nw} ${pcf(pc(w))}，${nl} ${pcf(pc(l))}。` : `GDP per person: ${nw} ${pcf(pc(w))} vs ${nl} ${pcf(pc(l))}.`;
+  if (m==="pop") return z ? `平均每人 GDP：${nw} ${pcf(pc(w))}，${nl} ${pcf(pc(l))}。` : `GDP per person: ${nw} ${pcf(pc(w))} vs ${nl} ${pcf(pc(l))}.`;
+  return z ? `人口：${nw} ${people(p(w))}，${nl} ${people(p(l))}。` : `Population: ${nw} ${people(p(w))} vs ${nl} ${people(p(l))}.`;
+}
+function duelBody(){
+  if (!duel.cur) duelNew();
+  const c = duel.cur, d = dT(), z = lang==="zh", m = c.m;
+  const head = z ? `${d.head}${d[m]}` : `${d.head} ${d[m]}?`;
+  let h = `<div class="score dscore"><span class="dflame ${duel.streak>=3?"hot":""}">🔥 ${d.streak} <b>${duel.streak}</b></span><span>${d.score} <b>${duel.score}</b></span><span>${d.best} <b>${duelBest()}</b></span></div>
+    <div class="q">${esc(head)}</div><div class="dcards">`;
+  ["A","B"].forEach((k,idx) => {
+    const iso = c[k]; let cls = "";
+    if (duel.answered) { if (k===c.win) cls = "right" + (k===duel.picked ? " pop" : ""); else if (k===duel.picked) cls = "wrong shake"; else cls = "dim"; }
+    h += `<button class="dc dc${k} ${cls}" data-ans="${k}" ${duel.answered?"disabled":""}><span class="dk">${idx+1}</span>${flagImg(iso)}<b class="dn">${esc(cname(iso))}</b>${duel.answered ? `<span class="dv" data-cu="${duelVal(iso,m)}" data-m="${m}">${esc(duelFmt(m,duelVal(iso,m)))}</span>` : ""}</button>`;
+  });
+  h += `</div>`;
+  if (!duel.answered) return h + `<p class="sub dhint">${d.hint}</p>`;
+  const w = c.win==="A" ? c.A : c.B, l = w===c.A ? c.B : c.A, r = duelRStr(duelRatio(duelVal(w,m),duelVal(l,m)));
+  const ratio = z ? `${cname(w)}的${({gdp:"GDP",pop:"人口",pcap:"人均 GDP"})[m]}是${cname(l)}的 ${r} 倍`
+                  : `${cname(w)}'s ${d[m]} is ${r}x that of ${cname(l)}`;
+  h += `<div class="drev ${duel.ok?"good":"bad"}"><b>${duel.ok ? d.good + " +" + duel.gain : d.bad}</b><p class="dratio">${esc(ratio)}</p><p class="dins">💡 ${esc(duelInsight())}</p></div>`;
+  if (duel.over) {
+    h += `<div class="dres"><div class="dover">${d.over}</div><div class="big">${duel.streak}</div>
+      <p class="sub" style="text-align:center">${d.streak} <b>${duel.streak}</b> · ${d.score} <b>${duel.score}</b> · ${d.best} <b>${duelBest()}</b></p>
+      ${duel.newBest ? `<p class="drec">🏆 ${d.rec}</p>` : ""}
+      <button class="primary" data-act="duelStart">${d.again} ↻</button></div>`;
+  } else h += `<button class="primary dnext" data-act="duelNext">${d.next} →</button>`;
+  return h;
+}
+function duelAnimate(){
+  const els = document.querySelectorAll("#panel [data-cu]"); if (!els.length || duelReduced()) return;
+  const t0 = performance.now(), dur = 800;
+  const step = now => { const f = Math.min(1, (now-t0)/dur), e = 1 - Math.pow(1-f,3);
+    els.forEach(el => { if (!el.isConnected) return; const v = +el.dataset.cu, m = el.dataset.m; el.textContent = f>=1 ? duelFmt(m,v) : duelFmt(m, v*e); });
+    if (f < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+}
+ACT.duelNext = () => { if (!duel.answered || duel.over) return; duelNew(); renderPanel(); paint(); duelSoftZoom(); };
+ACT.duelStart = () => { duelRestart(); renderPanel(); paint(); duelSoftZoom(); };
+document.addEventListener("keydown", e => {
+  if (mode !== "quiz" || game !== "duel" || e.metaKey || e.ctrlKey || e.altKey) return;
+  const tg = e.target && e.target.tagName; if (tg === "INPUT" || tg === "TEXTAREA" || tg === "SELECT") return;
+  const k = e.key;
+  if (!duel.answered) { if (k==="1" || k==="ArrowLeft") { e.preventDefault(); duelAnswer("A"); } else if (k==="2" || k==="ArrowRight") { e.preventDefault(); duelAnswer("B"); } }
+  else if (!duel.over && (k==="ArrowRight" || k==="n" || ((k==="Enter" || k===" ") && tg!=="BUTTON"))) { e.preventDefault(); ACT.duelNext(); }
+  else if (duel.over && (k==="Enter" || k===" ") && tg!=="BUTTON") { e.preventDefault(); ACT.duelStart(); }
+});
+window.__duel = () => duel; /* END duel */
+/* ---------- myday ---------- */
+Object.assign(T.en,{myday:"Your Day",hintMyday:"Type your monthly income or allowance. The map shows how it compares with the average person in each country. Tap a country to compare."});
+Object.assign(T.zh,{myday:"你的一天",hintMyday:"輸入你的月收入或零用錢，地圖會顯示你跟各國平均每人收入的差距。點選國家可以比較。"});
+const MDT = {
+  en:{title:"Your Day",sub:"What if you earned your income somewhere else?",intro:"Enter what you earn (or receive) per month. We compare it with the average yearly income per person in every country.",
+    amt:"Monthly income / allowance",pre:"Quick picks",basisL:"Compare with",ppp:"PPP (adjusted for prices)",nom:"Nominal (market exchange rate)",
+    asm:"Per month",perY:"per year",head:(n,m)=>`Your income is higher than the average person's in <b class="mdn">${n}</b> of ${m} countries`,
+    pct:p=>`That puts you above ${p}% of countries`,zero:"Type an amount above to see where you stand.",
+    ladder:"The world's income ladder",low:"lowest",high:"highest",you:"You",
+    pick:"Compare with a country",choose:"Choose a country…",quick:"Try:",tapmap:"Or tap any country on the map.",
+    earn:(r,nm)=>`In ${nm} you would earn`,x:"× the average resident",ofavg:p=>`${p}% of the average`,
+    avgIs:(v)=>`Average there: ${v} per person per year`,
+    v:["Very rich by local standards","Above the local average","About the local average","Below the local average","Far below the local average"],
+    close:"Closest to your income",closeS:"Countries where the average person earns about what you do.",
+    gap:(a,an,b,bn,x)=>`The gap: the average person in ${bn} earns about ${x}× as much as in ${an} (${b} vs ${a} a year).`,
+    rate:"Rate: 1 USD ≈",rateN:"TWD (approximate, for illustration; editable)",
+    cavP:"Caveat: GDP per capita is an average over everyone, including children and income from capital — not wages, and the average is higher than what the typical person earns. PPP adjusts for local prices. Your amount is simply converted at the rate below.",
+    cavN:"Caveat: GDP per capita is an average over everyone, including children and income from capital — not wages, and the average is higher than what the typical person earns. This uses market exchange rates and does not adjust for local prices, so it understates how far money goes in poorer countries.",
+    src:"Source",noData:"No income data for this country.",usd:"US$",twd:"NT$"},
+  zh:{title:"你的一天",sub:"如果你在別的國家賺同樣的錢，會是什麼光景？",intro:"輸入你每月的收入或零用錢，我們把它和各國「平均每人每年所得」比一比。",
+    amt:"月收入／零用錢",pre:"快速選擇",basisL:"比較基準",ppp:"購買力平價（PPP，已調整物價）",nom:"名目（市場匯率）",
+    asm:"每月",perY:"每年",head:(n,m)=>`你的收入高於 <b class="mdn">${n}</b> / ${m} 個國家的平均每人所得`,
+    pct:p=>`你超過了 ${p}% 的國家`,zero:"在上面輸入金額，看看你在世界的哪個位置。",
+    ladder:"世界收入階梯",low:"最低",high:"最高",you:"你",
+    pick:"和某個國家比",choose:"選擇國家…",quick:"試試：",tapmap:"也可以直接點地圖上的國家。",
+    earn:(r,nm)=>`在${nm}，你的收入會是`,x:"× 當地平均每人所得",ofavg:p=>`當地平均的 ${p}%`,
+    avgIs:(v)=>`當地平均：每人每年 ${v}`,
+    v:["以當地標準來看非常富裕","高於當地平均","和當地平均差不多","低於當地平均","遠低於當地平均"],
+    close:"跟你最接近的國家",closeS:"這些國家的平均每人所得，和你差不多。",
+    gap:(a,an,b,bn,x)=>`落差有多大：${bn}的平均每人所得約是${an}的 ${x} 倍（每年 ${b} 對 ${a}）。`,
+    rate:"匯率：1 美元 ≈",rateN:"新台幣（約略值，僅供示意，可自行修改）",
+    cavP:"提醒：人均 GDP 是全體居民（含兒童、含資本收益）的平均，並不是薪資，而且平均數會高於一般人的實際收入。PPP 會調整各國物價。你輸入的金額只是依下方匯率換算。",
+    cavN:"提醒：人均 GDP 是全體居民（含兒童、含資本收益）的平均，並不是薪資，而且平均數會高於一般人的實際收入。這裡用市場匯率、沒有調整各國物價，所以會低估錢在較貧窮國家的購買力。",
+    src:"資料來源",noData:"這個國家沒有所得資料。",usd:"US$",twd:"NT$"}
+};
+const mt = k => (MDT[lang] || MDT.en)[k];
+const MD_KEY = "ioMyDay";
+const md = {amt:null, cur:null, basis:null, rate:31.5, sel:null, shown:null};
+try { const s = JSON.parse(localStorage.getItem(MD_KEY)||"null"); if (s) { if (s.amt>=0) md.amt=s.amt; if (s.cur) md.cur=s.cur; if (s.basis) md.basis=s.basis; if (s.rate>0) md.rate=s.rate; if (s.sel) md.sel=s.sel; } } catch(e){}
+const mdSave = () => { try { localStorage.setItem(MD_KEY, JSON.stringify({amt:md.amt,cur:md.cur,basis:md.basis,rate:md.rate,sel:md.sel})); } catch(e){} };
+const mdReduced = () => window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+const mdCur = () => md.cur || (lang==="zh" ? "TWD" : "USD");
+const mdAmt = () => md.amt!=null ? md.amt : (mdCur()==="TWD" ? 30000 : 1500);
+const mdHasPPP = () => !!(DATA.ppp && DATA.ppp.values && Object.keys(DATA.ppp.values).length);
+const mdBasis = () => (mdHasPPP() && md.basis!=="nom") ? "ppp" : "nom";
+const mdUSDm = () => mdCur()==="TWD" ? mdAmt()/md.rate : mdAmt();   // monthly USD
+const mdUSDy = () => mdUSDm()*12;
+const mdFmtUSD = v => "US$" + Math.round(v).toLocaleString("en-US");
+const mdFmtCur = (v,cur) => (cur==="TWD" ? "NT$" : "US$") + Math.round(v).toLocaleString("en-US");
+let mdCache = {};
+function mdData(){
+  const b = mdBasis(); if (mdCache[b]) return mdCache[b];
+  const v = {}, arr = [];
+  countries.forEach(c => {
+    const x = b==="ppp" ? (DATA.ppp.values[c.iso3]) : (c.gdp_usd>0 && c.population>0 ? c.gdp_usd/c.population : null);
+    if (x>0) { v[c.iso3]=x; arr.push({iso:c.iso3,v:x}); }
+  });
+  arr.sort((a,b)=>a.v-b.v);
+  return (mdCache[b] = {v, arr});
+}
+const mdRatio = iso => { const d = mdData(); return d.v[iso] ? mdUSDy()/d.v[iso] : null; };
+function mdStand(){ const d = mdData(), y = mdUSDy(); let n = 0; d.arr.forEach(a => { if (a.v < y) n++; }); return {n, m:d.arr.length}; }
+const MD_NEU = [236,234,228], MD_UP = [43,108,176], MD_DN = [221,107,32];
+function mdFill(iso){
+  const r = mdRatio(iso); if (r==null || mdAmt()<=0) return "var(--land)";
+  const x = Math.max(-1, Math.min(1, Math.log2(r)/3)), k = Math.pow(Math.abs(x), .85), tg = x>=0 ? MD_UP : MD_DN;
+  return `rgb(${MD_NEU.map((n,i)=>Math.round(n+(tg[i]-n)*k)).join(",")})`;
+}
+function mdLegend(){
+  const g = `linear-gradient(90deg,rgb(${MD_DN}),rgb(${MD_NEU}),rgb(${MD_UP}))`;
+  return `<div style="display:block;max-width:230px;line-height:1.35">${lang==="zh"?"你的收入 ÷ 當地平均每人所得":"Your income ÷ local average"}</div>
+  <div style="display:block"><i style="display:block;width:170px;max-width:100%;height:10px;background:${g}"></i>
+  <span style="display:flex;justify-content:space-between;width:170px;max-width:100%;font-size:11px;color:var(--muted);margin-top:2px"><span>≤ 1/8×</span><span>1×</span><span>≥ 8×</span></span></div>`;
+}
+function mdTip(iso){ const r = mdRatio(iso); if (r==null || mdAmt()<=0) return ""; return ` · ${r>=10?r.toFixed(0):r.toFixed(r>=1?1:2)}×`; }
+const mdRStr = r => r>=10 ? Math.round(r).toString() : r>=1 ? r.toFixed(1) : r.toFixed(2);
+const mdVerdict = r => r>=3 ? 0 : r>=1.3 ? 1 : r>0.77 ? 2 : r>0.33 ? 3 : 4;
+const MD_VCOL = ["#2b6cb0","#3b86c4","#7a7f87","#d98a3d","#dd6b20"];
+function mdCard(){
+  const cur = mdCur();
+  return `<div class="card md"><h2>${mt("title")}</h2><p class="sub">${mt("sub")}</p><p class="note" style="margin-top:6px">${mt("intro")}</p>
+  <label class="mdl" for="mdAmt">${mt("amt")}</label>
+  <div class="mdrow"><div class="mdinp"><span id="mdSym">${cur==="TWD"?"NT$":"US$"}</span><input id="mdAmt" inputmode="numeric" autocomplete="off" value="${mdAmt().toLocaleString("en-US")}"></div>
+    <div class="mdseg" role="group"><button data-mdcur="TWD" class="${cur==="TWD"?"on":""}">TWD</button><button data-mdcur="USD" class="${cur==="USD"?"on":""}">USD</button></div></div>
+  <div class="mdpre" id="mdPre"></div>
+  ${mdHasPPP() ? `<div class="mdl" style="margin-top:10px">${mt("basisL")}</div><div class="mdseg mdseg2" role="group"><button data-mdb="ppp" class="${mdBasis()==="ppp"?"on":""}">${mt("ppp")}</button><button data-mdb="nom" class="${mdBasis()==="nom"?"on":""}">${mt("nom")}</button></div>` : ""}
+  <div id="mdOut"></div>
+  <p class="note mdfoot">${mt("rate")} <input id="mdRate" class="mdrate" inputmode="decimal" value="${md.rate}"> ${mt("rateN")}${mdHasPPP()?`<br>${mt("src")}: ${esc(DATA.ppp.source||"IMF")} (${DATA.ppp.year||""}).`:""}</p></div>`;
+}
+function mdPresetsHtml(){
+  const cur = mdCur(), pre = cur==="TWD" ? [5000,30000,60000,100000] : [150,1000,2000,3500];
+  return `<span class="mdl" style="margin:0 4px 0 0">${mt("pre")}</span>` + pre.map(v=>`<button class="chip mdp ${mdAmt()===v?"on":""}" data-mdp="${v}">${cur==="TWD"?"NT$":"US$"}${v.toLocaleString("en-US")}</button>`).join("");
+}
+function mdStrip(st){
+  const d = mdData(), arr = d.arr, lo = Math.log(arr[0].v), hi = Math.log(arr[arr.length-1].v), y = mdUSDy();
+  const bars = arr.map(a => { const h = 8 + 92*(Math.log(a.v)-lo)/(hi-lo);
+    return `<i class="mdb ${a.v<y?"lo":""} ${a.iso===md.sel?"sel":""}" data-mdiso="${a.iso}" style="height:${h.toFixed(1)}%" title="${esc(cname(a.iso))} · ${mdFmtUSD(a.v)}"></i>`; }).join("");
+  const pos = Math.max(3, Math.min(97, st.n/st.m*100));
+  return `<div class="mdstrip"><div class="mdbars">${bars}</div><div class="mdyou" style="left:${pos}%"><span>${mt("you")}</span></div></div>
+  <div class="mdends"><span>${mt("low")}: ${esc(cname(arr[0].iso))}</span><span>${mt("high")}: ${esc(cname(arr[arr.length-1].iso))}</span></div>`;
+}
+function mdOutHtml(){
+  const amt = mdAmt(); if (!(amt>0)) return `<p class="note" style="margin-top:14px">${mt("zero")}</p>`;
+  const st = mdStand(), d = mdData(), cur = mdCur(), y = mdUSDy();
+  let h = `<div class="mdhead"><div class="mdbig">${mt("head")(st.n, st.m)}</div>
+    <div class="note" style="margin:2px 0 0">${mt("pct")(Math.round(st.n/st.m*100))} · ${mt("asm")} ${mdFmtCur(amt,cur)}${cur==="TWD"?` ≈ ${mdFmtUSD(mdUSDm())}`:""} · ${mdFmtUSD(y)} ${mt("perY")}</div></div>
+    <h3 style="margin-top:14px">${mt("ladder")}</h3>${mdStrip(st)}
+    <h3 style="margin-top:14px">${mt("pick")}</h3>
+    <select id="mdSel" class="mdsel"><option value="">${mt("choose")}</option>${[...d.arr].sort((a,b)=>cname(a.iso).localeCompare(cname(b.iso), lang==="zh"?"zh-Hant":"en")).map(a=>`<option value="${a.iso}" ${a.iso===md.sel?"selected":""}>${esc(cname(a.iso))}</option>`).join("")}</select>
+    <div class="mdquick">${mt("quick")} ${["USA","JPN","CHE","IND","NGA","LUX"].filter(i=>d.v[i]).map(i=>`<button class="chip mdp" data-mdiso="${i}">${flagImg(i)}${esc(cname(i))}</button>`).join("")}</div>`;
+  if (md.sel && d.v[md.sel]) {
+    const r = y/d.v[md.sel], vi = mdVerdict(r), c = md.sel;
+    h += `<div class="mdcty" style="border-left-color:${MD_VCOL[vi]}"><div class="ctitle">${flagImg(c)}<div><b style="font-size:17px">${esc(cname(c))}</b><div class="note" style="margin:0">${mt("avgIs")(mdFmtUSD(d.v[c]))}</div></div></div>
+      <div class="mdx"><span class="mdxn">${mdRStr(r)}</span><span class="mdxl">${mt("x")}</span></div>
+      <div class="note" style="margin:0;font-size:13px"><b style="color:${MD_VCOL[vi]}">${mt("v")[vi]}</b> · ${mt("ofavg")(Math.round(r*100).toLocaleString("en-US"))}</div></div>`;
+  } else h += `<p class="note">${mt("tapmap")}</p>`;
+  const near = d.arr.map(a=>({iso:a.iso, r:y/a.v})).sort((a,b)=>Math.abs(Math.log(a.r))-Math.abs(Math.log(b.r))).slice(0,3);
+  h += `<h3 style="margin-top:14px">${mt("close")}</h3><div class="note" style="margin:0 0 6px">${mt("closeS")}</div><div class="mdquick">` +
+    near.map(n=>`<button class="chip mdp" data-mdiso="${n.iso}">${flagImg(n.iso)}${esc(cname(n.iso))} <b>${mdRStr(n.r)}×</b></button>`).join("") + `</div>`;
+  const lo = d.arr[0], hi = d.arr[d.arr.length-1];
+  h += `<p class="mdedu">${mt("gap")(mdFmtUSD(lo.v), cname(lo.iso), mdFmtUSD(hi.v), cname(hi.iso), Math.round(hi.v/lo.v))}</p>
+    <p class="note">${mt(mdBasis()==="ppp"?"cavP":"cavN")}</p>`;
+  return h;
+}
+let mdAnimN = 0;
+function mdRefresh(){
+  const out = document.getElementById("mdOut"); if (!out) return;
+  out.innerHTML = mdOutHtml();
+  const pre = document.getElementById("mdPre"); if (pre) pre.innerHTML = mdPresetsHtml();
+  mdBindOut(); mdBindPre();
+  const n = out.querySelector(".mdn");
+  if (n) { const to = mdStand().n, from = mdAnimN; mdAnimN = to;
+    if (mdReduced() || from===to) n.textContent = to;
+    else { const t0 = performance.now(), dur = 650; n.textContent = from;
+      const step = now => { const k = Math.min(1,(now-t0)/dur), e = 1-Math.pow(1-k,3); if (!n.isConnected) return; n.textContent = Math.round(from+(to-from)*e); if (k<1) requestAnimationFrame(step); };
+      requestAnimationFrame(step); } }
+  focusIso = md.sel; paint();
+}
+function mdPick(iso){
+  if (!mdData().v[iso]) { md.sel = null; mdRefresh(); focusIso = iso; paint(); const o=document.getElementById("mdOut"); if (o) o.insertAdjacentHTML("afterbegin", `<p class="note" style="color:var(--ink)">${esc(cname(iso))}: ${mt("noData")}</p>`); return; }
+  md.sel = iso; mdSave(); mdRefresh();
+  const el = document.querySelector(".mdcty"); if (el && window.innerWidth <= 820) el.scrollIntoView({behavior: mdReduced()?"auto":"smooth", block:"nearest"});
+}
+function mdBindOut(){
+  const p = document.getElementById("mdOut");
+  p.querySelectorAll("[data-mdiso]").forEach(b => b.onclick = () => { mdPick(b.dataset.mdiso); zoomTo(b.dataset.mdiso); });
+  const s = document.getElementById("mdSel"); if (s) s.onchange = () => { if (s.value) { mdPick(s.value); zoomTo(s.value); } else { md.sel=null; mdSave(); mdRefresh(); } };
+}
+function mdSetAmt(v){ md.amt = v; if (md.cur==null) md.cur = mdCur(); mdSave(); }
+function mdBindPre(){
+  document.querySelectorAll("[data-mdp]").forEach(b => b.onclick = () => { mdSetAmt(+b.dataset.mdp); const i=document.getElementById("mdAmt"); if (i) i.value = md.amt.toLocaleString("en-US"); mdRefresh(); });
+}
+function mdBind(){
+  const inp = document.getElementById("mdAmt"); if (!inp) return;
+  inp.oninput = () => { const raw = inp.value.replace(/[^\d]/g,"").slice(0,9); const v = raw===""?0:+raw; inp.value = raw===""?"":v.toLocaleString("en-US"); mdSetAmt(v); mdRefresh(); };
+  document.querySelectorAll("[data-mdcur]").forEach(b => b.onclick = () => { const to = b.dataset.mdcur, from = mdCur(); if (to===from) return;
+    const usd = from==="TWD" ? mdAmt()/md.rate : mdAmt(), nv = to==="TWD" ? usd*md.rate : usd;
+    const sig = Math.pow(10, Math.max(0, Math.floor(Math.log10(Math.max(nv,1)))-2));
+    md.cur = to; md.amt = Math.round(nv/sig)*sig; mdSave(); renderPanel(); });
+  document.querySelectorAll("[data-mdb]").forEach(b => b.onclick = () => { md.basis = b.dataset.mdb; mdSave(); renderPanel(); });
+  const rt = document.getElementById("mdRate"); if (rt) rt.onchange = () => { const v = parseFloat(rt.value); if (v>0 && v<1000) { md.rate = v; mdSave(); mdRefresh(); } else rt.value = md.rate; };
+  mdAnimN = mdStand().n; mdRefresh();
+}
+/* END myday */
 /* ================= END PHASE 2 ================= */
 
 setLang(lang); setMode("explore"); layout();

@@ -1,0 +1,1282 @@
+{
+ "countries": {
+  "LBY": {
+   "top_export": {
+    "en": "Crude oil",
+    "zh": "原油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "About 90% of Libya is desert, yet the country holds the largest proven oil reserves in Africa.",
+    "zh": "利比亞約九成國土是沙漠，卻擁有非洲最大的已探明石油儲量。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "LCA": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Saint Lucian Creole"
+    ],
+    "zh": [
+     "英語",
+     "聖露西亞克里奧爾語"
+    ]
+   },
+   "fun": {
+    "en": "Saint Lucia has produced two Nobel laureates, Derek Walcott and Arthur Lewis, giving it the most Nobel laureates per capita of any country.",
+    "zh": "聖露西亞出了兩位諾貝爾獎得主（沃爾科特與劉易斯），按人口比例居世界之冠。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "LIE": {
+   "top_export": {
+    "en": "Machinery and dental products",
+    "zh": "機械與牙科產品"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "German"
+    ],
+    "zh": [
+     "德語"
+    ]
+   },
+   "fun": {
+    "en": "Liechtenstein is one of only two doubly landlocked countries in the world, along with Uzbekistan.",
+    "zh": "列支敦斯登與烏茲別克是世界上僅有的兩個雙重內陸國。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "LKA": {
+   "top_export": {
+    "en": "Apparel and garments",
+    "zh": "成衣"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Sinhala",
+     "Tamil",
+     "English"
+    ],
+    "zh": [
+     "僧伽羅語",
+     "泰米爾語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Sri Lanka elected the world's first female prime minister, Sirimavo Bandaranaike, in 1960.",
+    "zh": "斯里蘭卡在1960年選出世界第一位女性總理班達拉奈克夫人。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "LSO": {
+   "top_export": {
+    "en": "Diamonds",
+    "zh": "鑽石"
+   },
+   "top_partner": {
+    "iso3": "ZAF",
+    "en": "South Africa",
+    "zh": "南非"
+   },
+   "languages": {
+    "en": [
+     "Sesotho",
+     "English"
+    ],
+    "zh": [
+     "塞索托語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Lesotho is entirely above 1,000 metres in elevation, giving it the highest lowest point of any country in the world.",
+    "zh": "賴索托全境海拔都在1,000公尺以上，是全球最低點最高的國家。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "LTU": {
+   "top_export": {
+    "en": "Refined petroleum",
+    "zh": "精煉石油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Lithuanian"
+    ],
+    "zh": [
+     "立陶宛語"
+    ]
+   },
+   "fun": {
+    "en": "Lithuania was the last pagan state in Europe, officially converting to Christianity only in 1387.",
+    "zh": "立陶宛是歐洲最後一個異教國家，直到1387年才正式改信基督教。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "LUX": {
+   "top_export": {
+    "en": "Steel and iron products",
+    "zh": "鋼鐵製品"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Luxembourgish",
+     "French",
+     "German"
+    ],
+    "zh": [
+     "盧森堡語",
+     "法語",
+     "德語"
+    ]
+   },
+   "fun": {
+    "en": "Luxembourg is the world's only remaining sovereign grand duchy.",
+    "zh": "盧森堡是世界上唯一仍存在的主權大公國。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "LVA": {
+   "top_export": {
+    "en": "Wood and timber products",
+    "zh": "木材及木製品"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Latvian"
+    ],
+    "zh": [
+     "拉脫維亞語"
+    ]
+   },
+   "fun": {
+    "en": "About half of Latvia is covered by forest, one of the highest shares in Europe.",
+    "zh": "拉脫維亞約有一半國土被森林覆蓋，森林比例在歐洲名列前茅。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MAC": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Chinese",
+     "Portuguese"
+    ],
+    "zh": [
+     "中文",
+     "葡萄牙語"
+    ]
+   },
+   "fun": {
+    "en": "Macao is one of the most densely populated places on Earth, with more than 20,000 people per square kilometre.",
+    "zh": "澳門是地球上人口最稠密的地方之一，每平方公里超過兩萬人。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MAR": {
+   "top_export": {
+    "en": "Cars and automotive parts",
+    "zh": "汽車與汽車零組件"
+   },
+   "top_partner": {
+    "iso3": "ESP",
+    "en": "Spain",
+    "zh": "西班牙"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "Berber (Amazigh)",
+     "French"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "柏柏語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Morocco's Al-Qarawiyyin in Fez, founded in 859, is recognised by Guinness as the oldest continually operating university.",
+    "zh": "摩洛哥非斯的卡魯因大學創立於859年，被金氏世界紀錄認定為持續運作最久的大學。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MCO": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French"
+    ],
+    "zh": [
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Monaco covers about two square kilometres, smaller than New York's Central Park.",
+    "zh": "摩納哥面積約2平方公里，比紐約中央公園還小。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MDA": {
+   "top_export": {
+    "en": "Insulated wire and wiring harnesses",
+    "zh": "電線與線束"
+   },
+   "top_partner": {
+    "iso3": "ROU",
+    "en": "Romania",
+    "zh": "羅馬尼亞"
+   },
+   "languages": {
+    "en": [
+     "Romanian"
+    ],
+    "zh": [
+     "羅馬尼亞語"
+    ]
+   },
+   "fun": {
+    "en": "Moldova's Milestii Mici cellar stores around two million bottles of wine in underground tunnels, a Guinness record collection.",
+    "zh": "摩爾多瓦的米列什蒂米奇酒窖在地下隧道存放約兩百萬瓶酒，獲金氏紀錄認證。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MDG": {
+   "top_export": {
+    "en": "Nickel",
+    "zh": "鎳"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Malagasy",
+     "French"
+    ],
+    "zh": [
+     "馬達加斯加語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Over 80% of Madagascar's plant and animal species exist nowhere else on Earth, including every wild lemur.",
+    "zh": "馬達加斯加超過八成的動植物是當地特有種，所有野生狐猴都只在此生存。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MDV": {
+   "top_export": {
+    "en": "Fish (tuna)",
+    "zh": "魚類（鮪魚）"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Dhivehi"
+    ],
+    "zh": [
+     "迪維希語"
+    ]
+   },
+   "fun": {
+    "en": "The Maldives is the world's lowest-lying country, with a highest natural point of only about 2.4 metres above sea level.",
+    "zh": "馬爾地夫是全球地勢最低的國家，最高自然點僅約海拔2.4公尺。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MEX": {
+   "top_export": {
+    "en": "Machinery and electrical equipment",
+    "zh": "機械與電機設備"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Mexico City is built on the drained bed of Lake Texcoco, and parts of it sink noticeably every year.",
+    "zh": "墨西哥城蓋在已乾涸的特斯科科湖底，部分地區每年都明顯下沉。"
+   },
+   "verified": true,
+   "year": 2025
+  },
+  "MHL": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Marshallese",
+     "English"
+    ],
+    "zh": [
+     "馬紹爾語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "With only about 60,000 residents, the Marshall Islands runs one of the world's largest ship registries.",
+    "zh": "馬紹爾群島人口僅約六萬，卻擁有全球最大的船舶註冊登記機構之一。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MKD": {
+   "top_export": {
+    "en": "Catalytic converters and car parts",
+    "zh": "觸媒轉化器與汽車零件"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Macedonian",
+     "Albanian"
+    ],
+    "zh": [
+     "馬其頓語",
+     "阿爾巴尼亞語"
+    ]
+   },
+   "fun": {
+    "en": "Lake Ohrid, shared with Albania, is one of Europe's oldest lakes, estimated at over one million years old.",
+    "zh": "與阿爾巴尼亞共有的奧赫里德湖是歐洲最古老的湖泊之一，估計超過百萬年。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MLI": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French",
+     "Bambara"
+    ],
+    "zh": [
+     "法語",
+     "班巴拉語"
+    ]
+   },
+   "fun": {
+    "en": "Timbuktu in Mali was a medieval centre of Islamic scholarship, and its libraries still hold hundreds of thousands of old manuscripts.",
+    "zh": "馬利的廷巴克圖是中世紀伊斯蘭學術重鎮，圖書館至今仍保存大量古老手稿。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "MLT": {
+   "top_export": {
+    "en": "Refined petroleum",
+    "zh": "精煉石油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Maltese",
+     "English"
+    ],
+    "zh": [
+     "馬爾他語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Malta's megalithic temples, built around 3600 BC, are older than both Stonehenge and the Egyptian pyramids.",
+    "zh": "馬爾他的巨石神廟約建於西元前3600年，比巨石陣與埃及金字塔還古老。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MMR": {
+   "top_export": {
+    "en": "Natural gas",
+    "zh": "天然氣"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Burmese"
+    ],
+    "zh": [
+     "緬甸語"
+    ]
+   },
+   "fun": {
+    "en": "Bagan in Myanmar once had over 10,000 temples, and more than 2,000 still stand today.",
+    "zh": "緬甸的蒲甘曾有一萬多座佛塔與寺廟，如今仍有兩千多座屹立不搖。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MNE": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Montenegrin",
+     "Serbian"
+    ],
+    "zh": [
+     "蒙特內哥羅語",
+     "塞爾維亞語"
+    ]
+   },
+   "fun": {
+    "en": "Montenegro's Tara River Canyon, about 1,300 metres deep, is the deepest canyon in Europe.",
+    "zh": "蒙特內哥羅的塔拉河峽谷深約1,300公尺，是歐洲最深的峽谷。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MNG": {
+   "top_export": {
+    "en": "Coal",
+    "zh": "煤炭"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Mongolian"
+    ],
+    "zh": [
+     "蒙古語"
+    ]
+   },
+   "fun": {
+    "en": "Mongolia has about two people per square kilometre, making it the least densely populated sovereign country.",
+    "zh": "蒙古每平方公里約僅兩人，是世界上人口密度最低的主權國家。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "MOZ": {
+   "top_export": {
+    "en": "Aluminium",
+    "zh": "鋁"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Portuguese"
+    ],
+    "zh": [
+     "葡萄牙語"
+    ]
+   },
+   "fun": {
+    "en": "Mozambique's national flag features an AK-47 rifle, making it a unique design among national flags.",
+    "zh": "莫三比克國旗上有一把AK-47步槍，在各國國旗中獨一無二。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MRT": {
+   "top_export": {
+    "en": "Iron ore and gold",
+    "zh": "鐵礦砂與黃金"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "French"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Mauritania's Richat Structure, the 'Eye of the Sahara', is a ring about 40 kilometres wide visible from space.",
+    "zh": "茅利塔尼亞的「撒哈拉之眼」（理查特結構）寬約40公里，從太空即可看見。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MUS": {
+   "top_export": {
+    "en": "Fish and clothing",
+    "zh": "魚產品與成衣"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "French",
+     "Mauritian Creole"
+    ],
+    "zh": [
+     "英語",
+     "法語",
+     "模里西斯克里奧爾語"
+    ]
+   },
+   "fun": {
+    "en": "Mauritius was the only home of the dodo, a flightless bird that went extinct within about a century of human arrival.",
+    "zh": "模里西斯是渡渡鳥唯一的家鄉，這種不會飛的鳥在人類抵達後約一世紀內滅絕。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MWI": {
+   "top_export": {
+    "en": "Tobacco",
+    "zh": "菸草"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Chichewa"
+    ],
+    "zh": [
+     "英語",
+     "奇契瓦語"
+    ]
+   },
+   "fun": {
+    "en": "Lake Malawi holds more fish species than any other lake, including hundreds of colourful cichlid species.",
+    "zh": "馬拉威湖擁有的魚類種數比任何湖泊都多，包括數百種色彩繽紛的慈鯛。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "MYS": {
+   "top_export": {
+    "en": "Integrated circuits and electronics",
+    "zh": "積體電路與電子產品"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Malay",
+     "English"
+    ],
+    "zh": [
+     "馬來語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Kuala Lumpur's Petronas Twin Towers were the world's tallest buildings from 1998 to 2004.",
+    "zh": "吉隆坡的雙子星塔在1998至2004年間是世界最高建築。"
+   },
+   "verified": false,
+   "year": 2025
+  },
+  "NAM": {
+   "top_export": {
+    "en": "Diamonds, uranium and minerals",
+    "zh": "鑽石、鈾與礦產"
+   },
+   "top_partner": {
+    "iso3": "ZAF",
+    "en": "South Africa",
+    "zh": "南非"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Afrikaans",
+     "Oshiwambo"
+    ],
+    "zh": [
+     "英語",
+     "南非荷蘭語",
+     "奧萬博語"
+    ]
+   },
+   "fun": {
+    "en": "The Namib Desert is believed to be the world's oldest desert, at roughly 55 million years old or more.",
+    "zh": "納米比沙漠被認為是世界最古老的沙漠，歷史至少約5,500萬年。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "NCL": {
+   "top_export": {
+    "en": "Nickel and ferronickel",
+    "zh": "鎳與鎳鐵"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French"
+    ],
+    "zh": [
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "New Caledonia's lagoon, one of the world's largest, is a UNESCO World Heritage site with some of the richest reef diversity.",
+    "zh": "新喀里多尼亞擁有世界最大的潟湖之一，列為聯合國世界遺產。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "NER": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French",
+     "Hausa"
+    ],
+    "zh": [
+     "法語",
+     "豪沙語"
+    ]
+   },
+   "fun": {
+    "en": "Niger has the world's highest fertility rate, at around six births per woman.",
+    "zh": "尼日的生育率居全球之冠，平均每位女性約生六個孩子。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "NGA": {
+   "top_export": {
+    "en": "Crude oil",
+    "zh": "原油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Hausa",
+     "Yoruba"
+    ],
+    "zh": [
+     "英語",
+     "豪沙語",
+     "約魯巴語"
+    ]
+   },
+   "fun": {
+    "en": "Nigeria's film industry, Nollywood, is among the world's largest by number of films produced each year.",
+    "zh": "奈及利亞的電影產業「諾萊塢」年產片量名列世界前茅。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "NIC": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Lake Nicaragua is a freshwater lake that is home to bull sharks, which can swim in from the sea.",
+    "zh": "尼加拉瓜湖是淡水湖，卻有公牛鯊棲息，牠們能從海洋游進來。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "NIU": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Niuean",
+     "English"
+    ],
+    "zh": [
+     "紐埃語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Niue has only about 1,600 people, making it one of the smallest self-governing states in the world.",
+    "zh": "紐埃人口僅約1,600人，是世界上最小的自治國家之一。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "NLD": {
+   "top_export": {
+    "en": "Machinery and equipment",
+    "zh": "機械與設備"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Dutch"
+    ],
+    "zh": [
+     "荷蘭語"
+    ]
+   },
+   "fun": {
+    "en": "About a quarter of the Netherlands lies below sea level, protected by dikes, dunes and pumps.",
+    "zh": "荷蘭約四分之一的國土低於海平面，靠堤防、沙丘與抽水系統保護。"
+   },
+   "verified": true,
+   "year": 2024
+  },
+  "NOR": {
+   "top_export": {
+    "en": "Oil and natural gas (mineral fuels)",
+    "zh": "石油與天然氣（礦物燃料）"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Norwegian"
+    ],
+    "zh": [
+     "挪威語"
+    ]
+   },
+   "fun": {
+    "en": "Nearly 90% of new cars sold in Norway in 2024 were fully electric, the highest share in the world.",
+    "zh": "挪威2024年新車銷售中，近九成是純電動車，比例世界最高。"
+   },
+   "verified": true,
+   "year": 2025
+  },
+  "NPL": {
+   "top_export": {
+    "en": "Soybean oil",
+    "zh": "大豆油"
+   },
+   "top_partner": {
+    "iso3": "IND",
+    "en": "India",
+    "zh": "印度"
+   },
+   "languages": {
+    "en": [
+     "Nepali"
+    ],
+    "zh": [
+     "尼泊爾語"
+    ]
+   },
+   "fun": {
+    "en": "Nepal's flag is the only national flag in the world that is not a rectangle or square.",
+    "zh": "尼泊爾國旗是世界上唯一不是長方形或正方形的國旗。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "NRU": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Nauruan",
+     "English"
+    ],
+    "zh": [
+     "諾魯語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Nauru, at about 21 square kilometres, is the world's smallest island nation.",
+    "zh": "諾魯面積約21平方公里，是世界上最小的島國。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "NZL": {
+   "top_export": {
+    "en": "Dairy products",
+    "zh": "乳製品"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Maori",
+     "New Zealand Sign Language"
+    ],
+    "zh": [
+     "英語",
+     "毛利語",
+     "紐西蘭手語"
+    ]
+   },
+   "fun": {
+    "en": "In 1893, New Zealand became the first self-governing country to give women the right to vote in national elections.",
+    "zh": "紐西蘭在1893年成為第一個讓女性擁有國會選舉投票權的自治國家。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "OMN": {
+   "top_export": {
+    "en": "Crude oil",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Oman's Land of Frankincense is a UNESCO World Heritage site tied to a trade in aromatic resin that spans thousands of years.",
+    "zh": "阿曼的乳香之地是世界遺產，與延續數千年的芳香樹脂貿易息息相關。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PAK": {
+   "top_export": {
+    "en": "Textiles and clothing",
+    "zh": "紡織品與成衣"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Urdu",
+     "English"
+    ],
+    "zh": [
+     "烏爾都語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Pakistan is home to five of the world's fourteen peaks above 8,000 metres, including K2.",
+    "zh": "全球14座8,000公尺以上的高峰中，有5座在巴基斯坦，包括K2。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PAN": {
+   "top_export": {
+    "en": "Copper ore",
+    "zh": "銅礦砂"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Ships crossing the Panama Canal's locks are raised and lowered by gravity-fed fresh water from Gatun Lake, with no pumps.",
+    "zh": "通過巴拿馬運河船閘的船隻，靠加通湖的淡水重力注水升降，完全不需要抽水機。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PER": {
+   "top_export": {
+    "en": "Copper and mineral ores",
+    "zh": "銅與礦砂"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Spanish",
+     "Quechua",
+     "Aymara"
+    ],
+    "zh": [
+     "西班牙語",
+     "克丘亞語",
+     "艾馬拉語"
+    ]
+   },
+   "fun": {
+    "en": "Peru has thousands of native potato varieties, with around 4,000 grown in the Andes.",
+    "zh": "秘魯安地斯山區種植約4,000種原生馬鈴薯。"
+   },
+   "verified": true,
+   "year": 2024
+  },
+  "PHL": {
+   "top_export": {
+    "en": "Electronic integrated circuits",
+    "zh": "電子積體電路"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Filipino",
+     "English"
+    ],
+    "zh": [
+     "菲律賓語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "The Philippines consists of more than 7,600 islands.",
+    "zh": "菲律賓由七千六百多個島嶼組成。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PLW": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Palauan",
+     "English"
+    ],
+    "zh": [
+     "帛琉語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "In 2020, Palau became the first country to ban sunscreens containing certain chemicals harmful to coral reefs.",
+    "zh": "帛琉在2020年成為第一個禁止含特定傷害珊瑚化學物質防曬乳的國家。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PNG": {
+   "top_export": {
+    "en": "Gold and liquefied natural gas",
+    "zh": "黃金與液化天然氣"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Tok Pisin",
+     "Hiri Motu"
+    ],
+    "zh": [
+     "英語",
+     "托克皮辛語",
+     "希里莫圖語"
+    ]
+   },
+   "fun": {
+    "en": "Papua New Guinea has about 840 living languages, more than any other country.",
+    "zh": "巴布亞紐幾內亞約有840種語言，為全球之最。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "POL": {
+   "top_export": {
+    "en": "Machinery and equipment",
+    "zh": "機械與設備"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Polish"
+    ],
+    "zh": [
+     "波蘭語"
+    ]
+   },
+   "fun": {
+    "en": "Poland's Wieliczka Salt Mine has underground chapels carved entirely from salt and has been worked since the 13th century.",
+    "zh": "波蘭維利奇卡鹽礦有以鹽雕成的地下教堂，自13世紀起便開採至今。"
+   },
+   "verified": true,
+   "year": 2025
+  },
+  "PRI": {
+   "top_export": {
+    "en": "Pharmaceuticals",
+    "zh": "藥品"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish",
+     "English"
+    ],
+    "zh": [
+     "西班牙語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Mosquito Bay in Vieques, Puerto Rico, is recognised by Guinness as the brightest bioluminescent bay in the world.",
+    "zh": "波多黎各別克斯島的蚊子灣被金氏紀錄認定為全球最亮的生物發光海灣。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PRK": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Korean"
+    ],
+    "zh": [
+     "韓語"
+    ]
+   },
+   "fun": {
+    "en": "In 2015 North Korea created its own time zone, 30 minutes behind South Korea, before reverting in 2018.",
+    "zh": "北韓在2015年自訂時區，比南韓慢30分鐘，2018年又改回來。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PRT": {
+   "top_export": {
+    "en": "Vehicles and machinery",
+    "zh": "車輛與機械"
+   },
+   "top_partner": {
+    "iso3": "ESP",
+    "en": "Spain",
+    "zh": "西班牙"
+   },
+   "languages": {
+    "en": [
+     "Portuguese"
+    ],
+    "zh": [
+     "葡萄牙語"
+    ]
+   },
+   "fun": {
+    "en": "Lisbon's Bertrand bookshop, opened in 1732, is recognised by Guinness as the world's oldest operating bookstore.",
+    "zh": "里斯本的貝特朗書店創立於1732年，被金氏紀錄認定為世界上最古老的營運書店。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PRY": {
+   "top_export": {
+    "en": "Soybeans",
+    "zh": "大豆"
+   },
+   "top_partner": {
+    "iso3": "BRA",
+    "en": "Brazil",
+    "zh": "巴西"
+   },
+   "languages": {
+    "en": [
+     "Spanish",
+     "Guarani"
+    ],
+    "zh": [
+     "西班牙語",
+     "瓜拉尼語"
+    ]
+   },
+   "fun": {
+    "en": "Paraguay generates nearly all its electricity from hydropower and exports a large share of it to its neighbours.",
+    "zh": "巴拉圭幾乎全部電力來自水力發電，且將大量電力輸出給鄰國。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "PSE": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Jericho is among the oldest continuously inhabited cities in the world, with settlement stretching back about 10,000 years.",
+    "zh": "耶利哥是世界上持續有人居住最久的城市之一，歷史可追溯約一萬年。"
+   },
+   "verified": false,
+   "year": 2024
+  },
+  "QAT": {
+   "top_export": {
+    "en": "Liquefied natural gas and mineral fuels",
+    "zh": "液化天然氣與礦物燃料"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Qatar hosted the 2022 FIFA World Cup, the first men's World Cup held in the Arab world.",
+    "zh": "卡達主辦2022年世界盃足球賽，是首次在阿拉伯世界舉行的男子世界盃。"
+   },
+   "verified": true,
+   "year": 2024
+  },
+  "ROU": {
+   "top_export": {
+    "en": "Vehicles and car parts",
+    "zh": "車輛與汽車零件"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Romanian"
+    ],
+    "zh": [
+     "羅馬尼亞語"
+    ]
+   },
+   "fun": {
+    "en": "Bucharest's Palace of the Parliament is among the largest and heaviest administrative buildings in the world.",
+    "zh": "布加勒斯特的國會宮是世界上最大、最重的行政大樓之一。"
+   },
+   "verified": true,
+   "year": 2025
+  }
+ },
+ "sources": [
+  "https://tradingeconomics.com/ (UN COMTRADE-based exports by category/country)",
+  "https://longreads.cbs.nl/dutch-trade-in-facts-and-figures-2025/international-trade-in-goods/",
+  "https://wits.worldbank.org/countrysnapshot/",
+  "https://oec.world/"
+ ]
+}

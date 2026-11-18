@@ -1,0 +1,1340 @@
+{
+ "countries": {
+  "ABW": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Papiamento",
+     "Dutch"
+    ],
+    "zh": [
+     "帕皮阿門托語",
+     "荷蘭語"
+    ]
+   },
+   "fun": {
+    "en": "Aruba lies outside the main Caribbean hurricane belt, which is one reason it markets itself as a year-round sunny destination.",
+    "zh": "阿魯巴位於加勒比海颶風帶之外，因此長年陽光充足，是熱門的全年度假勝地。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "AFG": {
+   "top_export": {
+    "en": "Coal",
+    "zh": "煤炭"
+   },
+   "top_partner": {
+    "iso3": "PAK",
+    "en": "Pakistan",
+    "zh": "巴基斯坦"
+   },
+   "languages": {
+    "en": [
+     "Dari",
+     "Pashto"
+    ],
+    "zh": [
+     "達利語",
+     "普什圖語"
+    ]
+   },
+   "fun": {
+    "en": "Band-e Amir National Park has deep blue lakes held back by natural travertine dams, and it was Afghanistan's first national park.",
+    "zh": "阿富汗的班迪阿米爾國家公園擁有被天然石灰華壩攔住的深藍湖泊，是該國第一座國家公園。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "AGO": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Portuguese",
+     "Umbundu"
+    ],
+    "zh": [
+     "葡萄牙語",
+     "翁本杜語"
+    ]
+   },
+   "fun": {
+    "en": "Angola's Kalandula Falls is about 105 metres high and 400 metres wide, among the largest waterfalls in Africa by volume.",
+    "zh": "安哥拉的卡蘭杜拉瀑布高約105公尺、寬約400公尺，是非洲水量最大的瀑布之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "ALB": {
+   "top_export": {
+    "en": "Textiles and footwear",
+    "zh": "紡織品與鞋類"
+   },
+   "top_partner": {
+    "iso3": "ITA",
+    "en": "Italy",
+    "zh": "義大利"
+   },
+   "languages": {
+    "en": [
+     "Albanian"
+    ],
+    "zh": [
+     "阿爾巴尼亞語"
+    ]
+   },
+   "fun": {
+    "en": "Albania has roughly 170,000 concrete bunkers scattered across the country, built during the Cold War era.",
+    "zh": "阿爾巴尼亞全國散布著約17萬座冷戰時期興建的混凝土碉堡。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "AND": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "ESP",
+    "en": "Spain",
+    "zh": "西班牙"
+   },
+   "languages": {
+    "en": [
+     "Catalan",
+     "Spanish",
+     "French"
+    ],
+    "zh": [
+     "加泰隆尼亞語",
+     "西班牙語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Andorra's only official language is Catalan, and its head of state is shared by the French president and the Bishop of Urgell.",
+    "zh": "安道爾唯一的官方語言是加泰隆尼亞語，國家元首由法國總統與烏赫爾主教共同擔任。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "ARE": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "English"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "The Burj Khalifa in Dubai stands 828 metres tall and has been the world's tallest building since 2010.",
+    "zh": "杜拜的哈里發塔高828公尺，自2010年起一直是世界最高建築。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "ARG": {
+   "top_export": {
+    "en": "Soybean meal",
+    "zh": "大豆粕"
+   },
+   "top_partner": {
+    "iso3": "BRA",
+    "en": "Brazil",
+    "zh": "巴西"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Aconcagua in Argentina, at 6,961 metres, is the highest mountain outside Asia.",
+    "zh": "阿根廷的阿空加瓜山海拔6,961公尺，是亞洲以外的最高峰。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "ARM": {
+   "top_export": {
+    "en": "Metals and precious metals",
+    "zh": "金屬與貴金屬"
+   },
+   "top_partner": {
+    "iso3": "RUS",
+    "en": "Russia",
+    "zh": "俄羅斯"
+   },
+   "languages": {
+    "en": [
+     "Armenian"
+    ],
+    "zh": [
+     "亞美尼亞語"
+    ]
+   },
+   "fun": {
+    "en": "The Areni-1 cave in Armenia holds the oldest known winery, dating back about 6,100 years.",
+    "zh": "亞美尼亞的阿雷尼一號洞穴發現了已知最古老的釀酒坊，距今約6,100年。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "ATG": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Antiguan Creole"
+    ],
+    "zh": [
+     "英語",
+     "安地卡克里奧語"
+    ]
+   },
+   "fun": {
+    "en": "Nelson's Dockyard in Antigua is a Georgian-era naval dockyard that became a UNESCO World Heritage Site in 2016.",
+    "zh": "安地卡的納爾遜船塢是喬治王朝時期的海軍船塢，2016年列入世界遺產。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "AUS": {
+   "top_export": {
+    "en": "Iron ore",
+    "zh": "鐵礦砂"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Australia is home to an estimated 40 million or more kangaroos, outnumbering its roughly 27 million people.",
+    "zh": "澳洲估計有4,000萬隻以上的袋鼠，數量超過約2,700萬的人口。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "AUT": {
+   "top_export": {
+    "en": "Machinery",
+    "zh": "機械設備"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "German"
+    ],
+    "zh": [
+     "德語"
+    ]
+   },
+   "fun": {
+    "en": "Vienna has repeatedly been ranked the world's most liveable city in the Economist Intelligence Unit's annual survey.",
+    "zh": "維也納多次在經濟學人智庫的年度調查中被評為全球最宜居城市。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "AZE": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "ITA",
+    "en": "Italy",
+    "zh": "義大利"
+   },
+   "languages": {
+    "en": [
+     "Azerbaijani",
+     "Russian"
+    ],
+    "zh": [
+     "亞塞拜然語",
+     "俄語"
+    ]
+   },
+   "fun": {
+    "en": "Yanar Dag near Baku is a hillside where natural gas has burned continuously for decades.",
+    "zh": "巴庫附近的燃燒山（Yanar Dag）山坡上，天然氣已持續燃燒數十年。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BDI": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Kirundi",
+     "French",
+     "English"
+    ],
+    "zh": [
+     "蒲隆地語",
+     "法語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Burundi shares Lake Tanganyika, the world's second-deepest lake at about 1,470 metres deep.",
+    "zh": "蒲隆地與鄰國共享坦干伊喀湖，這是世界第二深的湖，深約1,470公尺。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BEL": {
+   "top_export": {
+    "en": "Chemicals and pharmaceuticals",
+    "zh": "化學與醫藥產品"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Dutch",
+     "French",
+     "German"
+    ],
+    "zh": [
+     "荷蘭語",
+     "法語",
+     "德語"
+    ]
+   },
+   "fun": {
+    "en": "About 80 percent of the world's rough diamonds are traded through Antwerp in Belgium.",
+    "zh": "全球約八成的鑽石原石經由比利時安特衛普交易。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BEN": {
+   "top_export": {
+    "en": "Cotton",
+    "zh": "棉花"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "French",
+     "Fon"
+    ],
+    "zh": [
+     "法語",
+     "豐語"
+    ]
+   },
+   "fun": {
+    "en": "Benin is the birthplace of Vodun, and January 10 is a national holiday honouring the religion.",
+    "zh": "貝南是伏都教的發源地，每年1月10日是紀念該宗教的國定假日。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BFA": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French",
+     "Mooré",
+     "Dioula"
+    ],
+    "zh": [
+     "法語",
+     "莫西語",
+     "迪烏拉語"
+    ]
+   },
+   "fun": {
+    "en": "Ouagadougou hosts FESPACO, the largest African film festival, held every two years.",
+    "zh": "瓦加杜古每兩年舉辦一次泛非電影節（FESPACO），是非洲最大的電影節。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BGD": {
+   "top_export": {
+    "en": "Garments and apparel",
+    "zh": "成衣"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Bengali",
+     "English"
+    ],
+    "zh": [
+     "孟加拉語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Bangladesh shares the Sundarbans, the world's largest mangrove forest and a home of the Bengal tiger.",
+    "zh": "孟加拉擁有孫德爾本斯，這是全球最大的紅樹林，也是孟加拉虎的棲地。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BGR": {
+   "top_export": {
+    "en": "Refined petroleum",
+    "zh": "精煉石油"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Bulgarian"
+    ],
+    "zh": [
+     "保加利亞語"
+    ]
+   },
+   "fun": {
+    "en": "The Cyrillic alphabet is traditionally traced to 9th-century Bulgaria, and it became the EU's third official script.",
+    "zh": "西里爾字母傳統上被認為源於九世紀的保加利亞，後來成為歐盟第三種官方文字。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BHR": {
+   "top_export": {
+    "en": "Refined petroleum",
+    "zh": "精煉石油"
+   },
+   "top_partner": {
+    "iso3": "SAU",
+    "en": "Saudi Arabia",
+    "zh": "沙烏地阿拉伯"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "English"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Bahrain's Pearling Path, tracing its pearl-diving history, was listed as a UNESCO World Heritage Site in 2012.",
+    "zh": "巴林記錄採珠歷史的「採珠之路」於2012年列入世界遺產。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BHS": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "The Bahamas consists of more than 700 islands and about 2,400 cays spread across the Atlantic.",
+    "zh": "巴哈馬由700多個島嶼和約2,400個珊瑚礁小島組成，散布在大西洋上。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BIH": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Bosnian",
+     "Croatian",
+     "Serbian"
+    ],
+    "zh": [
+     "波士尼亞語",
+     "克羅埃西亞語",
+     "塞爾維亞語"
+    ]
+   },
+   "fun": {
+    "en": "Divers leap from Mostar's Old Bridge, roughly 20 metres above the Neretva River, in a tradition lasting centuries.",
+    "zh": "莫斯塔爾老橋距涅雷特瓦河約20公尺，跳水者從橋上躍下的傳統已延續數百年。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BLR": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "RUS",
+    "en": "Russia",
+    "zh": "俄羅斯"
+   },
+   "languages": {
+    "en": [
+     "Belarusian",
+     "Russian"
+    ],
+    "zh": [
+     "白俄羅斯語",
+     "俄語"
+    ]
+   },
+   "fun": {
+    "en": "Białowieża Forest, shared with Poland, is one of Europe's last primeval lowland forests and shelters the European bison.",
+    "zh": "與波蘭共有的比亞沃維耶扎森林是歐洲僅存的原始低地森林之一，棲息著歐洲野牛。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BLZ": {
+   "top_export": {
+    "en": "Sugar",
+    "zh": "糖"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Spanish",
+     "Belize Kriol"
+    ],
+    "zh": [
+     "英語",
+     "西班牙語",
+     "貝里斯克里奧語"
+    ]
+   },
+   "fun": {
+    "en": "Belize's Great Blue Hole is a marine sinkhole about 300 metres wide and 124 metres deep.",
+    "zh": "貝里斯的大藍洞是寬約300公尺、深約124公尺的海底落水洞。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BOL": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Spanish",
+     "Quechua",
+     "Aymara"
+    ],
+    "zh": [
+     "西班牙語",
+     "蓋丘亞語",
+     "艾馬拉語"
+    ]
+   },
+   "fun": {
+    "en": "Bolivia's Salar de Uyuni, about 10,000 square kilometres, is the world's largest salt flat.",
+    "zh": "玻利維亞的烏尤尼鹽沼面積約1萬平方公里，是世界最大的鹽沼。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BRA": {
+   "top_export": {
+    "en": "Soybeans",
+    "zh": "大豆"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Portuguese"
+    ],
+    "zh": [
+     "葡萄牙語"
+    ]
+   },
+   "fun": {
+    "en": "Brazil holds roughly 60 percent of the Amazon rainforest, the largest tropical rainforest on Earth.",
+    "zh": "巴西擁有約六成的亞馬遜雨林，這是地球上最大的熱帶雨林。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BRB": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Bajan Creole"
+    ],
+    "zh": [
+     "英語",
+     "巴貝多克里奧語"
+    ]
+   },
+   "fun": {
+    "en": "Mount Gay Rum in Barbados cites a 1703 deed as proof of one of the oldest rum distilling operations.",
+    "zh": "巴貝多的Mount Gay蘭姆酒以一份1703年的契據，主張自己是最古老的蘭姆酒釀造廠之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BRN": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Malay",
+     "English"
+    ],
+    "zh": [
+     "馬來語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Brunei's Kampong Ayer is one of the world's largest water villages, with thousands of residents living on stilts.",
+    "zh": "汶萊的水村（Kampong Ayer）是世界最大的水上聚落之一，數以千計居民住在高腳屋中。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BTN": {
+   "top_export": {
+    "en": "Electricity (hydropower)",
+    "zh": "電力（水力發電）"
+   },
+   "top_partner": {
+    "iso3": "IND",
+    "en": "India",
+    "zh": "印度"
+   },
+   "languages": {
+    "en": [
+     "Dzongkha",
+     "Nepali"
+    ],
+    "zh": [
+     "宗卡語",
+     "尼泊爾語"
+    ]
+   },
+   "fun": {
+    "en": "Bhutan is carbon negative, absorbing more carbon dioxide than it emits, and its constitution requires 60 percent forest cover.",
+    "zh": "不丹吸收的二氧化碳多於排放量，是負碳國家，憲法並規定森林覆蓋率須維持六成。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "BWA": {
+   "top_export": {
+    "en": "Diamonds",
+    "zh": "鑽石"
+   },
+   "top_partner": {
+    "iso3": "ZAF",
+    "en": "South Africa",
+    "zh": "南非"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Setswana"
+    ],
+    "zh": [
+     "英語",
+     "茨瓦納語"
+    ]
+   },
+   "fun": {
+    "en": "Botswana's currency, the pula, means rain in Setswana, reflecting how precious rain is in a dry land.",
+    "zh": "波札那貨幣「普拉」在茨瓦納語中的意思是「雨」，反映雨水在乾燥土地上的珍貴。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CAF": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Sango",
+     "French"
+    ],
+    "zh": [
+     "桑戈語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Dzanga Bai in the Central African Republic is a forest clearing where hundreds of forest elephants gather.",
+    "zh": "中非共和國的贊加拜（Dzanga Bai）是一片林中空地，常有數百頭森林象聚集。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CAN": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "French"
+    ],
+    "zh": [
+     "英語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Canada has the longest coastline of any country, at more than 200,000 kilometres.",
+    "zh": "加拿大擁有全世界最長的海岸線，超過20萬公里。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CHE": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "German",
+     "French",
+     "Italian"
+    ],
+    "zh": [
+     "德語",
+     "法語",
+     "義大利語"
+    ]
+   },
+   "fun": {
+    "en": "In Switzerland it is illegal to keep just one guinea pig, because they are social animals that need company.",
+    "zh": "在瑞士，只養一隻天竺鼠是違法的，因為牠們是群居動物需要同伴。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CHL": {
+   "top_export": {
+    "en": "Copper",
+    "zh": "銅"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Chile's Atacama is the driest non-polar desert on Earth, and some weather stations there have gone years without rain.",
+    "zh": "智利的阿塔卡馬沙漠是地球上最乾燥的非極地沙漠，部分氣象站曾多年沒有降雨。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CHN": {
+   "top_export": {
+    "en": "Electrical machinery and equipment",
+    "zh": "電機與電子設備"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Mandarin"
+    ],
+    "zh": [
+     "華語"
+    ]
+   },
+   "fun": {
+    "en": "China's high-speed rail network exceeds 45,000 kilometres, the longest in the world.",
+    "zh": "中國的高速鐵路網超過4萬5千公里，是世界最長。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CIV": {
+   "top_export": {
+    "en": "Cocoa beans",
+    "zh": "可可豆"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French",
+     "Dioula"
+    ],
+    "zh": [
+     "法語",
+     "迪烏拉語"
+    ]
+   },
+   "fun": {
+    "en": "The Basilica of Our Lady of Peace in Yamoussoukro is among the largest churches in the world.",
+    "zh": "亞穆索戈的和平聖母聖殿是世界最大的教堂之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CMR": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "French",
+     "English"
+    ],
+    "zh": [
+     "法語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Cameroon is nicknamed 'Africa in miniature' for its varied landscapes and more than 250 languages.",
+    "zh": "喀麥隆擁有多樣的地貌與250多種語言，因此被稱為「縮小版的非洲」。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "COD": {
+   "top_export": {
+    "en": "Copper",
+    "zh": "銅"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "French",
+     "Lingala",
+     "Swahili"
+    ],
+    "zh": [
+     "法語",
+     "林加拉語",
+     "史瓦希里語"
+    ]
+   },
+   "fun": {
+    "en": "The DR Congo produces roughly 70 percent of the world's cobalt, a key metal in rechargeable batteries.",
+    "zh": "剛果民主共和國生產全球約七成的鈷，這是充電電池的關鍵金屬。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "COG": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "French",
+     "Lingala",
+     "Kituba"
+    ],
+    "zh": [
+     "法語",
+     "林加拉語",
+     "基圖巴語"
+    ]
+   },
+   "fun": {
+    "en": "Brazzaville and Kinshasa, separated only by the Congo River, are the two closest national capitals in the world.",
+    "zh": "布拉薩市與金夏沙僅隔剛果河相望，是全球距離最近的兩座國家首都。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "COK": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "NZL",
+    "en": "New Zealand",
+    "zh": "紐西蘭"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Cook Islands Māori"
+    ],
+    "zh": [
+     "英語",
+     "庫克群島毛利語"
+    ]
+   },
+   "fun": {
+    "en": "The Cook Islands' Marae Moana marine park covers about 1.9 million square kilometres of ocean.",
+    "zh": "庫克群島的「馬雷莫阿納」海洋公園涵蓋約190萬平方公里海域。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "COL": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Colombia has more bird species than any other country, with more than 1,900 recorded.",
+    "zh": "哥倫比亞的鳥類超過1,900種，是全球鳥種最多的國家。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "COM": {
+   "top_export": {
+    "en": "Cloves",
+    "zh": "丁香"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Comorian",
+     "Arabic",
+     "French"
+    ],
+    "zh": [
+     "葛摩語",
+     "阿拉伯語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "The Comoros are among the world's leading producers of ylang-ylang, a flower used in perfumes.",
+    "zh": "葛摩是全球主要的依蘭花產地之一，這種花是香水的重要原料。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CPV": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "PRT",
+    "en": "Portugal",
+    "zh": "葡萄牙"
+   },
+   "languages": {
+    "en": [
+     "Portuguese",
+     "Cape Verdean Creole"
+    ],
+    "zh": [
+     "葡萄牙語",
+     "維德角克里奧語"
+    ]
+   },
+   "fun": {
+    "en": "Cabo Verde's islands were uninhabited until the Portuguese arrived in the 15th century.",
+    "zh": "維德角群島在十五世紀葡萄牙人抵達之前無人居住。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CRI": {
+   "top_export": {
+    "en": "Medical instruments",
+    "zh": "醫療器材"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Costa Rica abolished its army in 1948 and has used the savings for education and health.",
+    "zh": "哥斯大黎加在1948年廢除軍隊，並將省下的經費投入教育與醫療。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CUB": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "The bee hummingbird, the world's smallest bird at about 6 centimetres long, lives only in Cuba.",
+    "zh": "世界最小的鳥「蜂鳥」體長約6公分，只生活在古巴。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CUW": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Dutch",
+     "Papiamentu",
+     "English"
+    ],
+    "zh": [
+     "荷蘭語",
+     "帕皮阿門托語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Blue Curaçao liqueur is flavoured with the dried peel of the laraha, a bitter orange grown on the island.",
+    "zh": "藍柑橘香甜酒以島上的苦橙「拉拉哈」果皮調味。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CYP": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "GRC",
+    "en": "Greece",
+    "zh": "希臘"
+   },
+   "languages": {
+    "en": [
+     "Greek",
+     "Turkish"
+    ],
+    "zh": [
+     "希臘語",
+     "土耳其語"
+    ]
+   },
+   "fun": {
+    "en": "A cat buried alongside a human about 9,500 years ago was found in Cyprus, among the earliest evidence of cat domestication.",
+    "zh": "賽普勒斯出土了約9,500年前與人類同葬的貓，是貓被馴化的最早證據之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "CZE": {
+   "top_export": {
+    "en": "Cars and vehicles",
+    "zh": "汽車與車輛"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Czech"
+    ],
+    "zh": [
+     "捷克語"
+    ]
+   },
+   "fun": {
+    "en": "Czechs drink more beer per person than any other nation, at around 140 litres a year.",
+    "zh": "捷克人均啤酒消費量全球第一，每年約140公升。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "DEU": {
+   "top_export": {
+    "en": "Cars",
+    "zh": "汽車"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "German"
+    ],
+    "zh": [
+     "德語"
+    ]
+   },
+   "fun": {
+    "en": "Many sections of Germany's Autobahn have no general speed limit.",
+    "zh": "德國高速公路有許多路段沒有一般性的速限。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "DJI": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "ETH",
+    "en": "Ethiopia",
+    "zh": "衣索比亞"
+   },
+   "languages": {
+    "en": [
+     "French",
+     "Arabic",
+     "Somali"
+    ],
+    "zh": [
+     "法語",
+     "阿拉伯語",
+     "索馬利語"
+    ]
+   },
+   "fun": {
+    "en": "Lake Assal in Djibouti lies about 155 metres below sea level and is one of the saltiest lakes on Earth.",
+    "zh": "吉布地的阿薩勒湖低於海平面約155公尺，是地球上含鹽量最高的湖泊之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "DMA": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Dominican Creole French"
+    ],
+    "zh": [
+     "英語",
+     "多米尼克法語克里奧語"
+    ]
+   },
+   "fun": {
+    "en": "Dominica's Boiling Lake is a flooded volcanic vent and one of the world's largest hot lakes.",
+    "zh": "多米尼克的沸騰湖是被水淹沒的火山口，是世界最大的熱湖之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "DNK": {
+   "top_export": {
+    "en": "Pharmaceuticals",
+    "zh": "醫藥產品"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Danish"
+    ],
+    "zh": [
+     "丹麥語"
+    ]
+   },
+   "fun": {
+    "en": "The name LEGO comes from the Danish phrase 'leg godt', meaning 'play well'.",
+    "zh": "樂高（LEGO）的名字來自丹麥語「leg godt」，意思是「玩得開心」。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "DOM": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Santo Domingo's Colonial City, founded in 1498, is the oldest European-founded city in the Americas with a UNESCO listing.",
+    "zh": "聖多明哥的殖民區建於1498年，是美洲最早的歐洲人建城並列入世界遺產的城市之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "DZA": {
+   "top_export": {
+    "en": "Natural gas",
+    "zh": "天然氣"
+   },
+   "top_partner": {
+    "iso3": "ITA",
+    "en": "Italy",
+    "zh": "義大利"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "Tamazight"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "柏柏語"
+    ]
+   },
+   "fun": {
+    "en": "Algeria is Africa's largest country by area, at about 2.38 million square kilometres.",
+    "zh": "阿爾及利亞面積約238萬平方公里，是非洲面積最大的國家。"
+   },
+   "verified": false,
+   "year": 2023
+  }
+ },
+ "sources": [
+  "https://oec.world/",
+  "https://www.cia.gov/the-world-factbook/",
+  "https://wits.worldbank.org/",
+  "https://data.worldbank.org/"
+ ],
+ "note": "Export/partner values are from general knowledge of OEC/WITS/CIA data; direct page fetch was not possible (JS-rendered), so verified=false."
+}

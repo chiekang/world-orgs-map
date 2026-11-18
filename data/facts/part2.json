@@ -1,0 +1,1323 @@
+{
+ "countries": {
+  "ECU": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Ecuador is Spanish for 'equator', and the country is named after the line that crosses just north of its capital, Quito.",
+    "zh": "「厄瓜多」在西班牙語意為「赤道」，國名來自穿過首都基多北方的赤道。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "EGY": {
+   "top_export": {
+    "en": "Petroleum products and natural gas",
+    "zh": "石油產品與天然氣"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Cairo's Al-Azhar, founded in 970 CE, is among the oldest continuously operating universities in the world.",
+    "zh": "開羅的愛資哈爾大學創立於西元970年，是世界最古老仍運作的大學之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "ERI": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Tigrinya",
+     "Arabic",
+     "English"
+    ],
+    "zh": [
+     "提格利尼亞語",
+     "阿拉伯語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Asmara's collection of modernist and Art Deco buildings earned UNESCO World Heritage status in 2017.",
+    "zh": "首都阿斯瑪拉的現代主義建築群於2017年列入世界遺產。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "ESH": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Arabic",
+     "Hassaniya"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "哈桑尼亞語"
+    ]
+   },
+   "fun": {
+    "en": "Much of its Atlantic coastline is a rare place where Sahara dunes run straight down to the ocean.",
+    "zh": "這裡的海岸線是撒哈拉沙丘直接延伸入大西洋的罕見景觀。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "ESP": {
+   "top_export": {
+    "en": "Cars and vehicles",
+    "zh": "汽車與車輛"
+   },
+   "top_partner": {
+    "iso3": "FRA",
+    "en": "France",
+    "zh": "法國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Spain typically produces close to half of the world's olive oil.",
+    "zh": "西班牙的橄欖油產量常占全球近一半。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "EST": {
+   "top_export": {
+    "en": "Electrical and telecom equipment",
+    "zh": "電機與電信設備"
+   },
+   "top_partner": {
+    "iso3": "FIN",
+    "en": "Finland",
+    "zh": "芬蘭"
+   },
+   "languages": {
+    "en": [
+     "Estonian"
+    ],
+    "zh": [
+     "愛沙尼亞語"
+    ]
+   },
+   "fun": {
+    "en": "In 2005 Estonia became the first country to offer nationwide internet voting in a general election.",
+    "zh": "愛沙尼亞在2005年成為首個全國性提供網路投票的國家。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "ETH": {
+   "top_export": {
+    "en": "Coffee",
+    "zh": "咖啡"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Amharic"
+    ],
+    "zh": [
+     "阿姆哈拉語"
+    ]
+   },
+   "fun": {
+    "en": "Ethiopia uses its own calendar with 13 months, running about seven to eight years behind the Gregorian one.",
+    "zh": "衣索比亞曆法有13個月，比西曆晚約七到八年。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "FIN": {
+   "top_export": {
+    "en": "Machinery and equipment",
+    "zh": "機械與設備"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Finnish",
+     "Swedish"
+    ],
+    "zh": [
+     "芬蘭語",
+     "瑞典語"
+    ]
+   },
+   "fun": {
+    "en": "Finland has around three million saunas for roughly 5.6 million people.",
+    "zh": "芬蘭約560萬人口，卻有大約三百萬間桑拿房。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "FJI": {
+   "top_export": {
+    "en": "Bottled water",
+    "zh": "瓶裝水"
+   },
+   "top_partner": {
+    "iso3": "SGP",
+    "en": "Singapore",
+    "zh": "新加坡"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Fijian",
+     "Fiji Hindi"
+    ],
+    "zh": [
+     "英語",
+     "斐濟語",
+     "斐濟印地語"
+    ]
+   },
+   "fun": {
+    "en": "Fiji has more than 330 islands, but only about a third of them are inhabited.",
+    "zh": "斐濟有三百多座島嶼，其中僅約三分之一有人居住。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "FLK": {
+   "top_export": {
+    "en": "Fish and squid",
+    "zh": "魚類與魷魚"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "The islands have hundreds of thousands of sheep but only around 3,500 residents.",
+    "zh": "群島上有數十萬隻綿羊，居民卻只有約三千五百人。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "FRA": {
+   "top_export": {
+    "en": "Aircraft and aerospace equipment",
+    "zh": "飛機與航太設備"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "French"
+    ],
+    "zh": [
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "France is the world's most visited country, welcoming around 100 million international arrivals in 2023.",
+    "zh": "法國是全球最多人造訪的國家，2023年外國旅客約一億人次。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "FSM": {
+   "top_export": {
+    "en": "Fish (tuna)",
+    "zh": "魚類（鮪魚）"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Chuukese",
+     "Pohnpeian"
+    ],
+    "zh": [
+     "英語",
+     "丘克語",
+     "波納佩語"
+    ]
+   },
+   "fun": {
+    "en": "Nan Madol on Pohnpei is an ancient city built on artificial islets over a coral reef, now a UNESCO site.",
+    "zh": "波納佩島的南馬都爾是建於珊瑚礁人工島上的古城，已列世界遺產。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "GAB": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "French"
+    ],
+    "zh": [
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Roughly nine in ten hectares of Gabon are covered by forest, among the highest shares in the world.",
+    "zh": "加彭約九成國土被森林覆蓋，比例居全球最高之列。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "GBR": {
+   "top_export": {
+    "en": "Cars and machinery",
+    "zh": "汽車與機械"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Teaching at Oxford began around 1096, centuries before the Aztec Empire was founded.",
+    "zh": "牛津大學約在1096年就有教學活動，早於阿茲特克帝國建立。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "GEO": {
+   "top_export": {
+    "en": "Cars (mostly re-exports) and copper ore",
+    "zh": "汽車（多為轉口）與銅礦"
+   },
+   "top_partner": {
+    "iso3": "TUR",
+    "en": "Türkiye",
+    "zh": "土耳其"
+   },
+   "languages": {
+    "en": [
+     "Georgian"
+    ],
+    "zh": [
+     "喬治亞語"
+    ]
+   },
+   "fun": {
+    "en": "Archaeologists found evidence of winemaking in Georgia dating back about 8,000 years.",
+    "zh": "考古學家在喬治亞發現約八千年前的釀酒證據。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "GHA": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "In 1957 Ghana became the first sub-Saharan African country to win independence from colonial rule.",
+    "zh": "迦納於1957年成為撒哈拉以南非洲首個脫離殖民統治獨立的國家。"
+   },
+   "verified": true,
+   "year": 2025
+  },
+  "GIN": {
+   "top_export": {
+    "en": "Bauxite and gold",
+    "zh": "鋁土礦與黃金"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "French"
+    ],
+    "zh": [
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Guinea holds the world's largest known reserves of bauxite, the ore used to make aluminium.",
+    "zh": "幾內亞擁有全球最大的鋁土礦蘊藏量，鋁土礦是煉鋁原料。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "GMB": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "The Gambia is Africa's smallest mainland country, a narrow strip of land along the Gambia River.",
+    "zh": "甘比亞是非洲大陸最小的國家，國土沿甘比亞河呈狹長帶狀。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "GNB": {
+   "top_export": {
+    "en": "Cashew nuts",
+    "zh": "腰果"
+   },
+   "top_partner": {
+    "iso3": "IND",
+    "en": "India",
+    "zh": "印度"
+   },
+   "languages": {
+    "en": [
+     "Portuguese"
+    ],
+    "zh": [
+     "葡萄牙語"
+    ]
+   },
+   "fun": {
+    "en": "The Bijagos archipelago, with about 88 islands, is a UNESCO biosphere reserve.",
+    "zh": "比賈戈斯群島約有八十八座島嶼，是聯合國生物圈保護區。"
+   },
+   "verified": true,
+   "year": 2018
+  },
+  "GNQ": {
+   "top_export": {
+    "en": "Crude petroleum and natural gas",
+    "zh": "原油與天然氣"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Spanish",
+     "French",
+     "Portuguese"
+    ],
+    "zh": [
+     "西班牙語",
+     "法語",
+     "葡萄牙語"
+    ]
+   },
+   "fun": {
+    "en": "Equatorial Guinea is the only country in Africa with Spanish as an official language.",
+    "zh": "赤道幾內亞是非洲唯一以西班牙語為官方語言之一的國家。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "GRC": {
+   "top_export": {
+    "en": "Refined petroleum",
+    "zh": "精煉石油"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Greek"
+    ],
+    "zh": [
+     "希臘語"
+    ]
+   },
+   "fun": {
+    "en": "Greece has over 6,000 islands and islets, yet only around 200 of them are inhabited.",
+    "zh": "希臘有六千多座島嶼與岩礁，有人居住的僅約兩百座。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "GRD": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Nicknamed the Spice Isle, Grenada puts a nutmeg on its national flag.",
+    "zh": "格瑞那達號稱「香料之島」，國旗上還有一顆肉豆蔻圖案。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "GRL": {
+   "top_export": {
+    "en": "Fish and shellfish",
+    "zh": "魚類與甲殼類"
+   },
+   "top_partner": {
+    "iso3": "DNK",
+    "en": "Denmark",
+    "zh": "丹麥"
+   },
+   "languages": {
+    "en": [
+     "Greenlandic",
+     "Danish"
+    ],
+    "zh": [
+     "格陵蘭語",
+     "丹麥語"
+    ]
+   },
+   "fun": {
+    "en": "Greenland is the world's largest island, and an ice sheet covers about 80 percent of it.",
+    "zh": "格陵蘭是世界最大島嶼，約八成面積被冰蓋覆蓋。"
+   },
+   "verified": true,
+   "year": 2018
+  },
+  "GTM": {
+   "top_export": {
+    "en": "Bananas",
+    "zh": "香蕉"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Guatemala's currency, the quetzal, is named after the country's national bird.",
+    "zh": "瓜地馬拉的貨幣「格查爾」以國鳥格查爾鳥命名。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "GUF": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French"
+    ],
+    "zh": [
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "The Guiana Space Centre at Kourou is Europe's main spaceport, chosen partly for its location near the equator.",
+    "zh": "庫魯航太中心是歐洲主要發射場，靠近赤道是其優勢之一。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "GUY": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Kaieteur Falls drops about 226 metres in a single leap, one of the tallest single-drop waterfalls on Earth.",
+    "zh": "凱厄圖爾瀑布單級落差約226公尺，是全球最高的單級瀑布之一。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "HKG": {
+   "top_export": {
+    "en": "Electronics and integrated circuits",
+    "zh": "電子產品與積體電路"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Cantonese (Chinese)",
+     "English"
+    ],
+    "zh": [
+     "粵語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Hong Kong has more skyscrapers than any other city, with hundreds of buildings taller than 150 metres.",
+    "zh": "香港擁有的摩天大樓數量為全球城市之冠，超過150公尺的建築達數百棟。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "HND": {
+   "top_export": {
+    "en": "Knitted apparel and coffee",
+    "zh": "針織服飾與咖啡"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "The Maya ruins of Copan feature a hieroglyphic stairway, the longest known Maya inscription.",
+    "zh": "科潘馬雅遺址的象形文字階梯，是已知最長的馬雅文字銘文。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "HRV": {
+   "top_export": {
+    "en": "Refined petroleum",
+    "zh": "精煉石油"
+   },
+   "top_partner": {
+    "iso3": "ITA",
+    "en": "Italy",
+    "zh": "義大利"
+   },
+   "languages": {
+    "en": [
+     "Croatian"
+    ],
+    "zh": [
+     "克羅埃西亞語"
+    ]
+   },
+   "fun": {
+    "en": "The word 'cravat' traces back to Croatian soldiers, whose neckerchiefs inspired the modern necktie.",
+    "zh": "「領帶」(cravat)一詞源自克羅埃西亞士兵所繫的頸巾。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "HTI": {
+   "top_export": {
+    "en": "Knitted apparel",
+    "zh": "針織服飾"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Haitian Creole",
+     "French"
+    ],
+    "zh": [
+     "海地克里奧爾語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Haiti declared independence in 1804, the first country founded after a successful slave uprising.",
+    "zh": "海地1804年獨立，是史上首個因奴隸起義成功而建立的國家。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "HUN": {
+   "top_export": {
+    "en": "Machinery and vehicles",
+    "zh": "機械與車輛"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Hungarian"
+    ],
+    "zh": [
+     "匈牙利語"
+    ]
+   },
+   "fun": {
+    "en": "The Rubik's Cube was invented in 1974 by Hungarian architecture professor Erno Rubik.",
+    "zh": "魔術方塊由匈牙利建築學教授魯比克於1974年發明。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "IDN": {
+   "top_export": {
+    "en": "Coal",
+    "zh": "煤炭"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Indonesian"
+    ],
+    "zh": [
+     "印尼語"
+    ]
+   },
+   "fun": {
+    "en": "Indonesia is made up of more than 17,000 islands, making it the world's largest archipelagic country.",
+    "zh": "印尼由一萬七千多座島嶼組成，是世界最大的群島國家。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "IND": {
+   "top_export": {
+    "en": "Refined petroleum",
+    "zh": "精煉石油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Hindi",
+     "English"
+    ],
+    "zh": [
+     "印地語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Chess traces its roots to chaturanga, a game that emerged in India around the sixth century.",
+    "zh": "西洋棋的前身恰圖蘭卡約在六世紀起源於印度。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "IRL": {
+   "top_export": {
+    "en": "Pharmaceuticals",
+    "zh": "藥品"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Irish",
+     "English"
+    ],
+    "zh": [
+     "愛爾蘭語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Halloween has roots in Samhain, an ancient Irish festival marking the end of summer.",
+    "zh": "萬聖節源自愛爾蘭古老的薩溫節，用來標誌夏季結束。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "IRN": {
+   "top_export": {
+    "en": "Crude petroleum and petrochemicals",
+    "zh": "原油與石化產品"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Persian"
+    ],
+    "zh": [
+     "波斯語"
+    ]
+   },
+   "fun": {
+    "en": "Iran's qanats, underground water channels used for over 2,000 years, are UNESCO World Heritage.",
+    "zh": "伊朗用了兩千多年的坎兒井地下水道已列入世界遺產。"
+   },
+   "verified": true,
+   "year": 2022
+  },
+  "IRQ": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "Kurdish"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "庫德語"
+    ]
+   },
+   "fun": {
+    "en": "Sumerians in ancient Mesopotamia, in present-day Iraq, developed cuneiform writing over 5,000 years ago.",
+    "zh": "現今伊拉克一帶的蘇美人在五千多年前發明楔形文字。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "ISL": {
+   "top_export": {
+    "en": "Aluminium",
+    "zh": "鋁"
+   },
+   "top_partner": {
+    "iso3": "NLD",
+    "en": "Netherlands",
+    "zh": "荷蘭"
+   },
+   "languages": {
+    "en": [
+     "Icelandic"
+    ],
+    "zh": [
+     "冰島語"
+    ]
+   },
+   "fun": {
+    "en": "Iceland has no mosquitoes, even though neighboring countries do.",
+    "zh": "冰島沒有蚊子，鄰近的國家卻有。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "ISR": {
+   "top_export": {
+    "en": "Integrated circuits and electronics",
+    "zh": "積體電路與電子產品"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Hebrew",
+     "Arabic"
+    ],
+    "zh": [
+     "希伯來語",
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "The Dead Sea shore is the lowest dry land on Earth, about 430 metres below sea level.",
+    "zh": "死海湖岸是地球陸地最低處，低於海平面約430公尺。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "ITA": {
+   "top_export": {
+    "en": "Packaged medicaments",
+    "zh": "包裝藥品"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Italian"
+    ],
+    "zh": [
+     "義大利語"
+    ]
+   },
+   "fun": {
+    "en": "Italy has around 60 UNESCO World Heritage sites, among the most of any country.",
+    "zh": "義大利約有六十處世界遺產，數量居全球前列。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "JAM": {
+   "top_export": {
+    "en": "Alumina",
+    "zh": "氧化鋁"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Jamaican Patois"
+    ],
+    "zh": [
+     "英語",
+     "牙買加克里奧爾語"
+    ]
+   },
+   "fun": {
+    "en": "UNESCO added reggae music to its list of intangible cultural heritage in 2018.",
+    "zh": "雷鬼音樂在2018年被列入聯合國教科文組織非物質文化遺產。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "JOR": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Petra, carved into rose-red sandstone cliffs, was named one of the New Seven Wonders of the World.",
+    "zh": "佩特拉古城鑿刻於玫瑰紅砂岩，名列新世界七大奇蹟。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "JPN": {
+   "top_export": {
+    "en": "Cars",
+    "zh": "汽車"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Japanese"
+    ],
+    "zh": [
+     "日語"
+    ]
+   },
+   "fun": {
+    "en": "Japan consists of roughly 6,800 islands, though most people live on just four main ones.",
+    "zh": "日本約由六千八百座島嶼組成，多數人口集中在四大主島。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "KAZ": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Kazakh",
+     "Russian"
+    ],
+    "zh": [
+     "哈薩克語",
+     "俄語"
+    ]
+   },
+   "fun": {
+    "en": "Kazakhstan is the largest landlocked country in the world.",
+    "zh": "哈薩克是全球面積最大的內陸國。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "KEN": {
+   "top_export": {
+    "en": "Tea",
+    "zh": "茶葉"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Swahili",
+     "English"
+    ],
+    "zh": [
+     "斯瓦希里語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "The equator crosses Kenya, yet Mount Kenya, near the equator, still has glaciers.",
+    "zh": "赤道穿越肯亞，而靠近赤道的肯亞山仍有冰河。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "KGZ": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Kyrgyz",
+     "Russian"
+    ],
+    "zh": [
+     "吉爾吉斯語",
+     "俄語"
+    ]
+   },
+   "fun": {
+    "en": "More than 90 percent of Kyrgyzstan lies above 1,500 metres, and Issyk-Kul is among the largest alpine lakes.",
+    "zh": "吉爾吉斯超過九成國土海拔逾1,500公尺，伊塞克湖是大型高山湖之一。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "KHM": {
+   "top_export": {
+    "en": "Garments and clothing",
+    "zh": "成衣"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Khmer"
+    ],
+    "zh": [
+     "高棉語"
+    ]
+   },
+   "fun": {
+    "en": "Cambodia's flag shows Angkor Wat, one of very few national flags to depict a building.",
+    "zh": "柬埔寨國旗繪有吳哥窟，是少數以建築為圖案的國旗。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "KIR": {
+   "top_export": {
+    "en": "Fish and copra",
+    "zh": "魚類與椰乾"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Gilbertese"
+    ],
+    "zh": [
+     "英語",
+     "吉里巴斯語"
+    ]
+   },
+   "fun": {
+    "en": "Kiribati is the only country that lies in all four hemispheres: north, south, east and west.",
+    "zh": "吉里巴斯是唯一橫跨東、西、南、北四個半球的國家。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "KNA": {
+   "top_export": {
+    "en": "Electronic equipment and machinery",
+    "zh": "電子設備與機械"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Saint Kitts and Nevis is the smallest sovereign state in the Americas by both area and population.",
+    "zh": "聖克里斯多福及尼維斯是美洲面積與人口最小的主權國家。"
+   },
+   "verified": true,
+   "year": 2017
+  },
+  "KOR": {
+   "top_export": {
+    "en": "Semiconductors",
+    "zh": "半導體"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Korean"
+    ],
+    "zh": [
+     "韓語"
+    ]
+   },
+   "fun": {
+    "en": "Hangul was created in 1443 under King Sejong, one of few writing systems with a known inventor.",
+    "zh": "韓文於1443年由世宗大王主導創制，是少數有明確創制者的文字。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "KWT": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "The Kuwaiti dinar is among the highest-valued currency units in the world.",
+    "zh": "科威特第納爾是世界上幣值最高的貨幣之一。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "LAO": {
+   "top_export": {
+    "en": "Electricity",
+    "zh": "電力"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Lao"
+    ],
+    "zh": [
+     "寮語"
+    ]
+   },
+   "fun": {
+    "en": "Laos is the only landlocked country in Southeast Asia.",
+    "zh": "寮國是東南亞唯一的內陸國。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "LBN": {
+   "top_export": {
+    "en": "Gold and jewellery",
+    "zh": "黃金與珠寶"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "French"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Byblos is among the oldest continuously inhabited cities, and the Phoenician alphabet spread from this coast.",
+    "zh": "比布魯斯是最古老的連續有人居住城市之一，腓尼基字母由此海岸傳開。"
+   },
+   "verified": false,
+   "year": null
+  },
+  "LBR": {
+   "top_export": null,
+   "top_partner": {
+    "iso3": "CIV",
+    "en": "Côte d'Ivoire",
+    "zh": "象牙海岸"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Liberia declared independence in 1847, making it one of Africa's oldest republics.",
+    "zh": "賴比瑞亞1847年宣布獨立，是非洲最古老的共和國之一。"
+   },
+   "verified": true,
+   "year": 2023
+  }
+ },
+ "sources": [
+  "https://wits.worldbank.org/CountryProfile/en/Country/<ISO3>/Year/LTST/Summarytext",
+  "https://www.graphic.com.gh/business/business-news/gold-now-dominates-ghanas-exports-gss-warns-of-concentration-risk.html",
+  "https://oec.world"
+ ]
+}

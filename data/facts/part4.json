@@ -1,0 +1,1249 @@
+{
+ "countries": {
+  "RUS": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Russian"
+    ],
+    "zh": [
+     "俄語"
+    ]
+   },
+   "fun": {
+    "en": "Russia spans 11 time zones, more than any other country in the world.",
+    "zh": "俄羅斯橫跨11個時區，是全球時區最多的國家。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "RWA": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Kinyarwanda",
+     "French",
+     "English"
+    ],
+    "zh": [
+     "盧安達語",
+     "法語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Women hold more than 60% of seats in Rwanda's lower house of parliament, among the highest shares in the world.",
+    "zh": "盧安達國會下議院超過六成席次由女性擔任，比例居全球前列。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SAU": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Saudi Arabia has no permanent rivers or natural lakes despite being one of the largest countries in the world.",
+    "zh": "沙烏地阿拉伯國土遼闊，卻沒有常年有水的河流。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "SDN": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "ARE",
+    "en": "United Arab Emirates",
+    "zh": "阿拉伯聯合大公國"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "English"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Sudan has more ancient pyramids than Egypt, with over 200 built by the Kushite kingdoms of Nubia.",
+    "zh": "蘇丹的金字塔數量比埃及還多，超過200座，由古代庫施王國興建。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SEN": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French",
+     "Wolof"
+    ],
+    "zh": [
+     "法語",
+     "沃洛夫語"
+    ]
+   },
+   "fun": {
+    "en": "Senegal's Lake Retba, also called Lac Rose, appears pink because of salt-loving algae and bacteria.",
+    "zh": "塞內加爾的玫瑰湖因耐鹽藻類與細菌而呈現粉紅色。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SGP": {
+   "top_export": {
+    "en": "Integrated circuits",
+    "zh": "積體電路"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Malay",
+     "Mandarin"
+    ],
+    "zh": [
+     "英語",
+     "馬來語",
+     "華語"
+    ]
+   },
+   "fun": {
+    "en": "Singapore has expanded its land area by roughly a quarter since independence, mostly through land reclamation from the sea.",
+    "zh": "新加坡獨立後靠填海造陸，國土面積增加了約四分之一。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "SLB": {
+   "top_export": {
+    "en": "Timber (logs)",
+    "zh": "原木"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Solomon Islands Pijin"
+    ],
+    "zh": [
+     "英語",
+     "皮欽語"
+    ]
+   },
+   "fun": {
+    "en": "The Solomon Islands consist of nearly 1,000 islands, and about 70 indigenous languages are spoken there.",
+    "zh": "索羅門群島由近千座島嶼組成，境內使用約70種原住民語言。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SLE": {
+   "top_export": {
+    "en": "Minerals (iron ore, rutile, diamonds)",
+    "zh": "礦產（鐵礦、金紅石、鑽石）"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Krio"
+    ],
+    "zh": [
+     "英語",
+     "克里奧語"
+    ]
+   },
+   "fun": {
+    "en": "Sierra Leone's name comes from the Portuguese 'Serra Leoa', meaning 'Lion Mountains'.",
+    "zh": "獅子山的名稱源自葡萄牙語「Serra Leoa」，意為「獅子山脈」。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SLV": {
+   "top_export": {
+    "en": "Apparel and textiles",
+    "zh": "服飾與紡織品"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "El Salvador is the smallest country in Central America and the only one with no Caribbean coastline.",
+    "zh": "薩爾瓦多是中美洲面積最小的國家，也是唯一沒有加勒比海岸線的國家。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SMR": {
+   "top_export": {
+    "en": "Machinery and ceramics",
+    "zh": "機械與陶瓷製品"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Italian"
+    ],
+    "zh": [
+     "義大利語"
+    ]
+   },
+   "fun": {
+    "en": "San Marino is traditionally said to have been founded in 301 CE, making it one of the oldest surviving states.",
+    "zh": "聖馬利諾傳統上認為建於西元301年，是現存最古老的國家之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SOM": {
+   "top_export": {
+    "en": "Live animals (livestock)",
+    "zh": "活體牲畜"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Somali",
+     "Arabic"
+    ],
+    "zh": [
+     "索馬利語",
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Somalia has the longest coastline on mainland Africa, at over 3,000 kilometres.",
+    "zh": "索馬利亞的海岸線超過3,000公里，是非洲大陸最長的。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SRB": {
+   "top_export": {
+    "en": "Electrical machinery and equipment",
+    "zh": "電機與電子設備"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Serbian"
+    ],
+    "zh": [
+     "塞爾維亞語"
+    ]
+   },
+   "fun": {
+    "en": "Serbia is one of the world's largest raspberry exporters, supplying a big share of Europe's frozen raspberries.",
+    "zh": "塞爾維亞是全球主要的覆盆子出口國，供應歐洲大量冷凍覆盆子。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SSD": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "South Sudan became the world's newest UN member state when it gained independence in July 2011.",
+    "zh": "南蘇丹在2011年7月獨立，是聯合國最新的會員國之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "STP": {
+   "top_export": {
+    "en": "Cocoa",
+    "zh": "可可"
+   },
+   "top_partner": {
+    "iso3": "PRT",
+    "en": "Portugal",
+    "zh": "葡萄牙"
+   },
+   "languages": {
+    "en": [
+     "Portuguese"
+    ],
+    "zh": [
+     "葡萄牙語"
+    ]
+   },
+   "fun": {
+    "en": "The equator passes through São Tomé and Príncipe, crossing the small Ilhéu das Rolas islet.",
+    "zh": "赤道穿過聖多美普林西比的羅拉斯小島。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SUR": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Dutch",
+     "Sranan Tongo"
+    ],
+    "zh": [
+     "荷蘭語",
+     "蘇利南語"
+    ]
+   },
+   "fun": {
+    "en": "Suriname is about 90% covered by forest, one of the most heavily forested countries on Earth.",
+    "zh": "蘇利南約九成國土被森林覆蓋，是全球森林覆蓋率最高的國家之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SVK": {
+   "top_export": {
+    "en": "Cars and vehicles",
+    "zh": "汽車"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Slovak"
+    ],
+    "zh": [
+     "斯洛伐克語"
+    ]
+   },
+   "fun": {
+    "en": "Slovakia produces more cars per capita than any other country in the world.",
+    "zh": "斯洛伐克平均每人汽車產量居全球第一。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "SVN": {
+   "top_export": {
+    "en": "Pharmaceuticals and vehicles",
+    "zh": "藥品與車輛"
+   },
+   "top_partner": {
+    "iso3": "CHE",
+    "en": "Switzerland",
+    "zh": "瑞士"
+   },
+   "languages": {
+    "en": [
+     "Slovenian"
+    ],
+    "zh": [
+     "斯洛維尼亞語"
+    ]
+   },
+   "fun": {
+    "en": "More than half of Slovenia is covered by forest, making it one of the greenest countries in Europe.",
+    "zh": "斯洛維尼亞超過一半國土是森林，是歐洲最綠的國家之一。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "SWE": {
+   "top_export": {
+    "en": "Cars",
+    "zh": "汽車"
+   },
+   "top_partner": {
+    "iso3": "DEU",
+    "en": "Germany",
+    "zh": "德國"
+   },
+   "languages": {
+    "en": [
+     "Swedish"
+    ],
+    "zh": [
+     "瑞典語"
+    ]
+   },
+   "fun": {
+    "en": "Sweden has around 267,000 islands, more than any other country in the world.",
+    "zh": "瑞典擁有約26.7萬座島嶼，數量為世界之最。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "SWZ": {
+   "top_export": {
+    "en": "Sugar and beverage concentrates",
+    "zh": "糖與飲料濃縮液"
+   },
+   "top_partner": {
+    "iso3": "ZAF",
+    "en": "South Africa",
+    "zh": "南非"
+   },
+   "languages": {
+    "en": [
+     "Swazi",
+     "English"
+    ],
+    "zh": [
+     "史瓦濟語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Eswatini changed its name from Swaziland in 2018 to mark 50 years of independence.",
+    "zh": "史瓦帝尼在2018年由「史瓦濟蘭」更名，以紀念獨立50週年。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SXM": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Dutch"
+    ],
+    "zh": [
+     "英語",
+     "荷蘭語"
+    ]
+   },
+   "fun": {
+    "en": "Sint Maarten shares a small island with French Saint-Martin, and jets land just above sunbathers at Maho Beach.",
+    "zh": "荷屬聖馬丁與法屬聖馬丁共享一座小島，飛機會低空掠過馬荷灣海灘的遊客。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SYC": {
+   "top_export": {
+    "en": "Canned tuna",
+    "zh": "鮪魚罐頭"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Seychellois Creole",
+     "English",
+     "French"
+    ],
+    "zh": [
+     "塞席爾克里奧語",
+     "英語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Seychelles' coco de mer palm produces the heaviest seed in the plant kingdom, weighing up to about 20 kilograms.",
+    "zh": "塞席爾的海椰子是全球最重的種子，重量可達約20公斤。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "SYR": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Damascus is often cited as one of the world's oldest continuously inhabited cities.",
+    "zh": "大馬士革常被認為是世界上持續有人居住最久的城市之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TCD": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French",
+     "Arabic"
+    ],
+    "zh": [
+     "法語",
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Lake Chad has shrunk by roughly 90% since the 1960s, one of the most dramatic lake declines on record.",
+    "zh": "查德湖自1960年代以來縮小了約九成，是最劇烈的湖泊萎縮案例之一。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TGO": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "French",
+     "Ewe",
+     "Kabiyè"
+    ],
+    "zh": [
+     "法語",
+     "埃維語",
+     "卡比耶語"
+    ]
+   },
+   "fun": {
+    "en": "Togo's capital Lomé sits right next to the Ghana border, one of the few capitals almost on a national frontier.",
+    "zh": "多哥首都洛梅緊鄰迦納邊界，是少數幾乎位於國界上的首都。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "THA": {
+   "top_export": {
+    "en": "Machinery and electronics (computers, integrated circuits)",
+    "zh": "機械與電子產品（電腦、積體電路）"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Thai"
+    ],
+    "zh": [
+     "泰語"
+    ]
+   },
+   "fun": {
+    "en": "Thailand, formerly called Siam, is the only Southeast Asian country never colonized by a European power.",
+    "zh": "泰國舊稱暹羅，是東南亞唯一未被歐洲國家殖民的國家。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "TJK": {
+   "top_export": {
+    "en": "Gold and aluminum",
+    "zh": "黃金與鋁"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Tajik",
+     "Russian"
+    ],
+    "zh": [
+     "塔吉克語",
+     "俄語"
+    ]
+   },
+   "fun": {
+    "en": "More than 90% of Tajikistan is mountainous, including part of the Pamir range known as the 'Roof of the World'.",
+    "zh": "塔吉克超過九成國土是山地，包括有「世界屋脊」之稱的帕米爾高原。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TKM": {
+   "top_export": {
+    "en": "Natural gas",
+    "zh": "天然氣"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Turkmen",
+     "Russian"
+    ],
+    "zh": [
+     "土庫曼語",
+     "俄語"
+    ]
+   },
+   "fun": {
+    "en": "Turkmenistan's Darvaza gas crater has been burning for decades and is nicknamed the 'Door to Hell'.",
+    "zh": "土庫曼的達瓦札天然氣坑已燃燒數十年，綽號「地獄之門」。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TLS": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Tetum",
+     "Portuguese"
+    ],
+    "zh": [
+     "德頓語",
+     "葡萄牙語"
+    ]
+   },
+   "fun": {
+    "en": "Timor-Leste is one of only two predominantly Catholic countries in Asia, alongside the Philippines.",
+    "zh": "東帝汶與菲律賓是亞洲僅有的兩個以天主教為主的國家。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TON": {
+   "top_export": {
+    "en": "Fish and squash",
+    "zh": "魚類與南瓜"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Tongan",
+     "English"
+    ],
+    "zh": [
+     "東加語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Tonga has about 170 islands, but only around 36 of them are inhabited.",
+    "zh": "東加約有170座島嶼，但只有約36座有人居住。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TTO": {
+   "top_export": {
+    "en": "Refined petroleum and natural gas products",
+    "zh": "石油與天然氣產品"
+   },
+   "top_partner": {
+    "iso3": "USA",
+    "en": "United States",
+    "zh": "美國"
+   },
+   "languages": {
+    "en": [
+     "English"
+    ],
+    "zh": [
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "The steelpan, made from oil drums, was invented in Trinidad and Tobago in the 20th century.",
+    "zh": "鋼鼓是20世紀在千里達及托巴哥以油桶發明的樂器。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TUN": {
+   "top_export": {
+    "en": "Insulated wire and apparel",
+    "zh": "電線與服飾"
+   },
+   "top_partner": {
+    "iso3": "FRA",
+    "en": "France",
+    "zh": "法國"
+   },
+   "languages": {
+    "en": [
+     "Arabic",
+     "French"
+    ],
+    "zh": [
+     "阿拉伯語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "The fictional planet Tatooine in Star Wars was named after the Tunisian town of Tataouine, where scenes were filmed.",
+    "zh": "《星際大戰》的虛構星球塔圖因，名稱取自突尼西亞的塔塔溫，並在當地取景。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "TUR": {
+   "top_export": {
+    "en": "Cars and vehicle parts",
+    "zh": "汽車與車輛零件"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Turkish"
+    ],
+    "zh": [
+     "土耳其語"
+    ]
+   },
+   "fun": {
+    "en": "Göbekli Tepe in Türkiye, built about 11,000 years ago, is older than Stonehenge by thousands of years.",
+    "zh": "土耳其的哥貝克力石陣約建於一萬一千年前，比巨石陣早數千年。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TUV": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Tuvaluan",
+     "English"
+    ],
+    "zh": [
+     "吐瓦魯語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Tuvalu earns significant income from licensing its internet domain '.tv', which suits television companies.",
+    "zh": "吐瓦魯靠授權網域「.tv」賺取可觀收入，電視相關公司愛用。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TWN": {
+   "top_export": {
+    "en": "Integrated circuits",
+    "zh": "積體電路"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Mandarin",
+     "Taiwanese Hokkien",
+     "Hakka"
+    ],
+    "zh": [
+     "華語",
+     "台語",
+     "客語"
+    ]
+   },
+   "fun": {
+    "en": "Taiwan accounts for more than half of the world's contract chip manufacturing revenue, led by TSMC.",
+    "zh": "台灣的晶圓代工產值占全球一半以上，由台積電領軍。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "TZA": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Swahili",
+     "English"
+    ],
+    "zh": [
+     "史瓦希利語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "Tanzania is home to Mount Kilimanjaro, at 5,895 metres the highest mountain in Africa.",
+    "zh": "坦尚尼亞的吉力馬札羅山海拔5,895公尺，是非洲最高峰。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "UGA": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "ARE",
+    "en": "United Arab Emirates",
+    "zh": "阿拉伯聯合大公國"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Swahili",
+     "Luganda"
+    ],
+    "zh": [
+     "英語",
+     "史瓦希利語",
+     "盧干達語"
+    ]
+   },
+   "fun": {
+    "en": "Uganda has one of the youngest populations in the world, with a median age of about 16.",
+    "zh": "烏干達是全球人口最年輕的國家之一，年齡中位數約16歲。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "UKR": {
+   "top_export": {
+    "en": "Cereals (corn, wheat) and sunflower oil",
+    "zh": "穀物（玉米、小麥）與葵花油"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Ukrainian"
+    ],
+    "zh": [
+     "烏克蘭語"
+    ]
+   },
+   "fun": {
+    "en": "Kyiv's Arsenalna metro station, about 105 metres underground, is the deepest metro station in the world.",
+    "zh": "基輔的兵工廠站深約105公尺，是世界最深的地鐵站。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "URY": {
+   "top_export": {
+    "en": "Beef, soybeans and cellulose",
+    "zh": "牛肉、大豆與纖維素"
+   },
+   "top_partner": {
+    "iso3": "BRA",
+    "en": "Brazil",
+    "zh": "巴西"
+   },
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Uruguay hosted and won the first FIFA World Cup in 1930.",
+    "zh": "烏拉圭在1930年主辦並奪得史上第一屆世界盃足球賽冠軍。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "USA": {
+   "top_export": {
+    "en": "Refined petroleum",
+    "zh": "精煉石油"
+   },
+   "top_partner": {
+    "iso3": "MEX",
+    "en": "Mexico",
+    "zh": "墨西哥"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Spanish"
+    ],
+    "zh": [
+     "英語",
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "The United States has no official language at the federal level, even though English is the most widely used.",
+    "zh": "美國聯邦層級沒有官方語言，儘管英語使用最普遍。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "UZB": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Uzbek",
+     "Russian"
+    ],
+    "zh": [
+     "烏茲別克語",
+     "俄語"
+    ]
+   },
+   "fun": {
+    "en": "Uzbekistan is one of only two doubly landlocked countries in the world, along with Liechtenstein.",
+    "zh": "烏茲別克與列支敦斯登是世界上僅有的兩個雙重內陸國。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "VAT": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Italian",
+     "Latin"
+    ],
+    "zh": [
+     "義大利語",
+     "拉丁語"
+    ]
+   },
+   "fun": {
+    "en": "Vatican City is the smallest country in the world, at about 0.44 square kilometres, with fewer than 1,000 residents.",
+    "zh": "梵蒂岡是世界最小的國家，面積約0.44平方公里，居民不到一千人。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "VCT": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Vincentian Creole"
+    ],
+    "zh": [
+     "英語",
+     "文森克里奧語"
+    ]
+   },
+   "fun": {
+    "en": "Scenes of the first Pirates of the Caribbean film were shot at Wallilabou Bay on Saint Vincent.",
+    "zh": "第一部《神鬼奇航》的部分場景在聖文森的瓦里拉布灣拍攝。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "VEN": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Spanish"
+    ],
+    "zh": [
+     "西班牙語"
+    ]
+   },
+   "fun": {
+    "en": "Venezuela's Angel Falls, at 979 metres, is the tallest uninterrupted waterfall in the world.",
+    "zh": "委內瑞拉的天使瀑布高979公尺，是世界落差最大的不間斷瀑布。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "VNM": {
+   "top_export": {
+    "en": "Phones and broadcasting equipment",
+    "zh": "手機與通訊設備"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Vietnamese"
+    ],
+    "zh": [
+     "越南語"
+    ]
+   },
+   "fun": {
+    "en": "Vietnam is the world's second-largest coffee producer after Brazil.",
+    "zh": "越南是僅次於巴西的全球第二大咖啡生產國。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "VUT": {
+   "top_export": {
+    "en": "Coconut products (copra, coconut oil) and beef",
+    "zh": "椰子製品與牛肉"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Bislama",
+     "English",
+     "French"
+    ],
+    "zh": [
+     "比斯拉馬語",
+     "英語",
+     "法語"
+    ]
+   },
+   "fun": {
+    "en": "Land diving on Vanuatu's Pentecost Island is widely regarded as the origin of modern bungee jumping.",
+    "zh": "萬那杜五旬節島的陸地跳塔儀式，被廣泛視為現代高空彈跳的起源。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "WSM": {
+   "top_export": {
+    "en": "Fish and coconut products",
+    "zh": "魚類與椰子製品"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Samoan",
+     "English"
+    ],
+    "zh": [
+     "薩摩亞語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "In December 2011 Samoa skipped 30 December entirely when it moved to the west side of the International Date Line.",
+    "zh": "薩摩亞在2011年12月改到國際換日線西側，直接跳過了12月30日。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "XKX": {
+   "top_export": null,
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Albanian",
+     "Serbian"
+    ],
+    "zh": [
+     "阿爾巴尼亞語",
+     "塞爾維亞語"
+    ]
+   },
+   "fun": {
+    "en": "Kosovo has one of the youngest populations in Europe, with a median age of around 30.",
+    "zh": "科索沃是歐洲人口最年輕的地區之一，年齡中位數約30歲。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "YEM": {
+   "top_export": {
+    "en": "Crude petroleum",
+    "zh": "原油"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "Arabic"
+    ],
+    "zh": [
+     "阿拉伯語"
+    ]
+   },
+   "fun": {
+    "en": "Yemen's Socotra Island hosts dragon blood trees, and about a third of its plant species grow nowhere else.",
+    "zh": "葉門索科特拉島有龍血樹，約三分之一的植物種類為當地獨有。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "ZAF": {
+   "top_export": {
+    "en": "Platinum-group metals and gold",
+    "zh": "鉑族金屬與黃金"
+   },
+   "top_partner": {
+    "iso3": "CHN",
+    "en": "China",
+    "zh": "中國"
+   },
+   "languages": {
+    "en": [
+     "Zulu",
+     "Xhosa",
+     "English"
+    ],
+    "zh": [
+     "祖魯語",
+     "科薩語",
+     "英語"
+    ]
+   },
+   "fun": {
+    "en": "South Africa has three capital cities: Pretoria, Cape Town and Bloemfontein.",
+    "zh": "南非有三個首都：普利托利亞、開普敦與布隆泉。"
+   },
+   "verified": true,
+   "year": 2023
+  },
+  "ZMB": {
+   "top_export": {
+    "en": "Copper",
+    "zh": "銅"
+   },
+   "top_partner": null,
+   "languages": {
+    "en": [
+     "English",
+     "Bemba"
+    ],
+    "zh": [
+     "英語",
+     "班巴語"
+    ]
+   },
+   "fun": {
+    "en": "Zambia shares Victoria Falls with Zimbabwe; locals call it Mosi-oa-Tunya, meaning 'the smoke that thunders'.",
+    "zh": "尚比亞與辛巴威共享維多利亞瀑布，當地稱為「雷鳴之煙」。"
+   },
+   "verified": false,
+   "year": 2023
+  },
+  "ZWE": {
+   "top_export": {
+    "en": "Gold",
+    "zh": "黃金"
+   },
+   "top_partner": {
+    "iso3": "ZAF",
+    "en": "South Africa",
+    "zh": "南非"
+   },
+   "languages": {
+    "en": [
+     "English",
+     "Shona",
+     "Ndebele"
+    ],
+    "zh": [
+     "英語",
+     "紹納語",
+     "恩德貝勒語"
+    ]
+   },
+   "fun": {
+    "en": "Zimbabwe's name is thought to derive from 'dzimba dza mabwe', meaning 'houses of stone', after Great Zimbabwe.",
+    "zh": "辛巴威國名據信源自「石頭房屋」，指大辛巴威遺址。"
+   },
+   "verified": true,
+   "year": 2023
+  }
+ },
+ "sources": [
+  "https://wits.worldbank.org/CountryProfile/en/Country/SAU/Year/2023/Summarytext",
+  "https://wits.worldbank.org/CountryProfile/en/Country/SGP/Year/LTST/Summarytext",
+  "https://wits.worldbank.org/CountryProfile/en/Country/{ISO3}/Year/LTST/Summarytext (WITS, per-country partner shares)",
+  "https://oec.world/profile/country/{iso3}"
+ ]
+}

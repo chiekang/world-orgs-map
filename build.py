@@ -44,12 +44,30 @@ for f in glob.glob(os.path.join(ROOT, "data/extras/*.json")):
     except Exception as e:
         print("WARNING bad extras", f, e, file=sys.stderr)
 print("extras:", sorted(extras), file=sys.stderr)
-data = {"extras": extras, "flags": flags, "orgs": org_list, "countries": countries, "topo": topo, "asOf": as_of,
+facts = {}
+for f in sorted(glob.glob(os.path.join(ROOT, "data/facts/*.json"))):
+    try:
+        x = json.load(open(f, encoding="utf-8"))
+        for k, v in x.get("countries", {}).items():
+            if not v.get("verified"):  # never show unverified trade claims to students
+                v["top_export"] = None; v["top_partner"] = None
+            facts[k] = v
+    except Exception as e:
+        print("WARNING bad facts", f, e, file=sys.stderr)
+print("facts:", len(facts), file=sys.stderr)
+ppp = {}
+pf = os.path.join(ROOT, "data/ppp.json")
+if os.path.exists(pf): ppp = json.load(open(pf, encoding="utf-8"))
+data = {"facts": facts, "ppp": ppp, "extras": extras, "flags": flags, "orgs": org_list, "countries": countries, "topo": topo, "asOf": as_of,
         "extraPoints": [{"iso3": "TUV", "lat": -8.52, "lon": 179.2}]}
 
 libs = rd("node_modules/d3/dist/d3.min.js") + "\n" + rd("node_modules/topojson-client/dist/topojson-client.min.js")
 html = rd("src/template.html").replace("/*__LIBS__*/", libs.replace("</script", "<\\/script"))
 html = html.replace("/*__DATA__*/", json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
+out = os.environ.get("IO_OUT")
+if out:  # private test build: IO_OUT=/tmp/x/index.html python3 build.py
+    os.makedirs(os.path.dirname(out), exist_ok=True); open(out, "w", encoding="utf-8").write(html)
+    print("Test build ->", out, f"{len(html)/1024:.0f} KB"); sys.exit(0)
 os.makedirs(os.path.join(ROOT, "dist"), exist_ok=True)
 open(os.path.join(ROOT, "dist/index.html"), "w", encoding="utf-8").write(html)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)  # served by GitHub Pages
