@@ -418,6 +418,13 @@ body{font-variant-numeric:tabular-nums}
 .md .mdedu{font-size:14px;font-weight:600;margin:14px 0 0;line-height:1.5;border-left:3px solid var(--accent);padding-left:10px}
 .md .mdrate{width:62px;border:1px solid var(--line);border-radius:5px;padding:2px 6px;font:inherit;font-size:12px}
 @media (max-width:520px){.md .mdbig{font-size:18px}.md .mdn{font-size:30px}.md .mdxn{font-size:32px}.md .mdbars{height:60px}}
+.mdhelp{margin-top:8px;background:var(--soft);border-radius:var(--r-md,8px);padding:8px 12px;font-size:13px;line-height:1.55}
+.mdhelp summary{cursor:pointer;font-weight:700;list-style:none}
+.mdhelp summary::-webkit-details-marker{display:none}
+.mdhelp[open] summary{margin-bottom:6px}
+.mdhelp p{margin:6px 0}
+.mdhelp .ex{color:var(--muted)}
+.mdhelp .use{border-left:3px solid var(--accent);padding-left:8px;font-weight:600}
 /* END MYDAY CSS */
 /* FACTS CSS */
 .facts{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px}
@@ -1552,7 +1559,11 @@ Object.assign(T.en,{myday:"Your Day",hintMyday:"Type your monthly income or allo
 Object.assign(T.zh,{myday:"你的一天",hintMyday:"輸入你的月收入或零用錢，地圖會顯示你跟各國平均每人收入的差距。點選國家可以比較。"});
 const MDT = {
   en:{title:"Your Day",sub:"What if you earned your income somewhere else?",intro:"Enter what you earn (or receive) per month. We compare it with the average yearly income per person in every country.",
-    amt:"Monthly income / allowance",pre:"Quick picks",basisL:"Compare with",ppp:"PPP (adjusted for prices)",nom:"Nominal (market exchange rate)",
+    amt:"Monthly income / allowance",pre:"Quick picks",basisL:"Compare with",helpQ:"What's the difference?",
+    helpNom:"<b>Nominal</b>: convert everyone's money into US dollars at the market exchange rate. It answers: what can this money buy on the international market (imports, foreign trips, dollar debts)? Good for comparing economic size and global buying power.",
+    helpPPP:"<b>PPP</b>: adjust for local prices. It answers: how much can this money buy where you actually live? Good for comparing living standards.",
+    helpEx:"Example: suppose the same drink costs US$2 in Taipei and US$6 in New York. At market rates it is the same US$100, but locally it buys 3x more in Taipei. India (IMF 2025): GDP per person is about US$2,670 nominal but about US$11,853 in PPP.",
+    helpUse:"Which to use? Studying or living there → PPP. Selling an imported product there, or travelling abroad → nominal.",ppp:"PPP (adjusted for prices)",nom:"Nominal (market exchange rate)",
     asm:"Per month",perY:"per year",head:(n,m)=>`Your income is roughly higher than the average person's in about <b class="mdn">${n}</b> of ${m} countries`,
     pct:p=>`That puts you above ${p}% of countries`,zero:"Type an amount above to see where you stand.",
     ladder:"The world's income ladder",low:"lowest",high:"highest",you:"You",
@@ -1568,7 +1579,11 @@ const MDT = {
     cavN:"Caveat: GDP per capita is an average over everyone, including children and income from capital — not wages, and the average is higher than what the typical person earns. This uses market exchange rates and does not adjust for local prices, so it understates how far money goes in poorer countries.",
     src:"Source",noData:"No income data for this country.",usd:"US$",twd:"NT$"},
   zh:{title:"你的一天",sub:"如果你在別的國家賺同樣的錢，會是什麼光景？",intro:"輸入你每月的收入或零用錢，我們把它和各國「平均每人每年所得」比一比。",
-    amt:"月收入／零用錢",pre:"快速選擇",basisL:"比較基準",ppp:"購買力平價（PPP，已調整物價）",nom:"名目（市場匯率）",
+    amt:"月收入／零用錢",pre:"快速選擇",basisL:"比較基準",helpQ:"名目和 PPP 差在哪？",
+    helpNom:"<b>名目</b>：把各國的錢依市場匯率換成美元再比。它問的是：這筆錢放到國際市場，能買多少進口貨、出國玩幾天、還多少美元債？適合比較經濟規模與對外購買力。",
+    helpPPP:"<b>PPP（購買力平價）</b>：把各國物價差異拉平。它問的是：這筆錢在當地實際買得到多少東西？適合比較生活水準。",
+    helpEx:"舉例：假設同一杯飲料在台北 2 美元、在紐約 6 美元。用匯率換算，兩邊都是 100 美元，但在台北能買的杯數是紐約的 3 倍。印度（IMF 2025）：人均 GDP 名目約 2,670 美元，PPP 約 11,853 美元。",
+    helpUse:"怎麼選？要去當地留學、生活 → 看 PPP；要在當地賣進口商品、出國購物 → 看名目。",ppp:"購買力平價（PPP，已調整物價）",nom:"名目（市場匯率）",
     asm:"每月",perY:"每年",head:(n,m)=>`你的收入大約高於 <b class="mdn">${n}</b> / ${m} 個國家的平均每人所得`,
     pct:p=>`你超過了 ${p}% 的國家`,zero:"在上面輸入金額，看看你在世界的哪個位置。",
     ladder:"世界收入階梯",low:"最低",high:"最高",you:"你",
@@ -1639,7 +1654,8 @@ function mdCard(){
   <div class="mdrow"><div class="mdinp"><span id="mdSym">${cur==="TWD"?"NT$":"US$"}</span><input id="mdAmt" inputmode="numeric" autocomplete="off" value="${mdAmt().toLocaleString("en-US")}"></div>
     <div class="mdseg" role="group"><button data-mdcur="TWD" class="${cur==="TWD"?"on":""}">TWD</button><button data-mdcur="USD" class="${cur==="USD"?"on":""}">USD</button></div></div>
   <div class="mdpre" id="mdPre"></div>
-  ${mdHasPPP() ? `<div class="mdl" style="margin-top:10px">${mt("basisL")}</div><div class="mdseg mdseg2" role="group"><button data-mdb="ppp" class="${mdBasis()==="ppp"?"on":""}">${mt("ppp")}</button><button data-mdb="nom" class="${mdBasis()==="nom"?"on":""}">${mt("nom")}</button></div>` : ""}
+  ${mdHasPPP() ? `<div class="mdl" style="margin-top:10px">${mt("basisL")}</div><div class="mdseg mdseg2" role="group"><button data-mdb="ppp" class="${mdBasis()==="ppp"?"on":""}">${mt("ppp")}</button><button data-mdb="nom" class="${mdBasis()==="nom"?"on":""}">${mt("nom")}</button></div>
+    <details class="mdhelp"><summary>❓ ${mt("helpQ")}</summary><p>${mt("helpNom")}</p><p>${mt("helpPPP")}</p><p class="ex">${mt("helpEx")}</p><p class="use">💡 ${mt("helpUse")}</p></details>` : ""}
   <div id="mdOut"></div>
   <p class="note mdfoot">${mt("rate")} <input id="mdRate" class="mdrate" inputmode="decimal" value="${md.rate}"> ${mt("rateN")}${mdHasPPP()?`<br>${mt("src")}: ${esc(DATA.ppp.source||"IMF")} (${DATA.ppp.year||""}).`:""}</p></div>`;
 }
